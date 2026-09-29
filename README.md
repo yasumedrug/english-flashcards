@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-表示された `http://localhost:5173/` をブラウザで開きます。終了するときはターミナルで `Control + C`。
+表示された `http://localhost:5173/english-flashcards/` をブラウザで開きます。終了するときはターミナルで `Control + C`。
 
 本番ビルドの確認は `npm run build` です。PWAのサービスワーカーは本番ビルドで生成されます。
 
@@ -25,4 +25,4 @@ npm run dev
 
 ## 将来GitHub Pagesで公開する場合
 
-GitHubにリポジトリを作り、このフォルダをpushします。リポジトリ名が `english-flashcards` の場合、`VITE_BASE_PATH=/english-flashcards/ npm run build` でサブパス対応のビルドができます。GitHub Pagesの配信元には `dist` をデプロイするGitHub Actionsを設定します。公開後、iPhoneのSafariでURLを開き、共有ボタンから「ホーム画面に追加」を選びます。PWAのオフライン起動は公開URLまたはlocalhostの本番プレビューで確認してください。
+`main` にpushするとGitHub Actionsがビルドし、`dist` をGitHub Pagesへデプロイします。GitHubのリポジトリ設定で **Settings → Pages → Build and deployment → Source: GitHub Actions** を選んでください。公開URLは `https://yasumedrug.github.io/english-flashcards/` です。公開後、iPhoneのSafariで開き、共有ボタンから「ホーム画面に追加」を選びます。
