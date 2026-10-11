@@ -29,6 +29,8 @@ npm run dev
 
 日本語→英語では、同じ日本語訳のカードが複数あるときだけ、答えを見る前に短い「使い方のヒント」を表示します。これはTSVの `usage` 欄から表示し、カードIDや学習履歴は変更しません。
 
+学習カードの表面には、両方向とも「品詞・種類」を表示します。TSVの `tag` には場面やテーマも混在するため、単語やフレーズの形に合わせて名詞・動詞句・会話表現などを表示します。
+
 ## 将来GitHub Pagesで公開する場合
 
 `main` にpushするとGitHub Actionsがビルドし、`dist` をGitHub Pagesへデプロイします。GitHubのリポジトリ設定で **Settings → Pages → Build and deployment → Source: GitHub Actions** を選んでください。公開URLは `https://yasumedrug.github.io/english-flashcards/` です。公開後、iPhoneのSafariで開き、共有ボタンから「ホーム画面に追加」を選びます。
