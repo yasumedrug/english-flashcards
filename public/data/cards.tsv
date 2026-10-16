@@ -1,4 +1,4 @@
-﻿card_id	source_no	ja	en	ipa	usage	nuance	example_en	example_ipa	tag	scene	priority	active	source_version
+card_id	source_no	ja	en	ipa	usage	nuance	example_en	example_ipa	tag	scene	priority	active	source_version
 expr_0001	1	認識・知覚	perception	/pɚˈSEP.ʃən/	外界をどう受け取り、解釈するか。知覚と認識の中間。	awarenessは気づき、recognitionはそれだと認める・見分ける。	Perception can differ from person to person.	/pɚˈSEP.ʃən kən ˈDɪF.ɚ frəm ˈPɝː.sən tə ˈPɝː.sən/	concept	学習・教育・研究	normal	1	2026-10-02
 expr_0002	2	認識・知覚	awareness	/əˈWER.nəs/	存在や問題に気づいている状態。	perceptionより「気づき」に焦点。	We need to raise awareness of the issue.	/wi ˌNIːD tə ˌREɪZ əˈWER.nəs əv ði ˈɪʃ.uː/	concept	学習・教育・研究	normal	1	2026-10-02
 expr_0003	3	認識・知覚	recognition	/ˌrek.əɡˈNɪʃ.ən/	それが何か分かる、価値や存在を認める。	acknowledgementは認めて表明する方向。	Early recognition of the problem is important.	/ˌɝː.li ˌrek.əɡˈNɪʃ.ən əv ðə ˈPRɑːB.ləm ɪz ɪmˈPɔːR.tənt/	concept	学習・教育・研究	normal	1	2026-10-02
@@ -919,3 +919,27 @@ expr_0917	917	心に留めて意識する	keep ... in mind	/ˌKIːP ... ɪn ˈMA
 expr_0918	918	〜を意識・配慮する	be mindful of ...	/bi ˈMAɪND.fəl əv/	日常の行為・感情に意識的に注意を向ける。	価値を単に重視することとは違う。	I'm mindful of how I spend my time.	/aɪm ˈMAɪND.fəl əv haʊ aɪ ˌSPEND maɪ ˈTAɪM/	verb	日常生活・一般	normal	1	2026-10-10
 expr_0919	919	驚き・驚かせる（R）	surprise	/sɚˈPRAɪZ/	強勢の後半がPR。	Rは舌を歯茎につけない。	That was a nice surprise.	/ðæt wəz ə ˌNAɪS sɚˈPRAɪZ/	noun	日常生活・一般	normal	1	2026-10-10
 expr_0920	920	物資・備品（L）	supplies	/səˈPLAɪZ/	強勢の後半がPL。	Lは舌先を上の歯茎につける。	We need more medical supplies.	/wi ˌNIːD mɔːr ˈMED.ɪ.kəl səˈPLAɪZ/	noun	日常生活・一般	normal	1	2026-10-10
+expr_0921	921	事務・管理上の	administrative	/ədˈmɪnəˌstreɪtɪv/	組織運営に関わる事務・管理業務。	clerical は定型的な書類・入力作業に焦点。	I spend too much time on administrative tasks.	/aɪ ˈspend tu ˈmʌtʃ ˈtaɪm ɑn ədˈmɪnəˌstreɪtɪv ˈtæsks/	adjective	仕事・職場	normal	1	2026-10-16
+expr_0922	922	定型的な事務の	clerical	/ˈklerɪkəl/	書類処理・データ入力などの定型的な事務。	clerical error は事務処理上のミス。	It was just a clerical error.	/ɪt wəz ˈdʒʌst ə ˈklerɪkəl ˈerɚ/	adjective	仕事・職場	normal	1	2026-10-16
+expr_0923	923	事務仕事（口語）	admin work	/ˈædmɪn ˌwɝk/	会話で幅広い事務仕事を指す。	paperwork は書類作業に焦点。	I have a lot of admin work to do.	/aɪ hæv ə ˈlɑt əv ˈædmɪn ˌwɝk tə ˈdu/	noun	仕事・職場	normal	1	2026-10-16
+expr_0924	924	書類仕事	paperwork	/ˈpeɪpɚˌwɝk/	書類作成・処理など。	admin work より作業対象が具体的。	I have a lot of paperwork to do.	/aɪ hæv ə ˈlɑt əv ˈpeɪpɚˌwɝk tə ˈdu/	noun	仕事・職場	normal	1	2026-10-16
+expr_0925	925	自分の声・意見を届ける	make my voice heard	/ˌmeɪk maɪ ˈvɔɪs ˈhɝd/	自分の意見を聞いてもらえるようにする。	raise my voice は声量を上げる、または声を荒らげる。	I want to make my voice heard.	/aɪ ˈwɑnə ˌmeɪk maɪ ˈvɔɪs ˈhɝd/	phrase	会話のつなぎ・リアクション	normal	1	2026-10-16
+expr_0926	926	遠慮せず発言する	speak up	/ˌspiːk ˈʌp/	意見を表明する、声を上げる。	make my voice heard は相手に届くところまで含む。	I need to speak up at the meeting.	/aɪ ˈniːd tə ˌspiːk ˈʌp ət ðə ˈmiːtɪŋ/	phrasal verb	仕事・職場	normal	1	2026-10-16
+expr_0927	927	全体を台無しにする	ruin	/ˈruːɪn/	全体がひどく損なわれる、という強い響き。	spoil は楽しさやよさを損なうことが多い。	The rain ruined our trip.	/ðə ˈreɪn ˈruːɪnd aʊɚ ˈtrɪp/	verb	日常生活・一般	normal	1	2026-10-16
+expr_0928	928	楽しみ・よさを損なう	spoil	/spɔɪl/	期待していたよさを損なう。ネタバレや甘やかす意味も。	ruin より軽い場合が多いが、程度は文脈による。	Don’t spoil the surprise.	/ˈdoʊnt ˈspɔɪl ðə sɚˈpraɪz/	verb	日常生活・一般	normal	1	2026-10-16
+expr_0929	929	二度寝する	go back to sleep	/ɡoʊ ˌbæk tə ˈsliːp/	目覚めた後に再び眠る。	意図・行動を表す。実際に眠れたかは文脈次第。	I woke up early, then went back to sleep.	/aɪ ˈwoʊk ʌp ˈɝli | ðen ˈwent ˌbæk tə ˈsliːp/	phrase	日常生活・一般	normal	1	2026-10-16
+expr_0930	930	また眠ってしまう	fall back asleep	/ˌfɔl bæk əˈsliːp/	実際に再び眠りに落ちる。	go back to sleep は眠ろうとする行動にも使える。	I accidentally fell back asleep.	/aɪ ˌæksəˈdentəli ˌfel bæk əˈsliːp/	phrase	日常生活・一般	normal	1	2026-10-16
+expr_0931	931	普段より遅くまで寝る	sleep in	/ˌsliːp ˈɪn/	朝寝坊・遅起き。	二度寝をしたかどうかは含意しない。	I slept in on Sunday.	/aɪ ˌslept ˈɪn ɑn ˈsʌndeɪ/	phrasal verb	日常生活・一般	normal	1	2026-10-16
+expr_0932	932	十分あり得る	may well	/meɪ ˈwel/	状況から考えてそうなる可能性が十分ある。	might as well は行動を選ぶ表現。	She may well be right.	/ʃi meɪ ˈwel bi ˈraɪt/	phrase	会話のつなぎ・リアクション	normal	1	2026-10-16
+expr_0933	933	十分あり得る（控えめ）	might well	/maɪt ˈwel/	可能性は十分ある、と少し控えめに推測する。	may well と大きく重なる。	It might well take longer.	/ɪt maɪt ˈwel teɪk ˈlɔŋɡɚ/	phrase	会話のつなぎ・リアクション	normal	1	2026-10-16
+expr_0934	934	それなら〜しよう	might as well	/ˈmaɪt əz ˈwel/	ほかの選択肢を踏まえて、それならそうしよう。	可能性を表す might well とは異なる。	We might as well go home.	/wi ˈmaɪt əz ˈwel ɡoʊ ˈhoʊm/	phrase	会話のつなぎ・リアクション	normal	1	2026-10-16
+expr_0935	935	せっかくだし〜しよう	may as well	/ˈmeɪ əz ˈwel/	待つよりも今その行動をするのがよさそう。	might as well と近い。	We may as well grab a coffee.	/wi ˈmeɪ əz ˈwel ɡræb ə ˈkɔfi/	phrase	会話のつなぎ・リアクション	normal	1	2026-10-16
+expr_0936	936	〜を思いつく・思い浮かべる	think of	/ˈθɪŋk əv/	頭に浮かぶ、思いつく。また評価を尋ねる型にも使う。	think about は対象についてあれこれ検討する。	I just thought of a good idea.	/aɪ ˈdʒʌst ˈθɔt əv ə ˌɡʊd aɪˈdiə/	phrase	会話のつなぎ・リアクション	normal	1	2026-10-16
+expr_0937	937	〜について考える・検討する	think about	/ˈθɪŋk əˈbaʊt/	ある対象に意識を向けて考える。	think of と重なる文脈も多い。	Let me think about it.	/ˈlet mi ˈθɪŋk əˈbaʊt ɪt/	phrase	会話のつなぎ・リアクション	normal	1	2026-10-16
+expr_0938	938	〜として捉える	think of A as B	/ˈθɪŋk əv ˈeɪ əz ˈbiː/	AをBという枠組みで捉える。	意見を述べる型。	I think of parenting as a learning process.	/aɪ ˈθɪŋk əv ˈperəntɪŋ əz ə ˈlɝnɪŋ ˌprɑses/	phrase	学習・教育・研究	normal	1	2026-10-16
+expr_0939	939	決して〜ではない	anything but ...	/ˈeniθɪŋ bət/	肯定文では「〜とは程遠い」。	否定文の I don’t want anything but water は水以外要らない、の構文。	It’s anything but easy.	/ɪts ˈeniθɪŋ bət ˈiːzi/	phrase	会話のつなぎ・リアクション	normal	1	2026-10-16
+expr_0940	940	〜だけ・〜にすぎない	nothing but ...	/ˈnʌθɪŋ bət/	〜以外のものはない、と強調する。	not just ... は「〜だけではない」。	It’s nothing but trouble.	/ɪts ˈnʌθɪŋ bət ˈtrʌbəl/	phrase	会話のつなぎ・リアクション	normal	1	2026-10-16
+expr_0941	941	必要なときに（頓服で）	as needed	/əz ˈniːdɪd/	患者への服薬説明で使う。	間隔・上限回数は別途具体的に伝える。	Take this medicine as needed for pain.	/ˈteɪk ðɪs ˈmedɪsən əz ˈniːdɪd fər ˈpeɪn/	medical	医療・診療	normal	1	2026-10-16
+expr_0942	942	頓服薬	as-needed medication	/ˌæz ˈniːdɪd ˌmedɪˈkeɪʃən/	必要時に使う薬。患者にも理解しやすい。	PRN medication は医療者向けの略語。	This is an as-needed medication.	/ðɪs ɪz ən ˌæz ˈniːdɪd ˌmedɪˈkeɪʃən/	medical	医療・診療	normal	1	2026-10-16
+expr_0943	943	頓服薬（医療者向け）	PRN medication	/ˌpiː ɑr ˈen ˌmedɪˈkeɪʃən/	診療録・処方で使う必要時薬の略称。	患者への説明には as needed が分かりやすい。	The patient has a PRN medication for pain.	/ðə ˈpeɪʃənt hæz ə ˌpiː ɑr ˈen ˌmedɪˈkeɪʃən fər ˈpeɪn/	medical	医療・診療	normal	1	2026-10-16
+expr_0944	944	水以外は要らない	I don’t want anything but water.	/aɪ ˈdoʊnt ˈwɑnt ˈeniθɪŋ bət ˈwɔtɚ/	否定文中の anything but は「〜以外のもの」を指す。	肯定文 It’s anything but easy. の慣用的意味と区別。	I don’t want anything but water.	/aɪ ˈdoʊnt ˈwɑnt ˈeniθɪŋ bət ˈwɔtɚ/	phrase	日常生活・一般	normal	1	2026-10-16
