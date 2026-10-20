@@ -959,3 +959,77 @@ expr_0957	957	実に・本当に	indeed	/ɪnˈdiːd/	述べた内容を強めた
 expr_0958	958	非常に・高く	highly	/ˈhaɪli/	評価・可能性・抽象的な程度を強める。	highly recommend は「強くおすすめする」。物理的な高さには high を使う。	I highly recommend this book.	/aɪ ˈhaɪli ˌrekəˈmend ðɪs ˈbʊk/	adverb	数量・程度	normal	1	2026-10-16
 expr_0959	959	最終的に・やがて	eventually	/ɪˈventʃuəli/	時間の経過の後に、ある結果に至ることを表す。	finally は「ついに」の達成感・終点を強く示すことがある。	She’ll eventually get used to the new job.	/ʃiːl ɪˈventʃuəli ɡet ˈjuːst tə ðə ˈnuː ˈdʒɑb/	adverb	時間・日課	normal	1	2026-10-16
 expr_0960	960	時々・たまに	occasionally	/əˈkeɪʒənəli/	頻繁ではないが、ときどき起こること。	頻度を固定の割合で覚える必要はない。	We occasionally go camping in the summer.	/wi əˈkeɪʒənəli ɡoʊ ˈkæmpɪŋ ɪn ðə ˈsʌmɚ/	adverb	時間・日課	normal	1	2026-10-16
+expr_0961	961	もっと簡単にできる余地がある	could stand to be simpler		改善の余地がある、と控えめに述べる。	stand to は利益・改善の余地を示す。義務の should より柔らかい。	It could stand to be simpler.		expression	意見・評価	normal	1	2026-10-20
+expr_0962	962	また合流する	meet up again		いったん別れた後で再び会う。	meet again でも通じるが meet up は待ち合わせて合流する感じ。	We split up outside the store and met up again later.		verb	日常生活・一般	normal	1	2026-10-20
+expr_0963	963	我慢する・持ちこたえる	withstand		圧力や衝撃などを受けても耐える。	人の欲求を抑えるなら resist the urge to が自然。	The building can withstand strong winds.		verb	日常生活・一般	normal	1	2026-10-20
+expr_0964	964	〜したい衝動を抑える	resist the urge to ...		誘惑や欲求を感じても行動に移さない。	withstand は外部からの圧力や衝撃への耐性。	I resisted the urge to check my phone.		verb	感情・心情	high	1	2026-10-20
+expr_0965	965	こだわりが強い・好みがはっきりしている	have strong preferences		特定のものや手順を強く好むことを中立的に述べる。	自閉症の文脈では具体的な好みやルーティンも説明すると明確。	He has strong preferences about the order of activities.		expression	家族・育児	normal	1	2026-10-20
+expr_0966	966	決まった順序でやりたがる	like to do things in a certain order		行動の具体的な様子を述べる。	こだわりが強いと人格全体を評価せず、場面を伝えられる。	He likes to do things in a certain order.		expression	家族・育児	normal	1	2026-10-20
+expr_0967	967	〜なんて存在しない	there is no such thing as ...		あるもの・概念の存在そのものを否定する。	強い言い方。単なる不確かさではない。	There's no such thing as a perfect solution.		expression	意見・評価	high	1	2026-10-20
+expr_0968	968	〜の存在を否定する	deny the existence of ...		存在しないと主張する、やや硬い表現。	deny + 名詞だけでは存在そのものの否定か曖昧な場合がある。	He denies the existence of the problem.		verb	意見・評価	normal	1	2026-10-20
+expr_0969	969	少し離れたところから見守る	keep an eye on ... from a little way off		近くで付き添わず、安全を確認しながら見守る。	keep an eye on は継続的に注意を向ける口語表現。	I keep an eye on them from a little way off.		expression	家族・育児	high	1	2026-10-20
+expr_0970	970	やりながらうまくいく方法を見つける	figure out what works as we go		実践中に試行錯誤して方法を見つける。	as we go は進めながら。最初から正解を決めておく意味ではない。	With parenting, we figure out what works as we go.		expression	家族・育児	high	1	2026-10-20
+expr_0971	971	もっとよいやり方	a better way		日常会話で広く使える「やり方」。	方法の細かい手順を指定しない。	There must be a better way.		noun	日常生活・一般	high	1	2026-10-20
+expr_0972	972	向き合い方・進め方	approach	/əˈproʊtʃ/	課題に対する全体的な取り組み方。	method は具体的な手順に焦点。	We need a different approach.		noun	学習・教育・研究	high	1	2026-10-20
+expr_0973	973	手順のある方法	method	/ˈmeθəd/	一定の手順を持つ方法。	approach より具体的な実施方法を示す。	This method works well for learning vocabulary.		noun	学習・教育・研究	high	1	2026-10-20
+expr_0974	974	目的達成のための作戦	strategy	/ˈstrætədʒi/	目標を達成するための計画や方針。	technique は個々の具体的な技術。	We need a strategy for reducing waste.		noun	学習・教育・研究	high	1	2026-10-20
+expr_0975	975	具体的なコツ・技術	technique	/tekˈniːk/	特定の動作や課題に使う具体的な技術。	strategy は全体的な作戦。	She taught me a technique for calming him down.		noun	学習・教育・研究	normal	1	2026-10-20
+expr_0976	976	目や耳で気づく	notice	/ˈnoʊtɪs/	見聞きした変化に気づく。	realize は頭の中で事実を理解する。	I noticed that he was upset.		verb	日常生活・一般	high	1	2026-10-20
+expr_0977	977	考えて気づく・理解する	realize	/ˈriːəlaɪz/	考えた結果、事実や自分の状態を理解する。	解決策を見つけるなら figure out。	I realized that I was trying to solve everything at once.		verb	感情・心情	high	1	2026-10-20
+expr_0978	978	調べたり聞いたりして知る	find out		外から新しい事実を得る。	realize はすでにある情報の意味に気づく場合にも使う。	I found out that the meeting had been canceled.		verb	日常生活・一般	high	1	2026-10-20
+expr_0979	979	微妙なサインを察する	pick up on ...		表情や雰囲気などから気づく。	notice より微妙な兆候を読み取る含み。	I picked up on his discomfort.		verb	人間関係・会話	normal	1	2026-10-20
+expr_0980	980	徐々に認識する	become aware of ...		それまで意識していなかった問題などを認識する。	gradually とよく一緒に使う。	I gradually became aware of the problem.		verb	学習・教育・研究	normal	1	2026-10-20
+expr_0981	981	はっと気づく	it dawned on me that ...		少し遅れて、突然理解が訪れる。	気づいた瞬間を描写する。	It dawned on me that I'd forgotten my keys.		expression	日常生活・一般	normal	1	2026-10-20
+expr_0982	982	時間をかけて気づく	come to realize that ...		経験や考察を経て次第に理解する。	realize だけより変化の過程を強調。	I came to realize that there's no perfect solution.		expression	感情・心情	normal	1	2026-10-20
+expr_0983	983	機会や資源を最大限利用する	exploit an opportunity or a resource		使えるものを積極的に活用する。	exploit a person は「搾取する」という明確に否定的な意味。	We should exploit this opportunity.		verb	学習・教育・研究	normal	1	2026-10-20
+expr_0984	984	痛みを和らげる力	the ability to relieve pain		痛みを軽くする能力を指す。	pain management は評価や治療を含む疼痛管理全般。	The ability to relieve pain is an essential skill for physicians.		expression	医療・診療	normal	1	2026-10-20
+expr_0985	985	三つの観点に分けて考える	break ... down into three parts		複雑なものを理解しやすく分解する。	分類そのものなら There are three main types of ...。	We can break the problem down into three parts.		expression	学習・教育・研究	high	1	2026-10-20
+expr_0986	986	考えるべき点が三つある	There are three things to consider.		説明の冒頭で論点の数を示す。	First, ... Second, ... And third, ... と続ける。	I think there are three things to consider.		expression	学習・教育・研究	high	1	2026-10-20
+expr_0987	987	スペクトラムとして捉える	think of it as a spectrum		二択でなく連続的な幅として考える。	It ranges from A to B と両端を示せる。	I think it's helpful to think of it as a spectrum.		expression	学習・教育・研究	high	1	2026-10-20
+expr_0988	988	AからBまで幅がある	It ranges from A to B.		連続的な程度や範囲の両端を示す。	範囲は A と B を同じ尺度上で比較できるものにする。	It ranges from mild discomfort to severe pain.		expression	学習・教育・研究	high	1	2026-10-20
+expr_0989	989	中間だがA寄り	It falls somewhere in between, but closer to A.		グラデーションの位置を述べる。	単純には This case is closer to A than B. が言いやすい。	It falls somewhere in between, but closer to A.		expression	学習・教育・研究	high	1	2026-10-20
+expr_0990	990	〜らしいんだけど・聞いた話では	I heard ...		人から聞いた情報を示してから続ける。	自分の記憶が曖昧な「確か」は I think や If I remember correctly。	I heard he's moving, but I'm not sure when.		expression	会話のつなぎ・リアクション	high	1	2026-10-20
+expr_0991	991	どうやら〜らしい	Apparently, ...	/əˈpærəntli/	外から得た情報による推測・伝聞。	自分の曖昧な記憶には使わない。	Apparently, the meeting has been canceled.		expression	会話のつなぎ・リアクション	high	1	2026-10-20
+expr_0992	992	確か〜だったはず	If I remember correctly, ...		自分の記憶をたどりながら控えめに述べる。	apparently は伝聞・外部情報。	If I remember correctly, he moved last year.		expression	会話のつなぎ・リアクション	high	1	2026-10-20
+expr_0993	993	〜をオフのままにする	keep ... off		目的語がオフの状態を維持する。	turn ... off はオフへ変える動作。	Please keep your camera off.		expression	日常生活・一般	high	1	2026-10-20
+expr_0994	994	〜をオフにする	turn ... off		電源や機能をオンからオフへ変える。	句動詞 turn off は turn it off のように代名詞を間に置く。	Please turn your camera off.		expression	日常生活・一般	high	1	2026-10-20
+expr_0995	995	〜をつけたままにする	leave ... on		ものがオンの状態のままになるようにする。	turn ... on はオンへ変える動作。	Leave the light on.		expression	日常生活・一般	high	1	2026-10-20
+expr_0996	996	靴を履いたままにする	keep your shoes on		靴を履いている状態を維持する。	put your shoes on は履く動作。	You can keep your shoes on.		expression	日常生活・一般	high	1	2026-10-20
+expr_0997	997	靴を履く	put your shoes on		靴を履いていない状態から履く。	句動詞 put on は put them on の語順。	Put your shoes on before you go outside.		expression	日常生活・一般	normal	1	2026-10-20
+expr_0998	998	さらに・いっそう	even more		すでにある程度や量がさらに増す。	話題をもう一つ追加する「さらに」は Also や On top of that。	That made me even more worried.		adverb	数量・程度	high	1	2026-10-20
+expr_0999	999	一方では〜という気持ちもある	Part of me feels ...		自分の中に相反する気持ちが共存するときに使う。	part of me wants to ... は「〜したい気持ちもある」。	Part of me feels that I should let him try it on his own.		expression	感情・心情	high	1	2026-10-20
+expr_1000	1000	〜したい気持ちもある	Part of me wants to ...		複数の気持ちのうち一つを取り出して言う。	but another part of me ... で別の気持ちを続けられる。	Part of me wants to step in, but another part of me wants to give him space.		expression	感情・心情	high	1	2026-10-20
+expr_1001	1001	健康診断を受ける	get a health checkup		一般的な健康状態を調べる健診。	特定の疾患を探す検診は screening。	I get a health checkup every year.		expression	医療・診療	normal	1	2026-10-20
+expr_1002	1002	がん検診を受ける	get screened for cancer		特定疾患の有無を調べる検診。	checkup は一般的な健診。	She got screened for breast cancer.		expression	医療・診療	normal	1	2026-10-20
+expr_1003	1003	制度的に・制度の面で	institutionally	/ˌɪnstɪˈtuːʃənəli/	個人の努力でなく制度・組織の仕組みとして。	文脈によって at the institutional level も明確。	The program needs support at the institutional level.		adverb	学習・教育・研究	normal	1	2026-10-20
+expr_1004	1004	危うく〜するところだった	almost + 過去形		実際には起きなかった出来事に接近したことを示す。	I almost missed ... は結局間に合った含み。	I almost missed the bus.		expression	日常生活・一般	high	1	2026-10-20
+expr_1005	1005	そもそも・最初から話すと	To begin with, ...		話の出発点・前提を示す。	First of all は列挙の最初にも使う。	To begin with, I wasn't sure what to do.		expression	会話のつなぎ・リアクション	normal	1	2026-10-20
+expr_1006	1006	というのもね	The thing is, ...		理由や本題に入る前に状況を説明する。	Because ... より会話らしい切り出し。	The thing is, I need a little more time.		expression	会話のつなぎ・リアクション	high	1	2026-10-20
+expr_1007	1007	だから思わず〜した	I couldn't help ...ing		反射的にしてしまい抑えられなかった行動。	笑う・泣くなどの反応によく使う。	I couldn't help laughing.		expression	感情・心情	normal	1	2026-10-20
+expr_1008	1008	〜するにつれて	as ...		二つの変化が並行して進む。	単純な「〜したとき」ではなく変化の連動に合う。	As he gets older, he is becoming more independent.		expression	時間・日課	high	1	2026-10-20
+expr_1009	1009	ただの時間稼ぎだ	It's just a way to buy time.		決定などを遅らせるために時間を稼ぐ。	buy time は準備のための時間確保にも使う。	That answer was just a way to buy time.		expression	意見・評価	normal	1	2026-10-20
+expr_1010	1010	最初から最後まで	all the way through		ある出来事や作品を最後まで通して。	throughout は全期間の各所にわたっての意味。	I watched the movie all the way through.		expression	時間・日課	normal	1	2026-10-20
+expr_1011	1011	〜の間ずっと・全体にわたって	throughout	/θruːˈaʊt/	期間や場所の全体に広がる。	through と違い「全体にわたる」点を強調。	She remained calm throughout the meeting.		preposition	時間・日課	normal	1	2026-10-20
+expr_1012	1012	そこまでした後では〜ない	not after ...		それまでの投資や経緯を理由に否定を補強する。	単なる時系列の after とは異なる。	We can't give up now, not after all this work.		expression	会話のつなぎ・リアクション	normal	1	2026-10-20
+expr_1013	1013	親しい・親密な	close	/kloʊs/	人間関係が親しい。	intimate はより深い個人的・恋愛的な含みもある。	We're close friends.		adjective	人間関係・会話	normal	1	2026-10-20
+expr_1014	1014	考え・思い込み	notion	/ˈnoʊʃən/	漠然とした考えや、根拠が弱いと見られる考え。	concept は整理された概念や理論的な枠組みに使いやすい。	I don't agree with the notion that success is all about talent.		noun	学習・教育・研究	normal	1	2026-10-20
+expr_1015	1015	概念・構想	concept	/ˈkɑnsept/	議論や設計で使う抽象的な考え。	notion は個人的で漠然とした考えにも使う。	The concept is easy to understand but hard to apply.		noun	学習・教育・研究	normal	1	2026-10-20
+expr_1016	1016	診察室	examination room		診察や身体診察を行う部屋。	診療所の診察室は exam room とも言う。	The doctor called me into the examination room.		noun	医療・診療	normal	1	2026-10-20
+expr_1017	1017	民間の・伝承の	folk	/foʊk/	民衆に伝わる文化や音楽などに使う。	four と異なり folk pedagogy は民衆による直観的な教え方。	Folk music is part of the region's culture.		adjective	学習・教育・研究	normal	1	2026-10-20
+expr_1018	1018	なんとか間に合う・参加できる	make it		約束や場所に到達できる。	成功する・やり遂げる意味も文脈である。	I don't think I can make it tonight.		verb	日常生活・一般	high	1	2026-10-20
+expr_1019	1019	一見役に立たないもの	something that seems useless at first		最初の印象では役立たないと見えるもの。	実際に役立たないと断定しない。	Even something that seems useless at first can help later.		expression	意見・評価	normal	1	2026-10-20
+expr_1020	1020	見返りを期待せずに	without expecting anything in return		相手から報酬や返礼を求めない。	in return は見返り・返礼。	She kept encouraging me without expecting anything in return.		expression	人間関係・会話	high	1	2026-10-20
+expr_1021	1021	妥当な価格	a reasonable price		品質や条件に照らして納得できる価格。	fair price は双方に公平な価格の響き。	I think that's a reasonable price.		expression	買い物・交渉	high	1	2026-10-20
+expr_1022	1022	さらに五万円値切る	negotiate another 50,000 yen off		提示価格から追加で五万円下げるよう交渉する。	get another 50,000 yen off は値引きに成功した結果。	I'd like to negotiate another 50,000 yen off the price.		expression	買い物・交渉	normal	1	2026-10-20
+expr_1023	1023	AについてBに相談する	consult B about A		専門家に助言を求める、やや改まった表現。	友人への日常相談は talk to B about A が自然。	I consulted my colleague about the case.		verb	人間関係・会話	high	1	2026-10-20
+expr_1024	1024	秘密や悩みをBに打ち明ける	confide in B about A		信頼する相手に個人的なことを打ち明ける。	confide B ではなく confide in B。	She confided in me about her worries.		verb	人間関係・会話	normal	1	2026-10-20
+expr_1025	1025	驚くことに〜	Surprisingly, ...	/sɚˈpraɪzɪŋli/	話者が結果を予想外と評価して文全体にかける。	It is surprising that ... は「その事実が驚くべきだ」と明示する。	Surprisingly, he agreed right away.		adverb	会話のつなぎ・リアクション	normal	1	2026-10-20
+expr_1026	1026	それで都合がよければ	if that works for you		提案した日時や段取りが相手に合うか確かめる。	センシティブな話題を話してよいかは if you're comfortable talking about it。	We could meet at three, if that works for you.		expression	人間関係・会話	high	1	2026-10-20
+expr_1027	1027	話しても差し支えなければ	if you're comfortable talking about it		個人的な話題について話す意思や心理的な負担を気遣う。	comfortable はここでは快適さより抵抗なく話せるか。	Could you tell me more about it, if you're comfortable talking about it?		expression	人間関係・会話	high	1	2026-10-20
+expr_1028	1028	男子校	an all-boys school		生徒が男子のみの学校。	単に boys' school とも言える。	I went to an all-boys school.		noun	学習・教育・研究	normal	1	2026-10-20
+expr_1029	1029	バカ話・くだらないおしゃべり	silly conversations		気楽でくだらない話。	普段の会話では joke around も自然。	I miss the silly conversations we used to have.		noun	人間関係・会話	normal	1	2026-10-20
+expr_1030	1030	成功体験	the experience of succeeding at something		努力して何かを達成した経験。	a successful experience だけでは「成功体験」の心理的意味が曖昧。	Children need the experience of succeeding at something.		expression	学習・教育・研究	normal	1	2026-10-20
+expr_1031	1031	努力は実るという考え方	the belief that hard work pays off		努力が成果につながるという信念。	pay off は努力が報われるという意味。	I want him to develop the belief that hard work pays off.		expression	学習・教育・研究	normal	1	2026-10-20
+expr_1032	1032	痛みの管理	pain management		痛みの評価や治療を含む包括的な管理。	relieve pain は痛みを和らげる行為。	Pain management is an essential skill for physicians.		noun	医療・診療	normal	1	2026-10-20
+expr_1033	1033	確定したことと変わりうること	what we know for sure and what could still change		確実な情報と将来変化し得る事柄を分ける。	変化し得ることが自分たちの制御下とは限らない。	What do we know for sure, and what could still change?		expression	学習・教育・研究	high	1	2026-10-20
+expr_1034	1034	変えられることと変えられないこと	what's within our control and what isn't		自分たちが制御できる範囲を確認する。	What's fixed, and what can we adjust? は条件と調整項目に焦点。	What's within our control, and what isn't?		expression	学習・教育・研究	high	1	2026-10-20

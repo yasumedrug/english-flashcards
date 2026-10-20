@@ -34,6 +34,15 @@ for (const [label, phrases] of Object.entries({
   数量表現: 'a bunch of|a multitude of|an enormous amount of|an enormous number of|a ton of|a couple of|loads of|tons of|way too many|way too much'
 })) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
 
+// New cards tagged as "expression" still need a useful label on the study card.
+for (const [label, phrases] of Object.entries({
+  動詞句: 'like to do things in a certain order|keep an eye on ... from a little way off|break ... down into three parts|think of it as a spectrum|negotiate another 50,000 yen off',
+  名詞句: 'something that seems useless at first',
+  副詞句: 'apparently, ...|to begin with, ...|all the way through',
+  文法表現: 'almost + 過去形|as ...',
+  '文・会話表現': "could stand to be simpler|if i remember correctly, ...|part of me feels ...|part of me wants to ...|the thing is, ...|not after ...|if that works for you|if you're comfortable talking about it"
+})) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
+
 export function partOfSpeech(note: Pick<Note, 'en' | 'ja' | 'tag'>): string {
   const english = note.en.trim()
   const japanese = note.ja.trim()
