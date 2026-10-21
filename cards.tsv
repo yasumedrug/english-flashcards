@@ -1033,3 +1033,46 @@ expr_1031	1031	努力は実るという考え方	the belief that hard work pays 
 expr_1032	1032	痛みの管理	pain management		痛みの評価や治療を含む包括的な管理。	relieve pain は痛みを和らげる行為。	Pain management is an essential skill for physicians.		noun	医療・診療	normal	1	2026-10-20
 expr_1033	1033	確定したことと変わりうること	what we know for sure and what could still change		確実な情報と将来変化し得る事柄を分ける。	変化し得ることが自分たちの制御下とは限らない。	What do we know for sure, and what could still change?		expression	学習・教育・研究	high	1	2026-10-20
 expr_1034	1034	変えられることと変えられないこと	what's within our control and what isn't		自分たちが制御できる範囲を確認する。	What's fixed, and what can we adjust? は条件と調整項目に焦点。	What's within our control, and what isn't?		expression	学習・教育・研究	high	1	2026-10-20
+expr_1035	1035	〜以外に・〜を除いて	other than ...		特定のものを除外する。	単に別のものを尋ねる What else...? にも言い換えられる。	Do you have any plans other than studying?		expression	日常生活・一般	normal	1	2026-10-21
+expr_1036	1036	〜を除けば・〜に加えて	apart from ...		文脈により除外または追加を表す。	追加なら besides に近い。意味の違いは文全体で判断。	Apart from English, I'm studying medical education.		expression	学習・教育・研究	normal	1	2026-10-21
+expr_1037	1037	目標	goal		達成したい結果。幅広い場面で使える。	target は数値など具体的な到達点、aim は意図。	My goal is to speak English more naturally.		noun	学習・教育・研究	normal	1	2026-10-21
+expr_1038	1038	目標数値・達成目標	target		測定できる到達点や指定された水準。	goal より具体的な数値に結びつきやすい。	My target score is 6.5.		noun	学習・教育・研究	normal	1	2026-10-21
+expr_1039	1039	〜のように見えるかもしれない	It might seem that ...		見かけ上の印象を控えめに示す。	It might seem like ... も口語でよく使う。	It might seem that this is a small change, but it matters to me.		expression	会話のつなぎ・リアクション	normal	1	2026-10-21
+expr_1040	1040	〜する可能性が高い	There's a good chance that ...		good は良い結果ではなく、可能性の高さを表す。	好ましくない結果にも使える。	There's a good chance that it'll rain tomorrow.		expression	日常生活・一般	high	1	2026-10-21
+expr_1041	1041	絶好の機会	a great chance to ...		望ましい行動をする良い機会。	出来事の確率を言うなら a good chance that ... が自然。	This is a great chance to practice speaking.		expression	学習・教育・研究	normal	1	2026-10-21
+expr_1042	1042	可能性が低い	a slim chance		起こる見込みが小さい。	bad chance は通常使わない。poor chances も可。	There's only a slim chance of getting tickets.		expression	日常生活・一般	normal	1	2026-10-21
+expr_1043	1043	一人で・独力で	on my own		他人に頼らず自立して行う点を強調。	by myself は一人で行う点に焦点。文脈によって重なる。	I learned to use the app on my own.		expression	日常生活・一般	normal	1	2026-10-21
+expr_1044	1044	一人で	by myself		同伴者なしで行う、または自力で行う。	on my own は独立性に焦点が当たりやすい。	I went to the clinic by myself.		expression	日常生活・一般	normal	1	2026-10-21
+expr_1045	1045	何をすればよいか	what to do		what + to + 動詞で、何をするか・すべきかという内容を作る。	主語の異なる指示なら what I should do などで明確にする。	I didn't know what to do next.		expression	日常生活・一般	high	1	2026-10-21
+expr_1046	1046	どう対処すればよいか	how to handle it		how + to + 動詞で、対処する方法を表す。	具体的な主語や時制を示すなら how I handled it。	I'm still figuring out how to handle it.		expression	日常生活・一般	high	1	2026-10-21
+expr_1047	1047	どこへ行けばよいか	where to go		where + to + 動詞で、行き先の選択を表す。	where I went は実際に行った場所を述べる。	We weren't sure where to go.		expression	日常生活・一般	normal	1	2026-10-21
+expr_1048	1048	〜の上へ・上に乗って	onto ...		面の上へ移動する方向を表す。	on は位置。hold on to の on to は二語。	The cat jumped onto the table.		preposition	日常生活・一般	normal	1	2026-10-21
+expr_1049	1049	食事に誘う	ask someone to lunch		相手をランチに誘う自然な表現。	ask someone out は通常デートに誘う意味。	I asked her to lunch yesterday.		expression	人間関係・交流	normal	1	2026-10-21
+expr_1050	1050	一緒に来ないか誘う	ask someone to come with us		一緒に行くことを提案する。	invite は招待の響きもある。	I asked him to come with us.		expression	人間関係・交流	normal	1	2026-10-21
+expr_1051	1051	あまり乗り気ではない	not very keen on ...		提案や行動への興味・意欲が低い。	not in the mood は今の気分、reluctant はためらいに焦点。	He didn't seem very keen on going.		expression	感情・心情	high	1	2026-10-21
+expr_1052	1052	今夜はあまり気が乗らない	I'm not really up for it tonight.		誘いを柔らかく断る会話表現。	not up for はその時の体力や気分も含む。	Thanks for asking, but I'm not really up for it tonight.		expression	人間関係・交流	normal	1	2026-10-21
+expr_1053	1053	連絡を取る	get in touch with someone		相手と接点を持ち、連絡する。	contact はやや事務的にも使える。具体的な手段なら call/text/email。	I'll get in touch with you next week.		expression	人間関係・交流	high	1	2026-10-21
+expr_1054	1054	自分から連絡する	reach out to someone		相談や提案などのために自分から声をかける。	連絡手段は特定しない。	I reached out to a colleague for advice.		expression	人間関係・交流	normal	1	2026-10-21
+expr_1055	1055	連絡がつかない	can't reach someone		電話やメッセージなどで相手につながらない。	連絡を取り合うは keep in touch。	I couldn't reach him this morning.		expression	人間関係・交流	normal	1	2026-10-21
+expr_1056	1056	ドライバー・ねじ回し	screwdriver		ねじを回す道具。	driver は運転手など別の意味になりやすい。	We used a screwdriver to poke a hole in the box.		noun	日常生活・一般	normal	1	2026-10-21
+expr_1057	1057	ネジ	screw		回して固定する金属の部品。	screwdriver はこれを回す工具。	I tightened the screw with a screwdriver.		noun	日常生活・一般	normal	1	2026-10-21
+expr_1058	1058	ダンボール箱	cardboard box		段ボール製の箱。	箱の側面は the side of the box。	My son built a house out of a cardboard box.		noun	日常生活・一般	normal	1	2026-10-21
+expr_1059	1059	箱の側面に穴を開ける	make a hole in the side of the box		場所には in the side を使う。	突き刺す動きは poke a hole、切り抜くなら cut a hole。	We made a hole in the side of the cardboard box.		expression	日常生活・一般	high	1	2026-10-21
+expr_1060	1060	以前は〜していたが今は違う	I used to ..., but now ...		過去の習慣と今の違いを示す。	used to の後は動詞の原形。	I used to study by topic, but now I practice with specific phrases.		expression	学習・教育・研究	high	1	2026-10-21
+expr_1061	1061	ある時点で・いつしか	At some point, ...		時期を特定せずに変化の起点を示す。	突然の変化とは限らない。	At some point, I started using the same phrases over and over.		expression	会話のつなぎ・リアクション	high	1	2026-10-21
+expr_1062	1062	考えて〜と気づく	I realized that ...		経験や思考の結果として理解する。	notice は観察して発見することに焦点。	I realized that I needed more speaking practice.		expression	学習・教育・研究	high	1	2026-10-21
+expr_1063	1063	〜するのに苦労した	I struggled to ...		行動を実行するのが難しかったことを伝える。	to の後は原形。struggle with + 名詞も使える。	I struggled to use new expressions in conversation.		expression	学習・教育・研究	high	1	2026-10-21
+expr_1064	1064	〜に頼り続けていた	I kept relying on ...		何度もまたは継続して同じものに頼る。	keep + 動詞ing、rely on + 名詞。	I kept relying on phrases I already knew.		expression	学習・教育・研究	high	1	2026-10-21
+expr_1065	1065	〜する代わりに私は…した	Instead of ..., I ...		一つの行動をやめて別の行動を選ぶ。	instead of の後は名詞・動詞ing。	Instead of choosing a topic first, I chose a phrase to practice.		expression	日常生活・一般	high	1	2026-10-21
+expr_1066	1066	AからBへ移行した	I shifted from A to B.		方法・重点・方針を変えたことを表す。	shift from ... to ... を一組で覚える。	I shifted from topic-based practice to phrase-based practice.		expression	学習・教育・研究	high	1	2026-10-21
+expr_1067	1067	一つ問題があると気づいた	I noticed one problem.		観察した問題を次に説明する導入。	気づいて理解した意味なら I realized that ...。	I noticed one problem: I kept using the same expressions.		expression	会話のつなぎ・リアクション	high	1	2026-10-21
+expr_1068	1068	私が話したいのは〜です	What I want to talk about is ...		話の焦点を冒頭に示す。	後ろに名詞や how/why で始まる節が来る。	What I want to talk about is how I changed my practice routine.		expression	会話のつなぎ・リアクション	high	1	2026-10-21
+expr_1069	1069	役に立ったが〜	It was helpful, but ...		利点を認めた後、限界や問題を述べる。	It が指す先を前文で明確にする。	Recording myself was helpful, but I still struggled to use new phrases.		expression	会話のつなぎ・リアクション	high	1	2026-10-21
+expr_1070	1070	主に〜に集中する	focus mainly on ...		重点を置く対象を示す。	on の後は名詞または動詞ing。	I focused mainly on speaking fluently.		expression	学習・教育・研究	normal	1	2026-10-21
+expr_1071	1071	〜に時間をかけすぎる	spend too much time doing ...		時間の配分が過剰であるという評価。	spend time + 動詞ing。	I spent too much time preparing and not enough time speaking.		expression	日常生活・一般	normal	1	2026-10-21
+expr_1072	1072	学んだことを実践に移す	put what I've learned into practice		知識を実際の行動で使う。	put ... into practice をまとまりで覚える。	I want to put what I've learned into practice during conversations.		expression	学習・教育・研究	high	1	2026-10-21
+expr_1073	1073	より幅広い表現を使う	use a wider range of expressions		会話で使える表現の種類を増やす。	expand my range of expressions も可能。	I want to use a wider range of expressions.		expression	学習・教育・研究	normal	1	2026-10-21
+expr_1074	1074	上達に合わせて方法を調整する	adapt my approach as I progress		上達するにつれ方法を変える。	as は〜するにつれて。	I'll adapt my approach as I progress.		expression	学習・教育・研究	normal	1	2026-10-21
+expr_1075	1075	仕事が全然進まない	can't get any work done		否定文で any を使い、少しも進まないことを強調。	肯定文でいくらか進めるなら get some work done。	I couldn't get any work done this morning.		expression	仕事・職場	normal	1	2026-10-21
+expr_1076	1076	気になった・引っかかったこと	something that bothered me		不快感や懸念があったことを示す。	単なる発見なら something I noticed。	There was something that bothered me about the plan.		expression	感情・心情	normal	1	2026-10-21
+expr_1077	1077	〜しても構いませんか	Would you mind if I ...?		相手に丁寧に許可を求める。	if I asked のように過去形が定番。許可する返事は No, not at all.。	Would you mind if I asked you a question?		expression	人間関係・交流	high	1	2026-10-21

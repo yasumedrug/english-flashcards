@@ -43,6 +43,14 @@ for (const [label, phrases] of Object.entries({
   '文・会話表現': "could stand to be simpler|if i remember correctly, ...|part of me feels ...|part of me wants to ...|the thing is, ...|not after ...|if that works for you|if you're comfortable talking about it"
 })) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
 
+for (const [label, phrases] of Object.entries({
+  前置詞句: 'other than ...|apart from ...',
+  名詞句: 'what to do|how to handle it|where to go|something that bothered me',
+  動詞句: "ask someone to lunch|ask someone to come with us|can't reach someone|can't get any work done",
+  副詞句: 'on my own|by myself|at some point, ...',
+  '文・会話表現': 'instead of ..., i ...'
+})) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
+
 export function partOfSpeech(note: Pick<Note, 'en' | 'ja' | 'tag'>): string {
   const english = note.en.trim()
   const japanese = note.ja.trim()
