@@ -46,9 +46,11 @@ for (const [label, phrases] of Object.entries({
 for (const [label, phrases] of Object.entries({
   前置詞句: 'other than ...|apart from ...',
   名詞句: 'what to do|how to handle it|where to go|something that bothered me',
-  動詞句: "ask someone to lunch|ask someone to come with us|can't reach someone|can't get any work done",
+  動詞句: "ask someone to lunch|ask someone to come with us|can't reach someone|can't get any work done|add up over time|mean a lot to someone",
   副詞句: 'on my own|by myself|at some point, ...',
-  '文・会話表現': 'instead of ..., i ...|being able to ... makes me feel ...|a can reduce b, allowing us to ...|... is becoming an integral part of ...'
+  文法表現: 'even though + 文|so + 形容詞 + that + 文',
+  助動詞表現: 'must have + 過去分詞',
+  '文・会話表現': 'instead of ..., i ...|being able to ... makes me feel ...|a can reduce b, allowing us to ...|... is becoming an integral part of ...|all i have to do is + 動詞の原形'
 })) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
 
 export function partOfSpeech(note: Pick<Note, 'en' | 'ja' | 'tag'>): string {

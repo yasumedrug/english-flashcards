@@ -1082,3 +1082,14 @@ expr_1080	1080	〜できることで〜と感じる	Being able to ... makes me f
 expr_1081	1081	〜を減らすことで、その分…できる	A can reduce B, allowing us to ...		最初の効果から生じる時間や余裕の使い道をつなぐ。	allowing us to ... は前の内容を受けて「その結果、私たちは…できる」。	AI can reduce administrative work, allowing us to spend more time discussing complex issues with students.		expression	学習・教育・研究	high	1	2026-10-22
 expr_1082	1082	〜に欠かせない一部になりつつある	... is becoming an integral part of ...		働き方や生活に深く組み込まれていく変化を表す。	integral は「不可欠な・切り離せない」。of の後は名詞や how 節。	AI is becoming an integral part of how we work and think.		expression	仕事・職場	high	1	2026-10-22
 expr_1083	1083	重要なのはBではなくAだ	What matters is A, not B.		議論の焦点を、何をするか・どうするかに置き直す。	A と B を対比する。how/whether + 主語 + 動詞の節を入れられる。	What matters is how students use AI, not whether they use it.		expression	学習・教育・研究	high	1	2026-10-22
+expr_1084	1084	〜するだけでよい	All I have to do is + 動詞の原形		必要な行動がシンプルだと伝える。	is の後は通常 to を付けずに動詞の原形を置く。	All I have to do is say hello and pay.		expression	日常生活・一般	high	1	2026-10-22
+expr_1085	1085	温かく明るい	warm and cheerful		人の親しみやすさと朗らかさを表す。	warm は人柄の温かさ。cheerful は明るく前向きな様子。	She was such a warm and cheerful person.		expression	人間関係・交流	high	1	2026-10-22
+expr_1086	1086	〜の一日を明るくする	brighten someone's day		ちょっとした親切や会話が人の気持ちをよくする。	誰の一日かによって my／his／her day と言い換える。	Even a short chat with her brightened my day.		expression	感情・心情	high	1	2026-10-22
+expr_1087	1087	時間とともに積み重なる	add up over time		小さな経験や行動が重なり、後に大きな意味や効果を持つ。	主語は moments／efforts／costs など。数値的に合計される意味でも使う。	These little moments add up over time.		expression	日常生活・一般	high	1	2026-10-22
+expr_1088	1088	〜に…を思い出させる	remind someone of ...		今の出来事から過去の経験や人を連想する。	remind 人 of 名詞。出来事を節で続けるなら remind 人 that ...。	That reminded me of my experience in Takahama.		expression	会話のつなぎ・リアクション	high	1	2026-10-22
+expr_1089	1089	〜にとって大きな意味がある	mean a lot to someone		出来事や言葉が誰かの心に深く響いたと伝える。	意味が大きいことを表し、必ずしも嬉しい経験に限定されない。	I think it meant a lot to my son, too.		expression	感情・心情	high	1	2026-10-22
+expr_1090	1090	〜を元気づける	lift someone's spirits		親切や楽しい出来事で気分が明るくなる。	相手に応じて my／his／her spirits とする。	Her kindness lifted my spirits.		expression	感情・心情	normal	1	2026-10-22
+expr_1091	1091	〜するのを楽しみにする	look forward to + 動詞ing		これから起こることを楽しみに待つ。	to は前置詞なので、動詞を続けるなら ing 形。	I looked forward to seeing her.		expression	感情・心情	normal	1	2026-10-22
+expr_1092	1092	実際には〜だが、それでも…	even though + 文		実際の事実を認めたうえで予想と異なる行動や結果を述べる。	未確定の仮定を表す even if と区別する。	I chose her line even though it was longer.		expression	会話のつなぎ・リアクション	normal	1	2026-10-22
+expr_1093	1093	〜だったに違いない	must have + 過去分詞		過去について根拠から強く推測する。	過去の義務を表す had to ... とは異なる。	It must have been a positive experience for him.		expression	推測・確信	normal	1	2026-10-22
+expr_1094	1094	とても〜なので…	so + 形容詞 + that + 文		性質や程度が高いために起こった結果を示す。	so の後に形容詞、that の後に結果を表す文を置く。	She was so friendly that I felt comfortable talking to her.		expression	人間関係・交流	normal	1	2026-10-22
