@@ -823,7 +823,7 @@ expr_0821	821	今も続いている	still	/ˈSTɪL/	過去に始まった状態�
 expr_0822	822	今になってもなお	even now	/ˌIː.vən ˈNAʊ/	年月を経ても続いているという意外性。	通常の継続より強調的。	Even now, I think about it.	/ˌIː.vən ˈNAʊ | aɪ ˌθɪŋK əˈBAʊT ɪt/	daily	日常生活・一般	normal	1	2026-10-10
 expr_0823	823	今日に至るまでずっと	to this day	/tə ðɪs ˈDEɪ/	過去から現在まで継続していることを振り返る。	回想や感謝と好相性。	I'm grateful to him to this day.	/aɪm ˈɡREɪT.fəl tə hɪm tə ðɪs ˈDEɪ/	daily	日常生活・一般	normal	1	2026-10-10
 expr_0824	824	当時の〜	... at the time	/ət ðə ˈTAɪM/	特定の過去の時点での役割・状況。	名詞の後ろに置いて自然。	My boss at the time was a family physician.	/maɪ ˈBɔːS ət ðə ˈTAɪM wəz ə ˌFÆM.ə.li fəˈZɪʃ.ən/	daily	日常生活・一般	normal	1	2026-10-10
-expr_0825	825	あの頃・当時は	back then	/ˌBÆK ˈÐEN/	昔を回想し現在と対比する。	時点の正確な指定より回想感。	I was more confident back then.	/aɪ wəz mɔːr ˈKɑːN.fɪ.dənt ˌBÆK ˈÐEN/	daily	日常生活・一般	normal	1	2026-10-10
+expr_0825	825	あの頃・当時は	back then	/ˌBÆK ˈÐEN/	昔の状況を振り返り、現在と対比する。	時点の正確な指定より回想感。	Back then, there were fewer international tourists in Kyoto.		daily	日常生活・一般	normal	1	2026-10-23
 expr_0826	826	そこに着く	get there	/ˌɡET ˈðER/	目的の場所に到着する。	there自体が場所を示す副詞なのでtoは不要。	How long does it take to get there?	/haʊ ˌLɔːŋ dəz ɪt ˌTEɪK tə ɡet ˈðER/	daily	移動・旅行	high	1	2026-10-10
 expr_0827	827	ここに着く	get here	/ˌɡET ˈHɪR/	話者のいる場所に到着する。	場所副詞なのでto不要。	What time did you get here?	/wʌt ˌTAɪM dɪd ju ɡet ˈHɪR/	daily	移動・旅行	normal	1	2026-10-10
 expr_0828	828	家に着く	get home	/ˌɡET ˈHOʊM/	自宅に到着する。	homeが方向副詞ならto不要。	I got home late last night.	/aɪ ˌɡɑːt ˈHOʊM leɪt læst ˈNAɪT/	daily	移動・旅行	normal	1	2026-10-10
@@ -1093,3 +1093,52 @@ expr_1091	1091	〜するのを楽しみにする	look forward to + 動詞ing		�
 expr_1092	1092	実際には〜だが、それでも…	even though + 文		実際の事実を認めたうえで予想と異なる行動や結果を述べる。	未確定の仮定を表す even if と区別する。	I chose her line even though it was longer.		expression	会話のつなぎ・リアクション	normal	1	2026-10-22
 expr_1093	1093	〜だったに違いない	must have + 過去分詞		過去について根拠から強く推測する。	過去の義務を表す had to ... とは異なる。	It must have been a positive experience for him.		expression	推測・確信	normal	1	2026-10-22
 expr_1094	1094	とても〜なので…	so + 形容詞 + that + 文		性質や程度が高いために起こった結果を示す。	so の後に形容詞、that の後に結果を表す文を置く。	She was so friendly that I felt comfortable talking to her.		expression	人間関係・交流	normal	1	2026-10-22
+expr_1095	1095	〜にとって思い出深い	hold special memories for ...		場所・物・経験に特別な思い出がある。	自然な会話では be a special place for us も使える。	Kyoto holds special memories for us.		expression	感情・心情	high	1	2026-10-23
+expr_1096	1096	今は昔よりずっと多い	There are far more ... now than there used to be.		現在と過去の人数や物の数を比較する。	far は差の大きさを強める。単数・不可算名詞なら構文を調整する。	There are far more international tourists now than there used to be.		expression	比較・程度	high	1	2026-10-23
+expr_1097	1097	良いことだが課題も伴う	... is a good thing, but it also comes with challenges.		利点を認めながら問題点へ話を進める。	come with challenges は仕事・AI・観光などにも応用できる。	Tourism is a good thing, but it also comes with challenges.		expression	議論・意見	high	1	2026-10-23
+expr_1098	1098	論点はAではなくBだ	It's not about A; it's about B.		出身などと行動など、判断すべき点を明確にする。	A と B に名詞句または疑問詞節を置く。	It's not about where visitors come from; it's about how they behave.		expression	議論・意見	high	1	2026-10-23
+expr_1099	1099	この問題に対処する	address this issue		問題を認識したうえで対策を講じる。	address はここでは「取り組む」。解決を保証する solve より広い。	We need to address this issue.		expression	議論・意見	high	1	2026-10-23
+expr_1100	1100	この問題を真剣に受け止める	take this issue seriously		問題を軽視せず優先して考える。	具体的な対策の前に重要性を示せる。	We need to take this issue seriously.		expression	議論・意見	high	1	2026-10-23
+expr_1101	1101	〜ということを明確に伝える	make it clear that ...		伝えるべきルールや立場をはっきり示す。	it は形式目的語で、that 以下が明確にする内容。	We need to make it clear that visitors should respect these places.		expression	議論・意見	high	1	2026-10-23
+expr_1102	1102	してよいこと・いけないことを説明する	explain what visitors should and shouldn't do		看板や案内で望ましい行動を伝える。	what 以下は間接疑問節で、主語→助動詞の順。	Signs should explain what visitors should and shouldn't do.		expression	旅行・観光	high	1	2026-10-23
+expr_1103	1103	文化遺産	cultural heritage		歴史的な建物や文化的な遺産をまとめて指す。	通常は不可算名詞。特定の建造物なら a historic building / heritage site。	We need to protect Japan’s cultural heritage.		expression	旅行・観光	high	1	2026-10-23
+expr_1104	1104	地元経済に恩恵をもたらす	benefit the local economy		観光などの経済効果を簡潔に述べる。	benefit はここでは他動詞で、to は不要。	Tourism benefits the local economy.		expression	旅行・観光	high	1	2026-10-23
+expr_1105	1105	〜に大きな可能性を秘めている	hold great potential for ...		今後役立つ可能性を評価する。	have potential よりやや改まった響き。for の後は分野・目的・名詞／動名詞。	AI holds great potential for medical education.		expression	学習・教育・研究	high	1	2026-10-23
+expr_1106	1106	〜の鍵を握っている	hold the key to + 名詞／動詞ing		良い結果への決定的な手がかりを述べる。	to は前置詞。後ろの動詞は ing 形。	Trust holds the key to building a good doctor–patient relationship.		expression	議論・意見	high	1	2026-10-23
+expr_1107	1107	〜の観点では	in terms of + 評価の軸		評価基準を先に示してから意見を述べる。	後ろには the economy / cost / visitor numbers など名詞句を置き、文を完成させる。	In terms of the economy, tourism benefits Japan.		expression	議論・意見	normal	1	2026-10-23
+expr_1108	1108	私たちにとって特別な場所	a special place for us		個人的な思い出のある場所を紹介する。	memorial place は追悼・記念碑を連想させやすい。	Kyoto is a special place for us.		expression	感情・心情	normal	1	2026-10-23
+expr_1109	1109	医学部の6年生だった	were in our sixth year of medical school		学校の在学年次を述べる。	in our sixth year of ... の形。	We were in our sixth year of medical school.		expression	学習・教育・研究	normal	1	2026-10-23
+expr_1110	1110	一部の観光客の振る舞い	how some tourists behave		集団全体と区別して、一部の行動を問題にする。	how 以下は主語＋動詞の語順。	I’m concerned about how some tourists behave.		expression	旅行・観光	high	1	2026-10-23
+expr_1111	1111	〜が傷つけられるのは容認できない	It's unacceptable for ... to be damaged.		文化財などへの被害を許容できないと述べる。	人の行為を主語にするなら It’s unacceptable to damage ... も自然。	It's unacceptable for cultural heritage sites to be damaged.		expression	議論・意見	normal	1	2026-10-23
+expr_1112	1112	観光の経済的な恩恵	the economic benefits of tourism		観光のプラス面を名詞句で表す。	benefit は個別の利点を数えるとき複数形にできる。	We should consider the economic benefits of tourism.		expression	旅行・観光	normal	1	2026-10-23
+expr_1113	1113	外国人観光客	international tourists		海外から訪れた観光客を中立的に指す。	foreign tourists も正しいが、international tourists は観光文脈で使いやすい。	Kyoto attracts many international tourists.		expression	旅行・観光	normal	1	2026-10-23
+expr_1114	1114	最初から	from the off		始まりの時点からずっと、というイギリス寄りの口語。	国際的に通じやすく言うなら from the start / from the beginning。	I liked the idea from the off.		expression	時間・変化	normal	1	2026-10-23
+expr_1115	1115	そういえば、それに関連して	speaking of which, ...		直前に出た話題から関連する話を思い出してつなぐ。	which は直前の話題を受ける。後ろは通常、完結した文。	Speaking of which, have you been to Kyoto recently?		expression	会話のつなぎ・リアクション	high	1	2026-10-23
+expr_1116	1116	〜の本場・発祥の地	the home of ...		その文化・料理・スポーツなどの発祥地や中心地を示す。	常に「本場」と訳すわけではない。文脈により拠点・所在地も指す。	Kyoto is often seen as the home of many traditional crafts.		expression	旅行・観光	normal	1	2026-10-23
+expr_1117	1117	どれほど〜かには驚く	It's surprising how + 形容詞／副詞 + 主語 + 動詞		程度への驚きを述べる。	how fast he runs のように形容詞・副詞が前に出る。	It's surprising how quickly the city has changed.		expression	感情・心情	normal	1	2026-10-23
+expr_1118	1118	全体像・状況を把握する	get a handle on ...		複雑な状況を理解し、対処の見通しを得る。	単に事実を知るなら understand / know、情報を把握なら grasp も可。	I’m trying to get a handle on the situation.		expression	議論・意見	normal	1	2026-10-23
+expr_1119	1119	時間がたてば〜	with time, ...		時間の経過に伴い変化や改善が生じることを見込む。	over time は変化の過程・積み重なりに焦点。	With time, she became more confident.		expression	時間・変化	normal	1	2026-10-23
+expr_1120	1120	やめてよ	cut it out		相手の不快な行動をやめさせる口語。	強めの言い方。親しい間柄では冗談めかしても使う。	Cut it out. That’s not funny.		expression	会話のつなぎ・リアクション	normal	1	2026-10-23
+expr_1121	1121	いい加減にやめて	knock it off		続いている迷惑な行動を止めるよう言う。	cut it out と近いが、ぶっきらぼうに聞こえることがある。	Knock it off, you two.		expression	会話のつなぎ・リアクション	normal	1	2026-10-23
+expr_1122	1122	さっさと言って	spit it out		言いよどむ相手に話すよう促す。	文字通りには「吐き出す」。命令形は親しい相手向けで強い。	Come on, spit it out. What happened?		expression	会話のつなぎ・リアクション	normal	1	2026-10-23
+expr_1123	1123	急いで／もっと頑張って	step on it		急ぐよう催促する。	車のアクセルを踏むイメージ。人に直接言うと強い。	Step on it, or we’ll miss the train.		expression	会話のつなぎ・リアクション	normal	1	2026-10-23
+expr_1124	1124	その調子で続けて	keep it up		いまの良い取り組みを続けるよう励ます。	迷惑な行動を「続けてみろ」と皮肉で言う場合もある。	You’re doing great. Keep it up!		expression	会話のつなぎ・リアクション	normal	1	2026-10-23
+expr_1125	1125	捨てる	throw it away		不要な物を捨てる。	it を使うと throw it away の語順。throw away it とはしない。	Don’t throw it away yet.		expression	日常生活・一般	normal	1	2026-10-23
+expr_1126	1126	そんな可能性はまったくない	not a chance		提案を強く拒む／実現見込みがないと述べる。	文脈によって「絶対に嫌だ」と「まず無理だ」。	“Will he agree?” “Not a chance.”		expression	会話のつなぎ・リアクション	normal	1	2026-10-23
+expr_1127	1127	実現させる	make it happen		目標や計画を実行に移して実現する。	it は前に出た計画や望む結果を指す。	We have a plan. Now we need to make it happen.		expression	仕事・職場	normal	1	2026-10-23
+expr_1128	1128	準備ができた／問題なく進められる	good to go		準備や確認が済んだことをカジュアルに伝える。	人・機器・計画のいずれにも使う。	Everything’s set. We’re good to go.		expression	会話のつなぎ・リアクション	normal	1	2026-10-23
+expr_1129	1129	何度も行ったり来たりする	back and forth		物理的な往復や議論のやり取りを表す。	副詞句として go back and forth / 名詞の back-and-forth。	We went back and forth on the details.		expression	議論・意見	normal	1	2026-10-23
+expr_1130	1130	〜だったかもしれない／〜できたはず	could have been ...		過去にあり得た状態や、実現しなかった可能性を述べる。	文脈で可能性と反実仮想が変わる。	It could have been worse.		expression	推測・確信	normal	1	2026-10-23
+expr_1131	1131	〜だったかもしれない	might have been ...		過去の状態を控えめに推測する。	could have been は別の可能性・反実仮想にも使える。	She might have been busy.		expression	推測・確信	normal	1	2026-10-23
+expr_1132	1132	よかったね（その人にとって）	good for him / her		他人の成功や良い出来事を喜ぶ。	言い方によって皮肉にもなる。good for him は him にとって有益の意味もある。	He got the job? Good for him!		expression	会話のつなぎ・リアクション	normal	1	2026-10-23
+expr_1133	1133	わかった、言いたいことは伝わった	Got you.		相手の説明や依頼を理解したことを伝える。	相手を「つかまえた」から、話の内容をつかむ感覚。	“Meet me at six.” “Got you.”		expression	会話のつなぎ・リアクション	normal	1	2026-10-23
+expr_1134	1134	〜しなかったの？	Didn't you + 動詞の原形 ...?		そうしたと思っていた、または確認したいときの否定疑問。	否定を含む期待がある。返答は事実に合わせ Yes, I did. / No, I didn’t.。	Didn't you talk to him about it?		expression	疑問・確認	high	1	2026-10-23
+expr_1135	1135	まったく見当がつかない	I have no idea.		知らない・思いつかないことを自然に伝える。	I don't have any idea. も可能だが、この意味では I have no idea. が定番。	I have no idea why he left.		expression	疑問・確認	high	1	2026-10-23
+expr_1136	1136	私なら〜と思う	I'd say ...		断定を和らげて自分の見立てを述べる。	I think に近いが、判断・評価・大まかな数字を提示するときに便利。	I'd say there were about fifty people there.		expression	議論・意見	high	1	2026-10-23
+expr_1137	1137	自分にご褒美をあげる	treat yourself to ...		自分のために少し特別なものを買う・楽しむ。	to の後は名詞。treat yourself だけでも使える。	You’ve worked hard. Treat yourself to a nice meal.		expression	日常生活・一般	normal	1	2026-10-23
+expr_1138	1138	あちこちに／時々	here and there		散らばった場所、または散発的な頻度を表す。	文脈で「所々」と「時折」のどちらかになる。	There were small shops here and there.		expression	場所・位置	normal	1	2026-10-23
+expr_1139	1139	大量の助言を短時間で消化する	digest a lot of advice		情報を受け取るだけでなく、理解して自分の中に取り込む。	食物の消化からの比喩。ニュースや資料にも使える。	He was able to digest so much advice in so little time.		expression	学習・教育・研究	normal	1	2026-10-23
+expr_1140	1140	有限である	finite		終わりや上限があることを述べる。	limited は「使える量が制約されている」、finite は「無限ではない」。	Our time is finite.		expression	議論・意見	normal	1	2026-10-23
+expr_1141	1141	長く続く・長続きする	enduring		影響・価値・関係などが長期間続く。	forever は「永遠に」で、enduring は永遠とまでは言わない。	The experience had an enduring impact on me.		expression	時間・変化	normal	1	2026-10-23
+expr_1142	1142	〜を支持する	get behind ... / back ...		人・提案・計画を支持し、支える。	get behind は協力して後押しする響き。back は支援・支持を端的に述べる。	The team got behind the proposal.		expression	議論・意見	normal	1	2026-10-23
+expr_1143	1143	普通なら〜だが、彼は…	Most people would ..., but he ...		一般的に予想される行動と、その人の行動を対比する。	良い意味・悪い意味の両方で使える。	Most people would have given up, but he kept trying.		expression	議論・意見	normal	1	2026-10-23

@@ -53,6 +53,18 @@ for (const [label, phrases] of Object.entries({
   '文・会話表現': 'instead of ..., i ...|being able to ... makes me feel ...|a can reduce b, allowing us to ...|... is becoming an integral part of ...|all i have to do is + 動詞の原形'
 })) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
 
+for (const [label, phrases] of Object.entries({
+  形容詞: 'finite|enduring',
+  名詞句: 'cultural heritage|how some tourists behave|international tourists',
+  動詞句: 'hold special memories for ...|throw it away',
+  形容詞句: 'good to go',
+  副詞句: 'from the off|with time, ...|back and forth|here and there',
+  前置詞句: 'in terms of + 評価の軸',
+  助動詞表現: 'could have been ...|might have been ...',
+  会話表現: 'speaking of which, ...|cut it out|knock it off|spit it out|step on it|keep it up|not a chance|good for him / her',
+  '文・会話表現': 'were in our sixth year of medical school|most people would ..., but he ...'
+})) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
+
 export function partOfSpeech(note: Pick<Note, 'en' | 'ja' | 'tag'>): string {
   const english = note.en.trim()
   const japanese = note.ja.trim()
