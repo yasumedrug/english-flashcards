@@ -65,6 +65,16 @@ for (const [label, phrases] of Object.entries({
   '文・会話表現': 'were in our sixth year of medical school|most people would ..., but he ...'
 })) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
 
+for (const [label, phrases] of Object.entries({
+  名詞句: 'mutual respect',
+  動詞句: 'impose a on b|sleep on it|let it slide|get it right|have a lot of nerve|leave it alone|sit on it',
+  句動詞: 'hand it over|let her in|pass it on to ...|pass on it|set him up|hear him out|show her around|start over|snap him out of it',
+  形容詞: 'half-assed',
+  形容詞句: 'be flooded with tourists|be full of it|be on pins and needles|out of the ordinary',
+  副詞句: 'quite a bit|one at a time|all at once|through word of mouth',
+  前置詞句: 'instead of them|with the help of ...'
+})) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
+
 export function partOfSpeech(note: Pick<Note, 'en' | 'ja' | 'tag'>): string {
   const english = note.en.trim()
   const japanese = note.ja.trim()

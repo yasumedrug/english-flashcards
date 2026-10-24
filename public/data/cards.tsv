@@ -1142,3 +1142,76 @@ expr_1140	1140	有限である	finite		終わりや上限があることを述�
 expr_1141	1141	長く続く・長続きする	enduring		影響・価値・関係などが長期間続く。	forever は「永遠に」で、enduring は永遠とまでは言わない。	The experience had an enduring impact on me.		expression	時間・変化	normal	1	2026-10-23
 expr_1142	1142	〜を支持する	get behind ... / back ...		人・提案・計画を支持し、支える。	get behind は協力して後押しする響き。back は支援・支持を端的に述べる。	The team got behind the proposal.		expression	議論・意見	normal	1	2026-10-23
 expr_1143	1143	普通なら〜だが、彼は…	Most people would ..., but he ...		一般的に予想される行動と、その人の行動を対比する。	良い意味・悪い意味の両方で使える。	Most people would have given up, but he kept trying.		expression	議論・意見	normal	1	2026-10-23
+expr_1144	1144	観光客であふれている	be flooded with tourists		観光客が押し寄せ、混雑や負担を感じる場面。	単に人数が多い以上に、やや否定的な響き。	The city is flooded with tourists during the holidays.		expression	旅行・観光	high	1	2026-10-24
+expr_1145	1145	経済的な恩恵をもたらす	bring economic benefits to ...		観光や事業の経済効果を表す。	benefit the local economy と言い換え可能。	Tourism brings economic benefits to the region.		expression	議論・意見	high	1	2026-10-24
+expr_1146	1146	地元の習慣を尊重する	respect local customs		訪問先の文化や習慣を尊重する。	customs は慣習。税関の意味とは文脈で区別する。	Visitors should respect local customs.		expression	旅行・観光	high	1	2026-10-24
+expr_1147	1147	声を抑える	keep your voice down		静かな場所で話す声量を下げる。	直接命令すると強く響くので、依頼は Could you ...? が便利。	Could you keep your voice down in the waiting room?		expression	会話のつなぎ・リアクション	high	1	2026-10-24
+expr_1148	1148	敬意の表れとみなされる	be considered a sign of respect		行動が敬意のしるしと受け取られる。	主語に行動を置く。considered の代わりに seen as も使える。	Listening without interrupting is considered a sign of respect.		expression	議論・意見	normal	1	2026-10-24
+expr_1149	1149	AをBに押し付ける	impose A on B		価値観やルールを相手に一方的に適用する。	通常は批判的な響き。on の後が押し付けられる側。	We shouldn't impose our values on visitors.		expression	議論・意見	high	1	2026-10-24
+expr_1150	1150	意見の共通点を見つける	find common ground		意見の違う人と共有できる考え・目標を見つける。	on an issue を続けられる。	We disagree on the details, but we can find common ground.		expression	議論・意見	high	1	2026-10-24
+expr_1151	1151	共通理解を形成する	build a shared understanding of ...		対話を重ねて問題や目標への認識をそろえる。	of の後に理解の対象を置く。	We need to build a shared understanding of the problem.		expression	議論・意見	high	1	2026-10-24
+expr_1152	1152	相互尊重	mutual respect		双方が互いの立場や考えを尊重すること。	相手だけに配慮を求める場合には mutual は合わない。	Good communication depends on mutual respect.		expression	人間関係・交流	normal	1	2026-10-24
+expr_1153	1153	協力して〜する	work together to ...		共通の目標のために一緒に行動する。	to の後は動詞の原形。	Residents and visitors can work together to protect these places.		expression	議論・意見	normal	1	2026-10-24
+expr_1154	1154	あなた以外に誰が来るの？	Who else is going, besides you?		誘われたときにほかの参加者を尋ねる。	参加者を知りたいなら Who else is going? だけでも十分。	That sounds fun! Who else is going, besides you?		expression	人間関係・交流	high	1	2026-10-24
+expr_1155	1155	ほかに誰か来る？	Is anyone else coming?		追加の参加者がいるかどうかを尋ねる。	誰が来るかを聞く Who else is coming? と区別。	Is anyone else coming to dinner?		expression	人間関係・交流	high	1	2026-10-24
+expr_1156	1156	ほかに何を考慮すべき？	What else should we consider?		議論で別の要因や視点を引き出す。	else は what の後。	What else should we consider before deciding?		expression	議論・意見	high	1	2026-10-24
+expr_1157	1157	ほかに何か必要？	Do you need anything else?		追加の必要や要望を確かめる。	anything else は疑問文で使いやすいまとまり。	Do you need anything else before we start?		expression	会話のつなぎ・リアクション	normal	1	2026-10-24
+expr_1158	1158	別の場所へ行こう	Let's go somewhere else.		いまの場所を離れて別の場所を選ぶ。	somewhere else は「ほかのどこか」。	It's too crowded here. Let's go somewhere else.		expression	場所・位置	normal	1	2026-10-24
+expr_1159	1159	ほかにどう説明できる？	How else can we explain ...?		別の説明方法や解釈を探る。	how else は方法についての別案。	How else can we explain the results?		expression	学習・教育・研究	normal	1	2026-10-24
+expr_1160	1160	それを手渡す・引き渡す	hand it over		物や権限などを相手に渡す。	Hand it over. は強く響くことがある。代名詞 it は hand と over の間。	Could you hand it over to me?		expression	日常生活・一般	normal	1	2026-10-24
+expr_1161	1161	一晩考える	sleep on it		決断を急がず、一晩置いて考える。	Let me sleep on it. がそのまま返答に使える。	It's a big decision. Let me sleep on it.		expression	議論・意見	high	1	2026-10-24
+expr_1162	1162	彼女を中に入れる	let her in		中で待つ側が彼女の入室を許す。	文脈によっては秘密や計画に加えることも。her は let と in の間。	She's waiting outside. Could you let her in?		expression	日常生活・一般	normal	1	2026-10-24
+expr_1163	1163	そのかなりの部分	a lot of it		既出の情報や量の多くを指す。	「大部分」と厳密に言うなら most of it。it の指示対象を明確にする。	I understood a lot of it, but I missed the ending.		expression	比較・程度	normal	1	2026-10-24
+expr_1164	1164	それも一因だ	That's part of it.		理由・問題の一部分であると認める。	全部の説明ではない含みがある。	That's part of it, but there's another reason.		expression	議論・意見	high	1	2026-10-24
+expr_1165	1165	なんてもったいない	What a waste!		無駄になった物・時間・機会を惜しむ。	対象を明示するなら a waste of time / money。	We threw all that food away. What a waste!		expression	感情・心情	normal	1	2026-10-24
+expr_1166	1166	かなり・けっこう	quite a bit		量や変化が比較的大きい。	a bit は「少し」。quite a bit はそれより大きい。	My English has improved quite a bit.		expression	比較・程度	normal	1	2026-10-24
+expr_1167	1167	今回は大目に見る	let it slide		問題には気づいたうえで追及しない。	単なる見落としではなく、意図的に問題にしない。	He was late once, so I let it slide.		expression	人間関係・交流	high	1	2026-10-24
+expr_1168	1168	正しく理解する・行う	get it right		答え・発音・理解などを正しくする。	it が何を指すかで訳が変わる。	I want to get the pronunciation right.		expression	学習・教育・研究	normal	1	2026-10-24
+expr_1169	1169	一つずつ	one at a time		複数の作業や発言を同時に扱わず順番に進める。	一人ずつにも使える。all at once と対比。	Please ask your questions one at a time.		expression	学習・教育・研究	high	1	2026-10-24
+expr_1170	1170	それを次の人に伝える	pass it on to ...		情報や物を人に伝達する・回す。	pass on it は「見送る」で意味が異なる。	I'll pass it on to the team.		expression	仕事・職場	high	1	2026-10-24
+expr_1171	1171	今回は見送る	pass on it		提案や機会を丁寧に断る。	pass it on は「伝える」。語順で意味が変わる。	Thanks for the offer, but I'll pass on it this time.		expression	会話のつなぎ・リアクション	normal	1	2026-10-24
+expr_1172	1172	彼らの代わりに	instead of them		彼らを置き換えて別の人や物を選ぶ。	instead of の後に名詞や動名詞を置く。	I'll speak to the students instead of them.		expression	比較・程度	normal	1	2026-10-24
+expr_1173	1173	ずいぶん厚かましい	have a lot of nerve		相手の言動を図々しいと批判する。	You have a lot of nerve + 動詞ing の形が自然。強い非難なので場面に注意。	He has a lot of nerve asking for another favor.		expression	感情・心情	normal	1	2026-10-24
+expr_1174	1174	そのままにしておく	leave it alone		物に触れない／問題を蒸し返さない。	it の対象によって意味が変わる。	The issue is settled. Let's leave it alone.		expression	日常生活・一般	normal	1	2026-10-24
+expr_1175	1175	彼を陥れる	set him up		罪を着せるなど、わなにはめる。	同じ形で「デートの相手を紹介する」もあり、文脈で判断する。	The evidence was planted to set him up.		expression	人間関係・交流	normal	1	2026-10-24
+expr_1176	1176	成功できるようお膳立てする	set someone up for success		必要な支援や環境を整えて成功しやすくする。	set him up の肯定的な使い方。	Clear instructions set students up for success.		expression	学習・教育・研究	normal	1	2026-10-24
+expr_1177	1177	彼の話を最後まで聞く	hear him out		反論や判断の前に説明を最後まで聞く。	hear him は単に「聞こえる」。out が最後までの感覚を加える。	I disagree with him, but I want to hear him out.		expression	人間関係・交流	high	1	2026-10-24
+expr_1178	1178	彼女を案内して回る	show her around		新しい施設や街などを案内する。	場所を明示するなら show her around the hospital。	I'll show her around the hospital.		expression	日常生活・一般	normal	1	2026-10-24
+expr_1179	1179	2時間ほど	a couple of hours		おおよそ2時間の見込み。	厳密な2時間なら exactly two hours。	It'll take a couple of hours.		expression	時間・変化	normal	1	2026-10-24
+expr_1180	1180	断続的に	on and off		続けたり中断したりを繰り返す。	ずっと継続している場合は合わない。	I've studied English on and off for years.		expression	時間・変化	normal	1	2026-10-24
+expr_1181	1181	一度に全部	all at once		複数の事柄が同時に起きる／一度に行う。	文脈によって「突然」の意味もある。one at a time と対比。	Don't try to learn everything all at once.		expression	時間・変化	high	1	2026-10-24
+expr_1182	1182	これ以上先はない・ここで終わりだ	the end of the line		活動や計画が終点に達し、継続できないことを述べる。	文字通りには路線の終点。普段の作業終了には call it a day が適切。	This could be the end of the line for the project.		expression	議論・意見	normal	1	2026-10-24
+expr_1183	1183	今度こそ決着をつける	settle this once and for all		同じ問題が続かないよう最終的に解決する。	once and for all は一度きりで後に残さず、という強調。	Let's settle this once and for all.		expression	議論・意見	normal	1	2026-10-24
+expr_1184	1184	たまに	once in a while		頻繁ではないが時々起こる。	occasionally に近い。頻度の固定した数値はない。	I still visit Kyoto once in a while.		expression	時間・変化	normal	1	2026-10-24
+expr_1185	1185	しばらく保留する	sit on it		提案や情報への行動・公表をすぐには行わない。	必ずしも積極的に検討する意味ではない。sleep on it は一晩考える。	Let's sit on the proposal for a few days.		expression	議論・意見	normal	1	2026-10-24
+expr_1186	1186	どうぞやってみて	Have at it.		相手に自由に試したり取り組んだりするよう促す口語。	気軽な許可・励まし。文脈や口調によって投げやりにも響く。	You want to try fixing it? Have at it.		expression	会話のつなぎ・リアクション	normal	1	2026-10-24
+expr_1187	1187	だから何だというの？	What of it?		指摘に開き直り、それが問題なのかと返す。	挑戦的で強く響く。穏やかな聞き返しには向かない。	Yes, I changed my mind. What of it?		expression	会話のつなぎ・リアクション	normal	1	2026-10-24
+expr_1188	1188	ぼんやりして頭が働かない	be out of it		疲れや体調などで普段どおり考えたり反応したりできない。	くだけた表現。文脈によって状況を把握していない意味もある。	I'm a bit out of it today.		expression	感情・心情	normal	1	2026-10-24
+expr_1189	1189	でたらめなことを言っている	be full of it		人の言うことが信用できない、口先ばかりだと非難する。	くだけた強い表現で、下品な言い方を和らげた形。	Don't believe him. He's full of it.		expression	人間関係・交流	normal	1	2026-10-24
+expr_1190	1190	もう取りかかっています・任せてください	I'm all over it.		仕事や問題に積極的に取り組んでいると伝える口語。	単に把握しているだけでなく、対処している響き。all over it には文字通りの意味もある。	You need the report checked? I'm all over it.		expression	仕事・職場	normal	1	2026-10-24
+expr_1191	1191	彼をぼんやりした状態から引き戻す	snap him out of it		注意や気分を切り替えさせ、普段の状態に戻す。	snap him out だけで覚えず of it まで含める。自分で戻るなら snap out of it。	The sudden noise snapped him out of it.		expression	感情・心情	normal	1	2026-10-24
+expr_1192	1192	今日はこの辺にしましょうか	Shall we call it a day?		仕事や勉強を今日のところは終了しようと提案する。	全作業が完了していなくても使える。Let's call it a day. も定番。	We've done enough for today. Shall we call it a day?		expression	会話のつなぎ・リアクション	high	1	2026-10-24
+expr_1193	1193	私にできることにも限界がある	There's only so much I can do.		自分ができる支援や対応の範囲に限界があると述べる。	only so much は量や程度が限られている意味。	I want to help, but there's only so much I can do.		expression	議論・意見	high	1	2026-10-24
+expr_1194	1194	いまひとつイメージが湧かない	I can't quite picture it.		説明の具体的な姿を十分に思い描けないと伝える。	can't quite は完全にはできない感覚。how + 文も続けられる。	I can't quite picture how that would work.		expression	疑問・確認	high	1	2026-10-24
+expr_1195	1195	それを聞いて気が楽になった	That takes a load off my mind.		心配が解消して安心したと伝える。	load は精神的な重荷。単なる喜びより心配からの解放に焦点。	You've already checked it? That takes a load off my mind.		expression	感情・心情	high	1	2026-10-24
+expr_1196	1196	それなら理想的ですね	That would be ideal.		提案された未実現の状況が希望にぴったりだと述べる。	would は仮にそうなれば、という感覚。	If we could finish before lunch, that would be ideal.		expression	会話のつなぎ・リアクション	high	1	2026-10-24
+expr_1197	1197	だいたいそんなところです	I guess that's about right.		説明や見積もりをおおむね正しいと認める。	about right はだいたい合っている。I guess で控えめにする。	An hour a day? Yes, I guess that's about right.		expression	会話のつなぎ・リアクション	normal	1	2026-10-24
+expr_1198	1198	何かをして過ごす・手を動かしておく	keep yourself busy		何かに取り組む状態を保ち、待ち時間や不安を紛らわせる。	自分については keep myself busy。仕事を詰め込む意味に限定されない。	I kept myself busy while waiting for the results.		expression	日常生活・一般	high	1	2026-10-24
+expr_1199	1199	最初からやり直す	start over		一度仕切り直して初めから行う。	中断した場所から再開する resume とは開始点が違う。	I'm getting confused. Can we start over?		expression	会話のつなぎ・リアクション	high	1	2026-10-24
+expr_1200	1200	今ちょうど終わらせているところ	I'm just finishing up.		最後の作業をして、まもなく終わると伝える。	仕事にも出かける準備にも使える。	I'm just finishing up. I'll be ready in five minutes.		expression	日常生活・一般	high	1	2026-10-24
+expr_1201	1201	〜することを難しくする	make it harder to ...		何かが行動や判断を難しくするという因果関係を述べる。	it は形式目的語で、to 以下が難しくなる内容。複数主語なら make。	Trying to be perfect makes it harder to speak.		expression	議論・意見	high	1	2026-10-24
+expr_1202	1202	それらに共通しているのは〜	What they have in common is ...		複数の事例や意見を共通点でまとめる。	What ... is ... の形で説明の焦点を示す。	What these problems have in common is a lack of communication.		expression	議論・意見	high	1	2026-10-24
+expr_1203	1203	それが彼らの物事の捉え方です	That's how they look at things.		人の視点や価値観を説明する。	look at はここでは見るだけでなく捉える。That's one way to look at it. も便利。	That's how they look at things, but I see it differently.		expression	議論・意見	normal	1	2026-10-24
+expr_1204	1204	その件についてはどうすることもできない	There's nothing I can do about it.		自分には状況を変える手段がないと述べる。	nothing 自体が否定の意味なので can を否定しない。	I wish I could change it, but there's nothing I can do about it.		expression	感情・心情	high	1	2026-10-24
+expr_1205	1205	〜する意思がある・応じてもよい	be willing to ...		頼まれたことや新たな試みに応じる意思を表す。	必ずしも強く望んでいるとは限らない。to の後は動詞原形。	I'm willing to try a different approach.		expression	議論・意見	high	1	2026-10-24
+expr_1206	1206	〜の助けを借りて	with the help of ...		人や道具の支援を受けて行ったことを説明する。	of の後に支援者や道具を置く。	I understood the article with the help of a dictionary.		expression	日常生活・一般	normal	1	2026-10-24
+expr_1207	1207	勇気を出して〜する	gather the courage to ...		ためらいを乗り越えて行動する。	to 以下に勇気が必要だった行動を置く。	I finally gathered the courage to ask her.		expression	感情・心情	normal	1	2026-10-24
+expr_1208	1208	結果を待ってそわそわしている	be on pins and needles		結果への不安や期待で落ち着かない状態。	体のしびれを表す pins and needles と文脈で区別する。	I was on pins and needles waiting for the results.		expression	感情・心情	normal	1	2026-10-24
+expr_1209	1209	普通と違う・いつもと違う	out of the ordinary		通常の範囲と違う出来事や人の特徴を表す。	優れた意味にも、不審な意味にもなる。	Did you notice anything out of the ordinary?		expression	疑問・確認	normal	1	2026-10-24
+expr_1210	1210	口コミで	through word of mouth		人づてに情報が広まることを述べる。	word of mouth はネットのレビューだけに限定されない。	I heard about the cafe through word of mouth.		expression	日常生活・一般	normal	1	2026-10-24
+expr_1211	1211	細かい話は省きますね	I'll spare you the details.		相手が聞かなくてもよい細部を省くと伝える。	spare 人 something は面倒や不快なことを経験させずに済ませる。	It was a difficult meeting, but I'll spare you the details.		expression	会話のつなぎ・リアクション	normal	1	2026-10-24
+expr_1212	1212	急にどうしたのですか	What's with the sudden change?		突然の変化に驚き、その理由を尋ねる。	What's with ...? は不満やいぶかしむ響きが出ることもある。	What's with the sudden change? You seemed happy with the plan.		expression	疑問・確認	normal	1	2026-10-24
+expr_1213	1213	あなたがそうしたいなら	If that's the way you want it.		相手の希望に従うが、自分には留保があるときに使う。	不満や諦めがにじむことがある。気持ちよい同意なら Sure, if that's what you'd prefer.。	All right, if that's the way you want it.		expression	人間関係・交流	normal	1	2026-10-24
+expr_1214	1214	やっぱり・そうだと思った	I knew it.		予想や疑いが正しかったと分かった瞬間の反応。	アーカイブの It knew it はこの場面では誤植と考えられる。	You two were planning a surprise? I knew it!		expression	会話のつなぎ・リアクション	normal	1	2026-10-24
+expr_1215	1215	いい加減な・やっつけの	half-assed		仕事や取り組みが不十分だと強く批判する。	下品寄りの口語。改まった場面では poorly done / careless などを選ぶ。	It was a half-assed attempt to fix the problem.		expression	意見・評価	normal	1	2026-10-24
+expr_1216	1216	思い上がった相手に身の程をわからせる	put someone in their place		傲慢な言動を強くたしなめる。	威圧的・対立的に響く。単なる助言や訂正には強すぎる。	She put him in his place after his rude comment.		expression	人間関係・交流	normal	1	2026-10-24
