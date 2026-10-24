@@ -75,6 +75,19 @@ for (const [label, phrases] of Object.entries({
   前置詞句: 'instead of them|with the help of ...'
 })) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
 
+for (const [label, phrases] of Object.entries({
+  名詞: 'creativity',
+  形容詞: 'realistic|detailed',
+  名詞句: 'something that looks like ...|peace of mind',
+  動詞句: 'make a look like b|closely resemble the original|be based on ...',
+  句動詞: 'put her down|let him in on it|keep him out of it|talk someone out of ...|run something by someone|let it sink in|get it together|put someone through ...|snap out of it|put someone up to ...|talk someone into ...|get it over with',
+  形容詞句: 'one of a kind',
+  前置詞句: 'with no ... experience',
+  助動詞表現: "shouldn't have been ...|couldn't have been ...|wouldn't have been ...",
+  会話表現: 'believe it or not, ...',
+  '文・会話表現': "the challenge is to ...|even someone like me can ...|if i had to pick one, i'd say ..."
+})) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
+
 export function partOfSpeech(note: Pick<Note, 'en' | 'ja' | 'tag'>): string {
   const english = note.en.trim()
   const japanese = note.ja.trim()

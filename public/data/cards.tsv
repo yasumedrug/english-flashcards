@@ -1215,3 +1215,49 @@ expr_1213	1213	あなたがそうしたいなら	If that's the way you want it.	
 expr_1214	1214	やっぱり・そうだと思った	I knew it.		予想や疑いが正しかったと分かった瞬間の反応。	アーカイブの It knew it はこの場面では誤植と考えられる。	You two were planning a surprise? I knew it!		expression	会話のつなぎ・リアクション	normal	1	2026-10-24
 expr_1215	1215	いい加減な・やっつけの	half-assed		仕事や取り組みが不十分だと強く批判する。	下品寄りの口語。改まった場面では poorly done / careless などを選ぶ。	It was a half-assed attempt to fix the problem.		expression	意見・評価	normal	1	2026-10-24
 expr_1216	1216	思い上がった相手に身の程をわからせる	put someone in their place		傲慢な言動を強くたしなめる。	威圧的・対立的に響く。単なる助言や訂正には強すぎる。	She put him in his place after his rude comment.		expression	人間関係・交流	normal	1	2026-10-24
+expr_1217	1217	なぜ〜かはっきりとは分からない	I'm not entirely sure why ...		理由に心当たりはあっても、確信はないと伝える。	why の後は主語＋動詞。what / how / whether でも応用できる。	I'm not entirely sure why my paper was rejected.		expression	議論・意見	high	1	2026-10-24
+expr_1218	1218	Aというより、むしろBです	It's not so much A as B.		Aにも当てはまる余地を残し、より正確な焦点をBに置く。	AとBの文法上の形をそろえる。not about A; about B より穏やかな対比。	It's not so much about cutting words as about building a coherent argument.		expression	議論・意見	high	1	2026-10-24
+expr_1219	1219	難しいのは〜することです	The challenge is to ...		達成したいが難しい点を先に明確にする。	to＋動詞原形。without＋動詞ing で避けたいことも添えられる。	The challenge is to make the argument clear without losing important details.		expression	議論・意見	high	1	2026-10-24
+expr_1220	1220	すでに〜を考えて整理してある	I've already worked out ...		考えた結果、計画や答えがまとまっていると伝える。	worked on は取り組んだ、worked out は考えてまとまった。	I've already worked out the overall structure.		expression	仕事・職場	high	1	2026-10-24
+expr_1221	1221	〜であることを確認する必要がある	I need to make sure ...		必要な状態になっているか確認し、そうなるようにする。	後ろに主語＋動詞の文を置く。that は省略可能。	I need to make sure each claim is supported by relevant participant quotes.		expression	学習・教育・研究	high	1	2026-10-24
+expr_1222	1222	驚いたのは〜でした	What surprised me was ...		驚いた対象や事実を焦点にして経験を語る。	was の後は名詞句や that 節。What surprised me 全体が主語。	What surprised me was that he used only light blue blocks.		expression	感情・心情	high	1	2026-10-24
+expr_1223	1223	一番感心したのは〜でした	What impressed me most was ...		作品や行動の特に優れた点を述べる。	surprised は予想外、impressed は良さへの感心。	What impressed me most was how realistic it looked.		expression	感情・心情	high	1	2026-10-24
+expr_1224	1224	〜のように見えるもの	something that looks like ...		まずものを示し、後ろから見た目を説明する。	過去の作品なら looked like。look like＋名詞／look＋形容詞。	He made something that looked like ice.		expression	日常生活・一般	high	1	2026-10-24
+expr_1225	1225	どれほど〜かに驚いた	I was amazed by how ...		性質や出来の程度への強い驚きを述べる。	how＋形容詞／副詞＋主語＋動詞。疑問文の語順にはしない。	I was amazed by how well he built it.		expression	感情・心情	high	1	2026-10-24
+expr_1226	1226	AをBのように見せる	make A look like B		材料などに手を加えて別のものらしく見せる。	make＋目的語＋動詞原形。ものの説明なら something that looks like ...。	He made the blocks look like ice.		expression	日常生活・一般	normal	1	2026-10-24
+expr_1227	1227	創造力	creativity		新しいものや工夫を生み出す力。	通常は不可算名詞。creative は形容詞。	I was impressed by his creativity.		expression	意見・評価	normal	1	2026-10-24
+expr_1228	1228	本物らしい・現実的な	realistic		見た目が本物らしい／計画などが現実に即している。	作品と計画では訳が変わる。	It looked surprisingly realistic.		expression	意見・評価	normal	1	2026-10-24
+expr_1229	1229	細部まで作り込まれた・詳しい	detailed		作品や説明の細かさを評価する。	complete は完成している、detailed は細部が豊かなこと。	He built a surprisingly detailed model.		expression	意見・評価	normal	1	2026-10-24
+expr_1230	1230	元のものによく似ている	closely resemble the original		元の作品や対象との類似を述べる。	resemble は他動詞なので to を付けない。	His model closely resembled the original.		expression	比較・程度	normal	1	2026-10-24
+expr_1231	1231	彼女をけなす	put her down		人を見下すような発言で傷つける。	文脈によって抱いた人を下におろす意味にもなる。	He's always putting her down.		expression	人間関係・交流	normal	1	2026-10-24
+expr_1232	1232	彼にも計画や秘密を教える	let him in on it		限られた人が知っている情報を彼にも共有する。	let 人 in on＋秘密・計画。入室の let him in と区別する。	Let's let him in on the plan.		expression	人間関係・交流	normal	1	2026-10-24
+expr_1233	1233	彼をその件に巻き込まない	keep him out of it		ある問題や争いなどに関わらせない。	保護の場合にも意図的な排除にも使える。	This is between us. Let's keep him out of it.		expression	人間関係・交流	normal	1	2026-10-24
+expr_1234	1234	説得して思いとどまらせる	talk someone out of ...		話して相手に行動をやめさせる。	of の後は名詞または動詞ing。tried to なら成功したとは限らない。	I talked her out of quitting.		expression	人間関係・交流	high	1	2026-10-24
+expr_1235	1235	案を話して意見をもらう	run something by someone		自分の案を相手に示し、意見や了承を求める。	気軽な事前相談。by の後が意見を聞く相手。	Can I run an idea by you?		expression	仕事・職場	high	1	2026-10-24
+expr_1236	1236	内容を理解・実感する時間を置く	let it sink in		情報や出来事が頭や心に十分入るのを待つ。	知識の理解にも感情的な受け止めにも使う。	I need a moment to let it sink in.		expression	感情・心情	high	1	2026-10-24
+expr_1237	1237	気持ちや行動を立て直す	get it together		気持ちを落ち着け、適切に行動できる状態にする。	Get it together! はしっかりしろ、という強い催促になる。	I need to get it together before the meeting.		expression	感情・心情	normal	1	2026-10-24
+expr_1238	1238	ちょっと見て確認する	take a look at ...		書類・作品・問題などを見て確かめる。	依頼は Could you take a look at it? が便利。	Could you take a look at it when you have time?		expression	会話のつなぎ・リアクション	high	1	2026-10-24
+expr_1239	1239	人につらい経験をさせる	put someone through ...		困難や負担を相手に経験させる。	through の後に経験内容。電話をつなぐ put someone through とは区別。	I don't want to put him through that again.		expression	人間関係・交流	normal	1	2026-10-24
+expr_1240	1240	唯一無二の	one of a kind		ほかにない個性や特徴を表す。	人や作品を褒めるときによく使う。	My grandfather was one of a kind.		expression	意見・評価	normal	1	2026-10-24
+expr_1241	1241	〜するのは時間の問題です	It's only a matter of time before ...		いつかは必ず起こるだろうと述べる。	良い出来事にも悪い出来事にも使える。before の後は文。	It's only a matter of time before he finds out.		expression	推測・確信	high	1	2026-10-24
+expr_1242	1242	意外かもしれませんが、実は	Believe it or not, ...		相手が驚きそうな事実を話し始める。	自分が不確かという意味ではない。	Believe it or not, I used to hate English.		expression	会話のつなぎ・リアクション	normal	1	2026-10-24
+expr_1243	1243	その話はもうやめて	Give it a rest.		繰り返す話や行動をやめるよう求める。	いら立ちが出やすい。優しく休憩を勧めるなら take a break。	You've complained enough. Give it a rest.		expression	会話のつなぎ・リアクション	normal	1	2026-10-24
+expr_1244	1244	〜であるべきではなかった	shouldn't have been ...		過去の状態や行動を後悔・批判する。	文脈によって難しいはずではなかった、など過去への予想も表す。	I shouldn't have been so harsh.		expression	感情・心情	high	1	2026-10-24
+expr_1245	1245	〜だったはずがない	couldn't have been ...		過去の状態はあり得ないと判断する。	couldn't have been better はこれ以上よくなれないほど良かった、の強調。	He couldn't have been there. He was with me.		expression	推測・確信	high	1	2026-10-24
+expr_1246	1246	条件が違えば〜ではなかっただろう	wouldn't have been ...		実際とは異なる条件のもとでの過去を想像する。	if 節のほか without ... で条件を示せる。	Without your help, it wouldn't have been possible.		expression	推測・確信	high	1	2026-10-24
+expr_1247	1247	真夜中に	in the middle of the night		夜の深い時間帯に起きたことを述べる。	通常は in the まで含めて覚える。	My son woke up in the middle of the night.		expression	時間・変化	normal	1	2026-10-24
+expr_1248	1248	さあ取りかかろう・先へ進めよう	Let's get on with it.		話し合いや中断を終え、作業を進める。	Get on with it! はさっさとやって、と強く響く。	We've discussed it enough. Let's get on with it.		expression	会話のつなぎ・リアクション	high	1	2026-10-24
+expr_1249	1249	ぼんやりした状態から抜け出す	snap out of it		注意・気分を切り替えて普段の状態に戻る。	snap someone out of it は人をその状態から引き戻す。命令形は強い。	Her question helped me snap out of it.		expression	感情・心情	normal	1	2026-10-24
+expr_1250	1250	人をそそのかして〜させる	put someone up to ...		いたずらや問題行動を裏でけしかける。	to は前置詞なので動詞を置くなら ing。	Who put you up to this?		expression	人間関係・交流	normal	1	2026-10-24
+expr_1251	1251	口出しせず、そのまま進めさせる	let him get on with it		相手の作業を妨げず続けさせる。	let＋人＋動詞原形。	He knows what he's doing. Let him get on with it.		expression	人間関係・交流	normal	1	2026-10-24
+expr_1252	1252	説得して〜する気にさせる	talk someone into ...		当初は乗り気でない相手の気持ちを話して変える。	into の後は名詞または動詞ing。out of は思いとどまらせる。	His friends talked him into joining the club.		expression	人間関係・交流	high	1	2026-10-24
+expr_1253	1253	気の進まないことを早く済ませる	get it over with		負担な作業を終わらせ、気を楽にしたいときに使う。	単に finish より、嫌だが終えて解放されたい気持ちが出る。	I'm nervous about making the call. I just want to get it over with.		expression	感情・心情	high	1	2026-10-24
+expr_1254	1254	相手に怒りや不満をはっきりぶつける	give someone a piece of my mind		文句を言う・強く叱ることを表す。	穏やかな意見共有ではない。peace of mind は安心で別の表現。	I'm going to give her a piece of my mind.		expression	人間関係・交流	normal	1	2026-10-24
+expr_1255	1255	人を責任や義務から解放する	let someone off the hook		追及をやめる、役割を免除する、今回は大目に見る。	自分が免除されるなら I'm off the hook.。	We found another speaker, so you're off the hook.		expression	人間関係・交流	normal	1	2026-10-24
+expr_1256	1256	安心	peace of mind		心配がなく落ち着いていられること。	a piece of my mind は怒りを伝える表現。	Knowing he's safe gives me peace of mind.		expression	感情・心情	normal	1	2026-10-24
+expr_1257	1257	いくつか〜を作った経験がある	I've built a few ...		これまで作ったものを現在の自分の経験として紹介する。	build はアプリ・仕組みなどにも使える。	I've built a few apps to help me learn English.		expression	仕事・職場	normal	1	2026-10-24
+expr_1258	1258	〜するための助けとして	to help me ...		道具を使う目的や作った目的を添える。	help＋人＋動詞原形。to を入れる形も可能。	I use this app to help me organize my thoughts.		expression	日常生活・一般	normal	1	2026-10-24
+expr_1259	1259	私のような人でも〜できる	Even someone like me can ...		能力や経験から意外と思われる行動ができると述べる。	even はここでは意外さの強調。	Even someone like me can build an app.		expression	意見・評価	high	1	2026-10-24
+expr_1260	1260	〜の経験がない状態で	with no ... experience		始めたときの背景や経験の有無を補足する。	experience はこの意味では通常不可算。	I started with no programming experience.		expression	仕事・職場	normal	1	2026-10-24
+expr_1261	1261	〜に基づいている	be based on ...		計画・判断・作品の土台となる情報を示す。	材料の made of と区別。on の後に名詞や what 節を置ける。	The flashcards are based on what I've learned.		expression	議論・意見	high	1	2026-10-24
+expr_1262	1262	一つ選ぶなら〜です	If I had to pick one, I'd say ...		複数の好みや評価から一つを控えめに選ぶ。	had は過去の事実ではなく、仮に選ぶならという想像。pick up とはしない。	If I had to pick one, I'd say how easy it is to use.		expression	会話のつなぎ・リアクション	high	1	2026-10-24
