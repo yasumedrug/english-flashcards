@@ -9,6 +9,9 @@ export type Note = {
   usage: string; nuance: string; example_en: string; example_ipa: string;
   tag: string; scene: string; priority: string; active: string; source_version: string
 }
+export const editableNoteFields = ['ja', 'en', 'ipa', 'usage', 'nuance', 'example_en', 'example_ipa'] as const
+export type EditableNoteContent = Pick<Note, typeof editableNoteFields[number]>
+export type NoteOverride = { noteId: string; fields: Partial<EditableNoteContent>; updatedAt: string }
 export type ReviewCard = { cardId: string; noteId: string; direction: Direction; fsrsCard: Card }
 export type ReviewLog = {
   id?: number; cardId: string; noteId: string; direction: Direction;
@@ -21,6 +24,7 @@ export type SuspendedNote = { noteId: string; suspendedAt: string }
 
 class CardsDB extends Dexie {
   notes!: EntityTable<Note, 'card_id'>
+  noteOverrides!: EntityTable<NoteOverride, 'noteId'>
   reviewCards!: EntityTable<ReviewCard, 'cardId'>
   reviewLogs!: EntityTable<ReviewLog, 'id'>
   settings!: EntityTable<Settings, 'id'>
@@ -37,6 +41,15 @@ class CardsDB extends Dexie {
     })
     this.version(2).stores({
       notes: 'card_id, scene, tag, active',
+      reviewCards: 'cardId, noteId, direction',
+      reviewLogs: '++id, cardId, noteId, reviewedAt',
+      settings: 'id',
+      importMetadata: 'id',
+      suspendedNotes: 'noteId'
+    })
+    this.version(3).stores({
+      notes: 'card_id, scene, tag, active',
+      noteOverrides: 'noteId',
       reviewCards: 'cardId, noteId, direction',
       reviewLogs: '++id, cardId, noteId, reviewedAt',
       settings: 'id',
@@ -122,6 +135,31 @@ export async function importTsv(): Promise<number> {
   return notes.length
 }
 
+export async function getEffectiveNotes(): Promise<Note[]> {
+  const [notes, overrides] = await Promise.all([db.notes.toArray(), db.noteOverrides.toArray()])
+  const byId = new Map(overrides.map(item => [item.noteId, item.fields]))
+  return notes.map(note => ({ ...note, ...byId.get(note.card_id) }))
+}
+
+export async function saveNoteEdits(noteId: string, content: EditableNoteContent): Promise<void> {
+  await db.transaction('rw', db.notes, db.noteOverrides, async () => {
+    const base = await db.notes.get(noteId)
+    if (!base) throw new Error('元のカードが見つかりません')
+    const fields: Partial<EditableNoteContent> = {}
+    for (const key of editableNoteFields) {
+      const value = content[key].trim()
+      if ((key === 'ja' || key === 'en') && !value) throw new Error('日本語と英語は空欄にできません')
+      if (value !== base[key]) fields[key] = value
+    }
+    if (Object.keys(fields).length) await db.noteOverrides.put({ noteId, fields, updatedAt: new Date().toISOString() })
+    else await db.noteOverrides.delete(noteId)
+  })
+}
+
+export async function resetNoteEdits(noteId: string): Promise<void> {
+  await db.noteOverrides.delete(noteId)
+}
+
 export async function loadSettings(): Promise<Settings> {
   return (await db.settings.get('main')) ?? defaultSettings
 }
@@ -130,7 +168,7 @@ export type Candidate = { note: Note; direction: Direction; review?: ReviewCard;
 export type TodayPlan = { candidate: Candidate | null; due: number; newAvailable: number; studied: number; newStudied: number; totalLimit: number; newLimit: number; complete: boolean }
 
 export async function getTodayPlan(now = new Date(), avoidCardId?: string): Promise<TodayPlan> {
-  const [settings, notes, cards, logs, suspended] = await Promise.all([loadSettings(), db.notes.toArray(), db.reviewCards.toArray(), db.reviewLogs.toArray(), db.suspendedNotes.toArray()])
+  const [settings, notes, cards, logs, suspended] = await Promise.all([loadSettings(), getEffectiveNotes(), db.reviewCards.toArray(), db.reviewLogs.toArray(), db.suspendedNotes.toArray()])
   const day = dateKey(now)
   const todayLogs = logs.filter(log => dateKey(new Date(log.reviewedAt)) === day)
   const studied = todayLogs.length
@@ -191,21 +229,29 @@ export async function rateCard(candidate: Candidate, rating: ReviewRating, respo
   })
 }
 
-type Backup = { format: 'english-flashcards'; version: 1 | 2; exportedAt: string; notes: Note[]; reviewCards: ReviewCard[]; reviewLogs: ReviewLog[]; settings: Settings[]; importMetadata: ImportMetadata[]; suspendedNotes?: SuspendedNote[] }
+type Backup = { format: 'english-flashcards'; version: 1 | 2 | 3; exportedAt: string; notes: Note[]; reviewCards: ReviewCard[]; reviewLogs: ReviewLog[]; settings: Settings[]; importMetadata: ImportMetadata[]; suspendedNotes?: SuspendedNote[]; noteOverrides?: NoteOverride[] }
 
 export async function createBackup(): Promise<Backup> {
-  const [notes, reviewCards, reviewLogs, settings, importMetadata, suspendedNotes] = await Promise.all([db.notes.toArray(), db.reviewCards.toArray(), db.reviewLogs.toArray(), db.settings.toArray(), db.importMetadata.toArray(), db.suspendedNotes.toArray()])
-  return { format: 'english-flashcards', version: 2, exportedAt: new Date().toISOString(), notes, reviewCards, reviewLogs, settings, importMetadata, suspendedNotes }
+  const [notes, reviewCards, reviewLogs, settings, importMetadata, suspendedNotes, noteOverrides] = await Promise.all([db.notes.toArray(), db.reviewCards.toArray(), db.reviewLogs.toArray(), db.settings.toArray(), db.importMetadata.toArray(), db.suspendedNotes.toArray(), db.noteOverrides.toArray()])
+  return { format: 'english-flashcards', version: 3, exportedAt: new Date().toISOString(), notes, reviewCards, reviewLogs, settings, importMetadata, suspendedNotes, noteOverrides }
 }
 
 export async function restoreBackup(value: unknown): Promise<void> {
   const data = value as Backup
-  if (data?.format !== 'english-flashcards' || ![1, 2].includes(data.version) || ![data.notes, data.reviewCards, data.reviewLogs, data.settings, data.importMetadata].every(Array.isArray) || (data.version === 2 && !Array.isArray(data.suspendedNotes))) throw new Error('対応していないバックアップです')
+  if (data?.format !== 'english-flashcards' || ![1, 2, 3].includes(data.version) || ![data.notes, data.reviewCards, data.reviewLogs, data.settings, data.importMetadata].every(Array.isArray) || (data.version >= 2 && !Array.isArray(data.suspendedNotes)) || (data.version === 3 && !Array.isArray(data.noteOverrides))) throw new Error('対応していないバックアップです')
   if (data.notes.some(note => !note.card_id || !note.ja || !note.en) || data.reviewCards.some(card => !card.cardId || !card.noteId || !card.fsrsCard?.due) || data.reviewLogs.some(log => !log.cardId || !log.reviewedAt) || data.suspendedNotes?.some(item => !item.noteId)) throw new Error('バックアップの内容が不正です')
-  await db.transaction('rw', [db.notes, db.reviewCards, db.reviewLogs, db.settings, db.importMetadata, db.suspendedNotes], async () => {
-    await Promise.all([db.notes.clear(), db.reviewCards.clear(), db.reviewLogs.clear(), db.settings.clear(), db.importMetadata.clear(), db.suspendedNotes.clear()])
+  if (data.noteOverrides?.some(item => !item?.noteId || !item.fields || Object.entries(item.fields).some(([key, fieldValue]) => !editableNoteFields.includes(key as typeof editableNoteFields[number]) || typeof fieldValue !== 'string' || ((key === 'ja' || key === 'en') && !fieldValue.trim())))) throw new Error('編集データが不正です')
+  const restoredCards = data.reviewCards.map(card => {
+    const due = validDate(card.fsrsCard.due)
+    const lastReview = validDate(card.fsrsCard.last_review)
+    if (!due || (card.fsrsCard.last_review && !lastReview)) throw new Error('復習日時が不正です')
+    return { ...card, fsrsCard: { ...card.fsrsCard, due, last_review: lastReview ?? undefined } }
+  })
+  await db.transaction('rw', [db.notes, db.noteOverrides, db.reviewCards, db.reviewLogs, db.settings, db.importMetadata, db.suspendedNotes], async () => {
+    await Promise.all([db.notes.clear(), db.noteOverrides.clear(), db.reviewCards.clear(), db.reviewLogs.clear(), db.settings.clear(), db.importMetadata.clear(), db.suspendedNotes.clear()])
     await db.notes.bulkAdd(data.notes)
-    await db.reviewCards.bulkAdd(data.reviewCards)
+    if (data.noteOverrides?.length) await db.noteOverrides.bulkAdd(data.noteOverrides)
+    await db.reviewCards.bulkAdd(restoredCards)
     await db.reviewLogs.bulkAdd(data.reviewLogs)
     await db.settings.bulkAdd(data.settings)
     await db.importMetadata.bulkAdd(data.importMetadata)

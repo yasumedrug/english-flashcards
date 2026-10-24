@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { createEmptyCard, Rating, type Card } from 'ts-fsrs'
-import { cardKey, createBackup, dateKey, db, defaultSettings, getTodayPlan, importTsv, loadSettings, rateCard, reconcileReviewCards, restoreBackup, scheduler, type Mode, type Note, type ReviewCard, type ReviewRating, type Settings, type TodayPlan } from './data'
+import { cardKey, createBackup, dateKey, db, defaultSettings, getEffectiveNotes, getTodayPlan, importTsv, loadSettings, rateCard, reconcileReviewCards, resetNoteEdits, restoreBackup, saveNoteEdits, scheduler, type EditableNoteContent, type Mode, type Note, type ReviewCard, type ReviewRating, type Settings, type TodayPlan } from './data'
+import EditNoteDialog from './EditNoteDialog'
 import { partOfSpeech } from './partOfSpeech'
 
 type Page = 'today' | 'study' | 'browse' | 'settings'
@@ -36,6 +37,7 @@ export default function App() {
   const [notes, setNotes] = useState<Note[]>([])
   const [reviewCards, setReviewCards] = useState<ReviewCard[]>([])
   const [suspendedIds, setSuspendedIds] = useState<Set<string>>(new Set())
+  const [editedIds, setEditedIds] = useState<Set<string>>(new Set())
   const [settings, setSettings] = useState<Settings>(defaultSettings)
   const [stats, setStats] = useState({ total: 0, streak: 0 })
   const [revealed, setRevealed] = useState(false)
@@ -46,15 +48,17 @@ export default function App() {
   const [tag, setTag] = useState('')
   const [browseNote, setBrowseNote] = useState<Note | null>(null)
   const [browseIndex, setBrowseIndex] = useState(0)
+  const [editingNote, setEditingNote] = useState<Note | null>(null)
   const fileRef = useRef<HTMLInputElement>(null)
   const startRef = useRef(Date.now())
 
   async function refresh(avoidCardId?: string) {
-    const [nextPlan, allNotes, savedSettings, logs, cards, suspended] = await Promise.all([getTodayPlan(new Date(), avoidCardId), db.notes.toArray(), loadSettings(), db.reviewLogs.toArray(), db.reviewCards.toArray(), db.suspendedNotes.toArray()])
+    const [nextPlan, allNotes, savedSettings, logs, cards, suspended, overrides] = await Promise.all([getTodayPlan(new Date(), avoidCardId), getEffectiveNotes(), loadSettings(), db.reviewLogs.toArray(), db.reviewCards.toArray(), db.suspendedNotes.toArray(), db.noteOverrides.toArray()])
     setPlan(nextPlan)
     setNotes(allNotes)
     setReviewCards(cards)
     setSuspendedIds(new Set(suspended.map(item => item.noteId)))
+    setEditedIds(new Set(overrides.map(item => item.noteId)))
     setSettings(savedSettings)
     const days = new Set(logs.map(log => dateKey(new Date(log.reviewedAt))))
     let cursor = new Date()
@@ -155,9 +159,45 @@ export default function App() {
     } catch (error) { setMessage(error instanceof Error ? error.message : '再表示に失敗しました') }
   }
 
+  function openEditor() {
+    if (!candidate || busy) return
+    setEditingNote(candidate.note)
+    setRevealed(true)
+    startRef.current = Date.now()
+  }
+
+  function closeEditor() {
+    setEditingNote(null)
+    startRef.current = Date.now()
+  }
+
+  async function saveEditor(content: EditableNoteContent) {
+    if (!editingNote || busy) return
+    setBusy(true)
+    try {
+      await saveNoteEdits(editingNote.card_id, content)
+      await refresh()
+      closeEditor()
+      setMessage('カードの文言を保存しました。学習履歴はそのままです。')
+    } catch (error) { setMessage(error instanceof Error ? error.message : '文言を保存できませんでした') }
+    finally { setBusy(false) }
+  }
+
+  async function resetEditor() {
+    if (!editingNote || busy || !window.confirm('このカードの編集内容をすべて消して、元の文言に戻しますか？')) return
+    setBusy(true)
+    try {
+      await resetNoteEdits(editingNote.card_id)
+      await refresh()
+      closeEditor()
+      setMessage('元の文言に戻しました。学習履歴はそのままです。')
+    } catch (error) { setMessage(error instanceof Error ? error.message : '元に戻せませんでした') }
+    finally { setBusy(false) }
+  }
+
   async function reload() {
     setBusy(true)
-    try { const count = await importTsv(); await refresh(); setMessage(`${count}件のカードを更新しました。学習履歴は保持しています。`) }
+    try { const count = await importTsv(); await refresh(); setMessage(`${count}件のカードを更新しました。自分で編集した文言と学習履歴は保持しています。`) }
     catch (error) { setMessage(error instanceof Error ? error.message : '更新に失敗しました') }
     finally { setBusy(false) }
   }
@@ -213,8 +253,8 @@ export default function App() {
         <div className="study-heading"><button className="text-button" onClick={() => setPage('today')}>← 今日へ</button><span>{plan?.studied ?? 0} / {plan?.totalLimit ?? 40}</span></div>
         <div className="panel study-direction"><h2>学習方向</h2><DirectionSelector mode={settings.mode} onChange={changeStudyMode} disabled={busy} /></div>
         {!candidate ? <div className="done"><span className="done-icon">✓</span><h2>今日の分は終了です</h2><p>また明日、少しずつ続けましょう。</p><button className="primary" onClick={() => setPage('today')}>今日の画面へ</button></div> : <>
-          <div className="card-type"><span>{candidate.isNew ? 'NEW' : 'REVIEW'}</span><span>{candidate.direction === 'ja_to_en' ? '日本語 → 英語' : '英語 → 日本語'}</span></div>
-          <article className="flashcard"><div className="context"><span>{candidate.note.scene}</span><span className="part-of-speech">品詞・種類: {partOfSpeech(candidate.note)}</span>{candidate.note.tag && <span>{candidate.note.tag}</span>}</div><p className="prompt-caption">{candidate.direction === 'ja_to_en' ? 'この表現を英語で？' : 'この表現の意味は？'}</p><h2>{candidate.direction === 'ja_to_en' ? candidate.note.ja : candidate.note.en}</h2>
+          <div className="card-type"><span>{candidate.isNew ? 'NEW' : 'REVIEW'}</span><span>{candidate.direction === 'ja_to_en' ? '日本語 → 英語' : '英語 → 日本語'}</span><button className="edit-card-button" type="button" disabled={busy} onClick={openEditor}>✎ 編集</button></div>
+          <article className="flashcard"><div className="context"><span>{candidate.note.scene}</span><span className="part-of-speech">品詞・種類: {partOfSpeech(candidate.note)}</span>{candidate.note.tag && <span>{candidate.note.tag}</span>}{editedIds.has(candidate.note.card_id) && <span className="edited-badge">編集済み</span>}</div><p className="prompt-caption">{candidate.direction === 'ja_to_en' ? 'この表現を英語で？' : 'この表現の意味は？'}</p><h2>{candidate.direction === 'ja_to_en' ? candidate.note.ja : candidate.note.en}</h2>
             {candidate.direction === 'ja_to_en' && (japaneseCounts.get(candidate.note.ja) ?? 0) > 1 && candidate.note.usage.trim() && <div className="recall-hint"><span>使い方のヒント</span><p>{candidate.note.usage}</p></div>}
             <p className="card-meta">ID: {candidate.note.card_id}{candidate.review ? ` · 復習 ${candidate.review.fsrsCard.reps}回` : ' · 未学習'}{candidate.review?.fsrsCard.last_review ? ` · 前回 ${fullDate(candidate.review.fsrsCard.last_review)}` : ''}</p>
             {revealed && <div className="answer"><span className="answer-label">ANSWER</span><h3>{candidate.direction === 'ja_to_en' ? candidate.note.en : candidate.note.ja}</h3>{candidate.note.ipa && <p className="ipa">{candidate.note.ipa}</p>}{candidate.note.usage && <div className="detail"><b>使い所</b><p>{candidate.note.usage}</p></div>}{candidate.note.nuance && <div className="detail"><b>使い分け</b><p>{candidate.note.nuance}</p></div>}{candidate.note.example_en && <div className="example"><b>EXAMPLE</b><p>{candidate.note.example_en}</p>{candidate.note.example_ipa && <small>{candidate.note.example_ipa}</small>}</div>}<button className="speak" onClick={() => speak(candidate.note.en)}>▶ 英語を読み上げる</button></div>}
@@ -236,8 +276,9 @@ export default function App() {
           <button className="secondary" disabled={busy} onClick={() => suspendedIds.has(browseNote.card_id) ? resumeNote(browseNote.card_id) : suspendNote(browseNote.card_id)}>{suspendedIds.has(browseNote.card_id) ? '学習に戻す' : '今後表示しない'}</button>
         </div></div>}
       </section>}
-      {page === 'settings' && <section className="page"><p className="eyebrow">PREFERENCES & DATA</p><h1>設定とデータ</h1><p className="intro">自分のペースに合わせて調整できます。</p><div className="panel"><h2>学習ペース</h2><label className="field"><span>新規カード / 日</span><input type="number" min="0" max="100" inputMode="numeric" value={settings.newLimit} onChange={e => setSettings({ ...settings, newLimit: Number(e.target.value) })} onBlur={() => saveSettings(settings)} /></label><label className="field"><span>総学習数 / 日</span><input type="number" min="1" max="500" inputMode="numeric" value={settings.totalLimit} onChange={e => setSettings({ ...settings, totalLimit: Number(e.target.value) })} onBlur={() => saveSettings(settings)} /></label><p className="field-help">入力後、欄の外をタップすると保存されます。</p></div><div className="panel"><h2>学習方向</h2><DirectionSelector mode={settings.mode} onChange={mode => saveSettings({ ...settings, mode })} />{settings.mode === 'mixed' && <label className="range-field"><span>日本語 → 英語: {settings.jaRatio}%</span><input type="range" min="0" max="100" step="10" value={settings.jaRatio} onChange={e => setSettings({ ...settings, jaRatio: Number(e.target.value) })} onPointerUp={() => saveSettings(settings)} onKeyUp={() => saveSettings(settings)} /><small>残り {100 - settings.jaRatio}% は英語 → 日本語</small></label>}</div><div className="panel"><h2>カードデータ</h2><p className="panel-copy">TSVを更新したら、ここから再読み込みしてください。学習履歴は保持されます。</p><button className="secondary" disabled={busy} onClick={reload}>データを更新</button></div><div className="panel"><h2>バックアップ</h2><p className="panel-copy">機種変更やブラウザデータ消失に備えて、定期的に保存してください。</p><button className="secondary" onClick={exportBackup}>JSONを書き出す</button><button className="secondary" onClick={() => fileRef.current?.click()}>JSONから復元</button><input ref={fileRef} className="sr-only" type="file" accept="application/json,.json" onChange={e => onRestore(e.target.files?.[0])} /></div></section>}
+      {page === 'settings' && <section className="page"><p className="eyebrow">PREFERENCES & DATA</p><h1>設定とデータ</h1><p className="intro">自分のペースに合わせて調整できます。</p><div className="panel"><h2>学習ペース</h2><label className="field"><span>新規カード / 日</span><input type="number" min="0" max="100" inputMode="numeric" value={settings.newLimit} onChange={e => setSettings({ ...settings, newLimit: Number(e.target.value) })} onBlur={() => saveSettings(settings)} /></label><label className="field"><span>総学習数 / 日</span><input type="number" min="1" max="500" inputMode="numeric" value={settings.totalLimit} onChange={e => setSettings({ ...settings, totalLimit: Number(e.target.value) })} onBlur={() => saveSettings(settings)} /></label><p className="field-help">入力後、欄の外をタップすると保存されます。</p></div><div className="panel"><h2>学習方向</h2><DirectionSelector mode={settings.mode} onChange={mode => saveSettings({ ...settings, mode })} />{settings.mode === 'mixed' && <label className="range-field"><span>日本語 → 英語: {settings.jaRatio}%</span><input type="range" min="0" max="100" step="10" value={settings.jaRatio} onChange={e => setSettings({ ...settings, jaRatio: Number(e.target.value) })} onPointerUp={() => saveSettings(settings)} onKeyUp={() => saveSettings(settings)} /><small>残り {100 - settings.jaRatio}% は英語 → 日本語</small></label>}</div><div className="panel"><h2>カードデータ</h2><p className="panel-copy">TSVを更新したら、ここから再読み込みしてください。自分で編集した文言と学習履歴は保持されます。</p><button className="secondary" disabled={busy} onClick={reload}>データを更新</button></div><div className="panel"><h2>バックアップ</h2><p className="panel-copy">機種変更やブラウザデータ消失に備えて、定期的に保存してください。文言の編集内容も含まれます。</p><button className="secondary" onClick={exportBackup}>JSONを書き出す</button><button className="secondary" onClick={() => fileRef.current?.click()}>JSONから復元</button><input ref={fileRef} className="sr-only" type="file" accept="application/json,.json" onChange={e => onRestore(e.target.files?.[0])} /></div></section>}
     </main>
+    {editingNote && <EditNoteDialog note={editingNote} hasEdits={editedIds.has(editingNote.card_id)} busy={busy} onClose={closeEditor} onSave={saveEditor} onReset={resetEditor} />}
     <nav className="bottom-nav" aria-label="メインメニュー">{([{ id: 'today', icon: '◫', label: '今日' }, { id: 'study', icon: '▣', label: '学習' }, { id: 'browse', icon: '⌕', label: '探す' }, { id: 'settings', icon: '⚙', label: '設定' }] as const).map(item => <button key={item.id} className={page === item.id ? 'active' : ''} onClick={() => { setPage(item.id); setBrowseNote(null); if (item.id === 'study') { setRevealed(false); startRef.current = Date.now() } }}><span>{item.icon}</span><small>{item.label}</small></button>)}</nav>
   </div>
 }

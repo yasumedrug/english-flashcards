@@ -3,7 +3,7 @@ import assert from 'node:assert/strict'
 import { test } from 'node:test'
 import { createEmptyCard, Rating } from 'ts-fsrs'
 
-const { cardKey, createBackup, db, getTodayPlan, rateCard, reconcileReviewCards, restoreBackup, scheduler } = await import('../src/data.ts')
+const { cardKey, createBackup, db, getEffectiveNotes, getTodayPlan, rateCard, reconcileReviewCards, resetNoteEdits, restoreBackup, saveNoteEdits, scheduler } = await import('../src/data.ts')
 
 const note = (id, ja) => ({
   card_id: id, source_no: id.slice(-1), ja, en: `word ${id}`, ipa: '',
@@ -87,4 +87,42 @@ test('rating writes both the FSRS state and append-only logs, and later ratings 
   assert.ok(secondDue > tomorrowAt)
   const tomorrow = await getTodayPlan(tomorrowAt)
   assert.notEqual(tomorrow.candidate?.note.card_id, current.card_id)
+})
+
+test('card wording edits survive source updates and backups without changing review history; reset restores the source', async () => {
+  const original = note('expr_edit', '元の訳')
+  await db.notes.put(original)
+  await rateCard({ note: original, direction: 'ja_to_en', isNew: true }, Rating.Good, 500)
+  const key = cardKey(original.card_id, 'ja_to_en')
+  const before = await db.reviewCards.get(key)
+  const logsBefore = await db.reviewLogs.where('cardId').equals(key).count()
+
+  await saveNoteEdits(original.card_id, {
+    ja: '修正した訳', en: original.en, ipa: original.ipa,
+    usage: original.usage, nuance: original.nuance,
+    example_en: original.example_en, example_ipa: original.example_ipa
+  })
+  assert.equal((await db.notes.get(original.card_id)).ja, '元の訳')
+  assert.equal((await getEffectiveNotes()).find(item => item.card_id === original.card_id).ja, '修正した訳')
+
+  await db.notes.put({ ...original, ja: 'TSVの新しい訳', usage: 'TSVで更新した使い所' })
+  const updated = (await getEffectiveNotes()).find(item => item.card_id === original.card_id)
+  assert.equal(updated.ja, '修正した訳')
+  assert.equal(updated.usage, 'TSVで更新した使い所')
+
+  const backup = JSON.parse(JSON.stringify(await createBackup()))
+  assert.equal(backup.version, 3)
+  await db.noteOverrides.clear()
+  await restoreBackup(backup)
+  assert.equal((await getEffectiveNotes()).find(item => item.card_id === original.card_id).ja, '修正した訳')
+  assert.deepEqual(await db.reviewCards.get(key), before)
+  assert.equal(await db.reviewLogs.where('cardId').equals(key).count(), logsBefore)
+
+  await resetNoteEdits(original.card_id)
+  assert.equal((await getEffectiveNotes()).find(item => item.card_id === original.card_id).ja, 'TSVの新しい訳')
+
+  const oldBackup = { ...backup, version: 2 }
+  delete oldBackup.noteOverrides
+  await restoreBackup(oldBackup)
+  assert.equal(await db.noteOverrides.count(), 0)
 })
