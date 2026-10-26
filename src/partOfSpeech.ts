@@ -88,6 +88,21 @@ for (const [label, phrases] of Object.entries({
   '文・会話表現': "the challenge is to ...|even someone like me can ...|if i had to pick one, i'd say ..."
 })) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
 
+for (const [label, phrases] of Object.entries({
+  副詞: 'almost always|usually|often|sometimes|hardly ever',
+  副詞句: 'not very often|a lot|while you still can',
+  形容詞: 'former + 名詞|previous + 名詞|subsequent + 名詞',
+  形容詞句: 'under review|under construction|under consideration|be particular about ...|be concerned that ...|seem stressed|feel relieved|feel less stressed',
+  名詞: 'soundproofing',
+  名詞句: 'prior experience|my ex|the former|the latter|someone i would never have met otherwise|someone i never expected to meet|work clothes|the founder of ...|the head of ...',
+  動詞: 'soundproof',
+  動詞句: 'look at ... from three different perspectives|get in the way of ...|get together in person from time to time|stick to ...|articulate my thoughts|care about someone|have what it takes to ...|want to ... so badly|wait outside the ticket gates|take the train a few stops|ask someone to ...|give it a try|seem to + 動詞の原形|help someone + 動詞の原形',
+  前置詞句: 'prior to ...',
+  接続詞: 'even if + 文|while + 動詞ing',
+  文法表現: 'the more ..., the fewer chances ...|..., followed by ...|i\'ve been + 動詞ing|try + 動詞ing',
+  会話表現: 'not to brag, but ...|for all that\'s been said, ...'
+})) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
+
 export function partOfSpeech(note: Pick<Note, 'en' | 'ja' | 'tag'>): string {
   const english = note.en.trim()
   const japanese = note.ja.trim()

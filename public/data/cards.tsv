@@ -360,7 +360,7 @@ expr_0358	358	ざっと目を通す	look over	/lʊk ˈOʊ.vɚ/	文書・資料�
 expr_0359	359	最後までやり遂げる	follow through	/ˌFɑː.loʊ ˈθRUː/	決めたこと・約束したことを最後まで実行するとき。	開始よりも「途中でやめず完遂する」ことに焦点。	I need to follow through on what I promised.	/aɪ ˌNIːD tə ˌFɑː.loʊ ˈθRUː ɑːn wʌt aɪ ˈPRɑː.mɪst/	phrasal verb	仕事・組織	high	1	2026-10-02
 expr_0360	360	切り抜ける・なんとかやっていく	get by	/ɡet ˈBAɪ/	十分ではない条件でも何とか生活・仕事を回すとき。	余裕はないが最低限やっていける感じ。	We can get by with what we have.	/wi kən ɡet ˌBAɪ wɪð wʌt wi ˈHÆV/	phrasal verb	日常生活・一般	high	1	2026-10-02
 expr_0361	361	追いつく・追いついて話す	catch up with	/kætʃ ˈʌP wɪð/	遅れている人に追いつく、または久しぶりの人と近況を話すとき。	人が目的語だと「久しぶりに話す」の意味でも頻出。	I need to catch up with him sometime.	/aɪ ˌNIːD tə kætʃ ˈʌP wɪð ɪm ˌSʌM.taɪm/	phrasal verb	会話のつなぎ・リアクション	high	1	2026-10-02
-expr_0362	362	やり始める・取りかかる	get down to	/ɡet ˈDAʊN tə/	仕事・勉強・本題などに本格的に取りかかるとき。	準備や雑談を終えて「本題に入る」感じ。	I need to get down to work.	/aɪ ˌNIːD tə ɡet ˌDAʊN tə ˈWɝːK/	phrasal verb	仕事・組織	high	1	2026-10-02
+expr_0362	362	やり始める・取りかかる	get down to	/ɡet ˈDAʊN tə/	仕事・勉強・本題などに本格的に取りかかるとき。	準備や雑談を終え本腰を入れる。to は前置詞なので名詞・動名詞が続く。get on with は止まらず先へ進める点に重点。	I need to get down to work.	/aɪ ˌNIːD tə ɡet ˌDAʊN tə ˈWɝːK/	phrasal verb	仕事・組織	high	1	2026-10-26
 expr_0363	363	続ける・やり通す	keep on	/kiːp ˈɑːN/	同じ行動を繰り返し続けるとき。	継続性を強く感じさせ、命令では励ましにもなる。	Keep on trying.	/ˌKIːP ˈɑːN ˌTRAɪ.ɪŋ/	phrasal verb	日常生活・一般	high	1	2026-10-02
 expr_0364	364	持ちこたえる・諦めない	hang on	/hæŋ ˈɑːN/	もう少し耐えてほしい、待ってほしいとき。	hold on に近いが「踏ん張る」感じも出やすい。	Hang on a little longer.	/ˌHÆŋ ˈɑːN ə ˌLɪT̬.əl ˈLɔːŋ.ɡɚ/	phrasal verb	会話のつなぎ・リアクション	high	1	2026-10-02
 expr_0365	365	最後まで続ける・貫く	stick with	/stɪk ˈWɪÐ/	難しくても計画・方法・人などを変えず続けるとき。	対象から離れず「くっついたまま」の感覚。	I’m going to stick with this plan.	/aɪm ˌɡOʊ.ɪŋ tə stɪk ˈWɪÐ ðɪs ˌPLÆN/	phrasal verb	日常生活・一般	high	1	2026-10-02
@@ -949,7 +949,7 @@ expr_0947	947	正確に・厳密に	precisely	/prɪˈsaɪsli/	細部まで正確
 expr_0948	948	およそ・ざっと	roughly	/ˈrʌfli/	数・量・時間などが概算であることを示す。	roughly speaking は「大まかに言うと」。人や物を乱暴に扱う意味も。	Roughly thirty people came to the event.	/ˈrʌfli ˈθɝti ˈpiːpəl ˈkeɪm tə ði ɪˈvent/	adverb	数量・程度	normal	1	2026-10-16
 expr_0949	949	比較的	relatively	/ˈrelətɪvli/	比較の基準に照らして、ある程度その性質がある。	何と比べているかは文脈で示す。	The area is relatively safe.	/ði ˈeriə ɪz ˈrelətɪvli ˈseɪf/	adverb	数量・程度	normal	1	2026-10-16
 expr_0950	950	危うく〜するところだった・ほとんど	almost	/ˈɔlmoʊst/	程度がもう少しで届くこと。過去形と使い、実際には起きなかったことも表す。	I almost fell は「危うく転ぶところだった」。	I almost missed the bus.	/aɪ ˈɔlmoʊst ˈmɪst ðə ˈbʌs/	adverb	日常生活・一般	normal	1	2026-10-16
-expr_0951	951	ひどく・とても	badly	/ˈbædli/	悪い状態・やり方を表すほか、need/wantとともに強い必要・欲求を表す。	I need it badly は「どうしてもそれが必要」。	I need to use the bathroom badly.	/aɪ ˈniːd tə ˈjuːz ðə ˈbæθruːm ˈbædli/	adverb	日常生活・一般	normal	1	2026-10-16
+expr_0951	951	ひどく・とても	badly	/ˈbædli/	悪い状態・やり方を表すほか、need/wantとともに強い必要・欲求を表す。	want / need と使うと強い願望・必要を表す。口語の want ... so bad もあるが、標準的な形は so badly。	I need to use the bathroom badly.	/aɪ ˈniːd tə ˈjuːz ðə ˈbæθruːm ˈbædli/	adverb	日常生活・一般	normal	1	2026-10-26
 expr_0952	952	ほとんど〜ない	hardly	/ˈhɑrdli/	それ自体に否定的な意味があり、「ほとんど〜ない」。	hard「一生懸命に」と異なる。通常さらにnotを重ねない。	I can hardly remember that day.	/aɪ kən ˈhɑrdli rɪˈmembɚ ðæt ˈdeɪ/	adverb	会話のつなぎ・リアクション	normal	1	2026-10-16
 expr_0953	953	もしかして・どうしても（否定文）	possibly	/ˈpɑsəbli/	推量・可能性。否定文では「どうしても〜できない」、疑問文では控えめな依頼にも使う。	I couldn’t possibly は強い不可能・拒否。Could I possibly...? は丁寧な依頼。	Could I possibly borrow your pen?	/kʊd aɪ ˈpɑsəbli ˈbɑroʊ jɚ ˈpen/	adverb	会話のつなぎ・リアクション	normal	1	2026-10-16
 expr_0954	954	確実に・もちろん	definitely	/ˈdefənətli/	確信を示すほか、会話で強い肯定の返事にも使う。	absolutely と重なるが、「確実にそうする・そうだ」の響き。	I’ll definitely be there.	/aɪl ˈdefənətli bi ˈðer/	adverb	会話のつなぎ・リアクション	normal	1	2026-10-16
@@ -958,7 +958,7 @@ expr_0956	956	かなり・むしろ	rather	/ˈræðɚ/	程度の「かなり・�
 expr_0957	957	実に・本当に	indeed	/ɪnˈdiːd/	述べた内容を強めたり、相手に強く同意したりする。	やや改まった響き。日常会話ではabsolutelyなどがよりくだけている。	It was indeed a wonderful experience.	/ɪt wəz ɪnˈdiːd ə ˈwʌndɚfəl ɪkˈspɪriəns/	adverb	会話のつなぎ・リアクション	normal	1	2026-10-16
 expr_0958	958	非常に・高く	highly	/ˈhaɪli/	評価・可能性・抽象的な程度を強める。	highly recommend は「強くおすすめする」。物理的な高さには high を使う。	I highly recommend this book.	/aɪ ˈhaɪli ˌrekəˈmend ðɪs ˈbʊk/	adverb	数量・程度	normal	1	2026-10-16
 expr_0959	959	最終的に・やがて	eventually	/ɪˈventʃuəli/	時間の経過の後に、ある結果に至ることを表す。	finally は「ついに」の達成感・終点を強く示すことがある。	She’ll eventually get used to the new job.	/ʃiːl ɪˈventʃuəli ɡet ˈjuːst tə ðə ˈnuː ˈdʒɑb/	adverb	時間・日課	normal	1	2026-10-16
-expr_0960	960	時々・たまに	occasionally	/əˈkeɪʒənəli/	頻繁ではないが、ときどき起こること。	頻度を固定の割合で覚える必要はない。	We occasionally go camping in the summer.	/wi əˈkeɪʒənəli ɡoʊ ˈkæmpɪŋ ɪn ðə ˈsʌmɚ/	adverb	時間・日課	normal	1	2026-10-16
+expr_0960	960	時々・たまに	occasionally	/əˈkeɪʒənəli/	頻繁ではないが、ときどき起こること。	sometimes と意味は重なるが、頻繁ではない含み。頻度を固定した割合で覚えない。	We occasionally go camping in the summer.	/wi əˈkeɪʒənəli ɡoʊ ˈkæmpɪŋ ɪn ðə ˈsʌmɚ/	adverb	時間・日課	normal	1	2026-10-26
 expr_0961	961	もっと簡単にできる余地がある	could stand to be simpler		改善の余地がある、と控えめに述べる。	stand to は利益・改善の余地を示す。義務の should より柔らかい。	It could stand to be simpler.		expression	意見・評価	normal	1	2026-10-20
 expr_0962	962	また合流する	meet up again		いったん別れた後で再び会う。	meet again でも通じるが meet up は待ち合わせて合流する感じ。	We split up outside the store and met up again later.		verb	日常生活・一般	normal	1	2026-10-20
 expr_0963	963	我慢する・持ちこたえる	withstand		圧力や衝撃などを受けても耐える。	人の欲求を抑えるなら resist the urge to が自然。	The building can withstand strong winds.		verb	日常生活・一般	normal	1	2026-10-20
@@ -983,7 +983,7 @@ expr_0981	981	はっと気づく	it dawned on me that ...		少し遅れて、突
 expr_0982	982	時間をかけて気づく	come to realize that ...		経験や考察を経て次第に理解する。	realize だけより変化の過程を強調。	I came to realize that there's no perfect solution.		expression	感情・心情	normal	1	2026-10-20
 expr_0983	983	機会や資源を最大限利用する	exploit an opportunity or a resource		使えるものを積極的に活用する。	exploit a person は「搾取する」という明確に否定的な意味。	We should exploit this opportunity.		verb	学習・教育・研究	normal	1	2026-10-20
 expr_0984	984	痛みを和らげる力	the ability to relieve pain		痛みを軽くする能力を指す。	pain management は評価や治療を含む疼痛管理全般。	The ability to relieve pain is an essential skill for physicians.		expression	医療・診療	normal	1	2026-10-20
-expr_0985	985	三つの観点に分けて考える	break ... down into three parts		複雑なものを理解しやすく分解する。	分類そのものなら There are three main types of ...。	We can break the problem down into three parts.		expression	学習・教育・研究	high	1	2026-10-20
+expr_0985	985	〜を三つの部分に分ける	break ... down into three parts		複雑なものを理解しやすく分解する。	名詞は break the problem down / break down the problem の両方可。長い目的語は down の後が使いやすい。代名詞は break it down。観点なら look at it from three different perspectives。	We can break the problem down into three parts.		expression	学習・教育・研究	high	1	2026-10-26
 expr_0986	986	考えるべき点が三つある	There are three things to consider.		説明の冒頭で論点の数を示す。	First, ... Second, ... And third, ... と続ける。	I think there are three things to consider.		expression	学習・教育・研究	high	1	2026-10-20
 expr_0987	987	スペクトラムとして捉える	think of it as a spectrum		二択でなく連続的な幅として考える。	It ranges from A to B と両端を示せる。	I think it's helpful to think of it as a spectrum.		expression	学習・教育・研究	high	1	2026-10-20
 expr_0988	988	AからBまで幅がある	It ranges from A to B.		連続的な程度や範囲の両端を示す。	範囲は A と B を同じ尺度上で比較できるものにする。	It ranges from mild discomfort to severe pain.		expression	学習・教育・研究	high	1	2026-10-20
@@ -1099,7 +1099,7 @@ expr_1097	1097	良いことだが課題も伴う	... is a good thing, but it als
 expr_1098	1098	論点はAではなくBだ	It's not about A; it's about B.		出身などと行動など、判断すべき点を明確にする。	A と B に名詞句または疑問詞節を置く。	It's not about where visitors come from; it's about how they behave.		expression	議論・意見	high	1	2026-10-23
 expr_1099	1099	この問題に対処する	address this issue		問題を認識したうえで対策を講じる。	address はここでは「取り組む」。解決を保証する solve より広い。	We need to address this issue.		expression	議論・意見	high	1	2026-10-23
 expr_1100	1100	この問題を真剣に受け止める	take this issue seriously		問題を軽視せず優先して考える。	具体的な対策の前に重要性を示せる。	We need to take this issue seriously.		expression	議論・意見	high	1	2026-10-23
-expr_1101	1101	〜ということを明確に伝える	make it clear that ...		伝えるべきルールや立場をはっきり示す。	it は形式目的語で、that 以下が明確にする内容。	We need to make it clear that visitors should respect these places.		expression	議論・意見	high	1	2026-10-23
+expr_1101	1101	〜ということを明確に伝える	make it clear that ...		伝えるべきルールや立場をはっきり示す。	it は形式目的語で that 以下が内容。make sure は確認する・確実にするで区別。通常 make it sure とは言わない。	We need to make it clear that visitors should respect these places.		expression	議論・意見	high	1	2026-10-26
 expr_1102	1102	してよいこと・いけないことを説明する	explain what visitors should and shouldn't do		看板や案内で望ましい行動を伝える。	what 以下は間接疑問節で、主語→助動詞の順。	Signs should explain what visitors should and shouldn't do.		expression	旅行・観光	high	1	2026-10-23
 expr_1103	1103	文化遺産	cultural heritage		歴史的な建物や文化的な遺産をまとめて指す。	通常は不可算名詞。特定の建造物なら a historic building / heritage site。	We need to protect Japan’s cultural heritage.		expression	旅行・観光	high	1	2026-10-23
 expr_1104	1104	地元経済に恩恵をもたらす	benefit the local economy		観光などの経済効果を簡潔に述べる。	benefit はここでは他動詞で、to は不要。	Tourism benefits the local economy.		expression	旅行・観光	high	1	2026-10-23
@@ -1219,7 +1219,7 @@ expr_1217	1217	なぜ〜かはっきりとは分からない	I'm not entirely su
 expr_1218	1218	Aというより、むしろBです	It's not so much A as B.		Aにも当てはまる余地を残し、より正確な焦点をBに置く。	AとBの文法上の形をそろえる。not about A; about B より穏やかな対比。	It's not so much about cutting words as about building a coherent argument.		expression	議論・意見	high	1	2026-10-24
 expr_1219	1219	難しいのは〜することです	The challenge is to ...		達成したいが難しい点を先に明確にする。	to＋動詞原形。without＋動詞ing で避けたいことも添えられる。	The challenge is to make the argument clear without losing important details.		expression	議論・意見	high	1	2026-10-24
 expr_1220	1220	すでに〜を考えて整理してある	I've already worked out ...		考えた結果、計画や答えがまとまっていると伝える。	worked on は取り組んだ、worked out は考えてまとまった。	I've already worked out the overall structure.		expression	仕事・職場	high	1	2026-10-24
-expr_1221	1221	〜であることを確認する必要がある	I need to make sure ...		必要な状態になっているか確認し、そうなるようにする。	後ろに主語＋動詞の文を置く。that は省略可能。	I need to make sure each claim is supported by relevant participant quotes.		expression	学習・教育・研究	high	1	2026-10-24
+expr_1221	1221	〜であることを確認する必要がある	I need to make sure ...		必要な状態になっているか確認し、そうなるようにする。	後ろは主語＋動詞。that は省略可。通常 make it sure とはしない。make it clear は明確に伝える。	I need to make sure each claim is supported by relevant participant quotes.		expression	学習・教育・研究	high	1	2026-10-26
 expr_1222	1222	驚いたのは〜でした	What surprised me was ...		驚いた対象や事実を焦点にして経験を語る。	was の後は名詞句や that 節。What surprised me 全体が主語。	What surprised me was that he used only light blue blocks.		expression	感情・心情	high	1	2026-10-24
 expr_1223	1223	一番感心したのは〜でした	What impressed me most was ...		作品や行動の特に優れた点を述べる。	surprised は予想外、impressed は良さへの感心。	What impressed me most was how realistic it looked.		expression	感情・心情	high	1	2026-10-24
 expr_1224	1224	〜のように見えるもの	something that looks like ...		まずものを示し、後ろから見た目を説明する。	過去の作品なら looked like。look like＋名詞／look＋形容詞。	He made something that looked like ice.		expression	日常生活・一般	high	1	2026-10-24
@@ -1239,14 +1239,14 @@ expr_1237	1237	気持ちや行動を立て直す	get it together		気持ちを�
 expr_1238	1238	ちょっと見て確認する	take a look at ...		書類・作品・問題などを見て確かめる。	依頼は Could you take a look at it? が便利。	Could you take a look at it when you have time?		expression	会話のつなぎ・リアクション	high	1	2026-10-24
 expr_1239	1239	人につらい経験をさせる	put someone through ...		困難や負担を相手に経験させる。	through の後に経験内容。電話をつなぐ put someone through とは区別。	I don't want to put him through that again.		expression	人間関係・交流	normal	1	2026-10-24
 expr_1240	1240	唯一無二の	one of a kind		ほかにない個性や特徴を表す。	人や作品を褒めるときによく使う。	My grandfather was one of a kind.		expression	意見・評価	normal	1	2026-10-24
-expr_1241	1241	〜するのは時間の問題です	It's only a matter of time before ...		いつかは必ず起こるだろうと述べる。	良い出来事にも悪い出来事にも使える。before の後は文。	It's only a matter of time before he finds out.		expression	推測・確信	high	1	2026-10-24
+expr_1241	1241	〜するのは時間の問題です	It's only a matter of time before ...		いつかは必ず起こるだろうと述べる。	only なしでもほぼ同じ。only / just は残る問題はいつ起こるかだけと強調する。必ずしも近日中とは限らない。before の後は文。	It's only a matter of time before he finds out.		expression	推測・確信	high	1	2026-10-26
 expr_1242	1242	意外かもしれませんが、実は	Believe it or not, ...		相手が驚きそうな事実を話し始める。	自分が不確かという意味ではない。	Believe it or not, I used to hate English.		expression	会話のつなぎ・リアクション	normal	1	2026-10-24
 expr_1243	1243	その話はもうやめて	Give it a rest.		繰り返す話や行動をやめるよう求める。	いら立ちが出やすい。優しく休憩を勧めるなら take a break。	You've complained enough. Give it a rest.		expression	会話のつなぎ・リアクション	normal	1	2026-10-24
 expr_1244	1244	〜であるべきではなかった	shouldn't have been ...		過去の状態や行動を後悔・批判する。	文脈によって難しいはずではなかった、など過去への予想も表す。	I shouldn't have been so harsh.		expression	感情・心情	high	1	2026-10-24
 expr_1245	1245	〜だったはずがない	couldn't have been ...		過去の状態はあり得ないと判断する。	couldn't have been better はこれ以上よくなれないほど良かった、の強調。	He couldn't have been there. He was with me.		expression	推測・確信	high	1	2026-10-24
 expr_1246	1246	条件が違えば〜ではなかっただろう	wouldn't have been ...		実際とは異なる条件のもとでの過去を想像する。	if 節のほか without ... で条件を示せる。	Without your help, it wouldn't have been possible.		expression	推測・確信	high	1	2026-10-24
 expr_1247	1247	真夜中に	in the middle of the night		夜の深い時間帯に起きたことを述べる。	通常は in the まで含めて覚える。	My son woke up in the middle of the night.		expression	時間・変化	normal	1	2026-10-24
-expr_1248	1248	さあ取りかかろう・先へ進めよう	Let's get on with it.		話し合いや中断を終え、作業を進める。	Get on with it! はさっさとやって、と強く響く。	We've discussed it enough. Let's get on with it.		expression	会話のつなぎ・リアクション	high	1	2026-10-24
+expr_1248	1248	さあ取りかかろう・先へ進めよう	Let's get on with it.		話し合いや中断を終え、作業を進める。	開始・再開の両方に使える。get down to は本腰を入れる点に重点。Get on with it! はさっさとやってと強く響く。	We've discussed it enough. Let's get on with it.		expression	会話のつなぎ・リアクション	high	1	2026-10-26
 expr_1249	1249	ぼんやりした状態から抜け出す	snap out of it		注意・気分を切り替えて普段の状態に戻る。	snap someone out of it は人をその状態から引き戻す。命令形は強い。	Her question helped me snap out of it.		expression	感情・心情	normal	1	2026-10-24
 expr_1250	1250	人をそそのかして〜させる	put someone up to ...		いたずらや問題行動を裏でけしかける。	to は前置詞なので動詞を置くなら ing。	Who put you up to this?		expression	人間関係・交流	normal	1	2026-10-24
 expr_1251	1251	口出しせず、そのまま進めさせる	let him get on with it		相手の作業を妨げず続けさせる。	let＋人＋動詞原形。	He knows what he's doing. Let him get on with it.		expression	人間関係・交流	normal	1	2026-10-24
@@ -1261,3 +1261,84 @@ expr_1259	1259	私のような人でも〜できる	Even someone like me can ...
 expr_1260	1260	〜の経験がない状態で	with no ... experience		始めたときの背景や経験の有無を補足する。	experience はこの意味では通常不可算。	I started with no programming experience.		expression	仕事・職場	normal	1	2026-10-24
 expr_1261	1261	〜に基づいている	be based on ...		計画・判断・作品の土台となる情報を示す。	材料の made of と区別。on の後に名詞や what 節を置ける。	The flashcards are based on what I've learned.		expression	議論・意見	high	1	2026-10-24
 expr_1262	1262	一つ選ぶなら〜です	If I had to pick one, I'd say ...		複数の好みや評価から一つを控えめに選ぶ。	had は過去の事実ではなく、仮に選ぶならという想像。pick up とはしない。	If I had to pick one, I'd say how easy it is to use.		expression	会話のつなぎ・リアクション	high	1	2026-10-24
+expr_1263	1263	ほとんどいつも	almost always		ほぼ毎回行う習慣を話す。	nearly always も近い。頻度の固定した割合はない。	I almost always get up early.		expression	時間・日課	high	1	2026-10-26
+expr_1264	1264	たいてい・普段は	usually		通常の習慣や傾向を話す。	always より例外を認める。一般動詞の前、be 動詞の後が基本。	I usually study English in the morning.		expression	時間・日課	high	1	2026-10-26
+expr_1265	1265	よく・頻繁に	often		繰り返し起こることを述べる。	frequently と意味は近く、会話では often が使いやすい。頻度の数値は固定しない。	We often talk about education.		expression	時間・日課	high	1	2026-10-26
+expr_1266	1266	時々	sometimes		毎回ではないが起こることを述べる。	occasionally は時々だが頻繁ではないという含み。厳密な頻度の境界はない。	I sometimes work from home.		expression	時間・日課	high	1	2026-10-26
+expr_1267	1267	あまり〜しない	not very often		低い頻度を日常会話で伝える。	seldom より会話に取り入れやすい。not と組み合わせる。	I don't eat out very often.		expression	時間・日課	high	1	2026-10-26
+expr_1268	1268	めったに〜しない	hardly ever		起こる頻度が非常に低いと述べる。	rarely と近い。否定の意味を含むので通常 don't を重ねない。seldom はやや文章的。	I hardly ever watch TV.		expression	時間・日課	high	1	2026-10-26
+expr_1269	1269	よく・たくさん	a lot		行為の頻度や量が多いと述べる。	頻度を表すときは通常文末。often のように一般動詞の前には置かない。	We talk a lot.		expression	時間・日課	high	1	2026-10-26
+expr_1270	1270	三つの異なる観点から見る	look at ... from three different perspectives		同じ事柄を複数の視点で考える。	break ... down into three parts は構成要素への分解。観点の違いなら perspectives。	Let's look at this from three different perspectives.		expression	議論・意見	high	1	2026-10-26
+expr_1271	1271	一体感を生む	create a sense of togetherness		活動が人々のつながりを生むと説明する。	team spirit はチームの協力意欲、a sense of belonging は所属・居場所の感覚。	Working together creates a sense of togetherness.		expression	人間関係・交流	high	1	2026-10-26
+expr_1272	1272	信頼を築く助けになる	help build trust		交流や行動の効果を説明する。	help の後は build / to build の両方が可能。	Talking in person helps build trust.		expression	人間関係・交流	high	1	2026-10-26
+expr_1273	1273	〜の妨げになる	get in the way of ...		行動や目標を妨げる要因を説明する。	of の後は名詞か動名詞。	Noise gets in the way of communication.		expression	議論・意見	high	1	2026-10-26
+expr_1274	1274	会話を始める	strike up a conversation with ...		相手に話しかけて会話を始める。	特に、それまで話していなかった人との会話。気軽にという意味は必須ではない。start a conversation も使える。	I struck up a conversation with another parent.		expression	人間関係・交流	high	1	2026-10-26
+expr_1275	1275	事前に会議の予定を決める	schedule a meeting in advance		会う日時を前もって設定する。	in advance は事前に。全員の都合を調整するなら find a time that works for everyone。	We need to schedule a meeting in advance.		expression	仕事・組織	high	1	2026-10-26
+expr_1276	1276	全員に都合のよい時間を見つける	find a time that works for everyone		予定をすり合わせる。	work for someone は人の都合・条件に合う。	Let's find a time that works for everyone.		expression	仕事・組織	high	1	2026-10-26
+expr_1277	1277	〜するほど、機会が少なくなる	The more ..., the fewer chances ...		二つの変化の関係を述べる。	fewer は数えられる複数名詞に使う。時間などの量なら less。	The more we work remotely, the fewer chances we have to interact.		expression	議論・意見	high	1	2026-10-26
+expr_1278	1278	ときどき直接集まる	get together in person from time to time		対面で会う機会を提案する。	in person は対面で。from time to time はときどき。	We should get together in person from time to time.		expression	人間関係・交流	high	1	2026-10-26
+expr_1279	1279	自慢するつもりはないけれど	Not to brag, but ...		実績や得意なことを冗談交じりに話す前置き。	前置きをしても自慢らしさがなくなるとは限らない。親しい会話向け。	Not to brag, but I make really good coffee.		expression	会話のつなぎ・リアクション	high	1	2026-10-26
+expr_1280	1280	結構うまくできたと思う	I think I did pretty well.		発表・試験・作業の出来を振り返る。	do well はうまくやる。pretty はここでは結構・かなり。	I think I did pretty well in the presentation.		expression	会話のつなぎ・リアクション	high	1	2026-10-26
+expr_1281	1281	たとえ〜でも	even if + 文		仮の条件が起きても意思や結論が変わらないと述べる。	even though は実際の事実を認めて、それでもと言う。	Even if it rains, I'm going.		expression	議論・意見	high	1	2026-10-26
+expr_1282	1282	〜に反対している	be against ...		計画や意見への反対を表す。	against の後は名詞か動名詞。	I'm not against the idea.		expression	議論・意見	high	1	2026-10-26
+expr_1283	1283	〜を変えずに守る・貫く	stick to ...		計画・予算・意見を守る。	to は前置詞。意見を貫くと言う場合、状況によっては頑固にも響く。	Let's stick to the plan.		expression	議論・意見	high	1	2026-10-26
+expr_1284	1284	考えや気持ちを言語化する	put ... into words		頭や心の中の内容を言葉で表す。	it / my thoughts / my feelings を目的語にできる。	I know what I want to say, but I can't put it into words.		expression	学習・教育・研究	high	1	2026-10-26
+expr_1285	1285	考えを明確に言葉で表す	articulate my thoughts		筋道立てて自分の考えを説明する。	put my thoughts into words より、明確に伝える点が前面に出る。	I struggle to articulate my thoughts in English.		expression	学習・教育・研究	high	1	2026-10-26
+expr_1286	1286	まだできるうちに	while you still can		後で失われるかもしれない機会を勧める。	can の後の動詞は文脈から省略。切迫感が出る場合もある。	I think you should say it while you still can.		expression	人間関係・交流	high	1	2026-10-26
+expr_1287	1287	あれこれ言われてはいるけれど	For all that's been said, ...		これまでの発言を認めながら、逆の評価を述べる。	for all はここでは〜にもかかわらず。やや文章的。Despite everything that's been said でも表せる。	For all that's been said, he really cares about you.		expression	議論・意見	normal	1	2026-10-26
+expr_1288	1288	〜する人・〜したのはその人	the one who ...		条件に合う人を特定する。	who の後にその人の行動を続ける。	She's the one who helped me.		expression	人間関係・交流	high	1	2026-10-26
+expr_1289	1289	人を大切に思う・気にかける	care about someone		相手への関心や大切に思う気持ちを表す。	take care of someone は世話をする行動。	He cares about you the most.		expression	人間関係・交流	high	1	2026-10-26
+expr_1290	1290	自分でもなぜそう言ったか分からない	I don't even know why I said that.		自分の発言を不思議に思ったり振り返ったりする。	even が意外性を加える。why の後は主語＋動詞。文末の myself は必須ではない。	I don't even know why I said that.		expression	会話のつなぎ・リアクション	high	1	2026-10-26
+expr_1291	1291	私自身が・自分で〔強調〕	I did it myself.		行った本人が自分だと強調する。	myself は省いても文が成立する強調語。by myself は一人で・助けを借りずに。	I made this app myself.		expression	日常生活・一般	high	1	2026-10-26
+expr_1292	1292	元〜・以前の	former + 名詞		以前の役職・関係・状態を表す。	今との違いに注目。former boss と current boss。直前の一人に限らない。	She's a former colleague of mine.		expression	仕事・組織	high	1	2026-10-26
+expr_1293	1293	前の・以前の	previous + 名詞		時間や順序で前のものを指す。	the previous meeting は通常直前。previous meetings は過去の複数回。次のなら next。	We discussed this at our previous meeting.		expression	仕事・組織	high	1	2026-10-26
+expr_1294	1294	以前の経験	prior experience		ある時点より前に得た経験を示す。	previous experience とほぼ同じ。prior はやや改まった表現。former experience は通常使わない。	No prior experience is required.		expression	仕事・組織	high	1	2026-10-26
+expr_1295	1295	〜より前に	prior to ...		基準の出来事より前の時点を示す。	後ろは名詞か動名詞。before より改まった表現。反対は after。	Please let me know prior to the meeting.		expression	時間・変化	normal	1	2026-10-26
+expr_1296	1296	その後の・それに続く	subsequent + 名詞		基準の出来事より後のものを指す。	prior との対比に使える。やや改まった語で、会話では later / next を意味に応じて使う。	We discussed it at a subsequent meeting.		expression	時間・変化	normal	1	2026-10-26
+expr_1297	1297	元恋人・元配偶者	my ex		以前の交際相手や配偶者を指す。	ex-wife / ex-boyfriend のようにも使う。ex- 自体に不仲という意味はない。	I ran into my ex yesterday.		expression	人間関係・交流	normal	1	2026-10-26
+expr_1298	1298	前者	the former		二つ挙げたうち、先に挙げたものを指す。	the latter は後者。会話では the first one や具体名も分かりやすい。	We could drive or take the train. I prefer the former.		expression	議論・意見	high	1	2026-10-26
+expr_1299	1299	後者	the latter		二つ挙げたうち、後に挙げたものを指す。	the former は前者。時間の前後ではなく列挙した順序。	We can meet online or in person. I prefer the latter.		expression	議論・意見	high	1	2026-10-26
+expr_1300	1300	防音・遮音対策	soundproofing		部屋などの音の出入りを減らす対策・性能を話す。	soundproof は形容詞・動詞。ヘッドホンの noise cancellation とは区別。	The soundproofing in my apartment isn't very good.		expression	日常生活・一般	normal	1	2026-10-26
+expr_1301	1301	防音の・防音にする	soundproof		部屋の遮音性を尋ねたり対策を話したりする。	音を通さないという強い表現。遮音性能を一般的に述べるなら sound insulation も使える。	Is this room soundproof?		expression	日常生活・一般	normal	1	2026-10-26
+expr_1302	1302	それでもやるつもりですか	Are you still going to do it?		事情を聞いた後も予定が変わらないか確認する。	still は予定の継続。Do you still want to do it? は気持ちを尋ねる。	It might not work. Are you still going to do it?		expression	会話のつなぎ・リアクション	high	1	2026-10-26
+expr_1303	1303	それでも実行するつもりですか	Are you going to do it anyway?		問題があっても実行するか確認する。	anyway は障害や反対の事情があってもという含み。	It's expensive. Are you going to do it anyway?		expression	会話のつなぎ・リアクション	high	1	2026-10-26
+expr_1304	1304	〜のこととなると結構うるさい	I'm pretty picky when it comes to ...		好みへのこだわりを冗談交じりに話す。	picky は選り好みする。少し柔らかく言うなら particular about。	I'm pretty picky when it comes to coffee.		expression	日常生活・一般	high	1	2026-10-26
+expr_1305	1305	〜にはこだわりがある	be particular about ...		好みや基準を細かく持っていると述べる。	picky と近いが、こだわりを落ち着いて述べやすい。	I'm pretty particular about coffee.		expression	日常生活・一般	high	1	2026-10-26
+expr_1306	1306	その機会がなければ出会わなかった人	someone I would never have met otherwise		実際の出会いを、別の条件では起こらなかったと振り返る。	otherwise はそうでなければ。would never meet だけでは実際に出会ったとは分からない。	I met people I would never have met otherwise.		expression	人間関係・交流	high	1	2026-10-26
+expr_1307	1307	出会うとは思っていなかった人	someone I never expected to meet		予想外の出会いを振り返る。	would never have met otherwise は別条件での反実仮想。こちらは予想に注目する。	I met someone I never expected to meet.		expression	人間関係・交流	high	1	2026-10-26
+expr_1308	1308	審査中・査読中	under review		論文などが審査を受けている状態を伝える。	under＋名詞で〜中になるのは慣用的な組み合わせ。どんな名詞にも使えるわけではない。	My paper is under review.		expression	学習・教育・研究	high	1	2026-10-26
+expr_1309	1309	建設中	under construction		建物や設備が建設されていると伝える。	under repair は修理中、under development は開発中。	The station is under construction.		expression	日常生活・一般	normal	1	2026-10-26
+expr_1310	1310	検討中	under consideration		案などが検討されていると伝える。	under study は研究・検討されている状態。I'm studying の代わりにはならない。	The proposal is still under consideration.		expression	仕事・組織	normal	1	2026-10-26
+expr_1311	1311	私服・自分の服	your own clothes		制服との対比で普段の自分の服を指す。	regular clothes / everyday clothes も使える。casual clothes は服装のカジュアルさに注目。	Do you wear a uniform or your own clothes at work?		expression	日常生活・一般	high	1	2026-10-26
+expr_1312	1312	制服・ユニフォーム	a uniform		学校・職場・チームでそろえる服を指す。	学校なら school uniform、野球なら baseball uniform。	We have to wear a uniform at work.		expression	日常生活・一般	high	1	2026-10-26
+expr_1313	1313	作業服・仕事用の服	work clothes		作業や仕事のために着る服を指す。	workwear は衣類の種類。医療用の scrubs や白衣 a white coat とは必要に応じて区別。	I need to change into my work clothes.		expression	日常生活・一般	high	1	2026-10-26
+expr_1314	1314	Aの後にBが続く	A is followed by B.		出来事や予定の順序を説明する。	B follows A と同じ順番。by の後が次に来るもの。	The presentation was followed by a discussion.		expression	学習・教育・研究	high	1	2026-10-26
+expr_1315	1315	〜、その後に…	..., followed by ...		先に述べた予定や出来事に、次の内容を付け足す。	followed by の後は名詞句。会話なら then＋文に分けてもよい。	We'll have a short meeting, followed by lunch.		expression	仕事・組織	high	1	2026-10-26
+expr_1316	1316	〜ということを心配している	be concerned that ...		心配の内容を文で説明する。	名詞なら concerned about。worried と近く、concerned はやや改まった響き。	I'm concerned that we don't have enough time.		expression	議論・意見	high	1	2026-10-26
+expr_1317	1317	きっと〜だと思います	I'm sure ...		相手の状態をくみ取ったり確信を示したりする。	相手の気持ちを強く決めつけないよう文脈に配慮する。	I'm sure you're tired.		expression	会話のつなぎ・リアクション	high	1	2026-10-26
+expr_1318	1318	人に〜だと伝えて安心させる	reassure someone that ...		心配している人の不安を和らげる。	assure は確かだと請け合うこと、reassure は不安を和らげることに重点。必ず再度とは限らない。	I reassured him that he hadn't done anything wrong.		expression	人間関係・交流	high	1	2026-10-26
+expr_1319	1319	〜するために必要な力・資質がある	have what it takes to ...		能力・根気・適性があると評価する。	what it takes は必要なもの。後ろの to は不定詞。	You have what it takes to be a good teacher.		expression	学習・教育・研究	high	1	2026-10-26
+expr_1320	1320	〜しながら	while + 動詞ing		同じ主体が並行して行う活動を述べる。	I studied ... while working は while I was working とほぼ同じ。主語の対応に注意。	I studied English while working full-time.		expression	学習・教育・研究	high	1	2026-10-26
+expr_1321	1321	どうしても〜したい	want to ... so badly		強い願望や切実な気持ちを伝える。	くだけた会話では so bad も使う。really want to は幅広く使いやすい。	I want to speak English fluently so badly.		expression	日常生活・一般	high	1	2026-10-26
+expr_1322	1322	改札を通る	go through the ticket gates		駅の改札を通過する動きを説明する。	ticket gate は改札。複数並ぶ改札口は ticket gates と言える。	Go through the ticket gates and turn right.		expression	移動・交通	high	1	2026-10-26
+expr_1323	1323	改札の外で待つ	wait outside the ticket gates		待ち合わせ場所を伝える。	改札で、なら at the ticket gates。	I'm waiting outside the ticket gates.		expression	移動・交通	high	1	2026-10-26
+expr_1324	1324	電車に何駅か分乗る	take the train a few stops		乗車する区間を駅の数で説明する。	three stops のように数を指定できる。乗車駅を含めず次の駅から数える。	I'll take the train a few stops.		expression	移動・交通	high	1	2026-10-26
+expr_1325	1325	あと何駅かで降りる	I'm getting off in a few stops.		乗車中に降りるまでの駅数を伝える。	in two stops はあと２駅で。次の駅で、なら at the next stop。	I'm getting off in two stops.		expression	移動・交通	high	1	2026-10-26
+expr_1326	1326	これまで〜を続けている	I've been + 動詞ing		過去から今にかけて続く活動を説明する。	途中の休憩があっても使える。today は今日、all day は一日中で意味が違う。	I've been practicing shadowing today.		expression	学習・教育・研究	high	1	2026-10-26
+expr_1327	1327	試しに〜してみる	try + 動詞ing		方法を試して効果を確かめる。	try to do は〜しようと努力する。trying practice とはせず trying to practice。	I've been trying shadowing today.		expression	学習・教育・研究	high	1	2026-10-26
+expr_1328	1328	創設者	the founder of ...		組織を設立した人を指す。	現在の責任者とは限らない。責任者なら the head / director。	She's the founder of this academy.		expression	仕事・組織	normal	1	2026-10-26
+expr_1329	1329	組織の責任者	the head of ...		組織や部門を率いる人を指す。	the top of this academy だけでは人の役職名として不自然。創設者なら founder。	He's the head of the department.		expression	仕事・組織	high	1	2026-10-26
+expr_1330	1330	人が〜できるよう訓練する	train someone to ...		人材育成の目標を説明する。	breed は通常の人材育成では使わない。train doctors to become coaches はコーチになるよう育成する。	We train doctors to become coaches.		expression	学習・教育・研究	high	1	2026-10-26
+expr_1331	1331	人に〜の技能を教える	train someone in ...		指導する領域・技能を示す。	コーチング技能を教えることと、コーチという役割に育てることは区別できる。	We train doctors in coaching skills.		expression	学習・教育・研究	high	1	2026-10-26
+expr_1332	1332	自分にもっと優しくする	be kinder to myself		自分への態度を柔らかくする。	develop a kinder attitude toward myself とも言える。主語が we なら ourselves。	I'm learning to be kinder to myself.		expression	気持ち・感情	high	1	2026-10-26
+expr_1333	1333	ストレスを感じているようだ	seem stressed		見た様子から相手の状態を述べる。	seem to be stressed とほぼ同じ。stressed は形容詞なので in は不要。under stress なら可。	She seemed stressed at first.		expression	気持ち・感情	high	1	2026-10-26
+expr_1334	1334	人に〜するよう頼む	ask someone to ...		依頼した内容を説明する。	ask her again to try は再度頼む、ask her to try again は再度試すよう頼む。	I asked her again to give it a try.		expression	人間関係・交流	high	1	2026-10-26
+expr_1335	1335	試してみる	give it a try		試すことを勧めたり決めたりする。	give it another try はもう一度試す。	Why don't you give it a try?		expression	会話のつなぎ・リアクション	high	1	2026-10-26
+expr_1336	1336	〜するように見える	seem to + 動詞の原形		様子から行動・気づきを推測する。	She seems to ... / It seems that she ... を混ぜない。状態なら seem＋形容詞も可。	She seemed to realize something important.		expression	推測・確信	high	1	2026-10-26
+expr_1337	1337	表情が和らぐ	Her expression softened.		顔の緊張や厳しさが薄れたと描写する。	一つの顔つきなら expression は単数。笑顔になったとは限らない。	Her expression softened when she heard that.		expression	気持ち・感情	high	1	2026-10-26
+expr_1338	1338	ほっとする	feel relieved		心配が薄れた後の安堵を表す。	feel relaxed は緊張がほぐれる。感情に unstressful は通常使わない。	I felt relieved when I heard the news.		expression	気持ち・感情	high	1	2026-10-26
+expr_1339	1339	ストレスが軽くなる	feel less stressed		以前より負担やストレスが軽くなったと述べる。	feel calmer は気持ちが落ち着く。seem を使えば観察に基づく表現になる。	She seemed less stressed afterward.		expression	気持ち・感情	high	1	2026-10-26
+expr_1340	1340	〜が人の助けになる	help someone + 動詞の原形		取り組みの効果を説明する。	help someone to do も可。make より、実現を助ける点に重点。	It helped her feel calmer.		expression	議論・意見	high	1	2026-10-26
+expr_1341	1341	少し時間を取って〜する	take a moment to ...		短く立ち止まって何かをする。	make a timing とはしない。relieve ourselves は用を足す意味にもなる。	Take a moment to notice how you feel.		expression	時間・日課	high	1	2026-10-26
+expr_1342	1342	〜する時間を確保する	make time to ...		忙しい中で活動の時間を作る。	take a moment は少し時間を取る。timing は実行する時機。	I try to make time to relax.		expression	時間・日課	high	1	2026-10-26
+expr_1343	1343	立ち止まる機会を与える	give us a chance to pause		実践によって自分を振り返る余地が生まれると説明する。	pause and be kinder to ourselves と続けられる。	Self-compassion gives us a chance to pause.		expression	気持ち・感情	high	1	2026-10-26
