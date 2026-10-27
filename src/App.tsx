@@ -3,6 +3,7 @@ import { createEmptyCard, Rating, type Card } from 'ts-fsrs'
 import { cardKey, createBackup, dateKey, db, defaultSettings, getEffectiveNotes, getTodayPlan, importTsv, loadSettings, rateCard, reconcileReviewCards, resetNoteEdits, restoreBackup, saveNoteEdits, scheduler, type EditableNoteContent, type Mode, type Note, type ReviewCard, type ReviewRating, type Settings, type TodayPlan } from './data'
 import EditNoteDialog from './EditNoteDialog'
 import { partOfSpeech } from './partOfSpeech'
+import { recallHints } from './recallHints'
 
 type Page = 'today' | 'study' | 'browse' | 'settings'
 const ratings: { value: ReviewRating; label: string; className: string }[] = [
@@ -85,6 +86,7 @@ export default function App() {
   }, [])
 
   const candidate = plan?.candidate ?? null
+  const promptHints = candidate?.direction === 'ja_to_en' ? recallHints(candidate.note) : []
   const preview = useMemo(() => {
     if (!candidate) return null
     const card = candidate.review?.fsrsCard ?? createEmptyCard<Card>()
@@ -233,8 +235,6 @@ export default function App() {
 
   const scenes = [...new Set(notes.filter(n => n.active !== '0').map(n => n.scene).filter(Boolean))].sort()
   const tags = [...new Set(notes.filter(n => n.active !== '0').map(n => n.tag).filter(Boolean))].sort()
-  const japaneseCounts = new Map<string, number>()
-  for (const note of notes) if (note.active !== '0') japaneseCounts.set(note.ja, (japaneseCounts.get(note.ja) ?? 0) + 1)
   const found = notes.filter(n => n.active !== '0' && (!scene || n.scene === scene) && (!tag || n.tag === tag) && (!query || `${n.card_id} ${n.ja} ${n.en} ${n.usage} ${n.example_en}`.toLowerCase().includes(query.toLowerCase()))).slice(0, 100)
   const progress = plan ? Math.min(100, Math.round(plan.studied / plan.totalLimit * 100)) : 0
 
@@ -255,7 +255,7 @@ export default function App() {
         {!candidate ? <div className="done"><span className="done-icon">✓</span><h2>今日の分は終了です</h2><p>また明日、少しずつ続けましょう。</p><button className="primary" onClick={() => setPage('today')}>今日の画面へ</button></div> : <>
           <div className="card-type"><span>{candidate.isNew ? 'NEW' : 'REVIEW'}</span><span>{candidate.direction === 'ja_to_en' ? '日本語 → 英語' : '英語 → 日本語'}</span><button className="edit-card-button" type="button" disabled={busy} onClick={openEditor}>✎ 編集</button></div>
           <article className="flashcard"><div className="context"><span>{candidate.note.scene}</span><span className="part-of-speech">品詞・種類: {partOfSpeech(candidate.note)}</span>{candidate.note.tag && <span>{candidate.note.tag}</span>}{editedIds.has(candidate.note.card_id) && <span className="edited-badge">編集済み</span>}</div><p className="prompt-caption">{candidate.direction === 'ja_to_en' ? 'この表現を英語で？' : 'この表現の意味は？'}</p><h2>{candidate.direction === 'ja_to_en' ? candidate.note.ja : candidate.note.en}</h2>
-            {candidate.direction === 'ja_to_en' && (japaneseCounts.get(candidate.note.ja) ?? 0) > 1 && candidate.note.usage.trim() && <div className="recall-hint"><span>使い方のヒント</span><p>{candidate.note.usage}</p></div>}
+            {promptHints.length > 0 && <div className="recall-hint" aria-label="想起のヒント">{promptHints.map(hint => <p key={hint.label}><span>{hint.label}</span>{hint.text}</p>)}</div>}
             <p className="card-meta">ID: {candidate.note.card_id}{candidate.review ? ` · 復習 ${candidate.review.fsrsCard.reps}回` : ' · 未学習'}{candidate.review?.fsrsCard.last_review ? ` · 前回 ${fullDate(candidate.review.fsrsCard.last_review)}` : ''}</p>
             {revealed && <div className="answer"><span className="answer-label">ANSWER</span><h3>{candidate.direction === 'ja_to_en' ? candidate.note.en : candidate.note.ja}</h3>{candidate.note.ipa && <p className="ipa">{candidate.note.ipa}</p>}{candidate.note.usage && <div className="detail"><b>使い所</b><p>{candidate.note.usage}</p></div>}{candidate.note.nuance && <div className="detail"><b>使い分け</b><p>{candidate.note.nuance}</p></div>}{candidate.note.example_en && <div className="example"><b>EXAMPLE</b><p>{candidate.note.example_en}</p>{candidate.note.example_ipa && <small>{candidate.note.example_ipa}</small>}</div>}<button className="speak" onClick={() => speak(candidate.note.en)}>▶ 英語を読み上げる</button></div>}
           </article>
