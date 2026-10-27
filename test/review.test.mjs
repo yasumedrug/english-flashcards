@@ -3,7 +3,7 @@ import assert from 'node:assert/strict'
 import { test } from 'node:test'
 import { createEmptyCard, Rating } from 'ts-fsrs'
 
-const { cardKey, createBackup, db, getEffectiveNotes, getTodayPlan, rateCard, reconcileReviewCards, resetNoteEdits, restoreBackup, saveNoteEdits, scheduler } = await import('../src/data.ts')
+const { cardKey, createBackup, db, getEffectiveNotes, getTodayPlan, importTsv, rateCard, reconcileReviewCards, resetNoteEdits, restoreBackup, saveNoteEdits, scheduler } = await import('../src/data.ts')
 
 const note = (id, ja) => ({
   card_id: id, source_no: id.slice(-1), ja, en: `word ${id}`, ipa: '',
@@ -125,4 +125,30 @@ test('card wording edits survive source updates and backups without changing rev
   delete oldBackup.noteOverrides
   await restoreBackup(oldBackup)
   assert.equal(await db.noteOverrides.count(), 0)
+})
+
+test('TSV updates validate hints before writing and preserve history and local edits', async t => {
+  const original = { ...note('expr_import', '元の訳'), usage: '習慣について話すとき。' }
+  await db.notes.put(original)
+  await rateCard({ note: original, direction: 'ja_to_en', isNew: true }, Rating.Good, 500)
+  await saveNoteEdits(original.card_id, { ...original, ja: '自分で編集した訳' })
+  const key = cardKey(original.card_id, 'ja_to_en')
+  const before = await db.reviewCards.get(key)
+  const logs = await db.reviewLogs.where('cardId').equals(key).toArray()
+  const serialize = row => `${Object.keys(row).join('\t')}\n${Object.values(row).join('\t')}\n`
+  let tsv = serialize({ ...original, usage: '現在の習慣について話すとき。' })
+  t.mock.method(globalThis, 'fetch', async () => new Response(tsv))
+
+  assert.equal(await importTsv(), 1)
+  const saved = await db.notes.get(original.card_id)
+  const metadata = await db.importMetadata.get('cards')
+  assert.equal(saved.usage, '現在の習慣について話すとき。')
+  assert.equal((await getEffectiveNotes()).find(row => row.card_id === original.card_id).ja, '自分で編集した訳')
+
+  tsv = serialize({ ...original, usage: 'wordから始まる英語。' })
+  await assert.rejects(importTsv(), /expr_import/)
+  assert.deepEqual(await db.notes.get(original.card_id), saved)
+  assert.deepEqual(await db.importMetadata.get('cards'), metadata)
+  assert.deepEqual(await db.reviewCards.get(key), before)
+  assert.deepEqual(await db.reviewLogs.where('cardId').equals(key).toArray(), logs)
 })

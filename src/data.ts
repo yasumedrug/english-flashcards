@@ -1,5 +1,6 @@
 import Dexie, { type EntityTable } from 'dexie'
 import { createEmptyCard, fsrs, type Card, type Rating } from 'ts-fsrs'
+import { assertRecallHints } from './recallHints.ts'
 
 export type Direction = 'ja_to_en' | 'en_to_ja'
 export type Mode = Direction | 'mixed'
@@ -114,7 +115,7 @@ export function parseTsv(text: string): Note[] {
   const required: (keyof Note)[] = ['card_id', 'source_no', 'ja', 'en', 'ipa', 'usage', 'nuance', 'example_en', 'example_ipa', 'tag', 'scene', 'priority', 'active', 'source_version']
   if (required.some(key => !columns.includes(key))) throw new Error('TSVの列が不足しています')
   const ids = new Set<string>()
-  return lines.filter(Boolean).map((line, i) => {
+  const notes = lines.filter(Boolean).map((line, i) => {
     const values = line.split('\t')
     if (values.length !== columns.length) throw new Error(`TSV ${i + 2}行目の列数が違います`)
     const note = Object.fromEntries(required.map(key => [key, values[columns.indexOf(key)].trim()])) as Note
@@ -122,10 +123,12 @@ export function parseTsv(text: string): Note[] {
     ids.add(note.card_id)
     return note
   })
+  assertRecallHints(notes)
+  return notes
 }
 
 export async function importTsv(): Promise<number> {
-  const response = await fetch(`${import.meta.env.BASE_URL}data/cards.tsv`, { cache: 'no-cache' })
+  const response = await fetch(`${import.meta.env?.BASE_URL ?? '/'}data/cards.tsv`, { cache: 'no-cache' })
   if (!response.ok) throw new Error(`TSVを取得できません (${response.status})`)
   const notes = parseTsv(await response.text())
   await db.transaction('rw', db.notes, db.importMetadata, async () => {
