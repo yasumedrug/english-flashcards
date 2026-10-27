@@ -103,6 +103,17 @@ for (const [label, phrases] of Object.entries({
   会話表現: 'not to brag, but ...|for all that\'s been said, ...'
 })) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
 
+for (const [label, phrases] of Object.entries({
+  名詞句: 'rubber gloves|disposable gloves',
+  動詞句: 'take shape|take it personally|sit around waiting|get a drink|have a distinctive style|want to ... so bad',
+  形容詞句: 'be worried about ...|be curious about ...|... is on my mind|be close to ...ing',
+  副詞句: 'in a good way|fair and square|from the start|not necessarily ...|not always ...|all the time|all the way|all the more ...|all the same|all day|from a distance|all the while|all the better',
+  前置詞句: 'before ...|until ...|by ...',
+  接続詞: 'now that ..., ...|now that i\'m used to ...',
+  文法表現: '... is followed by ...|now it\'s ... that ...|not everyone ...',
+  '文・会話表現': '... bothers me|chances are (that) ...'
+})) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
+
 export function partOfSpeech(note: Pick<Note, 'en' | 'ja' | 'tag'>): string {
   const english = note.en.trim()
   const japanese = note.ja.trim()

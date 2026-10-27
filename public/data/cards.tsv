@@ -1342,3 +1342,82 @@ expr_1340	1340	〜が人の助けになる	help someone + 動詞の原形		取�
 expr_1341	1341	少し時間を取って〜する	take a moment to ...		短く立ち止まって何かをする。	make a timing とはしない。relieve ourselves は用を足す意味にもなる。	Take a moment to notice how you feel.		expression	時間・日課	high	1	2026-10-26
 expr_1342	1342	〜する時間を確保する	make time to ...		忙しい中で活動の時間を作る。	take a moment は少し時間を取る。timing は実行する時機。	I try to make time to relax.		expression	時間・日課	high	1	2026-10-26
 expr_1343	1343	立ち止まる機会を与える	give us a chance to pause		実践によって自分を振り返る余地が生まれると説明する。	pause and be kinder to ourselves と続けられる。	Self-compassion gives us a chance to pause.		expression	気持ち・感情	high	1	2026-10-26
+expr_1344	1344	ゴム手袋	rubber gloves		掃除などに使うゴム製の手袋。	医療用なら disposable gloves や nitrile gloves も。	I put on rubber gloves before cleaning the bathroom.		expression	日常生活・一般	high	1	2026-10-27
+expr_1345	1345	使い捨て手袋	disposable gloves		一回使用で捨てる手袋。	素材を指定するなら nitrile gloves。	We use disposable gloves when examining patients.		expression	医療・仕事	high	1	2026-10-27
+expr_1346	1346	棚	a shelf		物を置く一段の棚。	複数形は shelves。家具全体なら shelving unit。	I put the book on the top shelf.		expression	日常生活・一般	high	1	2026-10-27
+expr_1347	1347	家事を分担する	share the housework		夫婦などが協力して家事をする。	split the chores は仕事を割り振る響き。五分五分とは限らない。	My wife and I share the housework.		expression	家族・育児	high	1	2026-10-27
+expr_1348	1348	家事を割り振る	split the chores		担当を決めて家事を分ける。	均等なら split the chores fifty-fifty。	How do you split the chores at home?		expression	家族・育児	high	1	2026-10-27
+expr_1349	1349	〜を形作る	shape ...		経験などが人や考え方に影響して形成する。	influence より形作る過程を強調。	My patients have shaped the way I teach.		expression	教育・仕事	high	1	2026-10-27
+expr_1350	1350	形になり始める	take shape		計画や考えが具体化する。	get in shape は体調・体型を整える。	The workshop plan is starting to take shape.		expression	教育・仕事	high	1	2026-10-27
+expr_1351	1351	〜が気になる（心配）	be worried about ...		心配で気にかける。	興味なら curious about、不快なら bother。	I'm worried about my son's school day.		expression	家族・育児	high	1	2026-10-27
+expr_1352	1352	〜が気になる（興味）	be curious about ...		知りたい・興味がある。	不安を含まない。	I'm curious about how they designed the course.		expression	日常生活・一般	high	1	2026-10-27
+expr_1353	1353	〜が気に障る	... bothers me		気になって不快である。	単なる興味とは異なる。	The noise bothers me when I study.		expression	日常生活・一般	high	1	2026-10-27
+expr_1354	1354	〜が頭から離れない	... is on my mind		気がかりが思考に残る。	心配のほか考え続けている場合も。	The conversation has been on my mind.		expression	感情・心情	high	1	2026-10-27
+expr_1355	1355	夫婦	a married couple		結婚している二人を指す。	a couple だけなら未婚も含む。	They are a married couple.		expression	家族・育児	high	1	2026-10-27
+expr_1356	1356	夫婦によります	It depends on the couple.		夫婦ごとに事情ややり方が違う。	誰が決めるかなら It's up to each couple。	How to split chores depends on the couple.		expression	家族・育児	high	1	2026-10-27
+expr_1357	1357	それぞれの夫婦が決めることです	It's up to each couple to decide.		決定権は各夫婦にある。	It depends on the couple は結果の違い。	It's up to each couple to decide what works for them.		expression	家族・育児	high	1	2026-10-27
+expr_1358	1358	彼の助けが必要です	I need his help.		手伝ってもらう必要がある。	協力的な態度なら cooperation、支援なら support。	I need his help with the housework.		expression	家族・育児	high	1	2026-10-27
+expr_1359	1359	彼に〜してもらう必要がある	I need him to ...		相手にしてほしい行動を明確に言う。	need his help より具体的。	I need him to help with the housework.		expression	家族・育児	high	1	2026-10-27
+expr_1360	1360	私は大切な存在です	I matter.		自分の存在には価値がある。	matter は動詞。he matters のように三単現では s。	I want to feel that I matter.		expression	感情・心情	high	1	2026-10-27
+expr_1361	1361	あなたは私にとって大切です	You matter to me.		相手の存在が自分にとって重要だと伝える。	matter to + 人。	I want you to know that you matter to me.		expression	感情・心情	high	1	2026-10-27
+expr_1362	1362	ちょっとこちらを見て	Look over here for a second.		視線をこちらに向けてほしい。	give me your glance は通常言わない。	Look over here for a second.		expression	日常生活・一般	high	1	2026-10-27
+expr_1363	1363	ちょっと見てもらえますか	Could you take a quick look at this?		物や資料を確認してほしい。	glance at はちらりと見る。	Could you take a quick look at this draft?		expression	教育・仕事	high	1	2026-10-27
+expr_1364	1364	妻の愚痴を言う	complain about my wife		妻を不満の対象として話す。	聞き手は to + 人で表す。	I complained to a friend about my wife.		expression	家族・育児	high	1	2026-10-27
+expr_1365	1365	妻に愚痴を言う	complain to my wife		妻を聞き手として不満を話す。	何への不満かは about + 話題。	I complained to my wife about work.		expression	家族・育児	high	1	2026-10-27
+expr_1366	1366	妻に仕事の愚痴をこぼす	vent to my wife about work		溜まった気持ちを吐き出す。	complain より感情の発散に焦点。	I needed to vent to my wife about work.		expression	家族・育児	high	1	2026-10-27
+expr_1367	1367	長所と短所	the pros and cons		メリットとデメリットを比べる。	この con はマイナス面で、詐欺の con と区別。	Let's weigh the pros and cons.		expression	議論・意見	high	1	2026-10-27
+expr_1368	1368	主な難点は〜です	The main con is ...		案や製品の欠点を言う。	con は単数可算名詞。	The main con is the price.		expression	議論・意見	high	1	2026-10-27
+expr_1369	1369	人をだまし取る	con someone out of ...		人から金などを詐欺で奪う。	pros and cons の con とは意味が異なる。	He conned her out of her savings.		expression	日常生活・一般	high	1	2026-10-27
+expr_1370	1370	どうしてそう思うのですか	What makes you say that?		発言の理由や根拠を尋ねる。	口調によって好奇心にも反論にも聞こえる。	You think the plan will fail? What makes you say that?		expression	会話のつなぎ・リアクション	high	1	2026-10-27
+expr_1371	1371	何と言えばいいか分からないのですが	I don't know how to put it, but ...		言葉を探しながら話し始める。	put it は言葉で表す。	I don't know how to put it, but something feels different.		expression	会話のつなぎ・リアクション	high	1	2026-10-27
+expr_1372	1372	いい意味で	in a good way		誤解されそうな評価を好意的と補足する。	in a bad way は悪い意味で。	He doesn't seem like a beginner, in a good way.		expression	会話のつなぎ・リアクション	high	1	2026-10-27
+expr_1373	1373	〜する意味は何ですか	What's the point of ...?		意義を問う。	強い不満に響く場合があり、穏やかな質問は What's the purpose of ...?。	What's the point of meeting if we never decide anything?		expression	議論・意見	high	1	2026-10-27
+expr_1374	1374	〜から気を紛らわせる	take my mind off ...		心配事から一時的に意識を離す。	take someone's mind off + 対象。	I went for a run to take my mind off work.		expression	感情・心情	high	1	2026-10-27
+expr_1375	1375	今ごろはもう終わっているかもしれない	It might be over by now.		今の時点で既に完了したと推測する。	by now は今までには。	The meeting started at two. It might be over by now.		expression	時間・変化	high	1	2026-10-27
+expr_1376	1376	〜の次に…が続く	... is followed by ...		順番を説明する。	A is followed by B は A の後が B。	The presentation will be followed by a Q&A session.		expression	教育・仕事	high	1	2026-10-27
+expr_1377	1377	たぶん〜でしょう	Chances are (that) ...		状況から可能性が高いと推測する。	that は省略できる。	Chances are we'll need more time.		expression	推測・確信	high	1	2026-10-27
+expr_1378	1378	〜を承認する	greenlight ...		企画や計画に実施許可を出す。	動詞。greenlit が過去形として使われる。	The department greenlit the training program.		expression	教育・仕事	high	1	2026-10-27
+expr_1379	1379	正々堂々と	fair and square		公正な手段で勝負する。	win fair and square が定型。	She won fair and square.		expression	日常生活・一般	high	1	2026-10-27
+expr_1380	1380	もう少しで〜する	be close to ...ing		目標・完成に近い。	to は前置詞で後ろは ing。	We're close to finishing the paper.		expression	教育・仕事	high	1	2026-10-27
+expr_1381	1381	話の要点を薄める	water down ...		質・主張・要求を弱める。	水で薄めるイメージ。	I don't want to water down the main argument.		expression	教育・仕事	high	1	2026-10-27
+expr_1382	1382	個人的な攻撃として受け取る	take it personally		批判などを自分への否定と受け止める。	Don't take it personally は相手の感情を軽視した響きも。	I tried not to take the feedback personally.		expression	感情・心情	high	1	2026-10-27
+expr_1383	1383	わざわざ〜する	go out of one's way to ...		普段以上の手間をかけて行う。	親切にも、否定文でそこまではしないにも使える。	She went out of her way to help me.		expression	日常生活・一般	high	1	2026-10-27
+expr_1384	1384	最初から	from the start		最初の時点から。	from the beginning と近い。	The goal was clear from the start.		expression	時間・変化	high	1	2026-10-27
+expr_1385	1385	ただ待っているだけ	sit around waiting		何も行動せず待つ。	sit around + ing は手をこまねく含み。	I don't want to sit around waiting.		expression	日常生活・一般	high	1	2026-10-27
+expr_1386	1386	意見を交わす	compare notes on ...		互いに経験や見方を照らし合わせる。	trade views on も通じるが日常は talk about も自然。	Let's compare notes on the workshop.		expression	教育・仕事	high	1	2026-10-27
+expr_1387	1387	〜の前に	before ...		基準の時点より前に起こる。	必ずしも後の出来事が実際に起こったとは限らない。	I caught the glass before it hit the floor.		expression	時間・変化	high	1	2026-10-27
+expr_1388	1388	〜までずっと	until ...		時点まで行動や状態が続く。	not until はその時点で初めて変化する含み。	I stayed until she arrived.		expression	時間・変化	high	1	2026-10-27
+expr_1389	1389	〜までに	by ...		期限の時点までに条件が成立する。	行為が一回限りとは限らない。	I'll finish the draft by Friday.		expression	時間・変化	high	1	2026-10-27
+expr_1390	1390	〜して初めて…した	I didn't ... until ...		それまでは起きず、基準時点で変化。	I didn't wait until ... は待ち続けなかった意味にもなる。	I didn't understand it until she explained it.		expression	時間・変化	high	1	2026-10-27
+expr_1391	1391	〜とは限りません	not necessarily ...		例外の可能性を残し全面的な断定を否定する。	単純な事実否定とは違う。	A shorter meeting isn't necessarily better.		expression	議論・意見	high	1	2026-10-27
+expr_1392	1392	いつも〜とは限らない	not always ...		頻度の全面否定ではなく一部の例外を示す。	not all / not everyone も部分否定。	Remote work doesn't always make communication harder.		expression	議論・意見	high	1	2026-10-27
+expr_1393	1393	〜というわけではなく、ただ…です	It's not that ... It's just that ...		相手の想定する理由を否定し本当の理由を述べる。	内側が否定形でもその解釈全体を否定する。	It's not that I don't want to help. I just don't have time today.		expression	会話のつなぎ・リアクション	high	1	2026-10-27
+expr_1394	1394	そういう意味で言ったわけではない	I didn't mean it that way.		言葉は発したが意図を否定する。	出来事そのものの否定は I didn't say that。	I didn't mean it that way. I'm sorry it sounded harsh.		expression	会話のつなぎ・リアクション	high	1	2026-10-27
+expr_1395	1395	わざと〜したわけではない	I didn't mean to ...		行為は起きたが意図はなかった。	I didn't do it は事実否定。	I didn't mean to interrupt you.		expression	会話のつなぎ・リアクション	high	1	2026-10-27
+expr_1396	1396	今は〜なので	Now that ..., ...		以前と変わった現在の状況を理由にする。	because より今となってはの前提が出る。	Now that I drink coffee every day, tea feels more special.		expression	時間・変化	high	1	2026-10-27
+expr_1397	1397	〜に慣れたので	Now that I'm used to ...		現在の慣れた状態を理由に続ける。	be used to + 名詞/ing。used to do は過去の習慣。	Now that I'm used to drinking coffee, tea feels special.		expression	時間・変化	high	1	2026-10-27
+expr_1398	1398	今はむしろ〜のほうが	Now it's ... that ...		以前との感覚の逆転を強調する。	反対にを逐語訳せず焦点を置く。	Now it's tea that feels more grown-up to me.		expression	会話のつなぎ・リアクション	high	1	2026-10-27
+expr_1399	1399	面白いことに	Funny enough, ...		意外な変化や結果を軽く提示する。	皮肉とは限らない。	Funny enough, tea feels more grown-up to me now.		expression	会話のつなぎ・リアクション	high	1	2026-10-27
+expr_1400	1400	いつも・しょっちゅう	all the time		日頃の頻度を強調する。	特定期間についてはその間ずっとにもなる。	I drink coffee all the time.		expression	時間・日課	high	1	2026-10-27
+expr_1401	1401	ずっと道のりを	all the way		道のりの最後まで、または全面的に。	all the way home では to が不要。	We walked all the way home.		expression	移動・交通	high	1	2026-10-27
+expr_1402	1402	ますます	all the more ...		前述の理由によってさらに程度が増す。	会話では even more がより言いやすい。	That makes me all the more interested.		expression	感情・心情	high	1	2026-10-27
+expr_1403	1403	それでもなお	all the same		事情を認めた上で変わらない判断。	同一という字義とは違う慣用句。	It's difficult, but I want to try all the same.		expression	議論・意見	high	1	2026-10-27
+expr_1404	1404	一日中	all day		その日を通じて。	通常 all the day とは言わない。all night も同型。	I studied all day.		expression	時間・日課	high	1	2026-10-27
+expr_1405	1405	〜に向かっているところです	I'm on my way to ...		現在移動している。	home は to 不要で on my way home。	I'm on my way to my son's school bus stop.		expression	移動・交通	high	1	2026-10-27
+expr_1406	1406	少し離れたところから	from a distance		離れた位置から見たり聞いたりする。	距離が短いことを明示するなら from a short distance away。	I watched the school bus from a distance.		expression	移動・交通	high	1	2026-10-27
+expr_1407	1407	私のそばを通り過ぎる	drive past me		車でいる場所を通過する。	歩いて通るなら walk past me。	The bus will probably drive past me in a couple of minutes.		expression	移動・交通	high	1	2026-10-27
+expr_1408	1408	この季節になると	This time of year, ...		毎年のこの時期の特徴を述べる。	in autumn より今頃という感覚。	This time of year, the leaves start to turn red.		expression	時間・変化	high	1	2026-10-27
+expr_1409	1409	季節の変化を感じる	I can feel the seasons changing.		気温や風などから季節の移り変わりを体感。	feel + 名詞 + ing。	I can feel the seasons changing on my morning walks.		expression	時間・変化	high	1	2026-10-27
+expr_1410	1410	葉が赤くなってきている	The leaves are turning red.		紅葉の変化の途中。	can see the leaves turning red も使える。	The leaves are turning red on the trees.		expression	時間・変化	high	1	2026-10-27
+expr_1411	1411	懐かしい記憶がよみがえる	It brings back memories.		景色などが昔を思い出させる。	具体的には memories of + 名詞/ing。	The smell brings back memories of school.		expression	感情・心情	high	1	2026-10-27
+expr_1412	1412	大人っぽく感じた	It felt so grown-up.		体験や行為を大人っぽく感じた。	自分の気分なら I felt so grown-up。	Drinking coffee felt so grown-up when I was a kid.		expression	感情・心情	high	1	2026-10-27
+expr_1413	1413	+正面から争って決着をつける	fight it out		勝敗が決まるまで競う。	議論をするだけより強い。	The two teams will fight it out in the final.		expression	議論・意見	high	1	2026-10-27
+expr_1414	1414	〜しても仕方ない	There's no point in ...ing		行動の意義がないと述べる。	会話では No point in ...ing と省略可能。	There's no point in worrying about it now.		expression	感情・心情	high	1	2026-10-27
+expr_1415	1415	飲みに行く	get a drink		飲み物を飲みに行く誘い。	文脈次第で酒を飲みに行く意味。	Do you want to get a drink after work?		expression	日常生活・一般	high	1	2026-10-27
+expr_1416	1416	独特の作風がある	have a distinctive style		他とは区別できる個性がある。	distinct in style は比較して違いが明瞭。	The two artists have distinctive styles.		expression	趣味・娯楽	high	1	2026-10-27
+expr_1417	1417	その間ずっと	all the while		別の出来事が進む同じ期間中ずっと。	all the time より語り言葉で背景を添える。	I was nervous all the while.		expression	時間・変化	high	1	2026-10-27
+expr_1418	1418	それならなおよい	all the better		追加の条件が満たされればさらに好都合。	If ... all the better と使う。	If she can join us, all the better.		expression	会話のつなぎ・リアクション	high	1	2026-10-27
+expr_1419	1419	とても〜したい	want to ... so bad		くだけた会話で強い願望を表す。	書き言葉では so badly が整う。	I want to see that movie so bad.		expression	感情・心情	high	1	2026-10-27
+expr_1420	1420	あくまで私個人の意見です	That's just my personal opinion.		全体の見解でなく個人的な発言だと断る。	personal remark of mine より会話で使いやすい。	That's just my personal opinion.		expression	議論・意見	high	1	2026-10-27
+expr_1421	1421	全員が〜というわけではない	not everyone ...		集団全体への一般化を否定。	誰も〜ないなら no one。	Not everyone learns in the same way.		expression	議論・意見	high	1	2026-10-27
+expr_1422	1422	思ったより大人になった気がした	I felt so grown-up.		自分の気分として大人になったように感じた。	It felt so grown-up は行為・体験に焦点。	I felt so grown-up drinking coffee as a kid.		expression	感情・心情	high	1	2026-10-27
