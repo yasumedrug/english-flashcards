@@ -114,6 +114,20 @@ for (const [label, phrases] of Object.entries({
   '文・会話表現': '... bothers me|chances are (that) ...'
 })) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
 
+for (const [label, phrases] of Object.entries({
+  前置詞句: 'in the interview|at the interview|in the meeting|at the meeting|aside from ...',
+  動詞句: "meet at takashimaya|be in takashimaya|get hold of someone|have ... on hand|seem a bit aloof|hardly spoke|can't shake the feeling that ...|get ... ready ahead of time|get ... ready the night before|take a step back from ...|step away from ... for a bit|give ... a try out of curiosity|reinforce each other|have the good fortune to ...",
+  句動詞: 'fizzle out',
+  形容詞句: 'on the ball|on top of things',
+  副詞: 'earlier',
+  副詞句: 'most of all|just now|last time',
+  名詞句: "lack of sleep|someone's passing",
+  慣用表現: 'par for the course',
+  文法表現: "whoever's free ...",
+  会話表現: "if that's what it takes",
+  '文・会話表現': 'my take is that ...'
+})) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
+
 export function partOfSpeech(note: Pick<Note, 'en' | 'ja' | 'tag'>): string {
   const english = note.en.trim()
   const japanese = note.ja.trim()

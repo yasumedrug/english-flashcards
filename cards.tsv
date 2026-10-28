@@ -1421,3 +1421,73 @@ expr_1419	1419	とても〜したい	want to ... so bad		くだけた会話で�
 expr_1420	1420	あくまで私個人の意見です	That's just my personal opinion.		全体の見解でなく個人的な発言だと断る。	personal remark of mine より会話で使いやすい。	That's just my personal opinion.		expression	議論・意見	high	1	2026-10-27
 expr_1421	1421	全員が〜というわけではない	not everyone ...		集団全体への一般化を否定。	誰も〜ないなら no one。	Not everyone learns in the same way.		expression	議論・意見	high	1	2026-10-27
 expr_1422	1422	思ったより大人になった気がした	I felt so grown-up.		自分の気分として大人になったように感じた。	It felt so grown-up は行為・体験に焦点。	I felt so grown-up drinking coffee as a kid.		expression	感情・心情	high	1	2026-10-27
+expr_1423	1423	インタビューで（発言内容）	in the interview		インタビューの会話・内容の中で何を言ったか。	at the interview はその場への参加や出来事の場。	I said that in the interview earlier.		expression	会話・文法	high	1	2026-10-28
+expr_1424	1424	インタビューの場で	at the interview		インタビューという予定・場に焦点。	内容に焦点なら in the interview。	I met the director at the interview.		expression	会話・文法	high	1	2026-10-28
+expr_1425	1425	会議の議論の中で	in the meeting		議論や進行の中での発言。	at the meeting も可だが場への焦点が強い。	She raised an important question in the meeting.		expression	会話・文法	high	1	2026-10-28
+expr_1426	1426	会議の場で	at the meeting		会議という場で起きた出来事。	in the meeting と重なる場合もある。	I ran into an old colleague at the meeting.		expression	会話・文法	high	1	2026-10-28
+expr_1427	1427	高島屋で待ち合わせる	meet at Takashimaya		高島屋を集合場所として捉える。	店の内部にいると強調なら in Takashimaya。	Let's meet at Takashimaya.		expression	移動・交通	high	1	2026-10-28
+expr_1428	1428	高島屋の中にいる	be in Takashimaya		建物・店内にいる。	at は場所の点としての指定。	I'm in Takashimaya right now.		expression	移動・交通	high	1	2026-10-28
+expr_1429	1429	その本をもう読んだ？	Have you read it yet?		先に挙がった本の話を継続する。	it は同じ対象を受ける。	You bought a new book. Have you read it yet?		expression	会話・文法	high	1	2026-10-28
+expr_1430	1430	それはすごいですね	That's amazing!		直前の報告や発言全体への反応。	that は今の話を指して取り上げる。	You got accepted? That's amazing!		expression	会話・リアクション	high	1	2026-10-28
+expr_1431	1431	それを知らなかった	I didn't know that.		相手が今言った情報を受ける。	it は既出の事柄を継続して指す場合。	The meeting was canceled? I didn't know that.		expression	会話・リアクション	high	1	2026-10-28
+expr_1432	1432	インタビューでそう言った	I said that in the interview.		先に挙げた発言内容をそのように言った。	I mentioned it は既出の話題に触れた。	I said that in the interview.		expression	会話・文法	high	1	2026-10-28
+expr_1433	1433	それについてどう見ていますか	What's your take on ...?		相手の評価・解釈・判断を尋ねる口語。	on の後は名詞か ing。	What's your take on the reviewer's comments?		expression	議論・意見	high	1	2026-10-28
+expr_1434	1434	私の見方では〜です	My take is that ...		自分なりの判断を提示する。	単純な好みより解釈や評価。	My take is that we need clearer clinical implications.		expression	議論・意見	high	1	2026-10-28
+expr_1435	1435	〜についてどう考えていますか	What are your thoughts on ...?		意見を柔らかく広く尋ねる。	What's your take より開かれた質問。	What are your thoughts on this approach?		expression	議論・意見	high	1	2026-10-28
+expr_1436	1436	〜をどう読み取りますか	What's your read on ...?		状況や発言の意味をどう解釈するか。	take より状況判断の響き。	What's your read on the reviewer's comments?		expression	議論・意見	high	1	2026-10-28
+expr_1437	1437	よくあることだ	par for the course		望ましくないことも含め想定内。	ゴルフ由来。多くは困りごとを軽く受け止める。	Last-minute changes are par for the course.		expression	仕事・職場	high	1	2026-10-28
+expr_1438	1438	何よりも	most of all		挙げた複数の理由や感情の中で最も。	文中・文頭で使える。	I was nervous, but most of all, I was excited.		expression	感情・心情	high	1	2026-10-28
+expr_1439	1439	〜に連絡が取れる	get hold of someone		相手をつかまえ連絡を取る。	物を入手する意味もある。	I finally got hold of the coordinator.		expression	仕事・職場	high	1	2026-10-28
+expr_1440	1440	必要な時に使えるように確保しておく	have ... on hand		人員や物を手元に置く。	on hand はすぐ利用可能。	We need to have extra staff on hand.		expression	仕事・職場	high	1	2026-10-28
+expr_1441	1441	〜のほかに	aside from ...		何かに加えてほかにも。	文脈によっては〜を除けばにもなる。	Aside from the slides, what else do we need?		expression	会話・文法	high	1	2026-10-28
+expr_1442	1442	一緒に仕事がしやすい	easy to work with		協力的で円滑に働ける。	人の性格・仕事ぶりへの評価。	She's experienced and easy to work with.		expression	仕事・職場	high	1	2026-10-28
+expr_1443	1443	〜を担当する	be in charge of ...		役割や責任の範囲を示す。	後ろは名詞または ing。	I'm in charge of the student workshop.		expression	仕事・職場	high	1	2026-10-28
+expr_1444	1444	手が空いている人なら誰でも	Whoever's free ...		その時に余裕がある人が行う。	whoever は誰であれ条件に合う人。	Whoever's free can check the draft.		expression	仕事・職場	high	1	2026-10-28
+expr_1445	1445	機転が利く	on the ball		気づきが早く適切に反応する。	口語的な褒め言葉。	She noticed it first. She's on the ball.		expression	仕事・職場	high	1	2026-10-28
+expr_1446	1446	仕事をきちんと把握している	on top of things		複数の用事を把握し管理できている。	on the ball は反応の鋭さに焦点。	I've been busy, but I'm on top of things.		expression	仕事・職場	high	1	2026-10-28
+expr_1447	1447	少しよそよそしく見える	seem a bit aloof		感情的な距離を置いた印象。	内面を断定せず seem を添える。	He seemed a bit aloof at first.		expression	人物・性格	high	1	2026-10-28
+expr_1448	1448	ほとんど話さなかった	hardly spoke		話す量がほぼゼロ。	hardly 自体が否定的。	He hardly spoke during the meeting.		expression	人物・性格	high	1	2026-10-28
+expr_1449	1449	〜という気がしてならない	can't shake the feeling that ...		嫌な予感や疑念が消えない。	勘というより頭に残り続ける感覚。	I can't shake the feeling that we're missing something.		expression	感情・心情	high	1	2026-10-28
+expr_1450	1450	次第に立ち消えになる	fizzle out		当初の勢いが徐々に消える。	突然の失敗ではない。	The project gradually fizzled out.		expression	仕事・職場	high	1	2026-10-28
+expr_1451	1451	単なる勘ですが	It's just a hunch, but ...		証拠は不十分だが直感を示す。	確信を示す I'm positive と対照的。	It's just a hunch, but I think she'll agree.		expression	推測・確信	high	1	2026-10-28
+expr_1452	1452	よくやったね	Way to go!		成果をくだけた調子で褒める。	皮肉にもなるので声の調子に注意。	You finished the paper? Way to go!		expression	会話・リアクション	high	1	2026-10-28
+expr_1453	1453	事前に予約する	book ... in advance		予定の日より前に予約する。	ahead of time も可。	We should book a table in advance.		expression	日常生活・一般	high	1	2026-10-28
+expr_1454	1454	前もって準備しておく	get ... ready ahead of time		必要な時のために物を用意する。	prepare ... in advance も自然。	I'll get the materials ready ahead of time.		expression	仕事・職場	high	1	2026-10-28
+expr_1455	1455	前の晩に用意しておく	get ... ready the night before		翌朝に備える。	ahead of time より具体的な時点。	I'll get his clothes ready the night before.		expression	家族・育児	high	1	2026-10-28
+expr_1456	1456	頭をスッキリさせる	clear my head		疲れや考え事から離れて思考を整理する。	clear my mind は雑念を空にする響き。	I'm going for a walk to clear my head.		expression	感情・心情	high	1	2026-10-28
+expr_1457	1457	問題から一歩引く	take a step back from ...		いったん離れて落ち着いて見直す。	関係を断つ意味ではない。	I need to take a step back from this problem.		expression	感情・心情	high	1	2026-10-28
+expr_1458	1458	しばらく〜を休む	take a break from ...		活動を一時的に中断する。	永久にやめるとは限らない。	I'm taking a break from social media.		expression	日常生活・一般	high	1	2026-10-28
+expr_1459	1459	人と距離を置く	keep my distance from someone		相手と関わりを控える。	step away from work は作業から一時離れる。	I've been keeping my distance from him.		expression	人間関係	high	1	2026-10-28
+expr_1460	1460	仕事からいったん離れる	step away from ... for a bit		短時間離れて頭を切り替える。	物理的な移動にも比喩にも。	I'll step away from the paper for a bit.		expression	仕事・職場	high	1	2026-10-28
+expr_1461	1461	ついさっき	just now		ごく最近の出来事。	earlier より直近。	I saw him just now.		expression	時間・変化	high	1	2026-10-28
+expr_1462	1462	さっき	earlier		同じ日の少し前を広く指す。	earlier today で今日を明示。	I mentioned it earlier.		expression	時間・変化	high	1	2026-10-28
+expr_1463	1463	前回	last time		前の機会・授業・会合。	日数が数日前かは問わない。	I raised the same question last time.		expression	時間・変化	high	1	2026-10-28
+expr_1464	1464	睡眠不足だった	I didn't get enough sleep.		昨夜など睡眠が足りなかった。	sleep deprivation は説明・専門的。	I didn't get enough sleep last night.		expression	健康・日常	high	1	2026-10-28
+expr_1465	1465	睡眠不足	lack of sleep		睡眠が不足している状態。	sleep deprivation より日常で使いやすい。	Lack of sleep makes it harder to focus.		expression	健康・日常	high	1	2026-10-28
+expr_1466	1466	集中しにくくする	make it harder to focus		原因が集中を難しくする。	reduce concentration より会話向き。	Lack of sleep makes it harder to focus.		expression	健康・日常	high	1	2026-10-28
+expr_1467	1467	集中できない	I can't focus.		今の状態に焦点。	普段からなら I have trouble focusing。	I can't focus today.		expression	健康・日常	high	1	2026-10-28
+expr_1468	1468	集中するのが難しい	I'm having trouble concentrating.		一時的な困難を表す。	have trouble + ing。	I'm having trouble concentrating today.		expression	健康・日常	high	1	2026-10-28
+expr_1469	1469	長く集中し続けられない	I can't stay focused for long.		集中の持続が難しい。	一時的に集中できない I can't focus と違う。	I can't stay focused for long when I'm tired.		expression	健康・日常	high	1	2026-10-28
+expr_1470	1470	彼の物静かなところが好き	I like how quiet he is.		普段の性格や口数の少なさを好む。	一面として強調するなら that quiet side of him。	I like how quiet he is.		expression	人物・性格	high	1	2026-10-28
+expr_1471	1471	彼のそういう一面が好き	I like that ... side of him.		相手の複数ある一面を取り上げる。	場所や物の雰囲気なら feel/vibe。	I like that playful side of him.		expression	人物・性格	high	1	2026-10-28
+expr_1472	1472	彼のそういうところが好き	I like that about him.		直前に挙げた性質を受ける。	人の特徴を指す that。	He doesn't say much, and I like that about him.		expression	人物・性格	high	1	2026-10-28
+expr_1473	1473	〜をしばらく見送る	hold off on ... for a while		今は開始せず後日にする。	pass on は機会を辞退する意味も。	I held off on shadowing for a while.		expression	学習・英語	high	1	2026-10-28
+expr_1474	1474	〜を先延ばしにしていた	I'd been putting off ...		以前から開始や実行を延期していた。	put off + 名詞/ing。	I'd been putting off shadowing because my schedule was packed.		expression	学習・英語	high	1	2026-10-28
+expr_1475	1475	学習習慣を続ける	keep up with my study routines		既にある学習習慣を維持する。	routine work は日常的作業・仕事。	I had other study routines to keep up with.		expression	学習・英語	high	1	2026-10-28
+expr_1476	1476	今日はもう終わりそう	I'm almost done for the day.		その日の仕事・勉強を終えかけている。	My day is finishing は不自然。	I'm almost done for the day.		expression	時間・日課	high	1	2026-10-28
+expr_1477	1477	予定がぎっしり詰まっていた	My study schedule was already packed.		既存の学習予定で余裕がない。	packed は schedule との組み合わせが自然。	My study schedule was already packed.		expression	学習・英語	high	1	2026-10-28
+expr_1478	1478	好奇心から試してみる	give ... a try out of curiosity		気になって試しに行う。	start doing it out of curiosity も可。	I gave shadowing a try out of curiosity.		expression	学習・英語	high	1	2026-10-28
+expr_1479	1479	まだ〜する準備ができていないと思う	I don't think I'm ready for ... yet.		自分の準備不足を述べる。	too early for me より心情が具体的。	I didn't think I was ready for shadowing yet.		expression	学習・英語	high	1	2026-10-28
+expr_1480	1480	最初に苦労するのは当然だった	It was only natural to struggle at first.		開始当初の困難を自然なものと捉える。	会話では Of course I struggled at first も。	It was only natural to struggle at first.		expression	学習・英語	high	1	2026-10-28
+expr_1481	1481	〜を粘り強く続ける	stick with ...		難しさがあっても継続する。	keep on ...ing は動作の継続。	I decided to stick with shadowing.		expression	学習・英語	high	1	2026-10-28
+expr_1482	1482	互いに強め合う	reinforce each other		二つの能力・作用が相互に高め合う。	一方通行の効果ではない。	Listening and speaking reinforce each other.		expression	学習・英語	high	1	2026-10-28
+expr_1483	1483	腑に落ちた	It clicked for me.		考えや知識が急につながり理解できた。	単なる理解より気づきの瞬間。	And then it clicked for me.		expression	学習・英語	high	1	2026-10-28
+expr_1484	1484	それで見方が変わった	That changed how I see it.		直前の気づきが既出の対象の捉え方を変えた。	that は出来事、it は話題。	That changed how I see shadowing.		expression	感情・心情	high	1	2026-10-28
+expr_1485	1485	これ以上は看過できない	This has gone far enough.		行き過ぎた状態に歯止めをかける強い表現。	単なる完了の意味ではない。	This argument has gone far enough.		expression	議論・意見	high	1	2026-10-28
+expr_1486	1486	必要ならそうします	if that's what it takes		目標のために必要なら手間を惜しまない。	have what it takes は必要な資質がある。	I'll rewrite it if that's what it takes.		expression	仕事・職場	high	1	2026-10-28
+expr_1487	1487	全力を尽くす	give it our all		仕事や試合などに全力で臨む。	it はその活動を受ける。	Let's give it our all in the presentation.		expression	仕事・職場	high	1	2026-10-28
+expr_1488	1488	〜にとって打撃	a blow to ...		損失や失敗などの悪影響。	個人や組織を対象にできる。	The rejection was a blow to the team.		expression	仕事・職場	high	1	2026-10-28
+expr_1489	1489	幸運にも〜できた	have the good fortune to ...		機会に恵まれたことへの感謝。	やや改まった表現。	I had the good fortune to work with her.		expression	仕事・職場	high	1	2026-10-28
+expr_1490	1490	〜だと確信している	I'm positive (that) ...		強い確信を表す。	前向きという意味ではない。	I'm positive I sent the email yesterday.		expression	推測・確信	high	1	2026-10-28
+expr_1491	1491	〜に片思いしている	have a crush on ...		恋愛感情がある。	くだけた口語。	I had a crush on her in high school.		expression	人間関係	high	1	2026-10-28
+expr_1492	1492	亡くなること	someone's passing		死を婉曲に表す。	日常の出来事には使わない。	His passing was a blow to all of us.		expression	人間関係	high	1	2026-10-28
