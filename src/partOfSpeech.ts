@@ -128,6 +128,15 @@ for (const [label, phrases] of Object.entries({
   '文・会話表現': 'my take is that ...'
 })) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
 
+for (const [label, phrases] of Object.entries({
+  副詞句: 'at the end of the day, ...|from that day forward, ...|just to be on the safe side|... for a living',
+  名詞句: 'japanese-style cream stew|store-bought stew mix',
+  動詞句: 'work as ...|complement ...',
+  文法表現: 'the more ..., the more ...',
+  会話表現: "if that's even a thing",
+  '文・会話表現': "don't make it all about ...|just wanted to check ...|for some reason, i always ...|my view is that ...|most news stories aren't ...|whenever ..., we'd ...|all i knew back then was that ..."
+})) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
+
 export function partOfSpeech(note: Pick<Note, 'en' | 'ja' | 'tag'>): string {
   const english = note.en.trim()
   const japanese = note.ja.trim()

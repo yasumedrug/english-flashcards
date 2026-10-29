@@ -1491,3 +1491,79 @@ expr_1489	1489	幸運にも〜できた	have the good fortune to ...		機会に�
 expr_1490	1490	〜だと確信している	I'm positive (that) ...		強い確信を表す。	前向きという意味ではない。	I'm positive I sent the email yesterday.		expression	推測・確信	high	1	2026-10-28
 expr_1491	1491	〜に片思いしている	have a crush on ...		恋愛感情がある。	くだけた口語。	I had a crush on her in high school.		expression	人間関係	high	1	2026-10-28
 expr_1492	1492	亡くなること	someone's passing		死を婉曲に表す。	日常の出来事には使わない。	His passing was a blow to all of us.		expression	人間関係	high	1	2026-10-28
+expr_1493	1493	結構長い間〜している	I've been ... for quite a long time.		過去から今まで続く活動。	quite は必ずしも謙遜を表さない。	I've been studying English for quite a long time.		expression	学習・英語	high	1	2026-10-30
+expr_1494	1494	〜次第だと思う	I guess it depends on ...		条件次第だと柔らかく答える。	I guess は断定を和らげる。	I guess it depends on your goal.		expression	議論・意見	high	1	2026-10-30
+expr_1495	1495	どちらかといえば〜したい	I'd rather ... than ...		二つの選択肢を比べる。	後ろは動詞原形。	I'd rather practice speaking than read another grammar book.		expression	会話・文法	high	1	2026-10-30
+expr_1496	1496	結局のところ	At the end of the day, ...		事情を踏まえ重要な結論を示す。	時刻の意味ではない。	At the end of the day, I need a routine I can keep up with.		expression	議論・意見	high	1	2026-10-30
+expr_1497	1497	見た目ほど簡単ではない	... isn't as easy as it looks.		外見と実際の難しさを比較。	as ... as の否定。	Shadowing isn't as easy as it looks.		expression	学習・英語	high	1	2026-10-30
+expr_1498	1498	〜に負けて心を折られないで	Don't let ... break you.		困難で挫折しないよう励ます強めの表現。	let O 動詞原形。	Don't let one rejection break you.		expression	感情・心情	high	1	2026-10-30
+expr_1499	1499	そんなものが本当にあるなら	if that's even a thing		自分が挙げた概念への軽い疑問。	既に定着した表現への付加は不自然なことも。	Maybe I have a researcher's instinct, if that's even a thing.		expression	会話・リアクション	high	1	2026-10-30
+expr_1500	1500	自分を〜だとは思わない	I don't consider myself ...		自己評価や立場を示す。	名詞・形容詞が続く。	I don't consider myself fluent yet.		expression	議論・意見	high	1	2026-10-30
+expr_1501	1501	〜がないと頭が働かない	I can't function without ...		習慣の必要性を口語で強調。	やや大げさな響き。	I can't function without coffee in the morning.		expression	日常生活・一般	high	1	2026-10-30
+expr_1502	1502	まさか〜することになるとは思わなかった	I never thought I'd end up ...ing.		予想外の経緯を振り返る。	end up + 動名詞。	I never thought I'd end up teaching at a university.		expression	時間・変化	high	1	2026-10-30
+expr_1503	1503	まったく別物だ	a completely different animal		似たものの性質の違いを強調。	口語的比喩。	Reading English and speaking it are completely different animals.		expression	議論・意見	high	1	2026-10-30
+expr_1504	1504	〜だけの話にしないで	Don't make it all about ...		一要素に固執しないよう促す。	直接的な助言。	Don't make it all about test scores.		expression	議論・意見	high	1	2026-10-30
+expr_1505	1505	〜の気分ではない	I don't feel like ...ing.		今の気分として活動を望まない。	名詞を続けることも可能。	I don't feel like studying tonight.		expression	感情・心情	high	1	2026-10-30
+expr_1506	1506	一番後悔しているのは〜だ	My biggest regret is ...ing.		過去の行動を振り返る。	しなかった後悔は not ...ing。	My biggest regret is not starting earlier.		expression	感情・心情	high	1	2026-10-30
+expr_1507	1507	〜すると結局…になる	I always ... and end up ...ing.		繰り返す行動と予期しない結果。	end up + 動名詞。	I always open one article and end up reading for an hour.		expression	時間・日課	high	1	2026-10-30
+expr_1508	1508	〜するともっと…になる	It makes me more ... when ...		行動や状況の影響を説明。	make + 人 + 形容詞。	It makes me more focused when I speak in short sentences.		expression	感情・心情	high	1	2026-10-30
+expr_1509	1509	〜しても損はない	It wouldn't hurt to ...		控えめな提案をする。	害がないという直訳から助言に。	It wouldn't hurt to ask for feedback.		expression	会話・リアクション	high	1	2026-10-30
+expr_1510	1510	〜の時は我慢できない	I can't stand it when ...		強い不快感を示す。	軽い不満は It bothers me when ...。	I can't stand it when people interrupt me.		expression	感情・心情	high	1	2026-10-30
+expr_1511	1511	全然知らなかった	I had no idea (that) ...		聞いた情報への驚き。	about + 名詞も可能。	I had no idea the schedule had changed.		expression	会話・リアクション	high	1	2026-10-30
+expr_1512	1512	ちょっと確認したくて	Just wanted to check ...		メッセージで用件を軽く切り出す。	I just wanted to の主語省略。	Just wanted to check if tomorrow still works for you.		expression	仕事・職場	high	1	2026-10-30
+expr_1513	1513	後で確認しないと	I'll have to check.		今すぐ答えられない時。	謝罪の意味は自動ではない。	I'll have to check my schedule.		expression	仕事・職場	high	1	2026-10-30
+expr_1514	1514	〜しても変わらないだろう	... wouldn't make a difference.		仮定的な行動の影響を見積もる。	必ずしも絶対無駄とは限らない。	Starting ten minutes earlier wouldn't make a difference.		expression	議論・意見	high	1	2026-10-30
+expr_1515	1515	〜して何になるの	What's the point of ...ing?		目的や意味を問う。	否定的に聞こえることも。	What's the point of memorizing phrases if I never use them?		expression	議論・意見	high	1	2026-10-30
+expr_1516	1516	最近〜にハマっている	I've been into ... lately.		最近続く趣味・関心。	名詞や動名詞を続ける。	I've been into English podcasts lately.		expression	感情・心情	high	1	2026-10-30
+expr_1517	1517	〜と思われたくないのですが	I don't want to come off as ...		失礼になりそうな意見の前置き。	頻用すると回りくどい。	I don't want to come off as critical, but I have one question.		expression	議論・意見	high	1	2026-10-30
+expr_1518	1518	なぜかいつも〜する	For some reason, I always ...		理由の分からない癖。	always は実際の頻度に応じて調整。	For some reason, I always wake up early on weekends.		expression	時間・日課	high	1	2026-10-30
+expr_1519	1519	〜が亡くなった	... passed away.		死をやわらかく伝える。	died は直接的だが失礼な語ではない。	My grandfather passed away last year.		expression	人間関係	high	1	2026-10-30
+expr_1520	1520	〜を亡くした	lost someone		遺族の視点から喪失を表す。	人が主語で lost + 人。	She lost her father when she was young.		expression	人間関係	high	1	2026-10-30
+expr_1521	1521	お悔やみ申し上げます	I'm sorry for your loss.		訃報を聞いた相手に伝える。	I'm sorry は自身の責任の意味ではない。	I'm so sorry for your loss.		expression	人間関係	high	1	2026-10-30
+expr_1522	1522	〜するのが好き	I like ...ing.		活動そのものを好む。	like to ... も多くの場面で可能。	I like reading manga before bed.		expression	日常生活・一般	high	1	2026-10-30
+expr_1523	1523	〜をいただきたい	I'd like ...		今の希望を丁寧に伝える。	I like は普段の好み。	I'd like some tea, please.		expression	会話・文法	high	1	2026-10-30
+expr_1524	1524	〜したい	I'd like to ...		丁寧に行動の希望を述べる。	後ろは動詞原形。	I'd like to ask a question.		expression	会話・文法	high	1	2026-10-30
+expr_1525	1525	どんな感じですか	What's ... like?		性質や印象を尋ねる。	外見なら What does ... look like?。	What was the meeting like?		expression	会話・文法	high	1	2026-10-30
+expr_1526	1526	どんな見た目ですか	What does ... look like?		人や物の外見を聞く。	What's he like? は性格を含む。	What does the new editor look like?		expression	会話・文法	high	1	2026-10-30
+expr_1527	1527	〜のように感じる	It feels like ...		状況の主観的な印象。	I feel like ...ing はしたい気分。	It felt like an exam.		expression	感情・心情	high	1	2026-10-30
+expr_1528	1528	〜のように聞こえる	That sounds like ...		聞いた提案や話への印象。	音そのもの以外にも使用。	That sounds like a good idea.		expression	会話・リアクション	high	1	2026-10-30
+expr_1529	1529	〜として働く	work as ...		実際の職業・役割を述べる。	work like ... は似た働き方。	I work as a doctor.		expression	仕事・職場	high	1	2026-10-30
+expr_1530	1530	晴れているけれど肌寒い	It's sunny but chilly today.		晴天と寒さの意外な組み合わせ。	cold より chilly は肌寒い。	It's sunny but chilly today.		expression	天気・季節	high	1	2026-10-30
+expr_1531	1531	寒さが苦手	I don't do well in cold weather.		寒い環境では調子がよくない。	I'm not good with the cold も自然。	I don't do well in cold weather.		expression	天気・季節	high	1	2026-10-30
+expr_1532	1532	好きだった人に振られた	Someone I had a crush on turned me down.		恋愛の誘い・告白を断られた。	rejected by はやや強く改まる。	Someone I had a crush on turned me down.		expression	人間関係	high	1	2026-10-30
+expr_1533	1533	今もその思い出を大切にしている	I still cherish those memories.		思い出を大切に思い続ける。	cherish は通常目的語を取る。	I still cherish those memories.		expression	感情・心情	high	1	2026-10-30
+expr_1534	1534	経験が今の自分を形づくった	Those experiences have shaped who I am today.		過去の経験が現在に影響を残す。	have shaped は現在までの結果。	Those experiences have shaped who I am today.		expression	感情・心情	high	1	2026-10-30
+expr_1535	1535	入院しないと決めた	She decided against being hospitalized.		勧められた入院を選ばない。	decide against + 動名詞。	She decided against being hospitalized.		expression	医療・診療	high	1	2026-10-30
+expr_1536	1536	入院を断った	She declined admission to the hospital.		患者が勧められた入院を断る。	admit は通常病院側が入院させる。	She declined admission to the hospital.		expression	医療・診療	high	1	2026-10-30
+expr_1537	1537	かすかに微笑んだ	She gave me a faint smile.		弱い笑みを見せた。	half-smile は必ずしも弱々しさを示さない。	She gave me a faint smile.		expression	感情・心情	high	1	2026-10-30
+expr_1538	1538	何とかかすかに微笑んだ	She managed a faint smile.		つらい中でも笑顔を見せた。	managed が努力・困難を含意。	She managed a faint smile.		expression	感情・心情	high	1	2026-10-30
+expr_1539	1539	言葉が見つからなかった	I couldn't find the words.		感情などで何と言えばよいか分からない。	I couldn't say anything は発話できなかった事実。	I couldn't find the words in that moment.		expression	感情・心情	high	1	2026-10-30
+expr_1540	1540	悲しかったけれど意味深かった	It was a sad but deeply meaningful moment.		悲しさと意味深さが同時にある。	or は二者択一に聞こえやすい。	It was a sad but deeply meaningful moment.		expression	感情・心情	high	1	2026-10-30
+expr_1541	1541	私の見解は〜です	My view is that ...		自分の立場を明示する。	My position is that ... より会話向き。	My view is that we should check the sources.		expression	議論・意見	high	1	2026-10-30
+expr_1542	1542	大量の〜が出回っている	There's so much ... out there.		情報などが世の中に多い。	news は不可算。記事なら news stories。	There's so much news out there.		expression	議論・意見	high	1	2026-10-30
+expr_1543	1543	ほとんどのニュース記事は〜でない	Most news stories aren't ...		記事の大半について述べる。	most of all は何よりもで別の意味。	Most news stories aren't relevant to my daily life.		expression	議論・意見	high	1	2026-10-30
+expr_1544	1544	結局時間を無駄にするかも	We might end up wasting time.		行動の帰結を控えめに予測。	waste time に of は不要。	If we follow every story, we might end up wasting time.		expression	議論・意見	high	1	2026-10-30
+expr_1545	1545	その質問をお返しします	Let me turn that question back on you.		聞かれた質問について相手の意見も問う。	軽く言うなら What about you?。	Let me turn that question back on you. What do you think?		expression	会話・リアクション	high	1	2026-10-30
+expr_1546	1546	人間の判断も必ず正しいとは限らない	Human judgments aren't necessarily right, either.		人間の判断にも誤りうる点を示す。	judge は判断する人、judgment は判断。	Human judgments aren't necessarily right, either.		expression	議論・意見	high	1	2026-10-30
+expr_1547	1547	利害の影響がより少ないかもしれない	... might be less influenced by commercial interests.		比較対象を示し慎重に可能性を述べる。	AI が中立という証明にはならない。	This summary might be less influenced by commercial interests.		expression	議論・意見	high	1	2026-10-30
+expr_1548	1548	日本式クリームシチュー	Japanese-style cream stew		日本の家庭料理の白いシチュー。	海外にもクリーム系の煮込みはある。	We're making Japanese-style cream stew tonight.		expression	料理・食事	high	1	2026-10-30
+expr_1549	1549	市販のシチューの素	store-bought stew mix		家庭用の調味済みの素。	roux は本来小麦粉と油脂のとろみのもと。	I made it with a store-bought stew mix.		expression	料理・食事	high	1	2026-10-30
+expr_1550	1550	味や魅力を引き出す	bring out ...		隠れた味や魅力を引き立てる。	enhance は全体的に高める。	A little pepper brings out the flavor of the chicken.		expression	料理・食事	high	1	2026-10-30
+expr_1551	1551	〜と互いによく合う	complement ...		二つの味・色が調和して引き立つ。	compliment は褒めるで綴りが異なる。	The herbs complement the creamy sauce.		expression	料理・食事	high	1	2026-10-30
+expr_1552	1552	〜を際立たせる	make ... stand out		特徴を目立たせる。	視覚や特徴に広く使う。	The dark background makes the colors stand out.		expression	日常生活・一般	high	1	2026-10-30
+expr_1553	1553	その色はあなたを引き立てる	That color flatters you.		服の色などが人を魅力的に見せる。	人の外見への評価。	That color really flatters you.		expression	会話・リアクション	high	1	2026-10-30
+expr_1554	1554	ちょっとした工夫	a small tweak		既存のものを少し変えて改善。	ingenuity は創意工夫する力。	Adding pepper was a small tweak, but it made a big difference.		expression	日常生活・一般	high	1	2026-10-30
+expr_1555	1555	レシピにひと工夫した	I tweaked the recipe.		料理の手順や味を少し調整。	tweak は動詞としても使用。	I tweaked the recipe by adding pepper.		expression	料理・食事	high	1	2026-10-30
+expr_1556	1556	お先に〜させてもらいます	I'll take the liberty of ...ing.		許可を明示的に得ず丁寧に申し出る。	改まった表現。	I'll take the liberty of reading it first.		expression	会話・文法	high	1	2026-10-30
+expr_1557	1557	あなたが〜するのを待つ	I'll wait for you to ...		人の行動の完了を待つ。	while で並行する作業を追加。	I'll wait for you to finish while I work.		expression	時間・日課	high	1	2026-10-30
+expr_1558	1558	その日からずっと	From that day forward, ...		過去の転機以降の継続を語る。	物語的な表現。	From that day forward, we talked every week.		expression	時間・変化	high	1	2026-10-30
+expr_1559	1559	〜するたびに…したものだ	Whenever ..., we'd ...		繰り返した過去の習慣。	we'd は we would。	Whenever we met, we'd talk about books.		expression	時間・変化	high	1	2026-10-30
+expr_1560	1560	念のため	just to be on the safe side		リスクを避けるため追加確認。	安全側を取る。	Let's check again, just to be on the safe side.		expression	仕事・職場	high	1	2026-10-30
+expr_1561	1561	当時知っていたのは〜だけだった	All I knew back then was that ...		当時の限られた知識を示す。	back then は当時。	All I knew back then was that it was a difficult job.		expression	時間・変化	high	1	2026-10-30
+expr_1562	1562	〜で生計を立てる	... for a living		趣味ではなく仕事として行う。	動詞に続ける。	She writes manga for a living.		expression	仕事・職場	high	1	2026-10-30
+expr_1563	1563	厳しい現実を思い知る	get a dose of reality		理想と現実の落差に気づく。	a dose は比喩。	My first day on the job gave me a dose of reality.		expression	感情・心情	high	1	2026-10-30
+expr_1564	1564	〜すればするほどますます…	The more ..., the more ...		二つの変化の比例を表す。	両節を比較級で始める。	The more I practice, the more confident I feel.		expression	会話・文法	high	1	2026-10-30
+expr_1565	1565	つらい経験をする	go through ...		困難な時期などを経験し乗り越える。	単なる体験より経過に焦点。	Everyone goes through difficult periods.		expression	感情・心情	high	1	2026-10-30
+expr_1566	1566	〜を受け入れ折り合いをつける	come to terms with ...		複雑な感情や現実を時間をかけて受け止める。	understand より心の整理を含む。	Talking to you helped me come to terms with my feelings.		expression	感情・心情	high	1	2026-10-30
+expr_1567	1567	場を盛り上げる	liven up the place		その場を明るく活気づける。	人や話の作用に使える。	Her stories always liven up the place.		expression	人間関係	high	1	2026-10-30
+expr_1568	1568	〜するのはほかでもないあなた	You're the one who ...		人物を強調する構文。	文脈次第で非難にも称賛にも。	You're the one who suggested this idea.		expression	会話・文法	high	1	2026-10-30
