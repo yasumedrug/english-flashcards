@@ -1271,7 +1271,7 @@ expr_1269	1269	よく・たくさん	a lot		行為の頻度や量が多いと述
 expr_1270	1270	三つの異なる観点から見る	look at ... from three different perspectives		同じ事柄を複数の視点で考える。	break ... down into three parts は構成要素への分解。観点の違いなら perspectives。	Let's look at this from three different perspectives.		expression	議論・意見	high	1	2026-10-26
 expr_1271	1271	一体感を生む	create a sense of togetherness		活動が人々のつながりを生むと説明する。	team spirit はチームの協力意欲、a sense of belonging は所属・居場所の感覚。	Working together creates a sense of togetherness.		expression	人間関係・交流	high	1	2026-10-26
 expr_1272	1272	信頼を築く助けになる	help build trust		交流や行動の効果を説明する。	help の後は build / to build の両方が可能。	Talking in person helps build trust.		expression	人間関係・交流	high	1	2026-10-26
-expr_1273	1273	〜の妨げになる	get in the way of ...		行動や目標を妨げる要因を説明する。	of の後は名詞か動名詞。	Noise gets in the way of communication.		expression	議論・意見	high	1	2026-10-26
+expr_1273	1273	〜の妨げになる	get in the way of ...		行動や目標を妨げる要因を説明する。	of の後は名詞・動名詞。人や仕事の邪魔をすることにも使う。	I don't want to get in the way of his work.		expression	議論・意見	high	1	2026-11-01
 expr_1274	1274	会話を始める	strike up a conversation with ...		相手に話しかけて会話を始める。	特に、それまで話していなかった人との会話。気軽にという意味は必須ではない。start a conversation も使える。	I struck up a conversation with another parent.		expression	人間関係・交流	high	1	2026-10-26
 expr_1275	1275	事前に会議の予定を決める	schedule a meeting in advance		会う日時を前もって設定する。	in advance は事前に。全員の都合を調整するなら find a time that works for everyone。	We need to schedule a meeting in advance.		expression	仕事・組織	high	1	2026-10-26
 expr_1276	1276	全員に都合のよい時間を見つける	find a time that works for everyone		予定をすり合わせる。	work for someone は人の都合・条件に合う。	Let's find a time that works for everyone.		expression	仕事・組織	high	1	2026-10-26
@@ -1493,7 +1493,7 @@ expr_1491	1491	〜に片思いしている	have a crush on ...		恋愛感情が�
 expr_1492	1492	亡くなること	someone's passing		死を婉曲に表す。	日常の出来事には使わない。	His passing was a blow to all of us.		expression	人間関係	high	1	2026-10-28
 expr_1493	1493	結構長い間〜している	I've been ... for quite a long time.		過去から今まで続く活動。	quite は必ずしも謙遜を表さない。	I've been studying English for quite a long time.		expression	学習・英語	high	1	2026-10-30
 expr_1494	1494	〜次第だと思う	I guess it depends on ...		条件次第だと柔らかく答える。	I guess は断定を和らげる。	I guess it depends on your goal.		expression	議論・意見	high	1	2026-10-30
-expr_1495	1495	どちらかといえば〜したい	I'd rather ... than ...		二つの選択肢を比べる。	後ろは動詞原形。	I'd rather practice speaking than read another grammar book.		expression	会話・文法	high	1	2026-10-30
+expr_1495	1495	〜するより…したい	I'd rather ... than ...		二つの選択肢から好むほうを選ぶ。比較対象は省略可。	好みの強さは文脈次第。「どちらかといえば」に限定されない。	I'd rather practice speaking than read another grammar book.		expression	会話・文法	high	1	2026-11-01
 expr_1496	1496	結局のところ	At the end of the day, ...		事情を踏まえ重要な結論を示す。	時刻の意味ではない。	At the end of the day, I need a routine I can keep up with.		expression	議論・意見	high	1	2026-10-30
 expr_1497	1497	見た目ほど簡単ではない	... isn't as easy as it looks.		外見と実際の難しさを比較。	as ... as の否定。	Shadowing isn't as easy as it looks.		expression	学習・英語	high	1	2026-10-30
 expr_1498	1498	〜に負けて心を折られないで	Don't let ... break you.		困難で挫折しないよう励ます強めの表現。	let O 動詞原形。	Don't let one rejection break you.		expression	感情・心情	high	1	2026-10-30
@@ -1567,3 +1567,35 @@ expr_1565	1565	つらい経験をする	go through ...		困難な時期などを
 expr_1566	1566	〜を受け入れ折り合いをつける	come to terms with ...		複雑な感情や現実を時間をかけて受け止める。	understand より心の整理を含む。	Talking to you helped me come to terms with my feelings.		expression	感情・心情	high	1	2026-10-30
 expr_1567	1567	場を盛り上げる	liven up the place		その場を明るく活気づける。	人や話の作用に使える。	Her stories always liven up the place.		expression	人間関係	high	1	2026-10-30
 expr_1568	1568	〜するのはほかでもないあなた	You're the one who ...		人物を強調する構文。	文脈次第で非難にも称賛にも。	You're the one who suggested this idea.		expression	会話・文法	high	1	2026-10-30
+expr_1569	1569	そう言われてみれば	Now that you mention it, ...		相手の発言をきっかけに気づいたことを続ける。	話題を受けて思い出した感覚。	Now that you mention it, he has been quiet lately.		expression	会話のつなぎ・リアクション	high	1	2026-11-01
+expr_1570	1570	それは一理ある	You have a point.		相手の指摘を認める。	全面的な賛成とは限らない。	You have a point. I hadn’t thought of that.		expression	議論・意見	high	1	2026-11-01
+expr_1571	1571	確かに・いい指摘ですね	Good point.		相手の指摘への短い返答。	同意の程度は文脈次第。	Good point. We should check the schedule.		expression	会話のつなぎ・リアクション	high	1	2026-11-01
+expr_1572	1572	なるほど、だから〜なのですね	No wonder ...		新しく分かった理由から結果に納得する。	後ろに納得した事柄を続ける。	No wonder you're tired. You got up at four.		expression	会話のつなぎ・リアクション	high	1	2026-11-01
+expr_1573	1573	気のせいかもしれませんが、もしかして〜？	Is it my imagination, or ...?		観察した変化を控えめに尋ねる。	後ろが非難なら全体も非難になりうる。	Is it my imagination, or is it quieter here today?		expression	会話のつなぎ・リアクション	high	1	2026-11-01
+expr_1574	1574	〜をだんだん好きになる	warm up to ...		初めは乗り気でなかったものに徐々に好意を持つ。	好きになる過程を表す。	I'm starting to warm up to tea.		expression	感情・心情	high	1	2026-11-01
+expr_1575	1575	そのことであまり気を病まないで	Don’t let it bother you.		悩みの種を気にしすぎないよう促す。	深刻な悩みには軽く聞こえる場合がある。	Don’t let one mistake bother you too much.		expression	感情・心情	high	1	2026-11-01
+expr_1576	1576	難しいことをやってのける	pull it off		難しいことを成功させる。	達成の難しさが含まれる。	I was nervous, but I pulled it off.		expression	仕事・学習	high	1	2026-11-01
+expr_1577	1577	そうやって〜する	That’s how ...		前に述べた行動を受けて方法・結果を説明する。	文脈の行動を that で受ける。	I review a little every day. That's how I remember it.		expression	会話のつなぎ・リアクション	high	1	2026-11-01
+expr_1578	1578	〜を有効に活用する	make good use of ...		機会・時間・助言・道具を生かす。	謝意とともに今後の活用を述べられる。	Thanks for the feedback. I'll make good use of it.		expression	仕事・学習	high	1	2026-11-01
+expr_1579	1579	普段から〜して回っているわけではない	I don’t go around ...ing		自分が常習的にするという印象を否定する。	少し強め・ユーモラスな反論にもなる。	I don't go around correcting everyone's English.		expression	日常生活・一般	high	1	2026-11-01
+expr_1580	1580	仕方ない	It can’t be helped.		変えられない事態を受け入れる。	相手のつらさに対して単独で返すと冷たく聞こえる場合がある。	It’s raining, so we can’t go. It can’t be helped.		expression	会話のつなぎ・リアクション	high	1	2026-11-01
+expr_1581	1581	〜を頼りにできる	rely on ...		人や物の助けを信頼して当てにする。	You’re the only one I can rely on. は「頼れるのはあなたしかいない」。	I know I can rely on you.		expression	人間関係	high	1	2026-11-01
+expr_1582	1582	肝心なところでしくじる	drop the ball		責任あることを忘れたり失敗したりする。	失敗を認めるカジュアルな言い方。	I forgot to reply. I really dropped the ball.		expression	仕事・学習	high	1	2026-11-01
+expr_1583	1583	〜するようきちんと手配する	see to it that ...		自ら責任を持って実現・確認する。	単なる予定より確約に近い。	I'll see to it that everyone gets the information.		expression	仕事・学習	high	1	2026-11-01
+expr_1584	1584	〜するしかない	There’s no choice but to ...		ほかに現実的な選択肢がないことを述べる。	to の後は動詞原形。	There's no choice but to wait.		expression	判断・選択	high	1	2026-11-01
+expr_1585	1585	〜せずにはいられなかった	I couldn’t help but ...		抑えられずに行動・反応した。	but の後は動詞原形。I couldn’t help ...ing とほぼ同義。	I couldn't help but laugh.		expression	感情・心情	high	1	2026-11-01
+expr_1586	1586	せっかくここまで来たのに	after I came all this way		わざわざ来た距離・労力を強調する。	all this way は実際の移動に使う。	Don't send me home after I came all this way.		expression	日常生活・一般	high	1	2026-11-01
+expr_1587	1587	事情を知らせずにおく	keep someone in the dark		大事な情報を人に知らせずにおく。	単に情報不足であるより意図的に伏せる含みが出やすい。	Please don’t keep me in the dark.		expression	人間関係	high	1	2026-11-01
+expr_1588	1588	寝起きなどで頭がぼんやりする	feel groggy		寝起き・病気・薬などでぼんやりする。	単なる sleepy より意識や体調の鈍さ。	I felt groggy when I woke up.		expression	健康・体調	high	1	2026-11-01
+expr_1589	1589	感情的に崩れる・取り乱す	fall apart		つらい知らせなどに心が耐えられず崩れる。	物がばらばらになる意味からの比喩。	She fell apart when she heard the news.		expression	感情・心情	high	1	2026-11-01
+expr_1590	1590	〜に全力を尽くす	give it my all		取り組み中のことに力を出し切る。	主語に合わせて my / his / her を変える。	I'll give it my all.		expression	仕事・学習	high	1	2026-11-01
+expr_1591	1591	〜を見ると胸を打たれる	It moves me to see ...		人の行動を見ることが感動のきっかけになる。	move はここでは「感動させる」。	It moved me to see him trying so hard.		expression	感情・心情	high	1	2026-11-01
+expr_1592	1592	〜を見て安心した・うれしい	I’m glad to see ...		目の前で見たこと、分かったことへの喜びを述べる。	相手の様子を見て安堵するときにも使う。	I'm glad to see he's doing okay.		expression	会話のつなぎ・リアクション	high	1	2026-11-01
+expr_1593	1593	それを聞いて安心した	I’m glad to hear ...		相手から聞いた知らせへの喜び・安堵。	直接見た場合の glad to see と区別する。	I'm glad to hear you're doing okay.		expression	会話のつなぎ・リアクション	high	1	2026-11-01
+expr_1594	1594	うまくやったね・その通り	You nailed it!		成果を褒める、または相手が意図を言い当てたとき。	ばっちり決めたという強い評価。	Yes, you nailed it!		expression	会話のつなぎ・リアクション	high	1	2026-11-01
+expr_1595	1595	詳細をきっちり決める	nail down the details		予定・条件・詳細を確定する。	曖昧な部分を固定するイメージ。	Let's nail down the details tomorrow.		expression	仕事・学習	high	1	2026-11-01
+expr_1596	1596	いろいろな経験をする	have lots of different experiences		子どもなどに多様な経験をしてほしいと話す。	人生観を大きく語るより日常的。	I want my son to have lots of different experiences.		expression	子育て・家族	high	1	2026-11-01
+expr_1597	1597	12歳年上・年下	twelve years older / younger		干支が一回り違う年齢差を正確に表す。	a decade は約10年で12年とは限らない。	She is twelve years older than me.		expression	人間関係	high	1	2026-11-01
+expr_1598	1598	一サイズ大きい・小さい	a size up / a size down		服・靴のサイズの一段階の違い。	単に見た目が少し大きい場合は a little bigger。	I’d like to try a size up.		expression	日常生活・一般	high	1	2026-11-01
+expr_1599	1599	おおよそ10歳年上・年下	a decade older / younger		年齢差を約10年単位で述べる。	日本語の「一回り＝12歳」とは一致しない。	He is about a decade older than me.		expression	人間関係	high	1	2026-11-01
+expr_1600	1600	〜の発売・活動を一時休止する	go on hiatus		連載や活動などを一時中断する。	病気などによる休止にも使うが日常の休憩には大げさ。	The show went on hiatus for a few weeks.		expression	仕事・学習	high	1	2026-11-01

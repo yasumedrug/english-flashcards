@@ -137,6 +137,13 @@ for (const [label, phrases] of Object.entries({
   '文・会話表現': "don't make it all about ...|just wanted to check ...|for some reason, i always ...|my view is that ...|most news stories aren't ...|whenever ..., we'd ...|all i knew back then was that ..."
 })) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
 
+for (const [label, phrases] of Object.entries({
+  会話表現: 'now that you mention it, ...|no wonder ...',
+  句動詞: 'pull it off|fall apart',
+  慣用表現: 'drop the ball',
+  形容詞句: 'twelve years older / younger|a size up / a size down|a decade older / younger'
+})) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
+
 export function partOfSpeech(note: Pick<Note, 'en' | 'ja' | 'tag'>): string {
   const english = note.en.trim()
   const japanese = note.ja.trim()
