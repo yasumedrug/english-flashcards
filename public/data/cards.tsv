@@ -1599,3 +1599,34 @@ expr_1597	1597	12歳年上・年下	twelve years older / younger		干支が一�
 expr_1598	1598	一サイズ大きい・小さい	a size up / a size down		服・靴のサイズの一段階の違い。	単に見た目が少し大きい場合は a little bigger。	I’d like to try a size up.		expression	日常生活・一般	high	1	2026-11-01
 expr_1599	1599	おおよそ10歳年上・年下	a decade older / younger		年齢差を約10年単位で述べる。	日本語の「一回り＝12歳」とは一致しない。	He is about a decade older than me.		expression	人間関係	high	1	2026-11-01
 expr_1600	1600	〜の発売・活動を一時休止する	go on hiatus		連載や活動などを一時中断する。	病気などによる休止にも使うが日常の休憩には大げさ。	The show went on hiatus for a few weeks.		expression	仕事・学習	high	1	2026-11-01
+expr_1601	1601	〜を切らしている・もう〜がない	I'm out of ...		手持ちの物や時間・案などが尽きた現在の状態。	run out of は尽きた出来事に焦点。	I'm out of ideas.		expression	会話・日常	high	1	2026-11-02
+expr_1602	1602	〜が残り少ない	I'm low on ...		物・体力などの残量が少ない。	まだゼロではない。	I'm low on energy today.		expression	会話・日常	high	1	2026-11-02
+expr_1603	1603	〜が足りない	I'm short on ...		必要な量に対して不足している。	時間・お金・人手などに使いやすい。	I'm short on time this morning.		expression	会話・日常	high	1	2026-11-02
+expr_1604	1604	〜でいっぱいである	I'm full of ...		中身・感情・考えで満ちている。	食べ物は通常 I’m full. とだけ言うほうが自然。	I'm full of questions.		expression	会話・日常	high	1	2026-11-02
+expr_1605	1605	〜から解放されている	I'm free of ...		問題や負担から自由になっている。	free from も使える。やや改まった表現。	I'm finally free of debt.		expression	会話・日常	high	1	2026-11-02
+expr_1606	1606	〜を終えた・もう〜はうんざり	I'm done with ...		作業の完了、またはもう関わりたくない気持ち。	文脈で中立的な完了か強い拒絶か変わる。	I'm done with the paperwork.		expression	会話・仕事	high	1	2026-11-02
+expr_1607	1607	〜が遅れている・滞っている	I'm behind on ...		予定より進んでいない、未処理がたまっている。	支払いや仕事、勉強など。	I'm behind on my reading.		expression	会話・仕事	high	1	2026-11-02
+expr_1608	1608	〜を必要としている	I'm in need of ...		必要なもの・助け・休息を表す。	I need ... よりやや改まった響き。	I'm in need of a break.		expression	会話・日常	high	1	2026-11-02
+expr_1609	1609	〜だらけである	I'm covered in ...		身体・衣服などが物質で覆われた状態。	泥・汗・絵の具などとよく使う。	I'm covered in paint.		expression	会話・日常	high	1	2026-11-02
+expr_1610	1610	〜に囲まれている	I'm surrounded by ...		周囲に人や物がある。	具体物にも支えてくれる人などにも使う。	I'm surrounded by supportive people.		expression	会話・日常	high	1	2026-11-02
+expr_1611	1611	〜から立ち直った・もう気にしていない	I'm over ...		病気や失望・関係などを乗り越えた。	I’m over it. はもう気にしていない、うんざりしたの両義。	I'm over the disappointment now.		expression	会話・感情	high	1	2026-11-02
+expr_1612	1612	率直に言わせてください	Let me level with you.		言いにくい本音や重要な見解を切り出す。	やや深刻な導入で、軽い雑談には大げさ。	Let me level with you. I'm worried about the plan.		expression	会話・意見	high	1	2026-11-02
+expr_1613	1613	仕事・学校を休む	take time off		休暇や休みを取る。	take a few days off のように期間も置ける。	I need to take a few days off.		expression	会話・仕事	high	1	2026-11-02
+expr_1614	1614	自分で矛盾したことを言う	contradict myself		前に言ったことと今の意見が食い違う。	考えながら話すときの自己修正にも。	Maybe I'm contradicting myself, but I still want to try.		expression	会話・意見	high	1	2026-11-02
+expr_1615	1615	安心させる・緊張をほぐす	put someone at ease		人が安心できるようにする。	主語は安心を与える人・出来事。	Talking to her put me at ease.		expression	会話・感情	high	1	2026-11-02
+expr_1616	1616	〜を気にかける・面倒を見る	look out for someone		相手を守ったり気遣ったりする。	look for は探す。	Thank you for looking out for my son.		expression	会話・家族	high	1	2026-11-02
+expr_1617	1617	聞き覚えがある	sound familiar		名前や話に心当たりがある。	主語は聞き覚えのある名前・事柄。	That name sounds familiar.		expression	会話・日常	high	1	2026-11-02
+expr_1618	1618	考えや話がまとまっていない	all over the place		話・考え・予定などが散漫な状態。	場所が散らばっているという字義もある。	Sorry, my thoughts are all over the place today.		expression	会話・意見	high	1	2026-11-02
+expr_1619	1619	同じ理屈で	by the same token		先の話と同じ根拠を別の結論に適用する。	会話ではやや硬め。similarly より論理の対応を示す。	Recovery takes time. By the same token, you shouldn't rush back to work.		expression	会話・意見	high	1	2026-11-02
+expr_1620	1620	〜との接し方が上手だ	have a way with ...		人や動物に自然にうまく接する。	have a way with me は私を魅了するという文脈も。	My father has a way with children.		expression	会話・人間関係	high	1	2026-11-02
+expr_1621	1621	〜かどうか分からない	I'm not sure if ...		不確実な事柄を柔らかく伝える。	whether も可能。	I'm not sure if I can make it.		expression	会話・日常	high	1	2026-11-02
+expr_1622	1622	〜することになっている	I'm supposed to ...		予定・期待・規則による行動。	義務感は文脈次第。	I'm supposed to meet her at ten.		expression	会話・日常	high	1	2026-11-02
+expr_1623	1623	結局〜した	end up -ing		予想や当初の計画とは違う結末を述べる。	後ろは動名詞。	We ended up going home early.		expression	会話・日常	high	1	2026-11-02
+expr_1624	1624	〜で困っている・〜するのが難しい	have trouble -ing		動作をうまくできない。	後ろは動名詞。	I have trouble falling asleep.		expression	会話・日常	high	1	2026-11-02
+expr_1625	1625	言いたいこと分かりますか	You know what I mean?		気持ちや含みが伝わっているかを確かめる。	連発すると理解を迫る響きになりうる。	I was happy but sad too. You know what I mean?		expression	会話・相づち	high	1	2026-11-02
+expr_1626	1626	うまく伝わっていればいいのですが	if that makes sense		自分の説明の筋が伝わったか控えめに確かめる。	文末で添えることが多い。	The ideas reinforce each other, if that makes sense.		expression	会話・相づち	high	1	2026-11-02
+expr_1627	1627	金欠だ	I'm broke.		今使えるお金がほぼない。	broken は壊れている・心が折れている。	I can't go out tonight. I'm broke.		expression	会話・日常	high	1	2026-11-02
+expr_1628	1628	もうまずい・おしまいだ	I'm toast.		失敗や叱責が避けられないと感じる。	冗談めいた口語。	I forgot the deadline. I'm toast.		expression	会話・感情	high	1	2026-11-02
+expr_1629	1629	へとへとだ	I'm beat.		強い疲労を述べる。	toast と違い主眼は疲れ。	I'm beat. I'm going to bed early.		expression	会話・日常	high	1	2026-11-02
+expr_1630	1630	その案に納得した・乗り気だ	I'm sold.		提案に説得された。	対象を示すなら sold on ...。	That sounds like a great plan. I'm sold.		expression	会話・意見	high	1	2026-11-02
+expr_1631	1631	それで大丈夫です	I'm cool with that.		相手の提案を気軽に受け入れる。	くだけた口語。	Ten o'clock? I'm cool with that.		expression	会話・日常	high	1	2026-11-02

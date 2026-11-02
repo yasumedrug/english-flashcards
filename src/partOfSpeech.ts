@@ -144,6 +144,12 @@ for (const [label, phrases] of Object.entries({
   形容詞句: 'twelve years older / younger|a size up / a size down|a decade older / younger'
 })) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
 
+for (const [label, phrases] of Object.entries({
+  動詞句: 'sound familiar|have a way with ...|have trouble -ing',
+  副詞句: 'by the same token',
+  会話表現: 'if that makes sense'
+})) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
+
 export function partOfSpeech(note: Pick<Note, 'en' | 'ja' | 'tag'>): string {
   const english = note.en.trim()
   const japanese = note.ja.trim()
