@@ -137,7 +137,13 @@ test('TSV updates validate hints before writing and preserve history and local e
   const logs = await db.reviewLogs.where('cardId').equals(key).toArray()
   const serialize = row => `${Object.keys(row).join('\t')}\n${Object.values(row).join('\t')}\n`
   let tsv = serialize({ ...original, usage: '現在の習慣について話すとき。' })
-  t.mock.method(globalThis, 'fetch', async () => new Response(tsv))
+  let online = true
+  t.mock.method(globalThis, 'fetch', async (url, options) => {
+    if (!online) throw new TypeError('offline')
+    // An older worker can return stale content for the exact precached URL.
+    const bypassesCache = new URL(url, 'https://example.test').search && options.cache === 'no-store'
+    return new Response(bypassesCache ? tsv : serialize(original))
+  })
 
   assert.equal(await importTsv(), 1)
   const saved = await db.notes.get(original.card_id)
@@ -147,6 +153,8 @@ test('TSV updates validate hints before writing and preserve history and local e
 
   tsv = serialize({ ...original, usage: 'wordから始まる英語。' })
   await assert.rejects(importTsv(), /expr_import/)
+  online = false
+  await assert.rejects(importTsv(), /offline/)
   assert.deepEqual(await db.notes.get(original.card_id), saved)
   assert.deepEqual(await db.importMetadata.get('cards'), metadata)
   assert.deepEqual(await db.reviewCards.get(key), before)

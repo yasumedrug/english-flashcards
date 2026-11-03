@@ -128,7 +128,9 @@ export function parseTsv(text: string): Note[] {
 }
 
 export async function importTsv(): Promise<number> {
-  const response = await fetch(`${import.meta.env?.BASE_URL ?? '/'}data/cards.tsv`, { cache: 'no-cache' })
+  // The query also bypasses older installed workers that precached this path.
+  // Offline startup already falls back to the notes saved in IndexedDB.
+  const response = await fetch(`${import.meta.env?.BASE_URL ?? '/'}data/cards.tsv?fresh=${Date.now()}`, { cache: 'no-store' })
   if (!response.ok) throw new Error(`TSVを取得できません (${response.status})`)
   const notes = parseTsv(await response.text())
   await db.transaction('rw', db.notes, db.importMetadata, async () => {
