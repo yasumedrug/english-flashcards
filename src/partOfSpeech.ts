@@ -150,6 +150,13 @@ for (const [label, phrases] of Object.entries({
   会話表現: 'if that makes sense'
 })) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
 
+for (const [label, phrases] of Object.entries({
+  副詞句: 'if anything',
+  動詞句: 'resort to ...',
+  名詞句: 'everything under the sun',
+  会話表現: 'alright then ...'
+})) for (const phrase of phrases.split('|')) phraseLabels[phrase] = label
+
 export function partOfSpeech(note: Pick<Note, 'en' | 'ja' | 'tag'>): string {
   const english = note.en.trim()
   const japanese = note.ja.trim()
