@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192"><rect width="192" height="192" rx="40" fill="#2d6ee4"/><rect x="24" y="24" width="144" height="144" rx="28" fill="white"/><text x="96" y="137" text-anchor="middle" font-size="112" font-weight="800" font-family="Arial,sans-serif" fill="#2d6ee4">E</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>English Cards</title>
+  <defs>
+    <filter id="card-shadow" x="-25%" y="-25%" width="150%" height="155%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#39352b" flood-opacity=".09"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" fill="#faf9f6"/>
+  <g filter="url(#card-shadow)">
+    <rect x="100" y="110" width="296" height="250" rx="32" transform="rotate(-12 248 235)" fill="#ffcf35" stroke="#f4c42d" stroke-width="1.5"/>
+    <rect x="125" y="153" width="294" height="270" rx="32" fill="#fffefd" stroke="#eeede8" stroke-width="1.5"/>
+  </g>
+  <g fill="none" stroke="#c9c9c7" stroke-width="14" stroke-linecap="round">
+    <path d="M184 215h154M184 254h154M184 293h102"/>
+  </g>
+  <path d="M76 382c-2 35 23 41 58 39h67c25 0 44 11 55 25 11-14 30-25 55-25h67c35 2 60-4 58-39" fill="none" stroke="#595d5f" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

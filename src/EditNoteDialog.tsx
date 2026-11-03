@@ -1,4 +1,5 @@
 import { useState, type FormEvent } from 'react'
+import Icon from './Icons'
 import type { EditableNoteContent, Note } from './data'
 
 const fields: { key: keyof EditableNoteContent; label: string; rows: number; required?: boolean }[] = [
@@ -31,7 +32,7 @@ export default function EditNoteDialog({ note, hasEdits, busy, onClose, onSave, 
 
   return <div className="modal-backdrop" onClick={() => { if (!busy) onClose() }}>
     <div className="modal edit-modal" role="dialog" aria-modal="true" aria-label="カードの文言を編集" onClick={event => event.stopPropagation()}>
-      <button className="modal-close" type="button" aria-label="編集を閉じる" disabled={busy} onClick={onClose}>×</button>
+      <button className="modal-close" type="button" aria-label="編集を閉じる" disabled={busy} onClick={onClose}><Icon name="close" /></button>
       <span className="eyebrow">EDIT CARD · {note.card_id}</span>
       <h2>カードの文言を編集</h2>
       <p className="editor-help">この端末に保存します。学習履歴と復習予定は変わりません。</p>

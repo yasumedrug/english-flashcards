@@ -11,15 +11,15 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       scope: base,
-      includeAssets: ['icon.svg', 'apple-touch-icon.png'],
+      includeAssets: ['icon.svg', 'apple-touch-icon.png', 'favicon-32.png'],
       manifest: {
         name: 'English Cards',
         short_name: '英語カード',
         lang: 'ja',
         id: base,
         description: '自分専用の英語フラッシュカード',
-        theme_color: '#f7faff',
-        background_color: '#f7faff',
+        theme_color: '#fafaf8',
+        background_color: '#fafaf8',
         display: 'standalone',
         start_url: base,
         scope: base,
