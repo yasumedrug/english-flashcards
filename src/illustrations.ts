@@ -1,6 +1,6 @@
-// Reviewed illustrations from the original 30-card pilot. No personal photos.
+// Reviewed emotional-context illustrations. No personal photos.
 // Exact wording guards against showing an obsolete scene after TSV/local edits.
-const illustrations: Record<string, { ja: string; en: string }> = {
+export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_1338": {
     "ja": "ほっとする",
     "en": "feel relieved"
@@ -120,11 +120,131 @@ const illustrations: Record<string, { ja: string; en: string }> = {
   "expr_1753": {
     "ja": "割り切る",
     "en": "accept it and move on"
+  },
+  "expr_0001": {
+    "ja": "認識・知覚",
+    "en": "perception"
+  },
+  "expr_0002": {
+    "ja": "認識・知覚",
+    "en": "awareness"
+  },
+  "expr_0003": {
+    "ja": "認識・知覚",
+    "en": "recognition"
+  },
+  "expr_0004": {
+    "ja": "大きい",
+    "en": "huge"
+  },
+  "expr_0005": {
+    "ja": "大きい・すごい",
+    "en": "tremendous"
+  },
+  "expr_0006": {
+    "ja": "自由時間",
+    "en": "downtime"
+  },
+  "expr_0007": {
+    "ja": "自由時間",
+    "en": "free time"
+  },
+  "expr_0008": {
+    "ja": "確認する",
+    "en": "check something out"
+  },
+  "expr_0009": {
+    "ja": "確認する",
+    "en": "see if ..."
+  },
+  "expr_0010": {
+    "ja": "仮定・提案",
+    "en": "What if ...?"
+  },
+  "expr_0011": {
+    "ja": "着る",
+    "en": "put on"
+  },
+  "expr_0012": {
+    "ja": "着る",
+    "en": "wear"
+  },
+  "expr_0013": {
+    "ja": "今となっては",
+    "en": "looking back now"
+  },
+  "expr_0014": {
+    "ja": "今となっては",
+    "en": "in retrospect"
+  },
+  "expr_0015": {
+    "ja": "一時的流行",
+    "en": "fad"
+  },
+  "expr_0016": {
+    "ja": "参加する",
+    "en": "join"
+  },
+  "expr_0017": {
+    "ja": "参加する",
+    "en": "attend"
+  },
+  "expr_0018": {
+    "ja": "参加する",
+    "en": "participate in"
+  },
+  "expr_0019": {
+    "ja": "話している相手",
+    "en": "the person I’m talking to"
+  },
+  "expr_0020": {
+    "ja": "反対側・逆",
+    "en": "opposite"
+  },
+  "expr_0021": {
+    "ja": "性別を指定しない代名詞",
+    "en": "they"
+  },
+  "expr_0022": {
+    "ja": "列",
+    "en": "a long line at the checkout"
+  },
+  "expr_0023": {
+    "ja": "癇癪",
+    "en": "tantrum"
+  },
+  "expr_0024": {
+    "ja": "メルトダウン",
+    "en": "meltdown"
+  },
+  "expr_0025": {
+    "ja": "売っている",
+    "en": "sell"
+  },
+  "expr_0026": {
+    "ja": "セール中",
+    "en": "on sale"
+  },
+  "expr_0027": {
+    "ja": "開催する",
+    "en": "hold"
+  },
+  "expr_0028": {
+    "ja": "開催する",
+    "en": "host"
+  },
+  "expr_0029": {
+    "ja": "同窓会",
+    "en": "alumni reunion"
+  },
+  "expr_0030": {
+    "ja": "勉強会",
+    "en": "study session"
   }
 }
 
 export function illustrationPath(note: { card_id: string; ja: string; en: string }): string | null {
-  const source = Object.hasOwn(illustrations, note.card_id) ? illustrations[note.card_id] : undefined
+  const source = Object.hasOwn(illustrationSources, note.card_id) ? illustrationSources[note.card_id] : undefined
   return source && source.ja === note.ja && source.en === note.en
     ? `illustrations/${note.card_id}.webp`
     : null
