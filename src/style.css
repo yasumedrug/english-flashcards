@@ -89,6 +89,18 @@ h1 { font-size: 30px; line-height: 1.3; margin: 0; font-weight: 700; letter-spac
 .context .edited-badge { background: var(--subtle); color: var(--secondary); }
 .prompt-caption { margin: 30px 0 10px; color: var(--muted); font-size: 12px; }
 .flashcard h2 { font-size: clamp(25px, 6.8vw, 34px); line-height: 1.5; font-weight: 650; margin: 0 0 24px; overflow-wrap: anywhere; letter-spacing: -.025em; }
+.has-illustration .prompt-caption { margin-top: 14px; }
+.has-illustration h2 { margin-bottom: 16px; }
+.card-illustration { display: block; width: min(100%, 320px); height: auto; aspect-ratio: 1; object-fit: contain; margin: 0 auto 18px; border-radius: 8px; }
+.is-revealed .card-illustration { width: min(100%, 208px); }
+.study-page:has(.has-illustration) .study-direction { padding: 0; border: 0; background: transparent; margin: 4px 0; }
+.study-page:has(.has-illustration) .study-direction h2 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); }
+.app:has(.has-illustration) > header { min-height: calc(56px + env(safe-area-inset-top)); padding-top: calc(8px + env(safe-area-inset-top)); padding-bottom: 8px; }
+.study-page:has(.has-illustration) .card-type { margin: 4px 0; }
+.has-illustration { padding: 16px 20px; }
+.has-illustration .card-illustration { width: min(100%, 260px, 26dvh); }
+.has-illustration.is-revealed .card-illustration { width: min(100%, 208px, 24dvh); }
+.has-illustration .recall-hint { margin-bottom: 8px; }
 .recall-hint { margin: 0 0 20px; padding: 0 0 0 12px; border-left: 2px solid var(--line); }
 .recall-hint p { margin: 0; color: var(--secondary); font-size: 12px; line-height: 1.8; overflow-wrap: anywhere; }
 .recall-hint p + p { margin-top: 8px; }

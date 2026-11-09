@@ -31,7 +31,7 @@ export default defineConfig({
       workbox: {
         // Learning content is refreshed independently of the app release.
         // IndexedDB holds the offline copy; do not pin TSV in the precache.
-        globPatterns: ['**/*.{js,css,html,svg,png}'],
+        globPatterns: ['**/*.{js,css,html,svg,png,webp}'],
         runtimeCaching: [{
           urlPattern: ({ url }) => url.pathname.endsWith('/data/cards.tsv'),
           handler: 'NetworkOnly',

@@ -5,6 +5,8 @@ import EditNoteDialog from './EditNoteDialog'
 import Icon from './Icons'
 import { partOfSpeech } from './partOfSpeech'
 import { recallHints } from './recallHints'
+import CardIllustration from './CardIllustration'
+import { illustrationPath } from './illustrations'
 
 type Page = 'today' | 'study' | 'browse' | 'settings'
 const ratings: { value: ReviewRating; label: string; className: string }[] = [
@@ -255,7 +257,8 @@ export default function App() {
         <div className="panel study-direction"><h2>学習方向</h2><DirectionSelector mode={settings.mode} onChange={changeStudyMode} disabled={busy} /></div>
         {!candidate ? <div className="done"><span className="done-icon"><Icon name="check" /></span><h2>今日の分は終了です</h2><p>また明日、少しずつ続けましょう。</p><button className="primary" onClick={() => setPage('today')}>今日の画面へ</button></div> : <>
           <div className="card-type"><span>{candidate.isNew ? 'NEW' : 'REVIEW'}</span><span>{candidate.direction === 'ja_to_en' ? '日本語 → 英語' : '英語 → 日本語'}</span><button className="edit-card-button" type="button" disabled={busy} onClick={openEditor}><Icon name="edit" />編集</button></div>
-          <article className="flashcard"><div className="context"><span>{candidate.note.scene}</span><span className="part-of-speech">品詞・種類: {partOfSpeech(candidate.note)}</span>{candidate.note.tag && <span>{candidate.note.tag}</span>}{editedIds.has(candidate.note.card_id) && <span className="edited-badge">編集済み</span>}</div><p className="prompt-caption">{candidate.direction === 'ja_to_en' ? 'この表現を英語で？' : 'この表現の意味は？'}</p><h2>{candidate.direction === 'ja_to_en' ? candidate.note.ja : candidate.note.en}</h2>
+          <article className={`flashcard${illustrationPath(candidate.note) ? ' has-illustration' : ''}${revealed ? ' is-revealed' : ''}`}><div className="context"><span>{candidate.note.scene}</span><span className="part-of-speech">品詞・種類: {partOfSpeech(candidate.note)}</span>{candidate.note.tag && <span>{candidate.note.tag}</span>}{editedIds.has(candidate.note.card_id) && <span className="edited-badge">編集済み</span>}</div><p className="prompt-caption">{candidate.direction === 'ja_to_en' ? 'この表現を英語で？' : 'この表現の意味は？'}</p><h2>{candidate.direction === 'ja_to_en' ? candidate.note.ja : candidate.note.en}</h2>
+            <CardIllustration key={candidate.note.card_id} note={candidate.note} />
             {promptHints.length > 0 && <div className="recall-hint" aria-label="想起のヒント">{promptHints.map(hint => <p key={hint.label}><span>{hint.label}</span>{hint.text}</p>)}</div>}
             <p className="card-meta">ID: {candidate.note.card_id}{candidate.review ? ` · 復習 ${candidate.review.fsrsCard.reps}回` : ' · 未学習'}{candidate.review?.fsrsCard.last_review ? ` · 前回 ${fullDate(candidate.review.fsrsCard.last_review)}` : ''}</p>
             {revealed && <div className="answer"><span className="answer-label">ANSWER</span><h3>{candidate.direction === 'ja_to_en' ? candidate.note.en : candidate.note.ja}</h3>{candidate.note.ipa && <p className="ipa">{candidate.note.ipa}</p>}{candidate.note.usage && <div className="detail"><b>使い所</b><p>{candidate.note.usage}</p></div>}{candidate.note.nuance && <div className="detail"><b>使い分け</b><p>{candidate.note.nuance}</p></div>}{candidate.note.example_en && <div className="example"><b>EXAMPLE</b><p>{candidate.note.example_en}</p>{candidate.note.example_ipa && <small>{candidate.note.example_ipa}</small>}</div>}<button className="speak" onClick={() => speak(candidate.note.en)}><Icon name="volume" />英語を読み上げる</button></div>}
