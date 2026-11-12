@@ -48,6 +48,7 @@ export default function App() {
   const [busy, setBusy] = useState(false)
   const [message, setMessage] = useState('')
   const [query, setQuery] = useState('')
+  const [showPendingIllustrations, setShowPendingIllustrations] = useState(false)
   const [scene, setScene] = useState('')
   const [tag, setTag] = useState('')
   const [browseNote, setBrowseNote] = useState<Note | null>(null)
@@ -236,9 +237,12 @@ export default function App() {
     window.speechSynthesis.speak(utterance)
   }
 
-  const scenes = [...new Set(notes.filter(n => n.active !== '0').map(n => n.scene).filter(Boolean))].sort()
-  const tags = [...new Set(notes.filter(n => n.active !== '0').map(n => n.tag).filter(Boolean))].sort()
-  const found = notes.filter(n => n.active !== '0' && (!scene || n.scene === scene) && (!tag || n.tag === tag) && (!query || `${n.card_id} ${n.ja} ${n.en} ${n.usage} ${n.example_en}`.toLowerCase().includes(query.toLowerCase()))).slice(0, 100)
+  const activeNotes = notes.filter(n => n.active !== '0')
+  const illustratedNotes = activeNotes.filter(n => illustrationPath(n) !== null)
+  const libraryNotes = showPendingIllustrations ? activeNotes : illustratedNotes
+  const scenes = [...new Set(libraryNotes.map(n => n.scene).filter(Boolean))].sort()
+  const tags = [...new Set(libraryNotes.map(n => n.tag).filter(Boolean))].sort()
+  const found = libraryNotes.filter(n => (!scene || n.scene === scene) && (!tag || n.tag === tag) && (!query || `${n.card_id} ${n.ja} ${n.en} ${n.usage} ${n.example_en}`.toLowerCase().includes(query.toLowerCase()))).slice(0, 100)
   const progress = plan ? Math.min(100, Math.round(plan.studied / plan.totalLimit * 100)) : 0
 
   return <div className="app">
@@ -250,7 +254,8 @@ export default function App() {
         <div className="hero-card"><div className="hero-top"><div><span className="label">今日の進捗</span><strong>{plan?.studied ?? 0}<small> / {plan?.totalLimit ?? 40}</small></strong></div><span className="percent">{progress}%</span></div><div className="progress-track"><div style={{ width: `${progress}%` }} /></div><div className="hero-bottom"><span>復習待ち <b>{plan?.due ?? 0}</b></span><span>新規枠 <b>{Math.max(0, (plan?.newLimit ?? 8) - (plan?.newStudied ?? 0))}</b></span></div></div>
         <div className="stat-grid"><div><span>今日の学習</span><strong>{plan?.studied ?? 0}</strong><small>件</small></div><div><span>連続学習</span><strong>{stats.streak}</strong><small>日</small></div><div><span>累計レビュー</span><strong>{stats.total}</strong><small>回</small></div></div>
         {plan?.complete ? <div className="done"><span className="done-icon"><Icon name="check" /></span><h2>今日の分は終了です</h2><p>お疲れさまでした。次の復習をお楽しみに。</p></div> : <button className="primary start" onClick={() => { setRevealed(false); startRef.current = Date.now(); setPage('study') }}>学習を始める <Icon name="forward" /></button>}
-        <p className="hint">保存済みカード {notes.filter(n => n.active !== '0').length}件 · オフラインでも学習できます</p>
+        <p className="hint">イラスト付きカード {illustratedNotes.length}件が学習対象です。オフラインでも学習できます。</p>
+        <p className="hint">全{activeNotes.length}件のカードと学習記録を保存しています。イラスト待ちのカードも、追加後は続きから復習できます。</p>
       </section>}
       {page === 'study' && <section className="page study-page">
         <div className="study-heading"><button className="text-button" onClick={() => setPage('today')}><Icon name="back" />今日へ</button><span>{plan?.studied ?? 0} / {plan?.totalLimit ?? 40}</span></div>
@@ -270,11 +275,14 @@ export default function App() {
       {page === 'browse' && <section className="page">
         <p className="eyebrow">CARD LIBRARY</p><h1>カードを探す</h1><p className="intro">日本語・英語・カードIDから表現を見つけられます。</p>
         <input className="search" type="search" placeholder="日本語・英語・IDで検索" value={query} onChange={e => setQuery(e.target.value)} />
+        <label className="pending-filter"><input type="checkbox" checked={showPendingIllustrations} onChange={e => { setShowPendingIllustrations(e.target.checked); setScene(''); setTag('') }} />イラスト待ちも表示（記録確認・編集用）</label>
         <div className="filters"><select aria-label="場面" value={scene} onChange={e => setScene(e.target.value)}><option value="">すべての場面</option>{scenes.map(s => <option key={s}>{s}</option>)}</select><select aria-label="タグ" value={tag} onChange={e => setTag(e.target.value)}><option value="">すべてのタグ</option>{tags.map(t => <option key={t}>{t}</option>)}</select></div>
-        <p className="result-count">{found.length}件表示{found.length === 100 ? '（先頭100件）' : ''} · 非表示カードも検索できます</p>
+        <p className="result-count">{found.length}件表示{found.length === 100 ? '（先頭100件）' : ''} · 非表示カードも検索できます。学習はイラスト付きのみです。</p>
         <div className="browse-list">{found.map(note => <button className="browse-item" key={note.card_id} onClick={() => { setBrowseNote(note); setBrowseIndex(found.indexOf(note)) }}><span><b>{note.en}{suspendedIds.has(note.card_id) && <em className="suspended-tag">非表示</em>}</b><small>{note.ja} · {note.card_id}</small></span><span>›</span></button>)}</div>
         {browseNote && <div className="modal-backdrop" onClick={() => setBrowseNote(null)}><div className="modal" role="dialog" aria-modal="true" aria-label="カード詳細" onClick={e => e.stopPropagation()}>
           <button className="modal-close" aria-label="カード詳細を閉じる" onClick={() => setBrowseNote(null)}><Icon name="close" /></button><span className="eyebrow">CARD DETAIL · {browseNote.card_id}</span><h2>{browseNote.en}</h2><p className="ipa">{browseNote.ipa}</p><h3>{browseNote.ja}</h3><p>{browseNote.usage}</p><p>{browseNote.nuance}</p><div className="example"><b>EXAMPLE</b><p>{browseNote.example_en}</p><small>{browseNote.example_ipa}</small></div>
+          {!illustrationPath(browseNote) && <p className="hint">イラスト待ちのため学習対象外です。学習記録は保持しています。日本語・英語を編集した場合も、絵の内容と一致するまで対象外になります。</p>}
+          <button className="secondary" disabled={busy} onClick={() => { setEditingNote(browseNote); setBrowseNote(null) }}><Icon name="edit" />カードを編集</button>
           <div className="review-status"><b>学習記録</b>{directionOptions.filter(option => option.id !== 'mixed').map(option => { const review = reviewCards.find(card => card.cardId === cardKey(browseNote.card_id, option.id as 'ja_to_en' | 'en_to_ja')); return <p key={option.id}>{option.label}: {review ? `${review.fsrsCard.reps}回 · 次回 ${fullDate(review.fsrsCard.due)}` : '未学習'}</p> })}</div>
           <div className="modal-actions"><button onClick={() => speak(browseNote.en)}><Icon name="volume" />読み上げ</button><button onClick={() => { const next = found[(browseIndex + 1) % found.length]; setBrowseNote(next); setBrowseIndex((browseIndex + 1) % found.length) }}>次へ<Icon name="forward" /></button></div>
           <button className="secondary" disabled={busy} onClick={() => suspendedIds.has(browseNote.card_id) ? resumeNote(browseNote.card_id) : suspendNote(browseNote.card_id)}>{suspendedIds.has(browseNote.card_id) ? '学習に戻す' : '今後表示しない'}</button>

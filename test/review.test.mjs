@@ -5,36 +5,38 @@ import { createEmptyCard, Rating } from 'ts-fsrs'
 
 const { cardKey, createBackup, db, getEffectiveNotes, getTodayPlan, importTsv, rateCard, reconcileReviewCards, resetNoteEdits, restoreBackup, saveNoteEdits, scheduler } = await import('../src/data.ts')
 
+const { illustrationSources } = await import('../src/illustrations.ts')
+
 const note = (id, ja) => ({
   card_id: id, source_no: id.slice(-1), ja, en: `word ${id}`, ipa: '',
   usage: '', nuance: '', example_en: '', example_ipa: '',
-  tag: '', scene: '', priority: 'normal', active: '1', source_version: '1'
+  tag: '', scene: '', priority: 'normal', active: '1', source_version: '1', ...illustrationSources[id]
 })
 
 test('a learned card stays hidden until its saved due date and its FSRS state survives repair', async () => {
   const firstDay = new Date('2026-09-29T09:00:00+09:00')
   const secondReview = new Date(+firstDay + 10 * 60_000)
-  const key = cardKey('expr_1', 'ja_to_en')
-  await db.notes.bulkPut([note('expr_1', '同じ日本語'), note('expr_2', '別の表現')])
+  const key = cardKey('expr_0001', 'ja_to_en')
+  await db.notes.bulkPut([note('expr_0001', '同じ日本語'), note('expr_0002', '別の表現')])
 
   const first = scheduler.next(createEmptyCard(firstDay), firstDay, Rating.Good).card
   const second = scheduler.next(first, secondReview, Rating.Good).card
   assert.equal(second.scheduled_days, 2)
-  await db.reviewCards.put({ cardId: key, noteId: 'expr_1', direction: 'ja_to_en', fsrsCard: second })
+  await db.reviewCards.put({ cardId: key, noteId: 'expr_0001', direction: 'ja_to_en', fsrsCard: second })
   await db.reviewLogs.bulkAdd([
-    { cardId: key, noteId: 'expr_1', direction: 'ja_to_en', reviewedAt: firstDay.toISOString(), rating: Rating.Good, responseTimeMs: 1000, previousDue: null, nextDue: first.due.toISOString() },
-    { cardId: key, noteId: 'expr_1', direction: 'ja_to_en', reviewedAt: secondReview.toISOString(), rating: Rating.Good, responseTimeMs: 1000, previousDue: first.due.toISOString(), nextDue: second.due.toISOString() }
+    { cardId: key, noteId: 'expr_0001', direction: 'ja_to_en', reviewedAt: firstDay.toISOString(), rating: Rating.Good, responseTimeMs: 1000, previousDue: null, nextDue: first.due.toISOString() },
+    { cardId: key, noteId: 'expr_0001', direction: 'ja_to_en', reviewedAt: secondReview.toISOString(), rating: Rating.Good, responseTimeMs: 1000, previousDue: first.due.toISOString(), nextDue: second.due.toISOString() }
   ])
 
   const nextDay = new Date('2026-09-30T12:00:00+09:00')
   let plan = await getTodayPlan(nextDay)
-  assert.equal(plan.candidate?.note.card_id, 'expr_2')
+  assert.equal(plan.candidate?.note.card_id, 'expr_0002')
   assert.equal(plan.due, 0)
 
   // A missing or stale reviewCards row must not turn saved reviews into a new card.
   await db.reviewCards.delete(key)
   plan = await getTodayPlan(nextDay)
-  assert.equal(plan.candidate?.note.card_id, 'expr_2')
+  assert.equal(plan.candidate?.note.card_id, 'expr_0002')
   assert.equal(plan.due, 0)
   await reconcileReviewCards()
   const repaired = await db.reviewCards.get(key)
@@ -42,7 +44,7 @@ test('a learned card stays hidden until its saved due date and its FSRS state su
   assert.equal(+new Date(repaired.fsrsCard.due), +second.due)
 
   plan = await getTodayPlan(new Date(+second.due + 1000))
-  assert.equal(plan.candidate?.note.card_id, 'expr_1')
+  assert.equal(plan.candidate?.note.card_id, 'expr_0001')
   assert.equal(plan.candidate?.isNew, false)
   const third = scheduler.next(repaired.fsrsCard, new Date(+second.due + 1000), Rating.Good).card
   assert.ok(third.scheduled_days > second.scheduled_days)
@@ -50,7 +52,7 @@ test('a learned card stays hidden until its saved due date and its FSRS state su
 
 test('shuffle avoids the current card; suspension survives backup and can be undone', async () => {
   const today = new Date('2026-09-30T12:00:00+09:00')
-  await db.notes.bulkPut([note('expr_3', '三番目'), note('expr_4', '四番目')])
+  await db.notes.bulkPut([note('expr_0003', '三番目'), note('expr_0004', '四番目')])
   await db.settings.put({ id: 'main', newLimit: 8, totalLimit: 40, mode: 'ja_to_en', jaRatio: 70, shuffleSeed: 12345 })
   const first = await getTodayPlan(today)
   const firstId = first.candidate?.note.card_id

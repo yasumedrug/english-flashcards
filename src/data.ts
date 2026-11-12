@@ -1,6 +1,7 @@
 import Dexie, { type EntityTable } from 'dexie'
 import { createEmptyCard, fsrs, type Card, type Rating } from 'ts-fsrs'
 import { assertRecallHints } from './recallHints.ts'
+import { illustrationPath } from './illustrations.ts'
 
 export type Direction = 'ja_to_en' | 'en_to_ja'
 export type Mode = Direction | 'mixed'
@@ -179,7 +180,9 @@ export async function getTodayPlan(now = new Date(), avoidCardId?: string): Prom
   const studied = todayLogs.length
   const newStudied = todayLogs.filter(log => log.previousDue === null).length
   const suspendedIds = new Set(suspended.map(item => item.noteId))
-  const active = notes.filter(note => note.active !== '0' && !suspendedIds.has(note.card_id))
+  // Availability is a read-only view: retain every note, FSRS state and log so
+  // a later illustration release resumes the existing schedule for this ID.
+  const active = notes.filter(note => note.active !== '0' && !suspendedIds.has(note.card_id) && illustrationPath(note) !== null)
   const byId = new Map(active.map(note => [note.card_id, note]))
   const directions: Direction[] = settings.mode === 'mixed' ? ['ja_to_en', 'en_to_ja'] : [settings.mode]
   const latestLog = new Map<string, ReviewLog>()
