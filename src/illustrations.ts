@@ -1064,6 +1064,362 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_0240": {
     "ja": "行き詰まる",
     "en": "be stuck"
+  },
+  "expr_0241": {
+    "ja": "早めに",
+    "en": "sooner rather than later"
+  },
+  "expr_0242": {
+    "ja": "できるだけ早く",
+    "en": "as soon as possible"
+  },
+  "expr_0243": {
+    "ja": "噂で聞いた",
+    "en": "I heard a rumor that ..."
+  },
+  "expr_0244": {
+    "ja": "人づてに聞いた",
+    "en": "hear through the grapevine"
+  },
+  "expr_0245": {
+    "ja": "武器",
+    "en": "weapon"
+  },
+  "expr_0246": {
+    "ja": "武器類",
+    "en": "arms"
+  },
+  "expr_0247": {
+    "ja": "徐々に・だんだん",
+    "en": "gradually"
+  },
+  "expr_0248": {
+    "ja": "段階的に",
+    "en": "incrementally"
+  },
+  "expr_0249": {
+    "ja": "職人",
+    "en": "artisan"
+  },
+  "expr_0250": {
+    "ja": "職人気質",
+    "en": "a craftsman’s mindset"
+  },
+  "expr_0251": {
+    "ja": "余分な",
+    "en": "extra"
+  },
+  "expr_0252": {
+    "ja": "過剰な",
+    "en": "excess"
+  },
+  "expr_0253": {
+    "ja": "不要な",
+    "en": "superfluous"
+  },
+  "expr_0254": {
+    "ja": "冗長な",
+    "en": "redundant"
+  },
+  "expr_0255": {
+    "ja": "偉業",
+    "en": "feat"
+  },
+  "expr_0256": {
+    "ja": "息をのむほど",
+    "en": "stunning"
+  },
+  "expr_0257": {
+    "ja": "酔っている",
+    "en": "drunk"
+  },
+  "expr_0258": {
+    "ja": "泥酔した",
+    "en": "wasted"
+  },
+  "expr_0259": {
+    "ja": "大げさ",
+    "en": "drama queen"
+  },
+  "expr_0260": {
+    "ja": "よく考える",
+    "en": "think it over"
+  },
+  "expr_0261": {
+    "ja": "よく考える",
+    "en": "think it through"
+  },
+  "expr_0262": {
+    "ja": "生地",
+    "en": "dough"
+  },
+  "expr_0263": {
+    "ja": "生地",
+    "en": "batter"
+  },
+  "expr_0264": {
+    "ja": "餃子の皮",
+    "en": "dumpling wrapper"
+  },
+  "expr_0265": {
+    "ja": "お菓子",
+    "en": "snacks"
+  },
+  "expr_0266": {
+    "ja": "甘いもの",
+    "en": "sweets"
+  },
+  "expr_0267": {
+    "ja": "ど忘れした",
+    "en": "It slipped my mind."
+  },
+  "expr_0268": {
+    "ja": "ど忘れした",
+    "en": "blank on"
+  },
+  "expr_0269": {
+    "ja": "総称",
+    "en": "umbrella term"
+  },
+  "expr_0270": {
+    "ja": "要点",
+    "en": "gist"
+  },
+  "expr_0271": {
+    "ja": "バスに乗り込む",
+    "en": "get on the bus"
+  },
+  "expr_0272": {
+    "ja": "バスを利用する",
+    "en": "take the bus"
+  },
+  "expr_0273": {
+    "ja": "履き物",
+    "en": "footwear"
+  },
+  "expr_0274": {
+    "ja": "クッション",
+    "en": "cushion"
+  },
+  "expr_0275": {
+    "ja": "弁当",
+    "en": "packed lunch"
+  },
+  "expr_0276": {
+    "ja": "弁当箱",
+    "en": "lunch box"
+  },
+  "expr_0277": {
+    "ja": "マット／マットレス",
+    "en": "mat / mattress"
+  },
+  "expr_0278": {
+    "ja": "結果まで責任を持つこと",
+    "en": "accountability"
+  },
+  "expr_0279": {
+    "ja": "当たり外れがある",
+    "en": "hit or miss"
+  },
+  "expr_0280": {
+    "ja": "ケチだ",
+    "en": "I'm cheap."
+  },
+  "expr_0281": {
+    "ja": "偶然見つける",
+    "en": "come across"
+  },
+  "expr_0282": {
+    "ja": "最近・近頃",
+    "en": "lately"
+  },
+  "expr_0283": {
+    "ja": "最近",
+    "en": "recently"
+  },
+  "expr_0284": {
+    "ja": "程度の問題",
+    "en": "a matter of degree"
+  },
+  "expr_0285": {
+    "ja": "双方向性のやり取り",
+    "en": "back-and-forth interaction"
+  },
+  "expr_0286": {
+    "ja": "自分を育ててくれる経験",
+    "en": "an experience that helps me grow"
+  },
+  "expr_0287": {
+    "ja": "手がかりから分かる",
+    "en": "can tell"
+  },
+  "expr_0288": {
+    "ja": "見分ける",
+    "en": "tell A from B / tell apart"
+  },
+  "expr_0289": {
+    "ja": "これは言っておきたい",
+    "en": "I must say ..."
+  },
+  "expr_0290": {
+    "ja": "今となっては",
+    "en": "looking back / now"
+  },
+  "expr_0291": {
+    "ja": "今やもう",
+    "en": "now / these days"
+  },
+  "expr_0292": {
+    "ja": "今のところ",
+    "en": "for now / so far"
+  },
+  "expr_0293": {
+    "ja": "今までは",
+    "en": "until now / up to now"
+  },
+  "expr_0294": {
+    "ja": "突然・前触れなく",
+    "en": "out of the blue"
+  },
+  "expr_0295": {
+    "ja": "在庫切れ",
+    "en": "out of stock"
+  },
+  "expr_0296": {
+    "ja": "故障中",
+    "en": "out of order"
+  },
+  "expr_0297": {
+    "ja": "論外・あり得ない",
+    "en": "out of the question"
+  },
+  "expr_0298": {
+    "ja": "手に負えない",
+    "en": "out of hand"
+  },
+  "expr_0299": {
+    "ja": "息切れする",
+    "en": "out of breath"
+  },
+  "expr_0300": {
+    "ja": "場違いな",
+    "en": "out of place"
+  },
+  "expr_0301": {
+    "ja": "どこからともなく突然",
+    "en": "out of nowhere"
+  },
+  "expr_0302": {
+    "ja": "内科医",
+    "en": "internist"
+  },
+  "expr_0303": {
+    "ja": "逆もまた然り",
+    "en": "vice versa"
+  },
+  "expr_0304": {
+    "ja": "乗り気だ",
+    "en": "be game for something"
+  },
+  "expr_0305": {
+    "ja": "まともに考えたら誰も〜ない",
+    "en": "no one in their right mind ..."
+  },
+  "expr_0306": {
+    "ja": "壁打ちする",
+    "en": "bounce ideas off someone"
+  },
+  "expr_0307": {
+    "ja": "教え子",
+    "en": "one of my students"
+  },
+  "expr_0308": {
+    "ja": "ぬるい／反応が弱い",
+    "en": "lukewarm"
+  },
+  "expr_0309": {
+    "ja": "どうなるか見てみよう",
+    "en": "We'll see what happens."
+  },
+  "expr_0310": {
+    "ja": "まあいいじゃん",
+    "en": "Who cares?"
+  },
+  "expr_0311": {
+    "ja": "血と汗と涙／大変な努力",
+    "en": "blood, sweat, and tears"
+  },
+  "expr_0312": {
+    "ja": "〜くらい／〜っぽい",
+    "en": "-ish"
+  },
+  "expr_0313": {
+    "ja": "念のため",
+    "en": "just to be safe"
+  },
+  "expr_0314": {
+    "ja": "万が一に備えて",
+    "en": "just in case"
+  },
+  "expr_0315": {
+    "ja": "私のことは気にしないで",
+    "en": "Don't mind me."
+  },
+  "expr_0316": {
+    "ja": "そこに代わる場所はない",
+    "en": "There's no place like it."
+  },
+  "expr_0317": {
+    "ja": "〜のニーズに応える",
+    "en": "cater to someone"
+  },
+  "expr_0318": {
+    "ja": "恵まれた立場",
+    "en": "a position of privilege"
+  },
+  "expr_0319": {
+    "ja": "〜なんて想像できない",
+    "en": "I can't imagine ..."
+  },
+  "expr_0320": {
+    "ja": "社会的・文化的な失態",
+    "en": "faux pas"
+  },
+  "expr_0321": {
+    "ja": "〜に慣れる",
+    "en": "get used to something"
+  },
+  "expr_0323": {
+    "ja": "既成概念にとらわれない",
+    "en": "outside the box"
+  },
+  "expr_0324": {
+    "ja": "倹約家の",
+    "en": "frugal"
+  },
+  "expr_0325": {
+    "ja": "これくらい当然ですよ",
+    "en": "It's the least I could do."
+  },
+  "expr_0326": {
+    "ja": "これ以上何が必要？",
+    "en": "What else do you need?"
+  },
+  "expr_0327": {
+    "ja": "何があっても",
+    "en": "rain or shine"
+  },
+  "expr_0328": {
+    "ja": "調べてみた",
+    "en": "I looked into it."
+  },
+  "expr_0329": {
+    "ja": "何が起こるか分からない",
+    "en": "You just never know."
+  },
+  "expr_0330": {
+    "ja": "体感では〜／〜のように感じる",
+    "en": "feels like"
   }
 }
 
