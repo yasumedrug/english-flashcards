@@ -2,6 +2,7 @@ import Dexie, { type EntityTable } from 'dexie'
 import { createEmptyCard, fsrs, type Card, type Rating } from 'ts-fsrs'
 import { assertRecallHints } from './recallHints.ts'
 import { illustrationPath } from './illustrations.ts'
+import { scenarioFor } from './scenarios.ts'
 
 export type Direction = 'ja_to_en' | 'en_to_ja'
 export type Mode = Direction | 'mixed'
@@ -182,9 +183,11 @@ export async function getTodayPlan(now = new Date(), avoidCardId?: string): Prom
   const suspendedIds = new Set(suspended.map(item => item.noteId))
   // Availability is a read-only view: retain every note, FSRS state and log so
   // a later illustration release resumes the existing schedule for this ID.
-  const active = notes.filter(note => note.active !== '0' && !suspendedIds.has(note.card_id) && illustrationPath(note) !== null)
+  const active = notes.filter(note => note.active !== '0' && !suspendedIds.has(note.card_id) && illustrationPath(note) !== null && scenarioFor(note) !== null)
   const byId = new Map(active.map(note => [note.card_id, note]))
-  const directions: Direction[] = settings.mode === 'mixed' ? ['ja_to_en', 'en_to_ja'] : [settings.mode]
+  // The new situation cue continues the original productive-recall track.
+  // Keep reverse-direction records/settings intact, without merging or resetting.
+  const directions: Direction[] = ['ja_to_en']
   const latestLog = new Map<string, ReviewLog>()
   for (const log of logs) latestLog.set(log.cardId, log)
   const cardById = new Map(cards.map(card => [card.cardId, card]))

@@ -25,7 +25,9 @@ test('only illustrated new and due cards are offered; waiting history survives b
     const plan = await getTodayPlan(now)
     assert.equal(plan.candidate.note.card_id, ready.card_id)
     assert.equal(plan.due, 0)
-    assert.equal(plan.newAvailable, mode === 'mixed' ? 2 : 1)
+    assert.equal(plan.newAvailable, 1)
+    assert.equal(plan.candidate.direction, 'ja_to_en')
+    assert.equal((await db.settings.get('main')).mode, mode)
     assert.deepEqual((await createBackup()).reviewCards, before.reviewCards)
     assert.deepEqual((await createBackup()).reviewLogs, before.reviewLogs)
   }

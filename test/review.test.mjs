@@ -6,11 +6,13 @@ import { createEmptyCard, Rating } from 'ts-fsrs'
 const { cardKey, createBackup, db, getEffectiveNotes, getTodayPlan, importTsv, rateCard, reconcileReviewCards, resetNoteEdits, restoreBackup, saveNoteEdits, scheduler } = await import('../src/data.ts')
 
 const { illustrationSources } = await import('../src/illustrations.ts')
+const { scenarioSources } = await import('../src/scenarios.ts')
 
 const note = (id, ja) => ({
   card_id: id, source_no: id.slice(-1), ja, en: `word ${id}`, ipa: '',
   usage: '', nuance: '', example_en: '', example_ipa: '',
-  tag: '', scene: '', priority: 'normal', active: '1', source_version: '1', ...illustrationSources[id]
+  tag: '', scene: '', priority: 'normal', active: '1', source_version: '1', ...illustrationSources[id],
+  ...(scenarioSources[id] ? { usage: scenarioSources[id].usage } : {})
 })
 
 test('a learned card stays hidden until its saved due date and its FSRS state survives repair', async () => {

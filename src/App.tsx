@@ -4,7 +4,7 @@ import { cardKey, createBackup, dateKey, db, defaultSettings, getEffectiveNotes,
 import EditNoteDialog from './EditNoteDialog'
 import Icon from './Icons'
 import { partOfSpeech } from './partOfSpeech'
-import { recallHints } from './recallHints'
+import { scenarioFor, registerLabels } from './scenarios'
 import CardIllustration from './CardIllustration'
 import { illustrationPath } from './illustrations'
 
@@ -16,16 +16,10 @@ const ratings: { value: ReviewRating; label: string; className: string }[] = [
   { value: Rating.Easy, label: '簡単', className: 'easy' }
 ]
 const directionOptions: { id: Mode; label: string }[] = [
-  { id: 'ja_to_en', label: '日 → 英' },
-  { id: 'en_to_ja', label: '英 → 日' },
+  { id: 'ja_to_en', label: '状況 → 英語（旧 日 → 英）' },
+  { id: 'en_to_ja', label: '旧 英 → 日' },
   { id: 'mixed', label: '混合' }
 ]
-
-function DirectionSelector({ mode, onChange, disabled = false }: { mode: Mode; onChange: (mode: Mode) => void; disabled?: boolean }) {
-  return <div className="segmented" role="group" aria-label="学習方向">
-    {directionOptions.map(option => <button type="button" key={option.id} className={mode === option.id ? 'selected' : ''} aria-pressed={mode === option.id} disabled={disabled} onClick={() => onChange(option.id)}>{option.label}</button>)}
-  </div>
-}
 
 function nextLabel(date: Date) {
   const minutes = Math.max(1, Math.round((+date - Date.now()) / 60000))
@@ -90,7 +84,7 @@ export default function App() {
   }, [])
 
   const candidate = plan?.candidate ?? null
-  const promptHints = candidate?.direction === 'ja_to_en' ? recallHints(candidate.note) : []
+  const scenario = candidate ? scenarioFor(candidate.note) : null
   const preview = useMemo(() => {
     if (!candidate) return null
     const card = candidate.review?.fsrsCard ?? createEmptyCard<Card>()
@@ -115,14 +109,6 @@ export default function App() {
     setSettings(clean)
     await db.settings.put(clean)
     await refresh()
-  }
-
-  async function changeStudyMode(mode: Mode) {
-    if (busy || settings.mode === mode) return
-    setRevealed(false)
-    startRef.current = Date.now()
-    try { await saveSettings({ ...settings, mode }) }
-    catch (error) { setMessage(error instanceof Error ? error.message : '学習方向を保存できませんでした') }
   }
 
   async function shuffleStudy() {
@@ -183,6 +169,7 @@ export default function App() {
     try {
       await saveNoteEdits(editingNote.card_id, content)
       await refresh()
+      setRevealed(false)
       closeEditor()
       setMessage('カードの文言を保存しました。学習履歴はそのままです。')
     } catch (error) { setMessage(error instanceof Error ? error.message : '文言を保存できませんでした') }
@@ -195,6 +182,7 @@ export default function App() {
     try {
       await resetNoteEdits(editingNote.card_id)
       await refresh()
+      setRevealed(false)
       closeEditor()
       setMessage('元の文言に戻しました。学習履歴はそのままです。')
     } catch (error) { setMessage(error instanceof Error ? error.message : '元に戻せませんでした') }
@@ -238,7 +226,7 @@ export default function App() {
   }
 
   const activeNotes = notes.filter(n => n.active !== '0')
-  const illustratedNotes = activeNotes.filter(n => illustrationPath(n) !== null)
+  const illustratedNotes = activeNotes.filter(n => illustrationPath(n) !== null && scenarioFor(n) !== null)
   const libraryNotes = showPendingIllustrations ? activeNotes : illustratedNotes
   const scenes = [...new Set(libraryNotes.map(n => n.scene).filter(Boolean))].sort()
   const tags = [...new Set(libraryNotes.map(n => n.tag).filter(Boolean))].sort()
@@ -259,14 +247,19 @@ export default function App() {
       </section>}
       {page === 'study' && <section className="page study-page">
         <div className="study-heading"><button className="text-button" onClick={() => setPage('today')}><Icon name="back" />今日へ</button><span>{plan?.studied ?? 0} / {plan?.totalLimit ?? 40}</span></div>
-        <div className="panel study-direction"><h2>学習方向</h2><DirectionSelector mode={settings.mode} onChange={changeStudyMode} disabled={busy} /></div>
-        {!candidate ? <div className="done"><span className="done-icon"><Icon name="check" /></span><h2>今日の分は終了です</h2><p>また明日、少しずつ続けましょう。</p><button className="primary" onClick={() => setPage('today')}>今日の画面へ</button></div> : <>
-          <div className="card-type"><span>{candidate.isNew ? 'NEW' : 'REVIEW'}</span><span>{candidate.direction === 'ja_to_en' ? '日本語 → 英語' : '英語 → 日本語'}</span><button className="edit-card-button" type="button" disabled={busy} onClick={openEditor}><Icon name="edit" />編集</button></div>
-          <article className={`flashcard${illustrationPath(candidate.note) ? ' has-illustration' : ''}${revealed ? ' is-revealed' : ''}`}><div className="context"><span>{candidate.note.scene}</span><span className="part-of-speech">品詞・種類: {partOfSpeech(candidate.note)}</span>{candidate.note.tag && <span>{candidate.note.tag}</span>}{editedIds.has(candidate.note.card_id) && <span className="edited-badge">編集済み</span>}</div><p className="prompt-caption">{candidate.direction === 'ja_to_en' ? 'この表現を英語で？' : 'この表現の意味は？'}</p><h2>{candidate.direction === 'ja_to_en' ? candidate.note.ja : candidate.note.en}</h2>
+
+        {!candidate || !scenario ? <div className="done"><span className="done-icon"><Icon name="check" /></span><h2>今日の分は終了です</h2><p>また明日、少しずつ続けましょう。</p><button className="primary" onClick={() => setPage('today')}>今日の画面へ</button></div> : <>
+          <div className="card-type"><span>{candidate.isNew ? 'NEW' : 'REVIEW'}</span><span>Situation → English</span><button className="edit-card-button" type="button" disabled={busy} onClick={openEditor}><Icon name="edit" />編集</button></div>
+          <article className={`flashcard has-illustration scenario-card${revealed ? ' is-revealed' : ''}`}>
+            <p className="scenario-form">{scenario.form}</p>
+            <h2 className="scenario-prompt">{scenario.prompt}</h2>
             <CardIllustration key={candidate.note.card_id} note={candidate.note} />
-            {promptHints.length > 0 && <div className="recall-hint" aria-label="想起のヒント">{promptHints.map(hint => <p key={hint.label}><span>{hint.label}</span>{hint.text}</p>)}</div>}
-            <p className="card-meta">ID: {candidate.note.card_id}{candidate.review ? ` · 復習 ${candidate.review.fsrsCard.reps}回` : ' · 未学習'}{candidate.review?.fsrsCard.last_review ? ` · 前回 ${fullDate(candidate.review.fsrsCard.last_review)}` : ''}</p>
-            {revealed && <div className="answer"><span className="answer-label">ANSWER</span><h3>{candidate.direction === 'ja_to_en' ? candidate.note.en : candidate.note.ja}</h3>{candidate.note.ipa && <p className="ipa">{candidate.note.ipa}</p>}{candidate.note.usage && <div className="detail"><b>使い所</b><p>{candidate.note.usage}</p></div>}{candidate.note.nuance && <div className="detail"><b>使い分け</b><p>{candidate.note.nuance}</p></div>}{candidate.note.example_en && <div className="example"><b>EXAMPLE</b><p>{candidate.note.example_en}</p>{candidate.note.example_ipa && <small>{candidate.note.example_ipa}</small>}</div>}<button className="speak" onClick={() => speak(candidate.note.en)}><Icon name="volume" />英語を読み上げる</button></div>}
+            {revealed && <div className="answer"><span className="answer-label">ONE EXPRESSION TO PRACTISE</span><h3>{candidate.note.en}</h3><p className="answer-translation">{candidate.note.ja}</p><span className="usage-register">{registerLabels[scenario.register]}</span><p className="hint">別の自然な言い方もあります。このカードの表現を思い出せたかで評価してください。</p>
+              <div className="context"><span>{candidate.note.scene}</span><span className="part-of-speech">品詞・種類: {partOfSpeech(candidate.note)}</span>{candidate.note.tag && <span>{candidate.note.tag}</span>}{editedIds.has(candidate.note.card_id) && <span className="edited-badge">編集済み</span>}</div>
+              {candidate.note.ipa && <p className="ipa">{candidate.note.ipa}</p>}{candidate.note.usage && <div className="detail"><b>使い所</b><p>{candidate.note.usage}</p></div>}{candidate.note.nuance && <div className="detail"><b>使い分け</b><p>{candidate.note.nuance}</p></div>}{candidate.note.example_en && <div className="example"><b>EXAMPLE</b><p>{candidate.note.example_en}</p>{candidate.note.example_ipa && <small>{candidate.note.example_ipa}</small>}</div>}
+              <p className="card-meta">ID: {candidate.note.card_id}{candidate.review ? ` · 復習 ${candidate.review.fsrsCard.reps}回` : ' · 未学習'}{candidate.review?.fsrsCard.last_review ? ` · 前回 ${fullDate(candidate.review.fsrsCard.last_review)}` : ''}</p>
+              <button className="speak" onClick={() => speak(candidate.note.en)}><Icon name="volume" />英語を読み上げる</button>
+            </div>}
           </article>
           {!revealed ? <button className="primary reveal" onClick={() => setRevealed(true)}>答えを見る</button> : <div className="rating-area"><p>思い出せましたか？</p><div className="rating-grid">{ratings.map(item => <button key={item.value} className={`rating ${item.className}`} disabled={busy} onClick={() => answer(item.value)}><b>{item.label}</b><small>{preview ? nextLabel(preview[item.value]) : ''}</small></button>)}</div></div>}
           <div className="study-actions"><button disabled={busy} onClick={shuffleStudy}><Icon name="shuffle" />順番をシャッフル</button><button disabled={busy} onClick={suspendCurrent}>今後表示しない</button></div>
@@ -275,20 +268,21 @@ export default function App() {
       {page === 'browse' && <section className="page">
         <p className="eyebrow">CARD LIBRARY</p><h1>カードを探す</h1><p className="intro">日本語・英語・カードIDから表現を見つけられます。</p>
         <input className="search" type="search" placeholder="日本語・英語・IDで検索" value={query} onChange={e => setQuery(e.target.value)} />
-        <label className="pending-filter"><input type="checkbox" checked={showPendingIllustrations} onChange={e => { setShowPendingIllustrations(e.target.checked); setScene(''); setTag('') }} />イラスト待ちも表示（記録確認・編集用）</label>
+        <label className="pending-filter"><input type="checkbox" checked={showPendingIllustrations} onChange={e => { setShowPendingIllustrations(e.target.checked); setScene(''); setTag('') }} />準備待ちも表示（記録確認・編集用）</label>
         <div className="filters"><select aria-label="場面" value={scene} onChange={e => setScene(e.target.value)}><option value="">すべての場面</option>{scenes.map(s => <option key={s}>{s}</option>)}</select><select aria-label="タグ" value={tag} onChange={e => setTag(e.target.value)}><option value="">すべてのタグ</option>{tags.map(t => <option key={t}>{t}</option>)}</select></div>
-        <p className="result-count">{found.length}件表示{found.length === 100 ? '（先頭100件）' : ''} · 非表示カードも検索できます。学習はイラスト付きのみです。</p>
+        <p className="result-count">{found.length}件表示{found.length === 100 ? '（先頭100件）' : ''} · 非表示カードも検索できます。学習はイラストと状況文が揃ったカードのみです。</p>
         <div className="browse-list">{found.map(note => <button className="browse-item" key={note.card_id} onClick={() => { setBrowseNote(note); setBrowseIndex(found.indexOf(note)) }}><span><b>{note.en}{suspendedIds.has(note.card_id) && <em className="suspended-tag">非表示</em>}</b><small>{note.ja} · {note.card_id}</small></span><span>›</span></button>)}</div>
         {browseNote && <div className="modal-backdrop" onClick={() => setBrowseNote(null)}><div className="modal" role="dialog" aria-modal="true" aria-label="カード詳細" onClick={e => e.stopPropagation()}>
           <button className="modal-close" aria-label="カード詳細を閉じる" onClick={() => setBrowseNote(null)}><Icon name="close" /></button><span className="eyebrow">CARD DETAIL · {browseNote.card_id}</span><h2>{browseNote.en}</h2><p className="ipa">{browseNote.ipa}</p><h3>{browseNote.ja}</h3><p>{browseNote.usage}</p><p>{browseNote.nuance}</p><div className="example"><b>EXAMPLE</b><p>{browseNote.example_en}</p><small>{browseNote.example_ipa}</small></div>
-          {!illustrationPath(browseNote) && <p className="hint">イラスト待ちのため学習対象外です。学習記録は保持しています。日本語・英語を編集した場合も、絵の内容と一致するまで対象外になります。</p>}
+          {(!illustrationPath(browseNote) || !scenarioFor(browseNote)) && <p className="hint">イラストまたは状況文の確認待ちのため学習対象外です。学習記録は保持しています。日本語・英語・使い所を編集した場合も、内容を確認するまで対象外になります。</p>}
+          {scenarioFor(browseNote) && <p><span className="usage-register">{registerLabels[scenarioFor(browseNote)!.register]}</span></p>}
           <button className="secondary" disabled={busy} onClick={() => { setEditingNote(browseNote); setBrowseNote(null) }}><Icon name="edit" />カードを編集</button>
           <div className="review-status"><b>学習記録</b>{directionOptions.filter(option => option.id !== 'mixed').map(option => { const review = reviewCards.find(card => card.cardId === cardKey(browseNote.card_id, option.id as 'ja_to_en' | 'en_to_ja')); return <p key={option.id}>{option.label}: {review ? `${review.fsrsCard.reps}回 · 次回 ${fullDate(review.fsrsCard.due)}` : '未学習'}</p> })}</div>
           <div className="modal-actions"><button onClick={() => speak(browseNote.en)}><Icon name="volume" />読み上げ</button><button onClick={() => { const next = found[(browseIndex + 1) % found.length]; setBrowseNote(next); setBrowseIndex((browseIndex + 1) % found.length) }}>次へ<Icon name="forward" /></button></div>
           <button className="secondary" disabled={busy} onClick={() => suspendedIds.has(browseNote.card_id) ? resumeNote(browseNote.card_id) : suspendNote(browseNote.card_id)}>{suspendedIds.has(browseNote.card_id) ? '学習に戻す' : '今後表示しない'}</button>
         </div></div>}
       </section>}
-      {page === 'settings' && <section className="page"><p className="eyebrow">PREFERENCES & DATA</p><h1>設定とデータ</h1><p className="intro">自分のペースに合わせて調整できます。</p><div className="panel"><h2>学習ペース</h2><label className="field"><span>新規カード / 日</span><input type="number" min="0" max="100" inputMode="numeric" value={settings.newLimit} onChange={e => setSettings({ ...settings, newLimit: Number(e.target.value) })} onBlur={() => saveSettings(settings)} /></label><label className="field"><span>総学習数 / 日</span><input type="number" min="1" max="500" inputMode="numeric" value={settings.totalLimit} onChange={e => setSettings({ ...settings, totalLimit: Number(e.target.value) })} onBlur={() => saveSettings(settings)} /></label><p className="field-help">入力後、欄の外をタップすると保存されます。</p></div><div className="panel"><h2>学習方向</h2><DirectionSelector mode={settings.mode} onChange={mode => saveSettings({ ...settings, mode })} />{settings.mode === 'mixed' && <label className="range-field"><span>日本語 → 英語: {settings.jaRatio}%</span><input type="range" min="0" max="100" step="10" value={settings.jaRatio} onChange={e => setSettings({ ...settings, jaRatio: Number(e.target.value) })} onPointerUp={() => saveSettings(settings)} onKeyUp={() => saveSettings(settings)} /><small>残り {100 - settings.jaRatio}% は英語 → 日本語</small></label>}</div><div className="panel"><h2>カードデータ</h2><p className="panel-copy">TSVを更新したら、ここから再読み込みしてください。自分で編集した文言と学習履歴は保持されます。</p><button className="secondary" disabled={busy} onClick={reload}>データを更新</button></div><div className="panel"><h2>バックアップ</h2><p className="panel-copy">機種変更やブラウザデータ消失に備えて、定期的に保存してください。文言の編集内容も含まれます。</p><button className="secondary" onClick={exportBackup}>JSONを書き出す</button><button className="secondary" onClick={() => fileRef.current?.click()}>JSONから復元</button><input ref={fileRef} className="sr-only" type="file" accept="application/json,.json" onChange={e => onRestore(e.target.files?.[0])} /></div></section>}
+      {page === 'settings' && <section className="page"><p className="eyebrow">PREFERENCES & DATA</p><h1>設定とデータ</h1><p className="intro">自分のペースに合わせて調整できます。</p><div className="panel"><h2>学習ペース</h2><label className="field"><span>新規カード / 日</span><input type="number" min="0" max="100" inputMode="numeric" value={settings.newLimit} onChange={e => setSettings({ ...settings, newLimit: Number(e.target.value) })} onBlur={() => saveSettings(settings)} /></label><label className="field"><span>総学習数 / 日</span><input type="number" min="1" max="500" inputMode="numeric" value={settings.totalLimit} onChange={e => setSettings({ ...settings, totalLimit: Number(e.target.value) })} onBlur={() => saveSettings(settings)} /></label><p className="field-help">入力後、欄の外をタップすると保存されます。</p></div><div className="panel"><h2>学習形式</h2><p className="panel-copy">短い英語の状況文とイラストから、英語表現を思い出します。形式ラベルを表面に、使う場面の3分類を解答に表示します。</p><p className="panel-copy">従来の日本語→英語の復習予定を引き継いでいます。英語→日本語の記録も保存・バックアップされ、カード詳細で確認できます。</p><p className="panel-copy">分類は日常生活で使う／ややフォーマル／文書・プレゼン中心。「中心」は会話で使用できないという意味ではありません。</p></div><div className="panel"><h2>カードデータ</h2><p className="panel-copy">TSVを更新したら、ここから再読み込みしてください。自分で編集した文言と学習履歴は保持されます。</p><button className="secondary" disabled={busy} onClick={reload}>データを更新</button></div><div className="panel"><h2>バックアップ</h2><p className="panel-copy">機種変更やブラウザデータ消失に備えて、定期的に保存してください。文言の編集内容も含まれます。</p><button className="secondary" onClick={exportBackup}>JSONを書き出す</button><button className="secondary" onClick={() => fileRef.current?.click()}>JSONから復元</button><input ref={fileRef} className="sr-only" type="file" accept="application/json,.json" onChange={e => onRestore(e.target.files?.[0])} /></div></section>}
     </main>
     {editingNote && <EditNoteDialog note={editingNote} hasEdits={editedIds.has(editingNote.card_id)} busy={busy} onClose={closeEditor} onSave={saveEditor} onReset={resetEditor} />}
     <nav className="bottom-nav" aria-label="メインメニュー">{([{ id: 'today', icon: 'today', label: '今日' }, { id: 'study', icon: 'study', label: '学習' }, { id: 'browse', icon: 'browse', label: '探す' }, { id: 'settings', icon: 'settings', label: '設定' }] as const).map(item => <button key={item.id} className={page === item.id ? 'active' : ''} onClick={() => { setPage(item.id); setBrowseNote(null); if (item.id === 'study') { setRevealed(false); startRef.current = Date.now() } }}><span className="nav-icon"><Icon name={item.icon} /></span><small>{item.label}</small></button>)}</nav>
