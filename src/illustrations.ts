@@ -1420,6 +1420,246 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_0330": {
     "ja": "体感では〜／〜のように感じる",
     "en": "feels like"
+  },
+  "expr_0331": {
+    "ja": "密集した／鈍い",
+    "en": "dense"
+  },
+  "expr_0332": {
+    "ja": "ご覧のとおり",
+    "en": "As you can see, ..."
+  },
+  "expr_0333": {
+    "ja": "回復する・乗り越える",
+    "en": "get over"
+  },
+  "expr_0334": {
+    "ja": "経験する・一通り確認する",
+    "en": "go through"
+  },
+  "expr_0335": {
+    "ja": "終える・乗り切る",
+    "en": "get through"
+  },
+  "expr_0336": {
+    "ja": "〜とうまくやる",
+    "en": "get along with"
+  },
+  "expr_0337": {
+    "ja": "見直す・確認する",
+    "en": "go over"
+  },
+  "expr_0338": {
+    "ja": "出てくる・発売される・判明する",
+    "en": "come out"
+  },
+  "expr_0339": {
+    "ja": "片付ける・きれいにする",
+    "en": "clean up"
+  },
+  "expr_0340": {
+    "ja": "使い切る",
+    "en": "use up"
+  },
+  "expr_0341": {
+    "ja": "使い果たす・なくなる",
+    "en": "run out of"
+  },
+  "expr_0342": {
+    "ja": "量を減らす",
+    "en": "cut down on"
+  },
+  "expr_0343": {
+    "ja": "中止する",
+    "en": "call off"
+  },
+  "expr_0344": {
+    "ja": "維持する・ついていく",
+    "en": "keep up"
+  },
+  "expr_0345": {
+    "ja": "埋め合わせる",
+    "en": "make up for"
+  },
+  "expr_0346": {
+    "ja": "始める・場所や時間を取る",
+    "en": "take up"
+  },
+  "expr_0347": {
+    "ja": "世話する",
+    "en": "look after"
+  },
+  "expr_0348": {
+    "ja": "情報を調べる",
+    "en": "look up"
+  },
+  "expr_0349": {
+    "ja": "偶然会う・問題にぶつかる",
+    "en": "run into"
+  },
+  "expr_0350": {
+    "ja": "待つ・持ちこたえる",
+    "en": "hold on"
+  },
+  "expr_0351": {
+    "ja": "続ける",
+    "en": "carry on"
+  },
+  "expr_0352": {
+    "ja": "実行・実施する",
+    "en": "carry out"
+  },
+  "expr_0353": {
+    "ja": "別れる・解散する",
+    "en": "break up"
+  },
+  "expr_0354": {
+    "ja": "遮断する・話を遮る",
+    "en": "cut off"
+  },
+  "expr_0355": {
+    "ja": "省く",
+    "en": "leave out"
+  },
+  "expr_0356": {
+    "ja": "整理する・問題を解決する",
+    "en": "sort out"
+  },
+  "expr_0357": {
+    "ja": "詳しく調べる・確認する",
+    "en": "check into"
+  },
+  "expr_0358": {
+    "ja": "ざっと目を通す",
+    "en": "look over"
+  },
+  "expr_0359": {
+    "ja": "最後までやり遂げる",
+    "en": "follow through"
+  },
+  "expr_0360": {
+    "ja": "切り抜ける・なんとかやっていく",
+    "en": "get by"
+  },
+  "expr_0361": {
+    "ja": "追いつく・追いついて話す",
+    "en": "catch up with"
+  },
+  "expr_0362": {
+    "ja": "やり始める・取りかかる",
+    "en": "get down to"
+  },
+  "expr_0363": {
+    "ja": "続ける・やり通す",
+    "en": "keep on"
+  },
+  "expr_0364": {
+    "ja": "持ちこたえる・諦めない",
+    "en": "hang on"
+  },
+  "expr_0365": {
+    "ja": "最後まで続ける・貫く",
+    "en": "stick with"
+  },
+  "expr_0366": {
+    "ja": "取り組む・引き受ける",
+    "en": "take on"
+  },
+  "expr_0367": {
+    "ja": "考え出す",
+    "en": "think up"
+  },
+  "expr_0368": {
+    "ja": "作り上げる・でっち上げる",
+    "en": "make up"
+  },
+  "expr_0369": {
+    "ja": "明らかにする・見つけ出す",
+    "en": "bring out"
+  },
+  "expr_0370": {
+    "ja": "判明する・解決する",
+    "en": "work out"
+  },
+  "expr_0371": {
+    "ja": "問題・違いなどを解決する",
+    "en": "iron out"
+  },
+  "expr_0372": {
+    "ja": "徐々に廃止する",
+    "en": "phase out"
+  },
+  "expr_0373": {
+    "ja": "削減する・切り詰める",
+    "en": "cut back on"
+  },
+  "expr_0374": {
+    "ja": "〜なしで済ませる",
+    "en": "do without"
+  },
+  "expr_0375": {
+    "ja": "先延ばしにする・遠ざける",
+    "en": "hold off"
+  },
+  "expr_0376": {
+    "ja": "切り離す・孤立させる",
+    "en": "cut off from"
+  },
+  "expr_0377": {
+    "ja": "取り除く・廃止する",
+    "en": "do away with"
+  },
+  "expr_0378": {
+    "ja": "片付ける・しまう",
+    "en": "put away"
+  },
+  "expr_0379": {
+    "ja": "元の場所に戻す",
+    "en": "put back"
+  },
+  "expr_0380": {
+    "ja": "外に出す・取り出す",
+    "en": "take out"
+  },
+  "expr_0381": {
+    "ja": "返品する・返す",
+    "en": "take back"
+  },
+  "expr_0382": {
+    "ja": "返す",
+    "en": "give back"
+  },
+  "expr_0383": {
+    "ja": "試着する",
+    "en": "try on"
+  },
+  "expr_0384": {
+    "ja": "選び出す",
+    "en": "pick out"
+  },
+  "expr_0385": {
+    "ja": "書き留める",
+    "en": "write down"
+  },
+  "expr_0386": {
+    "ja": "もっと大きな声で話す",
+    "en": "speak up"
+  },
+  "expr_0387": {
+    "ja": "出かける・出発する",
+    "en": "head out"
+  },
+  "expr_0388": {
+    "ja": "家に遊びに来る",
+    "en": "come over"
+  },
+  "expr_0389": {
+    "ja": "ちょっと立ち寄る",
+    "en": "stop by"
+  },
+  "expr_0390": {
+    "ja": "先に進む・気持ちを切り替える",
+    "en": "move on"
   }
 }
 
