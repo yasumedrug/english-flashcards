@@ -1660,6 +1660,366 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_0390": {
     "ja": "先に進む・気持ちを切り替える",
     "en": "move on"
+  },
+  "expr_0391": {
+    "ja": "落ち着く・身を落ち着ける",
+    "en": "settle down"
+  },
+  "expr_0392": {
+    "ja": "朝寝坊する・いつもより遅く起きる",
+    "en": "sleep in"
+  },
+  "expr_0393": {
+    "ja": "取っておく・脇に置く",
+    "en": "set aside"
+  },
+  "expr_0394": {
+    "ja": "バックアップする・支える",
+    "en": "back up"
+  },
+  "expr_0395": {
+    "ja": "避けられない・不可避の",
+    "en": "inevitable"
+  },
+  "expr_0396": {
+    "ja": "不可欠な",
+    "en": "indispensable"
+  },
+  "expr_0397": {
+    "ja": "提供する・用意する",
+    "en": "provide"
+  },
+  "expr_0398": {
+    "ja": "供給する・補給する",
+    "en": "supply"
+  },
+  "expr_0399": {
+    "ja": "並外れた・異例の",
+    "en": "extraordinary"
+  },
+  "expr_0400": {
+    "ja": "際立って優れた",
+    "en": "outstanding"
+  },
+  "expr_0401": {
+    "ja": "もちろん・当然",
+    "en": "of course"
+  },
+  "expr_0402": {
+    "ja": "普通の・当然の範囲の",
+    "en": "normal"
+  },
+  "expr_0403": {
+    "ja": "そうなるのが当然・予想どおり",
+    "en": "to be expected"
+  },
+  "expr_0404": {
+    "ja": "言うまでもない",
+    "en": "It goes without saying."
+  },
+  "expr_0405": {
+    "ja": "当然のこととして・慣例として",
+    "en": "as a matter of course"
+  },
+  "expr_0406": {
+    "ja": "子どもを叱る",
+    "en": "scold"
+  },
+  "expr_0407": {
+    "ja": "きつく叱る",
+    "en": "tell someone off"
+  },
+  "expr_0408": {
+    "ja": "行動を正す",
+    "en": "correct a child’s behavior"
+  },
+  "expr_0409": {
+    "ja": "大変だけど頑張って・持ちこたえて",
+    "en": "hang in there"
+  },
+  "expr_0410": {
+    "ja": "気づいたら・いつの間にか",
+    "en": "Before I knew it, ..."
+  },
+  "expr_0411": {
+    "ja": "気づくと自分が〜している",
+    "en": "I find myself ...ing"
+  },
+  "expr_0412": {
+    "ja": "次に気づいたときには",
+    "en": "The next thing I knew, ..."
+  },
+  "expr_0413": {
+    "ja": "告白・誘いを断られる",
+    "en": "get rejected"
+  },
+  "expr_0414": {
+    "ja": "誘い・提案を断られる",
+    "en": "get turned down"
+  },
+  "expr_0415": {
+    "ja": "恋人に振られる",
+    "en": "get dumped"
+  },
+  "expr_0416": {
+    "ja": "後ろに・遅れて",
+    "en": "behind"
+  },
+  "expr_0417": {
+    "ja": "中に入れない・立入禁止",
+    "en": "keep out"
+  },
+  "expr_0418": {
+    "ja": "〜に入らない・〜を避ける",
+    "en": "keep out of"
+  },
+  "expr_0419": {
+    "ja": "脱ぐ・離陸する",
+    "en": "take off"
+  },
+  "expr_0420": {
+    "ja": "持ち去る・取り除く",
+    "en": "take away"
+  },
+  "expr_0421": {
+    "ja": "引き継ぐ・代わる",
+    "en": "take over"
+  },
+  "expr_0422": {
+    "ja": "理解して受け止める",
+    "en": "take in"
+  },
+  "expr_0423": {
+    "ja": "下ろす・取り外す",
+    "en": "take down"
+  },
+  "expr_0424": {
+    "ja": "分解する",
+    "en": "take apart"
+  },
+  "expr_0425": {
+    "ja": "〜に似ている",
+    "en": "take after"
+  },
+  "expr_0426": {
+    "ja": "〜をすぐ好きになる・なじむ",
+    "en": "take to"
+  },
+  "expr_0427": {
+    "ja": "人に八つ当たりする",
+    "en": "take it out on someone"
+  },
+  "expr_0428": {
+    "ja": "手順を順番に説明する",
+    "en": "take someone through something"
+  },
+  "expr_0429": {
+    "ja": "仕事を1日休む",
+    "en": "take a day off"
+  },
+  "expr_0430": {
+    "ja": "新しく入った人の導入・受け入れ",
+    "en": "onboarding"
+  },
+  "expr_0431": {
+    "ja": "新しい人を導入する・受け入れる",
+    "en": "onboard"
+  },
+  "expr_0432": {
+    "ja": "一度こんなことがあって",
+    "en": "One time, ..."
+  },
+  "expr_0433": {
+    "ja": "そういえば、こんなことが一回あってさ",
+    "en": "There was this one time when ..."
+  },
+  "expr_0434": {
+    "ja": "非常に大量の〜",
+    "en": "an enormous amount of"
+  },
+  "expr_0435": {
+    "ja": "非常に多数の〜",
+    "en": "an enormous number of"
+  },
+  "expr_0436": {
+    "ja": "ものすごくたくさんの",
+    "en": "a ton of"
+  },
+  "expr_0437": {
+    "ja": "たくさんの",
+    "en": "loads of"
+  },
+  "expr_0438": {
+    "ja": "多すぎる・はるかに多すぎる",
+    "en": "way too much"
+  },
+  "expr_0439": {
+    "ja": "多すぎる・はるかに多すぎる",
+    "en": "way too many"
+  },
+  "expr_0440": {
+    "ja": "ホットケーキ",
+    "en": "pancake"
+  },
+  "expr_0441": {
+    "ja": "ホットケーキの生地",
+    "en": "pancake batter"
+  },
+  "expr_0442": {
+    "ja": "偏食",
+    "en": "picky eating"
+  },
+  "expr_0443": {
+    "ja": "偏食の人",
+    "en": "a picky eater"
+  },
+  "expr_0444": {
+    "ja": "視野・経験の幅を広げる",
+    "en": "broaden someone’s horizons"
+  },
+  "expr_0445": {
+    "ja": "人生にある多様な経験を味わう",
+    "en": "experience more of what life has to offer"
+  },
+  "expr_0446": {
+    "ja": "いろいろ試したがどれもうまくいかなかった",
+    "en": "none of them worked"
+  },
+  "expr_0447": {
+    "ja": "当座の問題を解決する",
+    "en": "solve the problem for now"
+  },
+  "expr_0448": {
+    "ja": "発達・開発・発展",
+    "en": "development"
+  },
+  "expr_0449": {
+    "ja": "時間とともに変化する進化・変遷",
+    "en": "evolution"
+  },
+  "expr_0450": {
+    "ja": "あてもなくぶらぶらする",
+    "en": "wander"
+  },
+  "expr_0451": {
+    "ja": "広い範囲を自由に動き回る",
+    "en": "roam"
+  },
+  "expr_0452": {
+    "ja": "横幅",
+    "en": "width"
+  },
+  "expr_0453": {
+    "ja": "幅広さ・範囲の広さ",
+    "en": "breadth"
+  },
+  "expr_0454": {
+    "ja": "注意深い",
+    "en": "careful"
+  },
+  "expr_0455": {
+    "ja": "慎重な・警戒している",
+    "en": "cautious"
+  },
+  "expr_0456": {
+    "ja": "勝ちパターン・成功の方程式",
+    "en": "a winning formula"
+  },
+  "expr_0457": {
+    "ja": "全体を決める一要素",
+    "en": "part of the equation"
+  },
+  "expr_0458": {
+    "ja": "〜も考慮に入れる",
+    "en": "factor something into the equation"
+  },
+  "expr_0459": {
+    "ja": "〜を考慮対象から外す",
+    "en": "take something out of the equation"
+  },
+  "expr_0460": {
+    "ja": "前提・判断条件を変える",
+    "en": "change the equation"
+  },
+  "expr_0461": {
+    "ja": "本腰を入れる",
+    "en": "knuckle down"
+  },
+  "expr_0462": {
+    "ja": "難しい課題に取り組む",
+    "en": "tackle"
+  },
+  "expr_0463": {
+    "ja": "聞き覚え・見覚えがある",
+    "en": "ring a bell"
+  },
+  "expr_0464": {
+    "ja": "腑に落ちる・ピンとくる",
+    "en": "click"
+  },
+  "expr_0465": {
+    "ja": "〜し続ける",
+    "en": "keep doing"
+  },
+  "expr_0466": {
+    "ja": "ずっと・繰り返し〜し続ける",
+    "en": "keep on doing"
+  },
+  "expr_0467": {
+    "ja": "継続して〜する",
+    "en": "continue doing"
+  },
+  "expr_0468": {
+    "ja": "そのまま〜を続行する",
+    "en": "carry on doing"
+  },
+  "expr_0469": {
+    "ja": "今までと同じことを続ける",
+    "en": "go on doing"
+  },
+  "expr_0470": {
+    "ja": "大変でも粘り強く続ける",
+    "en": "keep at it"
+  },
+  "expr_0471": {
+    "ja": "そのまま続ける・頑張る",
+    "en": "keep going"
+  },
+  "expr_0472": {
+    "ja": "それは確かにそうだけど",
+    "en": "That’s true, but ..."
+  },
+  "expr_0473": {
+    "ja": "確かに〜ではあるけど",
+    "en": "It’s true that ..., but ..."
+  },
+  "expr_0474": {
+    "ja": "まあ確かに〜だけど",
+    "en": "Sure, ..., but ..."
+  },
+  "expr_0475": {
+    "ja": "公平に言えば・確かに",
+    "en": "To be fair, ..."
+  },
+  "expr_0476": {
+    "ja": "認めざるを得ないけど",
+    "en": "I have to admit, ..."
+  },
+  "expr_0477": {
+    "ja": "確かに〜ではある",
+    "en": "Granted, ..."
+  },
+  "expr_0478": {
+    "ja": "ねえ・そうだ・やっぱり",
+    "en": "You know what?"
+  },
+  "expr_0479": {
+    "ja": "たった〜・〜にすぎない",
+    "en": "only + a/an + noun"
+  },
+  "expr_0480": {
+    "ja": "一人っ子",
+    "en": "an only child"
   }
 }
 
