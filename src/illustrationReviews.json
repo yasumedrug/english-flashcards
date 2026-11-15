@@ -6563,5 +6563,1162 @@
     "imageSha256": "a3db090f9396c8d13070dc285192c7952b5850fd37003d638a0eb726847998a0",
     "reviewedAt": "2026-11-15T01:11:34.275048+00:00",
     "method": "previous_exact_context_visual_review"
+  },
+  "expr_0481": {
+    "context": {
+      "ja": "たった一つの正解",
+      "en": "only one correct answer",
+      "usage": "正解の数が一つしかないことを強調する。",
+      "prompt": "You emphasize that exactly a single response is right.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "33871ecefd913c4b311982828622aab43ec3db4dd016835440917f85a4717602",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0482": {
+    "context": {
+      "ja": "唯一の正解",
+      "en": "the only correct answer",
+      "usage": "他はすべて不正解で、それだけが正しいことを強調する。",
+      "prompt": "You identify the sole acceptable response among the possibilities.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "774d4f7b10d8a777ced0ad0ee5733cb1cdfb4dab5c0d67b584ae7b7781250478",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0483": {
+    "context": {
+      "ja": "例え話・類比",
+      "en": "analogy",
+      "usage": "別のものになぞらえて概念を説明するとき。",
+      "prompt": "You explain an unfamiliar situation by comparing it with a familiar one.",
+      "form": "Noun",
+      "register": "formal"
+    },
+    "imageSha256": "7ae35e0c85238cb170b1eb0bf58c020f52ae87a27d48e84bf01c1e5769441bd6",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0484": {
+    "context": {
+      "ja": "いい例え",
+      "en": "a good analogy",
+      "usage": "相手の比喩・類比が分かりやすいと評価する。",
+      "prompt": "Someone's comparison makes a complicated idea immediately easier to understand.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "18102b92ac800f136fd8f7544248a4e422478a3145cfed1abb5007be04f39a20",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0485": {
+    "context": {
+      "ja": "うまい言い方だね",
+      "en": "That’s a great way to put it.",
+      "usage": "相手の説明・表現・例えがうまいときに褒める。",
+      "prompt": "Your friend expresses your thought especially clearly. You praise their wording.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "ebc81ee43970e6f988e5982f67e3d3c87838e2513ecd541c7f9066f7fc89142d",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0486": {
+    "context": {
+      "ja": "一時停止ボタンを押す",
+      "en": "hit pause",
+      "usage": "動画・音声などを一時停止するときの自然な口語表現。",
+      "prompt": "You press the control that temporarily stops a video.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "66e8e1d887d3aed0221edf42e1031400c0854ea1500cf79779313aef7ee309b9",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0487": {
+    "context": {
+      "ja": "再生ボタンを押す",
+      "en": "hit play",
+      "usage": "動画・音声を再生するとき。",
+      "prompt": "You press the control that starts a video.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "e0fceddf33e8ce21277e16c28eb31d206cfffa81adf221f9122b15906e6dfc62",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0488": {
+    "context": {
+      "ja": "送信ボタンを押す",
+      "en": "hit send",
+      "usage": "メール・メッセージを送信する瞬間を口語的に言う。",
+      "prompt": "You press the control that transmits a finished message.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "fe8e304db145457775101da6691a59dc47989f1149e2c9de1cc7580368a1a935",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0489": {
+    "context": {
+      "ja": "出発する",
+      "en": "hit the road",
+      "usage": "旅行・移動で「そろそろ出発する」とカジュアルに言う。",
+      "prompt": "You casually announce that it is time to begin your journey.",
+      "form": "Verb phrase · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "e0c669b45d5571e38e16a7a8a97459b26d90d99a9b97adb77b156d4143c029ee",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0490": {
+    "context": {
+      "ja": "ジムに行く",
+      "en": "hit the gym",
+      "usage": "運動しにジムへ行くことをカジュアルに言う。",
+      "prompt": "You casually say you are going to exercise at a fitness center.",
+      "form": "Verb phrase · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "58bfc78a6172371fc67829a4b96fbf7d189eb1d84c58cd5a6cdc407affe0b470",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0491": {
+    "context": {
+      "ja": "シャワーを浴びに行く",
+      "en": "hit the shower",
+      "usage": "運動後などに「シャワー浴びてくる」とカジュアルに言う。",
+      "prompt": "You casually announce that you are going to wash yourself.",
+      "form": "Verb phrase · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "528eaaa02ecf215784d3f751ac37df5153a19c3ebabc0c62b618fdc370d752bd",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0492": {
+    "context": {
+      "ja": "寝る",
+      "en": "hit the sack",
+      "usage": "疲れて「もう寝る」とカジュアルに言う。",
+      "prompt": "You casually say you are going to bed.",
+      "form": "Verb phrase · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "29d9d9b4ebe2ba6328820cc79647c3f19227cc2a39f2224e3aeba60b3f7aab07",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0493": {
+    "context": {
+      "ja": "ちょっとした問題にぶつかる",
+      "en": "hit a snag",
+      "usage": "計画や作業の途中で小さな障害が発生する。",
+      "prompt": "An unexpected small problem interrupts otherwise smooth progress.",
+      "form": "Verb phrase · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "f84a5ef9578285129020573031fd2b72d689c27cb250aa9eb9f4e60bcf17718b",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0494": {
+    "context": {
+      "ja": "すぐ意気投合する",
+      "en": "hit it off",
+      "usage": "初対面などで相性がよく、すぐ仲良くなる。",
+      "prompt": "Two people meet and immediately enjoy each other's company.",
+      "form": "Verb phrase · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "9bb61f03fbabafa20caa7a645bb58fed646de1a895daea5b435056a0bfec3c6a",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0495": {
+    "context": {
+      "ja": "まさに欲しかった感じだ・満足させる",
+      "en": "hit the spot",
+      "usage": "食べ物・飲み物・休憩などが今の欲求にぴったり合う。",
+      "prompt": "A warm meal satisfies exactly what you wanted after a tiring day.",
+      "form": "Verb phrase · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "c2c6093b11103284443ea6de2663c8cd21085145ef90f4faa2388a065b22df27",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0496": {
+    "context": {
+      "ja": "心に響く・現実味を帯びる",
+      "en": "hit home",
+      "usage": "言葉・事実が自分ごととして強く響く。",
+      "prompt": "A story makes a painful truth feel real and personally meaningful.",
+      "form": "Verb phrase · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "7ae81295c050f85b9f13b4e5016162df15c2d21d8efa3d4bd777fc996eb1b6e3",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0497": {
+    "context": {
+      "ja": "節目に到達する",
+      "en": "hit a milestone",
+      "usage": "仕事・学習・人生で重要な到達点に達する。",
+      "prompt": "A project reaches an important stage after months of effort.",
+      "form": "Verb phrase · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "5d82ac720fd17144ea65d1e4afb16c487cae00c16a6cd1175326a28461387f76",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0498": {
+    "context": {
+      "ja": "子どもをしつける",
+      "en": "discipline a child",
+      "usage": "子どもの行動に境界やルールを教える。",
+      "prompt": "A parent teaches limits and appropriate behavior, not merely expressing anger.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "bf21623470edac4b3a4b3a1d018b5cbab08086c6114ea4c57933aaf7b652f6c7",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0499": {
+    "context": {
+      "ja": "気づいたら〜していた",
+      "en": "I found myself ...ing",
+      "usage": "自分が無意識にその行動をしていたと気づく。",
+      "prompt": "You describe a past activity you noticed yourself already performing.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "c034b24ee1c90d02f70a0732724e3bae3068ddc911e79caa582dce3e13cd4e8a",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0500": {
+    "context": {
+      "ja": "予定より遅れて",
+      "en": "behind schedule",
+      "usage": "予定より進捗が遅い時。",
+      "prompt": "The project has not progressed as far as originally planned.",
+      "form": "Adjective phrase",
+      "register": "daily"
+    },
+    "imageSha256": "52694ee67d963716e5c3b08c96fe4a7905fb3250c86a927c9872c8af602687ea",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0501": {
+    "context": {
+      "ja": "〜した時のことを覚えている",
+      "en": "I remember when ...",
+      "usage": "記憶を起点に体験談を始める。",
+      "prompt": "You bring up a specific past experience you can still recall.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "faba546c4beccaf15a9890e37c4d67f5e6903f350927ee5c27a9f40a1b71b5ea",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0502": {
+    "context": {
+      "ja": "大量の",
+      "en": "tons of",
+      "usage": "可算・不可算の両方に使える非常に口語的な大量表現。",
+      "prompt": "You casually describe having a very large quantity of something.",
+      "form": "Quantity phrase",
+      "register": "daily"
+    },
+    "imageSha256": "b0e245ff2583c4b336e0f8c588bfeaae221e3b0d64035ad6bf064c0ba0632fae",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0503": {
+    "context": {
+      "ja": "2つほど・少しの",
+      "en": "a couple of",
+      "usage": "通常はおよそ2つ・2人・2回。",
+      "prompt": "You ask for roughly two small items or a small number.",
+      "form": "Quantity phrase",
+      "register": "daily"
+    },
+    "imageSha256": "20d119979c354ba2d752f26db31408f452627c7efb2b3e09d143a3e9b7700688",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0504": {
+    "context": {
+      "ja": "選択的な食べ方・偏食",
+      "en": "selective eating",
+      "usage": "食べられる物が限られる状態をやや中立的に表す。",
+      "prompt": "A clinician describes a child's restricted range of accepted foods.",
+      "form": "Noun phrase",
+      "register": "formal"
+    },
+    "imageSha256": "17c6995f09cd240068960d5d4cf7a86568b59e4f3eba11152f40a322bf0723dc",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0505": {
+    "context": {
+      "ja": "いろいろ食べて視野を広げてほしい",
+      "en": "I want him to try different foods and broaden his horizons.",
+      "usage": "子どもに食の経験を広げてほしい時。",
+      "prompt": "You want your child to discover unfamiliar meals and gain wider experiences.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "806fac89970b4cf20e474ece36200952db8e7492af996b83246245cdd112503d",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0506": {
+    "context": {
+      "ja": "いろいろ試したけど全部ダメだった",
+      "en": "I tried a lot of different things, but none of them worked.",
+      "usage": "複数の方法を試したが効果がなかった時。",
+      "prompt": "You attempted several approaches, and every attempt failed.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "a94f2a6221deefd6a8c3a80e50565df510d3c541fc70f1eb415a0f84b1c8f489",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0507": {
+    "context": {
+      "ja": "当座の問題は解決した",
+      "en": "That solved the problem for now.",
+      "usage": "一時的には問題が片付いた時。",
+      "prompt": "Your repair works temporarily, though deeper difficulties may remain.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "ee604979b76c81aca8005b134a122fa3b40d82b235aa710f95e2120f6b804f0f",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0508": {
+    "context": {
+      "ja": "目の前の問題は解決した",
+      "en": "That solved the immediate problem.",
+      "usage": "直近の問題だけ解消したと客観的に述べる。",
+      "prompt": "You describe a fix that addressed the urgent difficulty rather than every deeper issue.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "a8fa83ecae376daa8c6834d9a9625d81f6b952047fc96680b7f0b452fb07656c",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0509": {
+    "context": {
+      "ja": "〜を要因として織り込む",
+      "en": "factor X into the equation",
+      "usage": "判断や計算に要因Xを含める。",
+      "prompt": "You include a particular consideration when making your decision.",
+      "form": "Verb phrase · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "8a110e182e00cc8b5044f5c310998c6d9c766795743bd860e16cbfb79172af0d",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0510": {
+    "context": {
+      "ja": "〜を考慮から外す",
+      "en": "take X out of the equation",
+      "usage": "要因Xを判断材料から除外する。",
+      "prompt": "You remove a particular consideration from your decision-making process.",
+      "form": "Verb phrase · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "9768b610ce0f84925fa1a6848fdb41787a8bb2bf0b323c460081fa5c5f1cc3c2",
+    "reviewedAt": "2026-11-15T01:14:02.318317+00:00",
+    "method": "previous_exact_context_visual_review"
+  },
+  "expr_0511": {
+    "context": {
+      "ja": "本腰を入れる",
+      "en": "buckle down",
+      "usage": "気持ちを切り替えて真剣に取り組み始める。",
+      "prompt": "You stop delaying and begin working seriously on an important task.",
+      "form": "Phrasal verb",
+      "register": "daily"
+    },
+    "imageSha256": "8e6b9ccf12d2d5841872bef02e0d59982253f1aad4d3b4a54c58114e77d59099",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0512": {
+    "context": {
+      "ja": "自分に響く",
+      "en": "resonate with me",
+      "usage": "考え・言葉・経験が自分の感覚や価値観に深く響く。",
+      "prompt": "Your friend's story strongly connects with your own feelings and experience.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "c37e61c5aa3806b7dc606b664088993340ec9c5cd3b513f261286e61f853f5a0",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0513": {
+    "context": {
+      "ja": "具体例",
+      "en": "example",
+      "usage": "具体的な事例を示す。",
+      "prompt": "You give a specific instance to make a general point clear.",
+      "form": "Noun",
+      "register": "daily"
+    },
+    "imageSha256": "f7857e80d5f3f83977117f98ee15a689de52ea6667b964413cceaf494c08ff95",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0514": {
+    "context": {
+      "ja": "保持する・失わず保つ",
+      "en": "retain",
+      "usage": "知識・人材・権利などを失わず持ち続ける。",
+      "prompt": "A system keeps important information rather than losing it.",
+      "form": "Verb",
+      "register": "formal"
+    },
+    "imageSha256": "e78fdc2cfaf6b417bc35cad94fbbc30f6ce50bb8bf3d8dd147c71e6ebe3b2dd6",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0515": {
+    "context": {
+      "ja": "維持する",
+      "en": "maintain",
+      "usage": "状態・質・機能を一定に保つ。",
+      "prompt": "You keep an existing standard or condition from deteriorating.",
+      "form": "Verb",
+      "register": "formal"
+    },
+    "imageSha256": "81cb4d81a8e067b8b8b41a1c2ce3e3cb3b4b04e573c49abf22d31db96ba9a172",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0516": {
+    "context": {
+      "ja": "時間に追われて焦る",
+      "en": "feel rushed",
+      "usage": "時間圧で急かされている感覚。",
+      "prompt": "There is not enough time, and you cannot work calmly.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "8a364cea8e2a5ba267870eea154067d9276bb3545fbec1a9f095b89678f36a0d",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0517": {
+    "context": {
+      "ja": "焦ってあたふたする",
+      "en": "get flustered",
+      "usage": "緊張や混乱で落ち着きを失う。",
+      "prompt": "An unexpected interruption makes you confused and unable to act smoothly.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "d58e3c06ea9b3b201045e6621e1f3eef4bfa8f72c3ae0d9bc387a248d04738bb",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0518": {
+    "context": {
+      "ja": "パニックになる",
+      "en": "panic",
+      "usage": "強い不安で冷静さを失う。",
+      "prompt": "Sudden fear overwhelms your ability to think clearly.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "9f721a5e777a03fb907635134bdc1328dbf61321b2a58647ce3406a8f8979403",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0519": {
+    "context": {
+      "ja": "結果を急いで焦る",
+      "en": "get impatient",
+      "usage": "待てずにいら立ち・焦りが出る。",
+      "prompt": "Progress is slow, and you start wanting the result immediately.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "7bdc5358c2fbe2cc5066b705551b284f847eba169c5ce6de70b4a928edc0796a",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0520": {
+    "context": {
+      "ja": "〜を意識して配慮する",
+      "en": "be mindful of",
+      "usage": "周囲・影響・事情を頭に置いて行動する。",
+      "prompt": "You deliberately stay aware of another person's needs while acting.",
+      "form": "Verb phrase",
+      "register": "formal"
+    },
+    "imageSha256": "37770e92f8b161594cf06e155446ae366d2a817f60adce5bd98edb57ca765bcb",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0521": {
+    "context": {
+      "ja": "〜に思いやりをもつ",
+      "en": "be considerate of",
+      "usage": "相手の感情・ニーズを考えて配慮する。",
+      "prompt": "You avoid making noise because someone nearby needs to rest.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "06a8a3e94e5669bfcc1726ebf2efaa0074b9e3cf0e47fe9080fa96f7efe60f98",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0522": {
+    "context": {
+      "ja": "〜から成る",
+      "en": "consist of",
+      "usage": "全体が複数の部分から構成される。",
+      "prompt": "You list the parts that together form a complete object.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "849009bceed2a9a306e409e60aad2c55dd498a30336e69c67e7610058c2e748c",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0523": {
+    "context": {
+      "ja": "〜から成る",
+      "en": "be made up of",
+      "usage": "構成要素を会話的に説明する。",
+      "prompt": "You describe the smaller elements forming a complete group.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "569972a64084449b80a0066b33ed083278c4b6e5197f2b9358d8cda751712db7",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0524": {
+    "context": {
+      "ja": "先走る・早まる",
+      "en": "jump the gun",
+      "usage": "十分な時期・情報より先に行動や判断をする。",
+      "prompt": "You act before the right moment because you are too eager.",
+      "form": "Verb phrase · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "224402a5a2c15d30de4900daa7ef63f1527ba4fae5e447028b5bc0bcbcab6be8",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0525": {
+    "context": {
+      "ja": "先のことを考えすぎる",
+      "en": "get ahead of yourself",
+      "usage": "まだそこまで進んでいないのに先を考えすぎる。",
+      "prompt": "You plan far beyond your current progress and lose sight of today's task.",
+      "form": "Verb phrase · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "4ea42883491406b307c527057248338abe6a7207dead01863f4c75f5fa6b0635",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0526": {
+    "context": {
+      "ja": "結局〜することになる",
+      "en": "end up + -ing",
+      "usage": "意図せず最終的にその結果になる。",
+      "prompt": "Despite your original plan, you finally do something quite different.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "7b7c92ee011567219d47bd882aa56b97a742fa72f886b574062d40b1cefbd77f",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0527": {
+    "context": {
+      "ja": "〜に変わる",
+      "en": "turn into",
+      "usage": "別のもの・状態へ変化する。",
+      "prompt": "A quiet discussion gradually becomes a heated argument.",
+      "form": "Phrasal verb",
+      "register": "daily"
+    },
+    "imageSha256": "772a0daae530af863d6d3d617e96e9a453b6bc2ef9e0a7550fa1b68fc45d2b1e",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0528": {
+    "context": {
+      "ja": "交流・相互作用",
+      "en": "interaction",
+      "usage": "人同士・要素同士が影響し合うこと。",
+      "prompt": "Two people respond to each other rather than acting independently.",
+      "form": "Noun",
+      "register": "formal"
+    },
+    "imageSha256": "bea4e7a2a74d29d8c7613328af4f7081d50c8fc0bfe9262e93c2faba500ea10c",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0529": {
+    "context": {
+      "ja": "〜と交流する",
+      "en": "interact with",
+      "usage": "人や集団と関わり合う。",
+      "prompt": "You communicate and respond while working with another person.",
+      "form": "Verb",
+      "register": "formal"
+    },
+    "imageSha256": "5bd5d697fb8ba04964ba2e87218663242462798931e8e9bba17e104055f1cb58",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0530": {
+    "context": {
+      "ja": "相互交流・交換",
+      "en": "exchange",
+      "usage": "情報・意見・文化などを互いにやり取りする。",
+      "prompt": "Two groups share information or resources with each other.",
+      "form": "Noun",
+      "register": "formal"
+    },
+    "imageSha256": "df6c9863cfb8ffbb06bef24250bf5fefa0fdce04a647b7d7124291071e557fdc",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0531": {
+    "context": {
+      "ja": "社交する・交流する",
+      "en": "socialize",
+      "usage": "雑談・食事などを通じて人と交流する。",
+      "prompt": "You attend a gathering mainly to enjoy talking with other people.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "f86801f714ebf87bd9459436f6d45e5b7b3730acf5852cc28b98537431f5bf94",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0532": {
+    "context": {
+      "ja": "人脈を作る",
+      "en": "network",
+      "usage": "仕事・学会などで人とつながる。",
+      "prompt": "You meet professionals to build useful working relationships.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "2f6cce1bf42e50911e7e044744da7f3da0442124b48c9f3340a2b0a22206a1d4",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0533": {
+    "context": {
+      "ja": "もっとお互いを知る",
+      "en": "get to know each other better",
+      "usage": "交流を深めることを自然な会話で言う。",
+      "prompt": "You spend more time together and develop a deeper personal understanding.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "374bdd3d6b485c94b8e7639208b9d546670eba55fecb0519202d9598fc50eaee",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0534": {
+    "context": {
+      "ja": "言いたいことは分かる",
+      "en": "I hear you.",
+      "usage": "相手の言い分を受け止めたことを示す。",
+      "prompt": "You acknowledge someone's concern even if you do not completely agree.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "9b2635464981e88538e56b34cb4d91165c91fabf1932cbdc15b0beaadf7653f9",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0535": {
+    "context": {
+      "ja": "そう考える理由は分かる",
+      "en": "I get where you’re coming from.",
+      "usage": "相手の背景・論理・感情を理解したと示す。",
+      "prompt": "You understand the experience that led your friend to their opinion.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "27ad993283f1beed728f337ecdb7bd1518cf1aa1807905c7b3150a8464fe1a9d",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0536": {
+    "context": {
+      "ja": "失礼ながら意見が違います",
+      "en": "I beg to differ.",
+      "usage": "明確に異論を示す。",
+      "prompt": "You politely but firmly introduce an opposing opinion.",
+      "form": "Sentence",
+      "register": "formal"
+    },
+    "imageSha256": "b6b15ab00493512b371e939b934b2477fbbc2c0ae80751a53a2dbf114ed2950d",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0537": {
+    "context": {
+      "ja": "私は違う見方をしている",
+      "en": "I see it differently.",
+      "usage": "相手を否定せず自分の見方を示す。",
+      "prompt": "You explain that your interpretation differs from the other person's.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "61bf2a1e378c398502ab96ef1cd00355f735e403745ea9356dbd5e6f12a19862",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0538": {
+    "context": {
+      "ja": "葛藤している",
+      "en": "I’m conflicted.",
+      "usage": "複数の感情・価値観がぶつかって迷う。",
+      "prompt": "Two opposing feelings make it difficult for you to choose.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "bed499c2aafa7a0018e188118f152b0fdf758427274eae5ecd610fdd8985fce5",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0539": {
+    "context": {
+      "ja": "どちらにするか迷っている",
+      "en": "I’m torn.",
+      "usage": "二つの選択肢・気持ちの間で引き裂かれる感覚。",
+      "prompt": "You are pulled between two attractive options and cannot decide.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "a6893b5752c6a6873e2046021c72b3d631e26911dab344748d9cce106d16401c",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0540": {
+    "context": {
+      "ja": "内面的な葛藤",
+      "en": "inner conflict",
+      "usage": "価値観や欲求が心の中で衝突する状態。",
+      "prompt": "You name a struggle between opposing feelings within yourself.",
+      "form": "Noun phrase",
+      "register": "formal"
+    },
+    "imageSha256": "ea684b039f456533a888e0d61aa480769940a601b25fdb6d8e6767aa2126b574",
+    "reviewedAt": "2026-11-15T05:14:13.055867+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0541": {
+    "context": {
+      "ja": "何かが引っかかっている",
+      "en": "Something’s bothering me.",
+      "usage": "はっきり言語化できない違和感・心配がある。",
+      "prompt": "A concern keeps distracting you, although you have not explained it yet.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "d7bfe073a89c01ee5deec210dae8c70b1749cb9376641b41d049c198e182650c",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0542": {
+    "context": {
+      "ja": "なんとなく腑に落ちない",
+      "en": "Something about it doesn’t sit right with me.",
+      "usage": "理由は説明しづらいが違和感がある。",
+      "prompt": "You cannot fully explain why, but a proposal seems wrong to you.",
+      "form": "Sentence · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "d3e52fbd6b28e83acd5038af93d3d8d5f7fceb947b563c46e4084211983a68c2",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0543": {
+    "context": {
+      "ja": "落ち着かない・心がざわつく",
+      "en": "I feel unsettled.",
+      "usage": "不安定で落ち着かない気持ちを表す。",
+      "prompt": "Your thoughts will not settle, and you cannot relax comfortably.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "301fcb9cedbee782121eb9d564200764a2438601f90d1d16b02465c7f91f4a82",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0544": {
+    "context": {
+      "ja": "ずっと引っかかる感じがする",
+      "en": "I have this nagging feeling.",
+      "usage": "小さいが繰り返し頭から離れない不安・違和感。",
+      "prompt": "A small persistent worry keeps returning even when you try to ignore it.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "c92186a4ce5098230a7ac42e42647e51e999b402298facb082c0c5c8effe57e8",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0545": {
+    "context": {
+      "ja": "〜に集中する",
+      "en": "focus on",
+      "usage": "注意・努力を一つの対象に集中させる。",
+      "prompt": "You direct your mental effort toward one particular task.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "069799fef752a0faf96ff64cf2d7aa04d3366491c6ee787b394af64749f426bb",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0546": {
+    "context": {
+      "ja": "〜に注意を向ける",
+      "en": "pay attention to",
+      "usage": "意識して注意を向ける。",
+      "prompt": "You deliberately notice what someone is saying instead of being distracted.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "fde657e899240e101ebc1d2ffb5f0d4d665767010ea655a4521cffba56e038ff",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0547": {
+    "context": {
+      "ja": "〜を検討する・見る",
+      "en": "look at",
+      "usage": "研究・議論で対象を調べる、検討する。",
+      "prompt": "You consider a particular issue as something worth examining.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "1b27281ae510bd386995ca5d803e2165ef4316da5532bc3675bf3e805db494d0",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0548": {
+    "context": {
+      "ja": "〜を強調する",
+      "en": "highlight",
+      "usage": "重要点を目立たせる。",
+      "prompt": "You draw special emphasis to one important part of a report.",
+      "form": "Verb",
+      "register": "formal"
+    },
+    "imageSha256": "7ae875e66dbd75f0abf4c942edabd2c75d1cf265ad7bf5d0f78762b08544f855",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0549": {
+    "context": {
+      "ja": "注目を集める",
+      "en": "attract attention",
+      "usage": "人々の注意を引く。",
+      "prompt": "Something unusual makes people notice and become interested.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "dd7f0e2edf89e28d5fc3e3ebff6adbe7e84b8f70c4a9b2f458375dc7e35f2f63",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0550": {
+    "context": {
+      "ja": "臨床の現場",
+      "en": "clinical setting",
+      "usage": "診療が行われる環境を広く指す。",
+      "prompt": "You describe the environment where patients are actually assessed and treated.",
+      "form": "Noun phrase",
+      "register": "formal"
+    },
+    "imageSha256": "dd829713acf3e15ce8defea2fbffdfb33135d0f41eecf346fe55bb7aa88f2093",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0551": {
+    "context": {
+      "ja": "医療現場",
+      "en": "healthcare setting",
+      "usage": "医師だけでなく看護・多職種を含む医療環境。",
+      "prompt": "You describe a place where medical care is delivered.",
+      "form": "Noun phrase",
+      "register": "formal"
+    },
+    "imageSha256": "ab955e68da12fd746121a0e2a05ead5968cae95447a9de6897b47ee647df4d99",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0552": {
+    "context": {
+      "ja": "医療の最前線で",
+      "en": "on the front lines of healthcare",
+      "usage": "医療現場の第一線を強調する。",
+      "prompt": "You describe working directly where patients most immediately need medical care.",
+      "form": "Prepositional phrase",
+      "register": "formal"
+    },
+    "imageSha256": "c3ae32c8365a0bb5106ac134741690af91dfefd6428bfa4adb40cce29b989402",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0553": {
+    "context": {
+      "ja": "〜を尊敬し憧れる",
+      "en": "look up to",
+      "usage": "人を尊敬し、自分もそうなりたい気持ちを含みやすい。",
+      "prompt": "You regard an experienced colleague as someone worth respecting and emulating.",
+      "form": "Phrasal verb",
+      "register": "daily"
+    },
+    "imageSha256": "257e69dac579c64963f5f1d061e072578805434f25297c60cbc4e97486ffbff2",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0554": {
+    "context": {
+      "ja": "〜をすごいと思う・敬服する",
+      "en": "admire",
+      "usage": "人・能力・姿勢を高く評価する。",
+      "prompt": "You respect someone because you find their qualities impressive.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "f47f16510cd6773c097a75e3166345cee80cadbfe6d0193eb26d059ba2fe19e4",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0555": {
+    "context": {
+      "ja": "〜になることを志す",
+      "en": "aspire to be",
+      "usage": "将来そうなりたいと高い目標を持つ。",
+      "prompt": "You aim to become a certain kind of professional in the future.",
+      "form": "Verb",
+      "register": "formal"
+    },
+    "imageSha256": "d4a1ef1b3c32ddfb2e9a6796ad9585d3be0bbb1bcf293c888b5667c3b8f0a19a",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0556": {
+    "context": {
+      "ja": "ずっと〜を夢見てきた",
+      "en": "have always dreamed of",
+      "usage": "長年の夢・憧れを表す。",
+      "prompt": "You have carried a cherished ambition for many years.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "be6c5f741d113c7d8d4bea85873cf96351c3f0db76825785897649b562f33160",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0557": {
+    "context": {
+      "ja": "ずっと〜になりたかった",
+      "en": "have always wanted to be",
+      "usage": "長年の希望を会話的に言う。",
+      "prompt": "You explain that your desired future profession has remained unchanged for years.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "985a9262a142243145b0f499211e790d53adb89d0731ca8426eb9ccba38dae82",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0558": {
+    "context": {
+      "ja": "敬意・憧れ",
+      "en": "admiration",
+      "usage": "人や能力への尊敬・感嘆。",
+      "prompt": "You name your feeling of respect for someone's impressive qualities.",
+      "form": "Noun",
+      "register": "daily"
+    },
+    "imageSha256": "36ddc160433c0f53861ac728459125dd6f0547aae71959468a8b1c977f0b2451",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0559": {
+    "context": {
+      "ja": "志・目標",
+      "en": "aspiration",
+      "usage": "将来達成したい高い目標。",
+      "prompt": "You describe an important ambition you hope to achieve.",
+      "form": "Noun",
+      "register": "formal"
+    },
+    "imageSha256": "31757c1f9ecbbad65460c8fc5e0a8e0d0e510d577f90a279402fb6dd86a41d70",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0560": {
+    "context": {
+      "ja": "自分の進歩を見守るメンター",
+      "en": "a mentor who follows my progress",
+      "usage": "継続的に成長を見守る指導者を表す。",
+      "prompt": "You want an experienced guide who regularly notices your improvement.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "306d40f907419ea11dc5fb39492af03f87766bfeca621227fa4e47e11efd5d71",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0561": {
+    "context": {
+      "ja": "成長を見守ってくれる人",
+      "en": "someone who watches me grow",
+      "usage": "温かいニュアンスで成長を見守る人。",
+      "prompt": "You value a person who notices and supports your development over time.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "3affa3cd09d45df56e5bdb0c840180b0ee5897e87812c23312c2e03684128d7a",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0562": {
+    "context": {
+      "ja": "先祖を敬う",
+      "en": "honor one’s ancestors",
+      "usage": "先祖を敬い、記憶や儀礼を大切にする。",
+      "prompt": "You express respect for earlier generations through a meaningful ceremony.",
+      "form": "Verb phrase",
+      "register": "formal"
+    },
+    "imageSha256": "b8b98a45cfc81ab3b24ed3d5ff317cf1f0538d7b2f1b712c90c362285e92e4a9",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0563": {
+    "context": {
+      "ja": "先祖を尊重する",
+      "en": "respect one’s ancestors",
+      "usage": "先祖への敬意を表す。",
+      "prompt": "You express admiration for family members from earlier generations.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "d40cb69334d4869a525dd56e2dbe28d618623a2d617cd190514f3972ade6ddc1",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0564": {
+    "context": {
+      "ja": "実用的な",
+      "en": "practical",
+      "usage": "現場で実際に役立つ。",
+      "prompt": "You prefer advice that can actually be applied in everyday situations.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "3f14a0fe30a6de9eeaea03723d8dbcbc27b11e394e95c48f30c585d53f5a55fc",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0565": {
+    "context": {
+      "ja": "便利で使える",
+      "en": "handy",
+      "usage": "手元にあると便利、ちょっと役立つ。",
+      "prompt": "A small tool is convenient to have nearby for simple tasks.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "c74a37f386c6ea52349296d2e7924622a97714126000a099bd2b917f5f6175cf",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0566": {
+    "context": {
+      "ja": "役に立つ",
+      "en": "helpful",
+      "usage": "人・助言・情報などが助けになる。",
+      "prompt": "Your friend's advice makes a difficult task easier.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "ccc37934b17f0f1bf1f38aa20f53e91145a2e4d3d4e95ef31e30a48ed0f9c168",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0567": {
+    "context": {
+      "ja": "効果的な",
+      "en": "effective",
+      "usage": "望む結果を実際に生む。",
+      "prompt": "The treatment produces the result it is intended to achieve.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "56633cfd09811136c137a04d5a55c2048ac3d05df86cad0d1356b3308dbab002",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0568": {
+    "context": {
+      "ja": "適用可能な",
+      "en": "applicable",
+      "usage": "特定の状況に当てはめて使える。",
+      "prompt": "A rule can appropriately be used in this particular situation.",
+      "form": "Adjective",
+      "register": "formal"
+    },
+    "imageSha256": "001a690d9cde8f21caca966e788325423c1db83df733d41e0a0dc160586823ab",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0569": {
+    "context": {
+      "ja": "いざという時に役立つ",
+      "en": "come in handy",
+      "usage": "必要になった時に便利さを発揮する。",
+      "prompt": "A spare battery proves useful at exactly the moment you need it.",
+      "form": "Verb phrase · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "a732bf6b7451380e165fc1e499b6714a70259358a453bf4f5502f0b18fb6bbd3",
+    "reviewedAt": "2026-11-15T11:12:33.820333+00:00",
+    "method": "visual_image_context_review"
   }
 }

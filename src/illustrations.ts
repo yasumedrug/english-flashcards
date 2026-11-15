@@ -2020,6 +2020,362 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_0480": {
     "ja": "一人っ子",
     "en": "an only child"
+  },
+  "expr_0481": {
+    "ja": "たった一つの正解",
+    "en": "only one correct answer"
+  },
+  "expr_0482": {
+    "ja": "唯一の正解",
+    "en": "the only correct answer"
+  },
+  "expr_0483": {
+    "ja": "例え話・類比",
+    "en": "analogy"
+  },
+  "expr_0484": {
+    "ja": "いい例え",
+    "en": "a good analogy"
+  },
+  "expr_0485": {
+    "ja": "うまい言い方だね",
+    "en": "That’s a great way to put it."
+  },
+  "expr_0486": {
+    "ja": "一時停止ボタンを押す",
+    "en": "hit pause"
+  },
+  "expr_0487": {
+    "ja": "再生ボタンを押す",
+    "en": "hit play"
+  },
+  "expr_0488": {
+    "ja": "送信ボタンを押す",
+    "en": "hit send"
+  },
+  "expr_0489": {
+    "ja": "出発する",
+    "en": "hit the road"
+  },
+  "expr_0490": {
+    "ja": "ジムに行く",
+    "en": "hit the gym"
+  },
+  "expr_0491": {
+    "ja": "シャワーを浴びに行く",
+    "en": "hit the shower"
+  },
+  "expr_0492": {
+    "ja": "寝る",
+    "en": "hit the sack"
+  },
+  "expr_0493": {
+    "ja": "ちょっとした問題にぶつかる",
+    "en": "hit a snag"
+  },
+  "expr_0494": {
+    "ja": "すぐ意気投合する",
+    "en": "hit it off"
+  },
+  "expr_0495": {
+    "ja": "まさに欲しかった感じだ・満足させる",
+    "en": "hit the spot"
+  },
+  "expr_0496": {
+    "ja": "心に響く・現実味を帯びる",
+    "en": "hit home"
+  },
+  "expr_0497": {
+    "ja": "節目に到達する",
+    "en": "hit a milestone"
+  },
+  "expr_0498": {
+    "ja": "子どもをしつける",
+    "en": "discipline a child"
+  },
+  "expr_0499": {
+    "ja": "気づいたら〜していた",
+    "en": "I found myself ...ing"
+  },
+  "expr_0500": {
+    "ja": "予定より遅れて",
+    "en": "behind schedule"
+  },
+  "expr_0501": {
+    "ja": "〜した時のことを覚えている",
+    "en": "I remember when ..."
+  },
+  "expr_0502": {
+    "ja": "大量の",
+    "en": "tons of"
+  },
+  "expr_0503": {
+    "ja": "2つほど・少しの",
+    "en": "a couple of"
+  },
+  "expr_0504": {
+    "ja": "選択的な食べ方・偏食",
+    "en": "selective eating"
+  },
+  "expr_0505": {
+    "ja": "いろいろ食べて視野を広げてほしい",
+    "en": "I want him to try different foods and broaden his horizons."
+  },
+  "expr_0506": {
+    "ja": "いろいろ試したけど全部ダメだった",
+    "en": "I tried a lot of different things, but none of them worked."
+  },
+  "expr_0507": {
+    "ja": "当座の問題は解決した",
+    "en": "That solved the problem for now."
+  },
+  "expr_0508": {
+    "ja": "目の前の問題は解決した",
+    "en": "That solved the immediate problem."
+  },
+  "expr_0509": {
+    "ja": "〜を要因として織り込む",
+    "en": "factor X into the equation"
+  },
+  "expr_0510": {
+    "ja": "〜を考慮から外す",
+    "en": "take X out of the equation"
+  },
+  "expr_0511": {
+    "ja": "本腰を入れる",
+    "en": "buckle down"
+  },
+  "expr_0512": {
+    "ja": "自分に響く",
+    "en": "resonate with me"
+  },
+  "expr_0513": {
+    "ja": "具体例",
+    "en": "example"
+  },
+  "expr_0514": {
+    "ja": "保持する・失わず保つ",
+    "en": "retain"
+  },
+  "expr_0515": {
+    "ja": "維持する",
+    "en": "maintain"
+  },
+  "expr_0516": {
+    "ja": "時間に追われて焦る",
+    "en": "feel rushed"
+  },
+  "expr_0517": {
+    "ja": "焦ってあたふたする",
+    "en": "get flustered"
+  },
+  "expr_0518": {
+    "ja": "パニックになる",
+    "en": "panic"
+  },
+  "expr_0519": {
+    "ja": "結果を急いで焦る",
+    "en": "get impatient"
+  },
+  "expr_0520": {
+    "ja": "〜を意識して配慮する",
+    "en": "be mindful of"
+  },
+  "expr_0521": {
+    "ja": "〜に思いやりをもつ",
+    "en": "be considerate of"
+  },
+  "expr_0522": {
+    "ja": "〜から成る",
+    "en": "consist of"
+  },
+  "expr_0523": {
+    "ja": "〜から成る",
+    "en": "be made up of"
+  },
+  "expr_0524": {
+    "ja": "先走る・早まる",
+    "en": "jump the gun"
+  },
+  "expr_0525": {
+    "ja": "先のことを考えすぎる",
+    "en": "get ahead of yourself"
+  },
+  "expr_0526": {
+    "ja": "結局〜することになる",
+    "en": "end up + -ing"
+  },
+  "expr_0527": {
+    "ja": "〜に変わる",
+    "en": "turn into"
+  },
+  "expr_0528": {
+    "ja": "交流・相互作用",
+    "en": "interaction"
+  },
+  "expr_0529": {
+    "ja": "〜と交流する",
+    "en": "interact with"
+  },
+  "expr_0530": {
+    "ja": "相互交流・交換",
+    "en": "exchange"
+  },
+  "expr_0531": {
+    "ja": "社交する・交流する",
+    "en": "socialize"
+  },
+  "expr_0532": {
+    "ja": "人脈を作る",
+    "en": "network"
+  },
+  "expr_0533": {
+    "ja": "もっとお互いを知る",
+    "en": "get to know each other better"
+  },
+  "expr_0534": {
+    "ja": "言いたいことは分かる",
+    "en": "I hear you."
+  },
+  "expr_0535": {
+    "ja": "そう考える理由は分かる",
+    "en": "I get where you’re coming from."
+  },
+  "expr_0536": {
+    "ja": "失礼ながら意見が違います",
+    "en": "I beg to differ."
+  },
+  "expr_0537": {
+    "ja": "私は違う見方をしている",
+    "en": "I see it differently."
+  },
+  "expr_0538": {
+    "ja": "葛藤している",
+    "en": "I’m conflicted."
+  },
+  "expr_0539": {
+    "ja": "どちらにするか迷っている",
+    "en": "I’m torn."
+  },
+  "expr_0540": {
+    "ja": "内面的な葛藤",
+    "en": "inner conflict"
+  },
+  "expr_0541": {
+    "ja": "何かが引っかかっている",
+    "en": "Something’s bothering me."
+  },
+  "expr_0542": {
+    "ja": "なんとなく腑に落ちない",
+    "en": "Something about it doesn’t sit right with me."
+  },
+  "expr_0543": {
+    "ja": "落ち着かない・心がざわつく",
+    "en": "I feel unsettled."
+  },
+  "expr_0544": {
+    "ja": "ずっと引っかかる感じがする",
+    "en": "I have this nagging feeling."
+  },
+  "expr_0545": {
+    "ja": "〜に集中する",
+    "en": "focus on"
+  },
+  "expr_0546": {
+    "ja": "〜に注意を向ける",
+    "en": "pay attention to"
+  },
+  "expr_0547": {
+    "ja": "〜を検討する・見る",
+    "en": "look at"
+  },
+  "expr_0548": {
+    "ja": "〜を強調する",
+    "en": "highlight"
+  },
+  "expr_0549": {
+    "ja": "注目を集める",
+    "en": "attract attention"
+  },
+  "expr_0550": {
+    "ja": "臨床の現場",
+    "en": "clinical setting"
+  },
+  "expr_0551": {
+    "ja": "医療現場",
+    "en": "healthcare setting"
+  },
+  "expr_0552": {
+    "ja": "医療の最前線で",
+    "en": "on the front lines of healthcare"
+  },
+  "expr_0553": {
+    "ja": "〜を尊敬し憧れる",
+    "en": "look up to"
+  },
+  "expr_0554": {
+    "ja": "〜をすごいと思う・敬服する",
+    "en": "admire"
+  },
+  "expr_0555": {
+    "ja": "〜になることを志す",
+    "en": "aspire to be"
+  },
+  "expr_0556": {
+    "ja": "ずっと〜を夢見てきた",
+    "en": "have always dreamed of"
+  },
+  "expr_0557": {
+    "ja": "ずっと〜になりたかった",
+    "en": "have always wanted to be"
+  },
+  "expr_0558": {
+    "ja": "敬意・憧れ",
+    "en": "admiration"
+  },
+  "expr_0559": {
+    "ja": "志・目標",
+    "en": "aspiration"
+  },
+  "expr_0560": {
+    "ja": "自分の進歩を見守るメンター",
+    "en": "a mentor who follows my progress"
+  },
+  "expr_0561": {
+    "ja": "成長を見守ってくれる人",
+    "en": "someone who watches me grow"
+  },
+  "expr_0562": {
+    "ja": "先祖を敬う",
+    "en": "honor one’s ancestors"
+  },
+  "expr_0563": {
+    "ja": "先祖を尊重する",
+    "en": "respect one’s ancestors"
+  },
+  "expr_0564": {
+    "ja": "実用的な",
+    "en": "practical"
+  },
+  "expr_0565": {
+    "ja": "便利で使える",
+    "en": "handy"
+  },
+  "expr_0566": {
+    "ja": "役に立つ",
+    "en": "helpful"
+  },
+  "expr_0567": {
+    "ja": "効果的な",
+    "en": "effective"
+  },
+  "expr_0568": {
+    "ja": "適用可能な",
+    "en": "applicable"
+  },
+  "expr_0569": {
+    "ja": "いざという時に役立つ",
+    "en": "come in handy"
   }
 }
 
