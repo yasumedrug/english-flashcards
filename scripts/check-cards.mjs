@@ -1,7 +1,9 @@
 import { readFile } from 'node:fs/promises'
 import { parseTsv } from '../src/data.ts'
 import { isSafeRecallHint, recallHints } from '../src/recallHints.ts'
-import { assertScenarios } from '../src/scenarios.ts'
+import { assertScenarios, scenarioFor } from '../src/scenarios.ts'
+import { illustrationPath } from '../src/illustrations.ts'
+import { assertIllustrationReview } from './illustration-context-review.mjs'
 
 const source = await readFile(new URL('../cards.tsv', import.meta.url), 'utf8')
 const published = await readFile(new URL('../public/data/cards.tsv', import.meta.url), 'utf8')
@@ -10,6 +12,15 @@ if (source !== published) throw new Error('cards.tsv と public/data/cards.tsv �
 // Use the same parser/validation as the app's TSV update, not a separate rule.
 const notes = parseTsv(source)
 assertScenarios(notes)
+const reviews = JSON.parse(await readFile(new URL('../src/illustrationReviews.json', import.meta.url), 'utf8'))
+let reviewedImages = 0
+for (const note of notes) {
+  const path = illustrationPath(note)
+  if (!path) continue // Old wording stays hidden; its learning records remain intact.
+  assertIllustrationReview(note.card_id, scenarioFor(note),
+    await readFile(new URL(`../public/${path}`, import.meta.url)), reviews[note.card_id])
+  reviewedImages++
+}
 const active = notes.filter(note => note.active !== '0')
 for (const note of active) {
   const hints = recallHints(note)
@@ -18,3 +29,4 @@ for (const note of active) {
   }
 }
 console.log(`${notes.length}件の形式・ID・英語状況文・形式ラベル・分類と、${active.length}件の日本語ヒントを検査しました。`)
+console.log(`${reviewedImages}件のイラストと状況文の目視確認記録が現在の画像・文言に一致しています。`)

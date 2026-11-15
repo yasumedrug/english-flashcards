@@ -11,7 +11,7 @@
     "ja": "認識・知覚",
     "en": "awareness",
     "usage": "存在や問題に気づいている状態。",
-    "prompt": "You finally notice how much noise your phone makes.",
+    "prompt": "Knowing that litter is a problem for rivers and wildlife.",
     "form": "Noun",
     "register": "daily"
   },
@@ -27,7 +27,7 @@
     "ja": "大きい",
     "en": "huge",
     "usage": "物にも抽象的な量にも使う会話的な強調。",
-    "prompt": "The sofa barely fits through the apartment door.",
+    "prompt": "The suitcase is far larger than you can comfortably handle.",
     "form": "Adjective",
     "register": "daily"
   },
@@ -67,7 +67,7 @@
     "ja": "確認する",
     "en": "see if ...",
     "usage": "〜かどうか確かめる。",
-    "prompt": "You want to find out whether the shop is still open.",
+    "prompt": "You try the switch to find whether the repaired lamp works.",
     "form": "Sentence",
     "register": "daily"
   },
@@ -91,7 +91,7 @@
     "ja": "着る",
     "en": "wear",
     "usage": "服を着ている状態。",
-    "prompt": "Your jacket stays on while you walk around town.",
+    "prompt": "Your blue shirt stays on throughout the conversation at the cafe.",
     "form": "Verb",
     "register": "daily"
   },
@@ -99,7 +99,7 @@
     "ja": "今となっては",
     "en": "looking back now",
     "usage": "振り返って今考えると。",
-    "prompt": "You think about an old decision from your present perspective.",
+    "prompt": "From today's perspective, you think about an earlier time in your life.",
     "form": "Adverbial phrase",
     "register": "daily"
   },
@@ -155,7 +155,7 @@
     "ja": "反対側・逆",
     "en": "opposite",
     "usage": "向かい側、反対、逆のもの。",
-    "prompt": "The entrance is on the other side of the building.",
+    "prompt": "The pharmacy is across the road from where you are standing.",
     "form": "Adjective / Noun",
     "register": "daily"
   },
@@ -195,7 +195,7 @@
     "ja": "売っている",
     "en": "sell",
     "usage": "店が商品を扱っている。",
-    "prompt": "You ask whether this shop offers umbrellas for customers to buy.",
+    "prompt": "You ask whether this shop offers rice cookers for customers to buy.",
     "form": "Verb",
     "register": "daily"
   },
@@ -203,7 +203,7 @@
     "ja": "セール中",
     "en": "on sale",
     "usage": "米語では値下げ中が多い。文脈で販売中にもなる。",
-    "prompt": "The jacket costs less this week because of a special offer.",
+    "prompt": "The towels cost less this week because of a special offer.",
     "form": "Adjective phrase",
     "register": "daily"
   },
@@ -211,7 +211,7 @@
     "ja": "開催する",
     "en": "hold",
     "usage": "会議・イベントを開催する。中立。",
-    "prompt": "Your organization arranges a meeting for next Friday.",
+    "prompt": "Your organization arranges a meeting and prepares a room for participants.",
     "form": "Verb",
     "register": "daily"
   },
@@ -251,7 +251,7 @@
     "ja": "兼ねる",
     "en": "serve as",
     "usage": "〜としても機能する。",
-    "prompt": "A quiet corner also functions as your home office.",
+    "prompt": "The group meeting also functions as a chance to learn together.",
     "form": "Verb phrase",
     "register": "formal"
   },
@@ -331,7 +331,7 @@
     "ja": "主に",
     "en": "chiefly",
     "usage": "フォーマルな「主として」。",
-    "prompt": "A report says most participants came from one particular region.",
+    "prompt": "This workshop is intended primarily for people who are just beginning.",
     "form": "Adverb",
     "register": "formal"
   },
@@ -355,7 +355,7 @@
     "ja": "多くの",
     "en": "a bunch of",
     "usage": "たくさんの。口語的。",
-    "prompt": "You casually describe many friends arriving together.",
+    "prompt": "You casually describe having lots of shopping and things to carry.",
     "form": "Quantity phrase",
     "register": "daily"
   },
@@ -387,7 +387,7 @@
     "ja": "無視・放置",
     "en": "ignore",
     "usage": "見聞きしたがあえて反応しない。",
-    "prompt": "Your phone rings, but you deliberately pay no attention.",
+    "prompt": "You deliberately pay no attention while your friend speaks to you.",
     "form": "Verb",
     "register": "daily"
   },
@@ -403,7 +403,7 @@
     "ja": "軽視する",
     "en": "disregard",
     "usage": "ルール・助言・事実を無視して重視しない。",
-    "prompt": "A driver knowingly pays no attention to an important warning.",
+    "prompt": "Someone knowingly pays no attention to a warning about the wet floor.",
     "form": "Verb",
     "register": "formal"
   },
@@ -411,7 +411,7 @@
     "ja": "捨てる・放棄",
     "en": "throw away",
     "usage": "物を捨てる普通の表現。",
-    "prompt": "You put an empty package into the rubbish bin.",
+    "prompt": "You put unwanted papers into the rubbish bin.",
     "form": "Verb phrase",
     "register": "daily"
   },
@@ -491,7 +491,7 @@
     "ja": "〜するようにしている",
     "en": "make it a point to ...",
     "usage": "意識して必ず〜する。",
-    "prompt": "You deliberately remember to thank your colleagues every day.",
+    "prompt": "You deliberately set aside time each day to review your notes.",
     "form": "Verb phrase",
     "register": "daily"
   },
@@ -499,7 +499,7 @@
     "ja": "抑える",
     "en": "curb",
     "usage": "感情・行動・増加を抑制する。やや硬い。",
-    "prompt": "The city acts to reduce a growing problem before it spreads.",
+    "prompt": "You control your anger instead of reacting during a tense discussion.",
     "form": "Verb",
     "register": "formal"
   },
@@ -507,7 +507,7 @@
     "ja": "浮かぶ",
     "en": "float",
     "usage": "水などに浮く。",
-    "prompt": "A leaf rests on the water instead of sinking.",
+    "prompt": "A toy boat rests on the water instead of sinking.",
     "form": "Verb",
     "register": "daily"
   },
@@ -555,7 +555,7 @@
     "ja": "常に",
     "en": "constantly",
     "usage": "頻繁に・絶えず。会話で自然。",
-    "prompt": "Your phone interrupts you again and again throughout the day.",
+    "prompt": "Your friend checks his phone repeatedly throughout your conversation.",
     "form": "Adverb",
     "register": "daily"
   },
@@ -571,7 +571,7 @@
     "ja": "ありがたさ",
     "en": "convenience",
     "usage": "便利さ。",
-    "prompt": "Having a nearby shop saves you time and effort.",
+    "prompt": "A washing machine at home saves you time and effort.",
     "form": "Noun",
     "register": "daily"
   },
@@ -595,7 +595,7 @@
     "ja": "描く・示す",
     "en": "portray",
     "usage": "人・状況をある見方で描写する。",
-    "prompt": "A film presents its main character as unusually brave.",
+    "prompt": "An artist captures a person's character and feelings in a drawing.",
     "form": "Verb",
     "register": "formal"
   },
@@ -635,7 +635,7 @@
     "ja": "本能",
     "en": "instinct",
     "usage": "身体や本能が反射的に反応する。",
-    "prompt": "A newborn responds automatically without having been taught.",
+    "prompt": "You flinch automatically when a ball suddenly flies toward your face.",
     "form": "Noun",
     "register": "daily"
   },
@@ -683,7 +683,7 @@
     "ja": "全体として",
     "en": "as a whole",
     "usage": "部分ではなく全体をひとまとまりとして。",
-    "prompt": "You consider the entire team rather than judging one individual.",
+    "prompt": "You judge the entire garden rather than focusing on one flower.",
     "form": "Adverbial phrase",
     "register": "daily"
   },
@@ -707,7 +707,7 @@
     "ja": "多数",
     "en": "a multitude of",
     "usage": "非常に多くの。ややフォーマル。",
-    "prompt": "A report describes an exceptionally large number of different challenges.",
+    "prompt": "There are countless activities you could choose from in your free hours.",
     "form": "Quantity phrase",
     "register": "written"
   },
@@ -739,7 +739,7 @@
     "ja": "傾向がある",
     "en": "tend to",
     "usage": "実際によくそうなる。中立。",
-    "prompt": "You usually become quiet when you meet unfamiliar people.",
+    "prompt": "You usually write in your journal while having breakfast.",
     "form": "Verb phrase",
     "register": "daily"
   },
@@ -747,7 +747,7 @@
     "ja": "傾向がある",
     "en": "be inclined to",
     "usage": "気持ちや判断がそちらに傾く。",
-    "prompt": "You naturally lean toward choosing a quiet evening at home.",
+    "prompt": "You naturally lean toward one proposal after hearing your colleague's explanation.",
     "form": "Adjective phrase",
     "register": "formal"
   },
@@ -755,7 +755,7 @@
     "ja": "〜しやすい",
     "en": "be prone to",
     "usage": "悪いこと・問題が起きやすい素因。",
-    "prompt": "This old machine easily develops problems in damp weather.",
+    "prompt": "This patient is especially likely to lose balance and fall.",
     "form": "Adjective phrase",
     "register": "formal"
   },
@@ -803,7 +803,7 @@
     "ja": "目立つ",
     "en": "conspicuous",
     "usage": "周囲から浮いて目につく。",
-    "prompt": "A bright red coat stands out clearly among dark suits.",
+    "prompt": "An empty chair stands out clearly in an otherwise full meeting.",
     "form": "Adjective",
     "register": "formal"
   },
@@ -819,7 +819,7 @@
     "ja": "装置",
     "en": "apparatus",
     "usage": "特定の機能を果たすまとまりの装置。",
-    "prompt": "A laboratory uses a specialized arrangement of instruments for an experiment.",
+    "prompt": "Specialized medical instruments work together to measure a patient's breathing.",
     "form": "Noun",
     "register": "formal"
   },
@@ -827,7 +827,7 @@
     "ja": "大部分は",
     "en": "mostly",
     "usage": "だいたい・大部分は。会話で自然。",
-    "prompt": "Almost everyone in the room is a beginner, with a few exceptions.",
+    "prompt": "Nearly everyone at this gathering is older, with only a few exceptions.",
     "form": "Adverb",
     "register": "daily"
   },
@@ -835,7 +835,7 @@
     "ja": "主として",
     "en": "predominantly",
     "usage": "集団や性質の大多数を占める。フォーマル。",
-    "prompt": "A report describes one group as making up the large majority.",
+    "prompt": "You describe women making up the large majority of this class.",
     "form": "Adverb",
     "register": "formal"
   },
@@ -851,7 +851,7 @@
     "ja": "構成される",
     "en": "be composed of",
     "usage": "部分が集まって全体を作る。",
-    "prompt": "You describe the separate elements that form a larger structure.",
+    "prompt": "Different specialists together form a single medical team.",
     "form": "Verb phrase",
     "register": "formal"
   },
@@ -859,7 +859,7 @@
     "ja": "認識する",
     "en": "recognize",
     "usage": "それが何か・重要だと気づく。",
-    "prompt": "You see a familiar face and know you have met before.",
+    "prompt": "You notice a familiar structural problem in a model bridge.",
     "form": "Verb",
     "register": "daily"
   },
@@ -867,7 +867,7 @@
     "ja": "認める",
     "en": "acknowledge",
     "usage": "気づいたことを否定せず明示的に認める。",
-    "prompt": "You openly accept that someone else's point is valid.",
+    "prompt": "You openly accept a problem instead of pretending it does not exist.",
     "form": "Verb",
     "register": "formal"
   },
@@ -875,7 +875,7 @@
     "ja": "一貫した",
     "en": "consistent",
     "usage": "時間や場面をまたいでブレない。",
-    "prompt": "Her actions follow the same principles instead of changing unpredictably.",
+    "prompt": "Each group follows the same pattern instead of varying unpredictably.",
     "form": "Adjective",
     "register": "formal"
   },
@@ -907,7 +907,7 @@
     "ja": "説明する",
     "en": "explain",
     "usage": "相手に分かるよう説明する。",
-    "prompt": "A child asks why the sky changes color. You help them understand.",
+    "prompt": "Your friend asks how a mechanism works. You help them understand.",
     "form": "Verb",
     "register": "daily"
   },
@@ -931,7 +931,7 @@
     "ja": "変換する",
     "en": "convert",
     "usage": "形式・用途・体系を別のものに変える。",
-    "prompt": "You turn a file into a different digital format.",
+    "prompt": "You turn an unused room into a working study.",
     "form": "Verb",
     "register": "formal"
   },
@@ -939,7 +939,7 @@
     "ja": "合理的な",
     "en": "rational",
     "usage": "感情より理由・目的に基づく。",
-    "prompt": "You choose based on sensible reasons rather than panic.",
+    "prompt": "Choosing a practical bag based on your needs rather than appearances.",
     "form": "Adjective",
     "register": "formal"
   },
@@ -995,7 +995,7 @@
     "ja": "自発的に関与",
     "en": "engage on their own initiative",
     "usage": "やらされず自ら関与する。",
-    "prompt": "Children begin exploring the materials without waiting to be told.",
+    "prompt": "You begin decorating a birdhouse without waiting to be told.",
     "form": "Verb phrase",
     "register": "formal"
   },
@@ -1003,7 +1003,7 @@
     "ja": "関連する",
     "en": "associated with",
     "usage": "データ上・概念上関連する。因果は断定しない。",
-    "prompt": "Researchers find a link between a habit and a health outcome.",
+    "prompt": "You connect certain clothes and flowers with particular seasons.",
     "form": "Verb phrase",
     "register": "formal"
   },
@@ -1019,7 +1019,7 @@
     "ja": "完全に",
     "en": "utterly",
     "usage": "極端なほど完全に。強い評価。",
-    "prompt": "You intensify an adjective to mean completely, with nothing left over.",
+    "prompt": "The elaborate machine leaves you completely unable to understand it.",
     "form": "Adverb",
     "register": "daily"
   },
@@ -1035,7 +1035,7 @@
     "ja": "中断させる",
     "en": "disrupt",
     "usage": "流れ・機能・システムを乱す。",
-    "prompt": "A sudden technical failure stops the meeting from continuing normally.",
+    "prompt": "A fallen tree unexpectedly stops the trains from running normally.",
     "form": "Verb",
     "register": "formal"
   },
@@ -1043,7 +1043,7 @@
     "ja": "危険な",
     "en": "dangerous",
     "usage": "危険がある日常の一般語。",
-    "prompt": "The broken railing could seriously hurt someone.",
+    "prompt": "Broken pavement beside a busy road could seriously hurt someone.",
     "form": "Adjective",
     "register": "daily"
   },
@@ -1091,7 +1091,7 @@
     "ja": "通して",
     "en": "through",
     "usage": "中を通って反対側へ。",
-    "prompt": "You enter a tunnel at one end and leave at the other.",
+    "prompt": "You enter a leafy arch at one end and leave at the other.",
     "form": "Preposition",
     "register": "daily"
   },
@@ -1107,7 +1107,7 @@
     "ja": "完全に",
     "en": "completely",
     "usage": "程度が100%。",
-    "prompt": "The room is entirely empty, with nothing remaining inside.",
+    "prompt": "The jar is entirely empty, with nothing remaining inside.",
     "form": "Adverb",
     "register": "daily"
   },
@@ -1379,7 +1379,7 @@
     "ja": "一旦〜すると",
     "en": "once",
     "usage": "ある状態に入ったらその後は。",
-    "prompt": "You explain that something happens after a particular condition is met.",
+    "prompt": "After learning to balance, you can ride without someone holding the bicycle.",
     "form": "Conjunction",
     "register": "daily"
   },
@@ -1451,7 +1451,7 @@
     "ja": "比較",
     "en": "as ... as",
     "usage": "同じくらい〜。",
-    "prompt": "Two people have the same height. You want to express equality.",
+    "prompt": "The two bowls have the same size. You want to express equality.",
     "form": "Sentence pattern",
     "register": "daily"
   },
@@ -1491,7 +1491,7 @@
     "ja": "褒める",
     "en": "compliment",
     "usage": "服・髪型・料理などに好意的な言葉をかける。",
-    "prompt": "You say something appreciative about a friend's new haircut.",
+    "prompt": "You say something appreciative about a friend's new scarf.",
     "form": "Verb",
     "register": "daily"
   },
@@ -1499,7 +1499,7 @@
     "ja": "ある日",
     "en": "one day",
     "usage": "過去のある特定の日、物語の導入。",
-    "prompt": "You begin a story about an unspecified day in the past.",
+    "prompt": "You begin a story about finding a lost key on an unspecified day.",
     "form": "Adverbial phrase",
     "register": "daily"
   },
@@ -1515,7 +1515,7 @@
     "ja": "とりあえず",
     "en": "for now",
     "usage": "今のところは、ひとまず。",
-    "prompt": "You choose a temporary arrangement that may change afterward.",
+    "prompt": "You use a temporary desk until your proper workspace is ready.",
     "form": "Adverbial phrase",
     "register": "daily"
   },
@@ -1571,7 +1571,7 @@
     "ja": "実際には",
     "en": "as it turns out",
     "usage": "ふたを開けてみると。予想とのズレ。",
-    "prompt": "You introduce a fact that became clear only afterward.",
+    "prompt": "You discover later that a loose cable caused the connection problem.",
     "form": "Adverbial phrase",
     "register": "daily"
   },
@@ -1635,7 +1635,7 @@
     "ja": "甘やかされる",
     "en": "be spoiled",
     "usage": "よくしてもらう、または甘やかされる。",
-    "prompt": "A child expects every wish to be granted without any limits.",
+    "prompt": "Your friends shower you with treats and do everything for you.",
     "form": "Verb phrase",
     "register": "daily"
   },
@@ -1643,7 +1643,7 @@
     "ja": "風で揺れる",
     "en": "sway in the wind",
     "usage": "木や草がゆっくり左右に揺れる。",
-    "prompt": "Tree branches move gently from side to side in a breeze.",
+    "prompt": "Long grass moves gently from side to side in a breeze.",
     "form": "Verb phrase",
     "register": "daily"
   },
@@ -1691,7 +1691,7 @@
     "ja": "発見する",
     "en": "discover",
     "usage": "知らなかったものを見つける。",
-    "prompt": "You find something previously unknown while exploring a new place.",
+    "prompt": "You find a previously unknown problem while examining a broken toaster.",
     "form": "Verb",
     "register": "daily"
   },
@@ -1715,7 +1715,7 @@
     "ja": "合併・融合する",
     "en": "merge",
     "usage": "別々のものが一つになる。",
-    "prompt": "Two separate organizations become a single organization.",
+    "prompt": "You bring the contents of two containers together in a single basket.",
     "form": "Verb",
     "register": "formal"
   },
@@ -1739,7 +1739,7 @@
     "ja": "イラッとさせる",
     "en": "annoy",
     "usage": "うっとうしくてイラッとさせる。",
-    "prompt": "A friend's repeated tapping makes you feel slightly angry.",
+    "prompt": "A friend's repeated interruptions make you feel slightly angry.",
     "form": "Verb",
     "register": "daily"
   },
@@ -1747,7 +1747,7 @@
     "ja": "苛立たせる",
     "en": "irritate",
     "usage": "感情や皮膚などを刺激して苛立たせる。",
-    "prompt": "A rough fabric repeatedly rubs your skin unpleasantly.",
+    "prompt": "A cleaning product leaves your skin feeling unpleasant and sore.",
     "form": "Verb",
     "register": "daily"
   },
@@ -1843,7 +1843,7 @@
     "ja": "多岐にわたる",
     "en": "manifold",
     "usage": "数も種類も多い。フォーマル。",
-    "prompt": "A formal report describes numerous benefits of many different kinds.",
+    "prompt": "Growing food together brings many different benefits to the whole community.",
     "form": "Adjective",
     "register": "written"
   },
@@ -1899,7 +1899,7 @@
     "ja": "ほぼ",
     "en": "pretty much",
     "usage": "質問への返答や要約で「ほぼそう・だいたいそう」と言う。",
-    "prompt": "You have almost finished, with only a tiny amount remaining.",
+    "prompt": "You agree with almost everything your colleague has just said.",
     "form": "Adverbial phrase",
     "register": "daily"
   },
@@ -1963,7 +1963,7 @@
     "ja": "武器類",
     "en": "arms",
     "usage": "軍事・外交で武器類を集合的に指す。",
-    "prompt": "A report discusses military equipment collectively rather than one individual object.",
+    "prompt": "You discuss military equipment collectively, rather than referring to one individual object.",
     "form": "Noun",
     "register": "formal"
   },
@@ -2315,7 +2315,7 @@
     "ja": "今となっては",
     "en": "looking back / now",
     "usage": "現在から過去を振り返る、または昔との対比で今を述べる。",
-    "prompt": "You reflect on an old decision from your current perspective.",
+    "prompt": "From today's perspective, you think about an earlier time in your life.",
     "form": "Adverbial phrase",
     "register": "daily"
   },
@@ -2547,7 +2547,7 @@
     "ja": "〜なんて想像できない",
     "en": "I can't imagine ...",
     "usage": "驚き・あり得なさを表す。",
-    "prompt": "You love your home so much that living elsewhere seems unthinkable.",
+    "prompt": "You find it hard to picture living in a bare, empty room.",
     "form": "Sentence pattern",
     "register": "daily"
   },
@@ -3091,7 +3091,7 @@
     "ja": "出かける・出発する",
     "en": "head out",
     "usage": "家や職場から今まさに出発するとき。",
-    "prompt": "You are ready to leave home for the evening.",
+    "prompt": "You have your coat and bag. It is time to leave.",
     "form": "Phrasal verb",
     "register": "daily"
   },

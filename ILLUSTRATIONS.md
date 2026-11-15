@@ -20,11 +20,13 @@ JSONの `pending` は未対応、または文言変更によって再確認が�
 
 ## 追加するとき
 
+必ず先に `CONTEXT_REVIEW.md` を読む。実画像・英語状況文・形式・答えを同じ一覧で確認し、`src/illustrationReviews.json` に完全な文脈とWebPのSHA-256を記録する。IDや日本語・英語の一致だけでは意味の一致を保証しない。
+
 1. カードの日本語・英語・用法・例文を読み、場面を決めて個別に生成する。
 2. 小さい画面でも意図が読み取れるか確認する。
 3. 画像を軽量なWebPにし、`public/illustrations/カードID.webp` に置く。
 4. `src/illustrations.ts` の `illustrationSources` に確認した日本語・英語を登録する。
-5. `npm run check:cards`、`npm test`、`npm run build` を実行する。
+5. `src/illustrationReviews.json` も更新し、`npm run check:cards`、`npm test`、`npm run build` を実行する。確認後に文・形式・分類・画像が変わった場合は再確認するまでビルドを止める。
 
 画像の追加でカードID、TSV、IndexedDB、FSRS、学習履歴を変更しない。
 日本語や英語を編集したカードには、古い内容の絵を表示しない。
@@ -38,9 +40,9 @@ JSONの `pending` は未対応、または文言変更によって再確認が�
 イラスト追加時は対応する状況文も読み、場面の整合を確認する。状況→英語は旧日本語→英語のカードIDとFSRS予定を使い、逆方向の履歴も保存する。
 未対応カードもIndexedDBとJSONバックアップには残し、FSRS・評価履歴・非表示・文言編集を保持する。
 イラスト追加後は同じIDの保存済み復習予定を使って再び対象にする。
-検索の「イラスト待ちも表示」で対象外の記録確認と編集ができる。
+検索の「準備待ちも表示」で対象外の記録確認と編集ができる。
 
 生成原本・確認ページ・生成指示はGit管理外の `output/` に保存する。
-公開するのは確認済みWebPと対応表のみ。
+画像追加時に公開するのは確認済みWebPと対応表、対応する目視確認記録のみ。登録処理は `scripts/register-reviewed-illustrations.py` を使い、manifestの `reviewedContext` が現在の文脈・画像と完全一致する正常分だけを転記する。
 現在の配信ではWebPもPWAの事前キャッシュに含め、オフライン表示に対応する。
 全件へ拡張する過程で、初回ダウンロード量とキャッシュ方式を再確認する。

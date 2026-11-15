@@ -13,3 +13,10 @@
 - Registers are `daily` (日常生活で使う), `formal` (ややフォーマル), `written` (文書・プレゼン中心). They describe the learning context for the current sense, not an absolute prohibition on spoken use. Do not infer register simply from difficulty, a work tag, or the fact that a sentence is long.
 - Only notes with both a matching illustration and matching scenario enter the learning queue. Existing `ja_to_en` card IDs/FSRS states continue as the situation→English track. Preserve every `en_to_ja` record and old direction preference in storage and backups; do not merge, reset or delete them.
 - When generating an illustration, also read this card's `scenarioSources` situation and make sure the image supports that situation as well as the source usage/example. Do not regenerate existing or held images merely because the question language changed. Keep automatic publication limited to the reviewed images and mapping; include no unrelated scenario/source changes in an image-only commit.
+
+# Required context review (2026-11-15)
+
+- Read `CONTEXT_REVIEW.md` before every illustration generation, publication, TSV update or scenario edit. Compare the actual image with the displayed prompt, form and answer; matching IDs alone do not establish semantic alignment.
+- `src/illustrationReviews.json` records the visually reviewed six-field scenario context and WebP SHA-256. Never refresh this record merely to pass a check. A change to the image, situation, source meaning, form or register requires a fresh visual comparison.
+- An exact previous context/image review can be reused; mismatched or absent reviews must be held. Pending manifest rows require `reviewedContext` in the same shape as the review ledger, in addition to `reviewStatus: approved`.
+- Image-only publication commits must include the matching `src/illustrationReviews.json` updates alongside `src/illustrations.ts` and reviewed WebP assets. Preserve all stored learning data and existing wording guards. `npm run check:cards`, tests and build must pass before push.
