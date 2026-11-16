@@ -2376,6 +2376,366 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_0569": {
     "ja": "いざという時に役立つ",
     "en": "come in handy"
+  },
+  "expr_0571": {
+    "ja": "使用可能な",
+    "en": "usable"
+  },
+  "expr_0572": {
+    "ja": "価値のある",
+    "en": "valuable"
+  },
+  "expr_0573": {
+    "ja": "強大な力・威力",
+    "en": "might"
+  },
+  "expr_0574": {
+    "ja": "力・権力・能力",
+    "en": "power"
+  },
+  "expr_0575": {
+    "ja": "軍事力",
+    "en": "military might"
+  },
+  "expr_0576": {
+    "ja": "政治権力",
+    "en": "political power"
+  },
+  "expr_0577": {
+    "ja": "存在すること・存在",
+    "en": "existence"
+  },
+  "expr_0578": {
+    "ja": "独立した実体・主体",
+    "en": "entity"
+  },
+  "expr_0579": {
+    "ja": "独立した疾患概念",
+    "en": "disease entity"
+  },
+  "expr_0580": {
+    "ja": "進捗があれば知らせる",
+    "en": "I’ll keep you posted."
+  },
+  "expr_0581": {
+    "ja": "元気？／どう？",
+    "en": "What’s up?"
+  },
+  "expr_0582": {
+    "ja": "調子どう？",
+    "en": "How’s it going?"
+  },
+  "expr_0583": {
+    "ja": "久しぶり。最近どう？",
+    "en": "It’s been so long. What’s new?"
+  },
+  "expr_0584": {
+    "ja": "最近人生どう？",
+    "en": "How’s life treating you?"
+  },
+  "expr_0585": {
+    "ja": "最近何してた？",
+    "en": "What have you been up to recently?"
+  },
+  "expr_0586": {
+    "ja": "本当にその通り",
+    "en": "You can say that again."
+  },
+  "expr_0587": {
+    "ja": "これ以上ないほど同意",
+    "en": "I couldn’t agree more."
+  },
+  "expr_0588": {
+    "ja": "本当にその通り",
+    "en": "You’re absolutely right."
+  },
+  "expr_0589": {
+    "ja": "その調子で言って！",
+    "en": "Go off."
+  },
+  "expr_0590": {
+    "ja": "ほんとそれ／分かる",
+    "en": "Tell me about it."
+  },
+  "expr_0591": {
+    "ja": "私はそうは見ていない",
+    "en": "That’s not how I see it."
+  },
+  "expr_0592": {
+    "ja": "それはどうかな",
+    "en": "I’m not so sure about that."
+  },
+  "expr_0593": {
+    "ja": "私はあまりそうは思わない",
+    "en": "I don’t really see it that way."
+  },
+  "expr_0594": {
+    "ja": "それはどうかなあ",
+    "en": "I don’t know about that."
+  },
+  "expr_0595": {
+    "ja": "必ずしもそうではない",
+    "en": "Not necessarily."
+  },
+  "expr_0596": {
+    "ja": "本当にありがたいです",
+    "en": "I really appreciate that."
+  },
+  "expr_0597": {
+    "ja": "あなたなしではどうしていいか",
+    "en": "What would I do without you?"
+  },
+  "expr_0598": {
+    "ja": "借りができたね",
+    "en": "I owe you one."
+  },
+  "expr_0599": {
+    "ja": "ご親切にありがとう",
+    "en": "That’s so kind of you."
+  },
+  "expr_0601": {
+    "ja": "どういたしまして／喜んで",
+    "en": "My pleasure."
+  },
+  "expr_0602": {
+    "ja": "こちらこそ光栄です",
+    "en": "The pleasure is all mine."
+  },
+  "expr_0603": {
+    "ja": "喜んでお手伝いします",
+    "en": "Happy to help."
+  },
+  "expr_0604": {
+    "ja": "大したことじゃないよ",
+    "en": "It was nothing."
+  },
+  "expr_0605": {
+    "ja": "気にしないで",
+    "en": "Don’t sweat it."
+  },
+  "expr_0606": {
+    "ja": "気にしないで",
+    "en": "Don’t worry about it."
+  },
+  "expr_0607": {
+    "ja": "それは最悪だね。本当に残念",
+    "en": "It sucks. I’m really sorry."
+  },
+  "expr_0608": {
+    "ja": "きちんと謝らないと",
+    "en": "I owe you an apology."
+  },
+  "expr_0609": {
+    "ja": "違う状況だったらよかったのに",
+    "en": "I wish things were different."
+  },
+  "expr_0610": {
+    "ja": "何かできることある？",
+    "en": "Is there anything I can do for you?"
+  },
+  "expr_0611": {
+    "ja": "何か必要なら言ってね",
+    "en": "Let me know if you need anything."
+  },
+  "expr_0612": {
+    "ja": "流体",
+    "en": "fluid"
+  },
+  "expr_0613": {
+    "ja": "液体",
+    "en": "liquid"
+  },
+  "expr_0614": {
+    "ja": "前提・認識を確認しておくと",
+    "en": "Just to make sure we’re on the same page, ..."
+  },
+  "expr_0615": {
+    "ja": "確認して明確にすると",
+    "en": "Just to clarify, ..."
+  },
+  "expr_0616": {
+    "ja": "鑑別は？",
+    "en": "What’s your differential?"
+  },
+  "expr_0617": {
+    "ja": "何を考えていますか？",
+    "en": "What are you considering?"
+  },
+  "expr_0618": {
+    "ja": "他には何を考えていますか？",
+    "en": "What else are you considering?"
+  },
+  "expr_0619": {
+    "ja": "鑑別の一番上は？",
+    "en": "What’s at the top of your differential?"
+  },
+  "expr_0620": {
+    "ja": "似合っている",
+    "en": "look good on you"
+  },
+  "expr_0621": {
+    "ja": "似合う・その人に合う",
+    "en": "suit you"
+  },
+  "expr_0622": {
+    "ja": "〜とよく合う",
+    "en": "go well with"
+  },
+  "expr_0623": {
+    "ja": "目標・成果を達成する",
+    "en": "achieve"
+  },
+  "expr_0624": {
+    "ja": "専門性・専門知識",
+    "en": "expertise"
+  },
+  "expr_0625": {
+    "ja": "著名さ・重要な存在感",
+    "en": "prominence"
+  },
+  "expr_0626": {
+    "ja": "冷静に頭を働かせる",
+    "en": "keep my head"
+  },
+  "expr_0627": {
+    "ja": "感情的にならず冷静でいる",
+    "en": "keep my cool"
+  },
+  "expr_0628": {
+    "ja": "冷静な判断力を保つ",
+    "en": "keep a cool head"
+  },
+  "expr_0629": {
+    "ja": "後からなら何でも明らか",
+    "en": "Hindsight is 20/20."
+  },
+  "expr_0630": {
+    "ja": "後知恵バイアス",
+    "en": "hindsight bias"
+  },
+  "expr_0631": {
+    "ja": "後知恵という利点",
+    "en": "the benefit of hindsight"
+  },
+  "expr_0632": {
+    "ja": "そうそう〜ない／珍しい",
+    "en": "It’s not every day (that) ..."
+  },
+  "expr_0633": {
+    "ja": "まさか〜とはね",
+    "en": "Who knew ...?"
+  },
+  "expr_0634": {
+    "ja": "さあ、誰にも分からない",
+    "en": "Who knows?"
+  },
+  "expr_0635": {
+    "ja": "僻地・遠隔地",
+    "en": "remote area"
+  },
+  "expr_0636": {
+    "ja": "遠隔地域のコミュニティ",
+    "en": "remote community"
+  },
+  "expr_0637": {
+    "ja": "サービスが不足した地域",
+    "en": "underserved area"
+  },
+  "expr_0638": {
+    "ja": "医療過疎地域",
+    "en": "medically underserved area"
+  },
+  "expr_0639": {
+    "ja": "まさにここ",
+    "en": "right here"
+  },
+  "expr_0640": {
+    "ja": "こっちの方",
+    "en": "over here"
+  },
+  "expr_0641": {
+    "ja": "この中",
+    "en": "in here"
+  },
+  "expr_0642": {
+    "ja": "ここの外・この辺り",
+    "en": "out here"
+  },
+  "expr_0643": {
+    "ja": "こっちの上・北の方",
+    "en": "up here"
+  },
+  "expr_0644": {
+    "ja": "こっちの下・南の方",
+    "en": "down here"
+  },
+  "expr_0645": {
+    "ja": "この辺",
+    "en": "around here"
+  },
+  "expr_0646": {
+    "ja": "あっちの方",
+    "en": "over there"
+  },
+  "expr_0647": {
+    "ja": "世の中には・どこかには",
+    "en": "out there"
+  },
+  "expr_0648": {
+    "ja": "部分的にはそう／まあね",
+    "en": "Kind of."
+  },
+  "expr_0649": {
+    "ja": "いや、あまり／どちらかというと違う",
+    "en": "Not really."
+  },
+  "expr_0650": {
+    "ja": "たぶんそうかな",
+    "en": "I guess."
+  },
+  "expr_0651": {
+    "ja": "注文で〜をいただけますか",
+    "en": "Could I get ...?"
+  },
+  "expr_0652": {
+    "ja": "〜してもらえますか",
+    "en": "Could you ...?"
+  },
+  "expr_0653": {
+    "ja": "〜してもらえますか",
+    "en": "Would you ...?"
+  },
+  "expr_0654": {
+    "ja": "〜してもらっても構いませんか",
+    "en": "Would you mind ...ing?"
+  },
+  "expr_0655": {
+    "ja": "〜をお願いします／〜したいです",
+    "en": "I’d like ..."
+  },
+  "expr_0656": {
+    "ja": "〜を探しているのですが",
+    "en": "I’m looking for ..."
+  },
+  "expr_0657": {
+    "ja": "できれば〜したい",
+    "en": "I’m hoping to ..."
+  },
+  "expr_0658": {
+    "ja": "できれば〜したいと思っていたのですが",
+    "en": "I was hoping to ..."
+  },
+  "expr_0659": {
+    "ja": "〜してもらえそうですか",
+    "en": "Do you think you could ...?"
+  },
+  "expr_0660": {
+    "ja": "〜していただけないかと思いまして",
+    "en": "I was wondering if you could ..."
+  },
+  "expr_0661": {
+    "ja": "〜することは可能でしょうか",
+    "en": "Would it be possible to ...?"
   }
 }
 
