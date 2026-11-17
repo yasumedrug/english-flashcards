@@ -8890,5 +8890,1162 @@
     "imageSha256": "f8db792686e18262f3ab5cd8a8bd5eca48ff073ff98f8e8dbb54426ab4db8bb7",
     "reviewedAt": "2026-11-16T11:19:11.835880+00:00",
     "method": "visual_image_context_review"
+  },
+  "expr_0663": {
+    "context": {
+      "ja": "それはいいね",
+      "en": "That’s great.",
+      "usage": "相手が今言ったニュース・出来事全体に反応する。",
+      "prompt": "A friend shares good news, and you respond positively.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "caea2b423b34a421cdd56ce111a4ab7d0bd2c963521d6364cb12ff7d10b83483",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0664": {
+    "context": {
+      "ja": "なるほど、筋が通る",
+      "en": "That makes sense.",
+      "usage": "相手の今の説明・考えを受けて納得を示す。",
+      "prompt": "An explanation is understandable and logically fits the facts.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "63d9ab67936d81542abda12aa98ab84bb4d475ae837c133306b78f911fd0afbe",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0665": {
+    "context": {
+      "ja": "それは知らなかった",
+      "en": "I didn’t know that.",
+      "usage": "相手が今提示した情報を指して受ける。",
+      "prompt": "A friend tells you a fact that is new to you.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "0620a0eac0fd3405fd7429846ea294150957212ebe6c987d7f584e2a94fb996e",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0666": {
+    "context": {
+      "ja": "それは考えたことがなかった",
+      "en": "I hadn’t thought of that.",
+      "usage": "相手のアイデアを新しい視点として受ける。",
+      "prompt": "A friend suggests an option that had never occurred to you.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "aa26325a9a8b841947bcc3a96f9c8f2bd538bc800ab1233438e53c627c1b456c",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0667": {
+    "context": {
+      "ja": "BがAでないのと同じくXもAでない",
+      "en": "no more A than B",
+      "usage": "比較対象を使って強い否定を直感的に示す。",
+      "prompt": "You deny one claim by comparing it with another obviously false claim.",
+      "form": "Sentence pattern",
+      "register": "written"
+    },
+    "imageSha256": "ac365bc6fcd60721d3fc61365f6a7f8c64a31453e857352195e4be937134ddd5",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0668": {
+    "context": {
+      "ja": "全く〜ない",
+      "en": "not ... at all",
+      "usage": "素直に強い否定をする。",
+      "prompt": "You emphasize the total absence of a particular quality.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "d23e3dee4580a27175b47d6945cfeb90fbd8a6ae4f5b10f025d5e1895aace67f",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0669": {
+    "context": {
+      "ja": "少しも〜ない",
+      "en": "not remotely ...",
+      "usage": "可能性・程度が全く届いていないと強調する。",
+      "prompt": "You strongly deny having even the slightest interest in an activity.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "d81261f4fbebf243c67b6dd381979994bb0cf2eb92d3a38361b6a5d8660ac373",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0670": {
+    "context": {
+      "ja": "決して〜ではない",
+      "en": "by no means ...",
+      "usage": "強い否定をやや文章的に表す。",
+      "prompt": "You formally emphasize that a claim is definitely false.",
+      "form": "Adverbial phrase",
+      "register": "formal"
+    },
+    "imageSha256": "b1878c529421fc7fd16e2e0fbfe3ece0f60fc39fa02d86a906a94a0086780c5f",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0671": {
+    "context": {
+      "ja": "〜どころか程遠い",
+      "en": "far from ...",
+      "usage": "期待される状態から大きく離れている。",
+      "prompt": "You stress that reality is very different from the proposed description.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "7d7ca279f347ecaafc9ce83edcc02b43125381f0c060b2608ee33930565b415d",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0672": {
+    "context": {
+      "ja": "決して〜ではない／むしろ逆",
+      "en": "anything but ...",
+      "usage": "「〜以外なら何でも」→全く〜ではない。",
+      "prompt": "You describe someone as the complete opposite of calm.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "970d5c1801ae24be0fba61893fa788b5509ca87c96224622c298ef89b4b8207e",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0673": {
+    "context": {
+      "ja": "〜には程遠い",
+      "en": "nowhere near ...",
+      "usage": "基準・程度に全く届いていない。",
+      "prompt": "Your actual progress is a long distance from the intended target.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "da158deb3a18792eba6a23b3761d713ba9b7b6fded99dc2f95d89bc71b009ab4",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0674": {
+    "context": {
+      "ja": "全然違う／かすりもしない",
+      "en": "Not even close.",
+      "usage": "答え・予想・程度が全く近くない。",
+      "prompt": "Someone guesses an answer, but their guess is very far from correct.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "d955231cef7071ca8b13b371bbd89b2c6bf0870a61e46a78fb61e48921c39a94",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0675": {
+    "context": {
+      "ja": "Bに劣らずXもAだ",
+      "en": "no less A than B",
+      "usage": "過小評価されそうな対象が同等にAだと強調する。",
+      "prompt": "You stress that one person's ability is not inferior to another's.",
+      "form": "Sentence pattern",
+      "register": "formal"
+    },
+    "imageSha256": "cf1118a1967fe2c7d6ef756cc9e2711ece2a48815858f4e43f509b32fba797aa",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0676": {
+    "context": {
+      "ja": "Bと同じくらいA",
+      "en": "just as A as B",
+      "usage": "二者が同程度だと自然に比較する。",
+      "prompt": "You describe two people as equally capable in the same respect.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "c233ad1741d8ce900f608bb00b7c7d3ff2df4f074811514d2ec3947566133a12",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0677": {
+    "context": {
+      "ja": "Bに少しも劣らずA",
+      "en": "every bit as A as B",
+      "usage": "完全に同等だと強調する。",
+      "prompt": "You emphasize that one person fully matches another's ability.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "07d6fa732416b8e4944a26ea5b1a135ceece0974810d9f335a37820eb6bcd3b7",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0678": {
+    "context": {
+      "ja": "なんと〜も",
+      "en": "no less than + 数量",
+      "usage": "数量の多さに驚き・強調を加える。",
+      "prompt": "You emphasize a surprisingly large quantity rather than a minimum requirement.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "c003664496e4ad42b24c63be3df72b4bc6c9dfd484f107f5cfc56379b6096f97",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0679": {
+    "context": {
+      "ja": "美容室・美容院",
+      "en": "hair salon",
+      "usage": "髪を切る・整える店。",
+      "prompt": "You visit a business for trimming and styling your appearance.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "96bd4d41b5914ac91955dc6e89e1e00119d394f3d92de9a0b0342afc6c07fd2f",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0680": {
+    "context": {
+      "ja": "美容師",
+      "en": "hairstylist",
+      "usage": "髪を切る・整える専門職。",
+      "prompt": "You describe a professional who creates and maintains people's hair styles.",
+      "form": "Noun",
+      "register": "daily"
+    },
+    "imageSha256": "23b23fa839c8efa738ec74a05631559e9b5688d0af126231e56425292042512b",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0681": {
+    "context": {
+      "ja": "美容師",
+      "en": "hairdresser",
+      "usage": "美容師を指す一般語。",
+      "prompt": "You describe the professional who regularly cuts your hair.",
+      "form": "Noun",
+      "register": "daily"
+    },
+    "imageSha256": "939bbdc925d322a3f4278e335f5b76119fe2f6d632b7a25e9d4605d8969873a3",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0682": {
+    "context": {
+      "ja": "〜になぞらえて考える",
+      "en": "compare A to B",
+      "usage": "AをBに例えて理解・説明する。",
+      "prompt": "You explain an unfamiliar process by likening it to a familiar one.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "80276b6cb5c1703b9da7151108678b7165d3cf6f6221b76ec3b6035b68640119",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0683": {
+    "context": {
+      "ja": "〜に例えると分かりやすいかも",
+      "en": "It might help to compare it to X.",
+      "usage": "類比を提案して理解を助ける。",
+      "prompt": "You suggest that a familiar comparison could make the explanation clearer.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "8320b88736464dba554669926f2117c18ebe603441fb76711c0fbe6369562885",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0684": {
+    "context": {
+      "ja": "Xみたいなものだと考えて",
+      "en": "Think of it like X.",
+      "usage": "その場で例えを提示する非常に会話的な表現。",
+      "prompt": "You invite someone to picture a concept using a familiar comparison.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "57a1589e679528697488894524b7d01f5d61d683e483bdfcdaf73531d6d633e0",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0685": {
+    "context": {
+      "ja": "まさにその通り",
+      "en": "Exactly.",
+      "usage": "相手の発言が完全に一致していると示す。",
+      "prompt": "Your friend's statement matches your opinion precisely.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "e79f325b30358803cf0862979f94675d08c925a9b2d9756f4be7a67db616d9c2",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0686": {
+    "context": {
+      "ja": "まさにそれ！",
+      "en": "That’s exactly it.",
+      "usage": "相手が言った内容が自分の意図とぴったり一致。",
+      "prompt": "Your friend finally captures the precise point you were trying to express.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "cf33af6d617f6d323ed48766d55087ab33fb8298ef4580f3658d2f9f48512e3a",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0687": {
+    "context": {
+      "ja": "まさにその〜／他でもないその〜",
+      "en": "the very ...",
+      "usage": "名詞を「まさにその」と強く限定する。",
+      "prompt": "You emphasize that this is the specific object you meant, not another.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "fab60e4a5eef83ce9184a94721c3c131e00862b6b16d5dd0b6ff14a54378ba98",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0688": {
+    "context": {
+      "ja": "過去の経験を活かす",
+      "en": "draw on my past experience",
+      "usage": "蓄積した経験を引き出して現在に利用する。",
+      "prompt": "You use lessons from earlier work to handle today's challenge.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "b2b25b2344e9e9e8aeead5226644065069c98025706514345e57c952d9324355",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0689": {
+    "context": {
+      "ja": "〜を有効活用する",
+      "en": "put ... to good use",
+      "usage": "持っている能力・経験・物を実際に役立てる。",
+      "prompt": "You make productive use of a skill rather than letting it remain idle.",
+      "form": "Verb phrase · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "0e8617bb6ea26cf052909dc4551d79c1639b0340d3becf73114baae42c572457",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0690": {
+    "context": {
+      "ja": "〜になると思う・見込む",
+      "en": "expect",
+      "usage": "話し手の予想としてそうなると思う。",
+      "prompt": "Based on current information, you think a certain outcome is probable.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "13623e2a192698978736f538ec3fca4beb9eb493e1514021788e46df1bd035bf",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0691": {
+    "context": {
+      "ja": "将来の見込み・可能性",
+      "en": "prospect",
+      "usage": "将来そうなる可能性や見通しを名詞で表す。",
+      "prompt": "You describe a possibility or opportunity that may exist in the future.",
+      "form": "Noun",
+      "register": "formal"
+    },
+    "imageSha256": "5a2a7fecb84fe422249bcf9dff1e6347cd8d03b1cdd4d5ac84a943706026e3af",
+    "reviewedAt": "2026-11-16T23:17:51.247286+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0692": {
+    "context": {
+      "ja": "おしゃれな・洗練された",
+      "en": "stylish",
+      "usage": "見た目やデザインがセンスよくおしゃれ。",
+      "prompt": "Someone's clothes look fashionable and well chosen.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "dcf277315fd3a1794e0f6108ba1ff5ffa7df12ae18e034deaa9f319a3c040a21",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0693": {
+    "context": {
+      "ja": "流行のおしゃれな",
+      "en": "trendy",
+      "usage": "今っぽく流行している。",
+      "prompt": "An outfit closely follows what is currently fashionable.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "46d27aa07438dd754f5621a38f96ade06c60f70fed1e05d31aa187ddba3fbbbb",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0694": {
+    "context": {
+      "ja": "洗練された上品なおしゃれ",
+      "en": "chic",
+      "usage": "都会的・上品で洗練されている。",
+      "prompt": "A simple outfit looks elegant in a refined, fashionable way.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "d825c8bee734b1b92be5f0ecbd7ceef808c17a47b5bfbe59da03ac20377d96c0",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0695": {
+    "context": {
+      "ja": "ちょっと洒落てる・高級感がある",
+      "en": "fancy",
+      "usage": "普通より少し豪華・洒落ている。",
+      "prompt": "The restaurant feels more elaborate and expensive than an everyday cafe.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "2c0fce3370e20b7cb9c4af17d511ca0c2cc18195ae4da928ccd178f5ed14c756",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0696": {
+    "context": {
+      "ja": "一皿の量・ポーション",
+      "en": "portion",
+      "usage": "一人前として出される食事量。",
+      "prompt": "You compare how much food each plate contains.",
+      "form": "Noun",
+      "register": "daily"
+    },
+    "imageSha256": "8dabff69831ecd7479106b6a06d8d1d174464ab262e02ac0f73e63f13bd7bbda",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0697": {
+    "context": {
+      "ja": "食欲旺盛",
+      "en": "have a big appetite",
+      "usage": "よく食べる・食欲が強い。",
+      "prompt": "Your child regularly wants to eat large quantities of food.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "e90deeec6b5052ab34752aca3d1b9fec6b60fbaf70e95da389af4d644a638103",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0698": {
+    "context": {
+      "ja": "すれ違う",
+      "en": "pass each other",
+      "usage": "互いに反対方向へ通り過ぎる。",
+      "prompt": "Two people walk in different directions and go by one another.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "41478745f7e348fba08b445f51105affe13e014420d5a99959279e2475d1db62",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0699": {
+    "context": {
+      "ja": "人の横を通り過ぎる",
+      "en": "walk past someone",
+      "usage": "歩いて相手のそばを通過する。",
+      "prompt": "You continue along your route beyond a person standing nearby.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "8dd7548d63e0d69e5438bbe634de9190a35672f53cfe880a7b8eb368c47cc193",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0700": {
+    "context": {
+      "ja": "追い越す",
+      "en": "pass someone",
+      "usage": "後ろから前へ出る。特に米会話で自然。",
+      "prompt": "You move ahead of someone traveling in the same direction.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "a6bbf9c297d9dd48fb3b633b1a9370600954b57de1694b4662fcaa243e956136",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0701": {
+    "context": {
+      "ja": "追い越す",
+      "en": "overtake",
+      "usage": "後ろから追いついて前に出る。",
+      "prompt": "A faster vehicle moves ahead of a slower one.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "0b00f65b8f5ff4013b37d6fadd15d7ee2fd673e14e18c3b1fd4883e38487d0d7",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0702": {
+    "context": {
+      "ja": "紛らわしい",
+      "en": "confusing",
+      "usage": "違いが分かりづらく頭が混乱する。",
+      "prompt": "Similar signs make it difficult to understand which direction is right.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "ecd9c42808a00669881bc547e51d312b38d76977d40a2f92a19c1dff673e79ae",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0703": {
+    "context": {
+      "ja": "複雑でややこしい",
+      "en": "complicated",
+      "usage": "要素や構造が複雑。",
+      "prompt": "A task has many interdependent parts that are difficult to manage.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "608fb84807fad9e8f13eb13a6e06162f261efd01c5936fe3b88289a2fd945d34",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0704": {
+    "context": {
+      "ja": "微妙でややこしい・一筋縄ではいかない",
+      "en": "tricky",
+      "usage": "簡単そうでも落とし穴や微妙な点がある。",
+      "prompt": "A problem needs skill and care because the solution is not obvious.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "c11c63510d7c1e3f5345f08e733d7d7d96d90d128120d0e014d6f4031188d803",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0705": {
+    "context": {
+      "ja": "ごちゃごちゃして面倒な",
+      "en": "messy",
+      "usage": "整理されておらず複雑・面倒。",
+      "prompt": "The situation is disorganized and difficult to deal with neatly.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "abb9eaab1a1f2fd2696cc5d69d72cb25287ef8e3e00b60f064bb01cf261cb444",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0706": {
+    "context": {
+      "ja": "やんちゃ・いたずら好き",
+      "en": "mischievous",
+      "usage": "悪気の強くないいたずら好き。",
+      "prompt": "A playful child enjoys harmless little tricks.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "6667c5f18680e0d0e5e28377b6140f216ddbebb333c2df52f067d3f822206f30",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0707": {
+    "context": {
+      "ja": "元気すぎて騒がしい",
+      "en": "rambunctious",
+      "usage": "子どもなどが非常に活発で騒がしい。",
+      "prompt": "A child is so lively and noisy that the room becomes chaotic.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "ee2d620f9a59ba8ac6f5716e0b803ad1a772e108c5532ad8506ec62d2911374b",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0708": {
+    "context": {
+      "ja": "活発で元気な",
+      "en": "energetic",
+      "usage": "エネルギーがあり活動的。",
+      "prompt": "A child has plenty of physical enthusiasm and stamina.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "3450c10ef01285f51ee406a1e1f39e9805a58ee4113982d204866277cf9d8fd7",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0709": {
+    "context": {
+      "ja": "穏やかで優しい",
+      "en": "gentle",
+      "usage": "性格・振る舞いが穏やかで柔らかい。",
+      "prompt": "A child behaves softly and kindly without roughness.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "9d3d93e2d0d421bf2ac9103a25bacc70a84a04337b9ef1705e7e32900101c7bc",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0710": {
+    "context": {
+      "ja": "控えめで上品な",
+      "en": "demure",
+      "usage": "控えめで落ち着いた上品さ。",
+      "prompt": "Someone's manner is modest, quiet, and restrained in a refined way.",
+      "form": "Adjective",
+      "register": "formal"
+    },
+    "imageSha256": "b016828ce929518e5a300790a3629e459ee4467a608ac673c9a23465ac911130",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0711": {
+    "context": {
+      "ja": "行儀がよい",
+      "en": "well-mannered",
+      "usage": "礼儀正しく行儀がよい。",
+      "prompt": "A child behaves politely and respects social expectations.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "576735397c76873f683b8be3ae235b767035a1cf6e29a8630bdddb4ecda77d46",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0712": {
+    "context": {
+      "ja": "状況・緊張が落ち着く",
+      "en": "calm down",
+      "usage": "緊張・興奮・混乱が静まる。",
+      "prompt": "An excited child gradually becomes less agitated.",
+      "form": "Phrasal verb",
+      "register": "daily"
+    },
+    "imageSha256": "3a1e6aa62164fd95189e1d2363551fac5d452a481e9c1f8fbab2ded1fe1c5e37",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0713": {
+    "context": {
+      "ja": "〜を舞台にしている",
+      "en": "be set in ...",
+      "usage": "映画・小説の物語の舞台を表す。",
+      "prompt": "A novel's events happen within a particular fictional time and location.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "580d48772051badab01dbfb0ab1f8c83c158fb9d9a6a23d0ffe230b3a7fea9f8",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0714": {
+    "context": {
+      "ja": "〜で起こる・展開する",
+      "en": "take place in ...",
+      "usage": "出来事や物語がその場所で起こる。",
+      "prompt": "You describe the location where the story's events occur.",
+      "form": "Verb phrase · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "e481f25dd75d4437b8e7e96d4ed2627ffe81d450f841a8fc3b2e260da66c8e32",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0715": {
+    "context": {
+      "ja": "〜で撮影された",
+      "en": "be filmed in ...",
+      "usage": "実際の撮影場所を表す。",
+      "prompt": "You describe the real location where cameras recorded a movie.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "9340d3f64f017e6f32d697bd86da67a70069aac2161ab896466d2cb171f12045",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0716": {
+    "context": {
+      "ja": "空気感・なんかいい感じ",
+      "en": "vibe",
+      "usage": "その場や人から主観的に感じる雰囲気。",
+      "prompt": "A cafe gives you a pleasant informal feeling you cannot precisely explain.",
+      "form": "Noun",
+      "register": "daily"
+    },
+    "imageSha256": "19843768a920457ed679fc57d89efdc8350e93f658c51100dd12a24c10893de0",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0717": {
+    "context": {
+      "ja": "その場全体の雰囲気",
+      "en": "atmosphere",
+      "usage": "場所全体が作り出す雰囲気。",
+      "prompt": "You describe the overall mood of a place.",
+      "form": "Noun",
+      "register": "daily"
+    },
+    "imageSha256": "5869fe457efe18a8234294357d88cf76870c17227fe26ab8594b0a173f98d126",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0718": {
+    "context": {
+      "ja": "〜な雰囲気を醸し出す",
+      "en": "give off a ... vibe",
+      "usage": "人・場所が特定の印象を与える。",
+      "prompt": "Someone's appearance creates a particular informal impression.",
+      "form": "Phrasal verb",
+      "register": "daily"
+    },
+    "imageSha256": "767f0eb6f6517912c33e221d77fd563dbff614a6b09b17e7c899803ce5aced55",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0719": {
+    "context": {
+      "ja": "〜から何か変な感じを受ける",
+      "en": "get a ... vibe from ...",
+      "usage": "人・場所から直感的な印象を受ける。",
+      "prompt": "You sense an unusual impression from a person or place.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "f7ea9293be6ec723fc9e5825ecdb26c06f726036ed2374b3a073f25b6b83cf46",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0720": {
+    "context": {
+      "ja": "日本食が恋しい",
+      "en": "I miss Japanese food.",
+      "usage": "離れていて懐かしく恋しい時。",
+      "prompt": "Living abroad makes you long for meals from home.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "50f4c23c981c31d2dcbc791acb477a884c66cab88d6b4b25de01fe2a855c8312",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0721": {
+    "context": {
+      "ja": "日本食が無性に食べたい",
+      "en": "I’m craving Japanese food.",
+      "usage": "今まさに強く食べたい。",
+      "prompt": "You have an intense immediate desire to eat familiar meals from home.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "830895f43c0a605c73deb2fad7cc1a7636b4d49443527e9cf4b60bd8961d4fde",
+    "reviewedAt": "2026-11-17T05:18:15.210084+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0722": {
+    "context": {
+      "ja": "〜に由来する・〜から来ている",
+      "en": "come from",
+      "usage": "起源を日常的に言う。",
+      "prompt": "You explain where an expression or idea originally arose.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "317722d41ebb51c555834137e22f26c22b56055c80aa15ccc613a7228564f1f0",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0723": {
+    "context": {
+      "ja": "〜に由来する",
+      "en": "derive from",
+      "usage": "語・概念・利益などが源から生じる。",
+      "prompt": "You formally trace an idea to its original source.",
+      "form": "Verb phrase",
+      "register": "formal"
+    },
+    "imageSha256": "573bdccf0807c8b04723663c1c3b39c51ebdfa4af9ef3127383d49a2478e01f5",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0724": {
+    "context": {
+      "ja": "〜に起源を持つ・発祥する",
+      "en": "originate from / in",
+      "usage": "起源そのものを強調する。",
+      "prompt": "You describe the place where a tradition first began.",
+      "form": "Verb phrase",
+      "register": "formal"
+    },
+    "imageSha256": "a9bf305e054c82c7fe264f54de26b495ce5e156e6322ddd187b92d4ff9bdd65a",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0725": {
+    "context": {
+      "ja": "〜に起因する",
+      "en": "stem from",
+      "usage": "問題・現象の原因や背景をたどる。",
+      "prompt": "You explain the underlying cause of a persistent problem.",
+      "form": "Phrasal verb",
+      "register": "formal"
+    },
+    "imageSha256": "05f133a8b53aa9412488e01d0c6796d9ff00c14480aee9be2b04e7f6f1af128f",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0726": {
+    "context": {
+      "ja": "控えめで洗練された",
+      "en": "understated",
+      "usage": "派手ではないが上品でセンスがよい。",
+      "prompt": "A room feels elegant without drawing attention through elaborate decoration.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "cce00bce13da473b43f4a22561c0517af8362b51f9552c9ff5f70e754059a68a",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0727": {
+    "context": {
+      "ja": "洗練された・大人っぽい",
+      "en": "sophisticated",
+      "usage": "高度に洗練され、成熟した印象。",
+      "prompt": "The design feels refined, complex, and confidently adult.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "249dfbdbb94e5864125d71d40083eac248196c9c2acfa593ab227f0a684fa685",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0728": {
+    "context": {
+      "ja": "センスがよく上品な",
+      "en": "tasteful",
+      "usage": "装飾・服・デザインが上品で趣味がよい。",
+      "prompt": "Someone decorates a room with good judgment and restraint.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "4f4fc066be6a9fbb745af238db8a8371bc85892aa6f57b639dc381d4d65cf0b8",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0729": {
+    "context": {
+      "ja": "既知の対象を受ける it",
+      "en": "it",
+      "usage": "すでに会話で共有されている物・話題をそのまま受ける。",
+      "prompt": "You refer again to an already identified object without repeating its name.",
+      "form": "Pronoun",
+      "register": "daily"
+    },
+    "imageSha256": "8c397f1e43e8b6a9b3bd8c513070dcfedc8ce97b4cd6245e63159930fc5918d6",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0730": {
+    "context": {
+      "ja": "今出た話・出来事を指す that",
+      "en": "that",
+      "usage": "相手の今の発言・出来事・アイデアを心理的に指さす。",
+      "prompt": "You refer back to the statement or event just mentioned.",
+      "form": "Pronoun",
+      "register": "daily"
+    },
+    "imageSha256": "0c097e65f816befd36575e7f2665daef375e44f046961de498f75dd55edd43c5",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0731": {
+    "context": {
+      "ja": "地方・農村部",
+      "en": "rural area",
+      "usage": "都市部ではない地方・農村地域。",
+      "prompt": "You describe countryside with farms and small settlements rather than a city.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "7feceff42bd499c119dbe33ec7a7ba977da49101bfd3918a913caab2eab08718",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0732": {
+    "context": {
+      "ja": "すなわち・正確に言い直すと",
+      "en": "that is, ...",
+      "usage": "直前の説明を具体的に定義・補足する。",
+      "prompt": "You restate your meaning more precisely immediately after saying something.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "0021dfba1668eed81f2782f9b03a75d1b18376e4ec493d9124efc2351df56bde",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0733": {
+    "context": {
+      "ja": "言い換えると",
+      "en": "in other words, ...",
+      "usage": "別の言葉で同じ内容を説明する。",
+      "prompt": "You explain the same idea using different, simpler wording.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "e8898dc74ff1a2224b2cb669bd6221dc9361d58359c5a5a779c37d90959f90f2",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0734": {
+    "context": {
+      "ja": "要するに",
+      "en": "basically, ...",
+      "usage": "細部を省いて結論を述べる。",
+      "prompt": "You introduce a simplified version of a longer explanation.",
+      "form": "Adverb",
+      "register": "daily"
+    },
+    "imageSha256": "c24bdd06a74ff5493cfb90f26c91c0abb0bb3414944c957d51e1b0631c8744c8",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0735": {
+    "context": {
+      "ja": "つまり〜ということだ",
+      "en": "which means ...",
+      "usage": "前の説明から結果を導く。",
+      "prompt": "You connect a fact with what logically follows from it.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "b322cb6ce461abad6ed4859bc83f4e28140010c175ee7eccfba7a2a24deee0ca",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0736": {
+    "context": {
+      "ja": "その気持ちわかる",
+      "en": "I feel that.",
+      "usage": "気持ちへの共鳴を短く伝える、くだけた相槌。",
+      "prompt": "You casually show emotional understanding of your friend's experience.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "f14d48a1eb63b85aeb29aac73a589a895b460d12f257714c213cbac3f242bd83",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0737": {
+    "context": {
+      "ja": "自分にも心当たりがある",
+      "en": "I can relate.",
+      "usage": "似た経験から共感する。",
+      "prompt": "Your friend's experience reminds you of something similar in your own life.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "bd98b25f2d78b5660564430290a20beb03b7b021e9a226759095724d5d99f1f5",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0738": {
+    "context": {
+      "ja": "それは大変そう",
+      "en": "That sounds really tough.",
+      "usage": "大変な話を聞いたときの安全で自然な共感。",
+      "prompt": "A friend describes a demanding situation. You respond sympathetically.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "be5ce6af3d852eb24d5230e9da1fa4c5f8ae61a6f811d44f67664d40ab6a121a",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0739": {
+    "context": {
+      "ja": "それは楽しそう",
+      "en": "That sounds fun.",
+      "usage": "楽しい経験・予定・提案への即時反応。",
+      "prompt": "A friend describes an enjoyable plan. You respond enthusiastically.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "c8b0205e2e77e1bd7c2410a3b2b62cdef0d62ed655c1d823df57865b63a4755a",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0740": {
+    "context": {
+      "ja": "うそ・まさか！",
+      "en": "No way!",
+      "usage": "驚き・興奮・ショックへの強い相槌。",
+      "prompt": "You react with strong informal disbelief to surprising news.",
+      "form": "Exclamation",
+      "register": "daily"
+    },
+    "imageSha256": "e861764326c000fc3df72d6fe3c50ebe64da7a3bc7a594c524884639d0743ab8",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0741": {
+    "context": {
+      "ja": "本気で言ってるの？",
+      "en": "Are you serious?",
+      "usage": "驚きつつ事実を確認したいとき。",
+      "prompt": "You question whether a surprising statement is intended sincerely.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "7b84185be43c8a195bfb5ac1f12d9a6dd4d4f99dffb12dd7bde77f41fbe7877f",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0742": {
+    "context": {
+      "ja": "本当？・興味を示す",
+      "en": "Really? (rising)",
+      "usage": "上昇調で意外性・興味を示す。",
+      "prompt": "You respond with interested surprise and invite your friend to explain more.",
+      "form": "Adverb · Response",
+      "register": "daily"
+    },
+    "imageSha256": "6c0c6dc722f0bef68088311c5f7f82e50bc6f05e8bdb099d44ec7ca4196f0753",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0743": {
+    "context": {
+      "ja": "本当なの？・疑いやあきれ",
+      "en": "Really? (falling)",
+      "usage": "下降調で疑問・不信・あきれを表すことがある。",
+      "prompt": "You respond with disbelief or disappointment rather than enthusiastic curiosity.",
+      "form": "Adverb · Response",
+      "register": "daily"
+    },
+    "imageSha256": "111a76a0352bbd9ae6fcf0cc7bb3727b7a6f5b87b55573688288d8a6e8b6a1a0",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0744": {
+    "context": {
+      "ja": "なんとなく・特に理由はない",
+      "en": "just because",
+      "usage": "文末や単独で理由を詳述せずに終える。",
+      "prompt": "Someone asks why you chose something. You have no special reason.",
+      "form": "Adverbial phrase · Response",
+      "register": "daily"
+    },
+    "imageSha256": "b77b1b7857aefe93a5e4a961cf202d660bb37e9dbc849690d733b4246573cfc2",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0745": {
+    "context": {
+      "ja": "AだからといってBとは限らない",
+      "en": "Just because A doesn't mean B.",
+      "usage": "表面的な前提から短絡した結論を否定。",
+      "prompt": "You explain that one fact does not automatically prove a second claim.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "f84be9bd19b65a89e74ee58e55897011b38ead48dc89ed82bf909b12301418c8",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0746": {
+    "context": {
+      "ja": "それはさすがにちょっと",
+      "en": "That's a bit much.",
+      "usage": "要求・価格・言動が許容範囲を超える。",
+      "prompt": "You think someone's request or reaction is excessive.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "5922ede76c40d6ff09da07ff0a734a272cc5f2e273bd49dd4c1bda781b0eb1e2",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0747": {
+    "context": {
+      "ja": "それはやりすぎ・無理がある",
+      "en": "That's pushing it.",
+      "usage": "限度を超えている・無理な要求だ。",
+      "prompt": "A friend makes another demand that goes beyond reasonable limits.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "d542e8b9bd47ccf83152e0131da0864a0af172446631137f3de6ca640a77f297",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0748": {
+    "context": {
+      "ja": "さすがの私でも",
+      "en": "even I ...",
+      "usage": "通常なら平気な自分ですら例外ではない。",
+      "prompt": "You emphasize that something affects you despite your unusual tolerance.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "9bb0491c9813346b72a2aa6f56c1f0163b59172e1c55e9b1b8269afa0ab9815f",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0749": {
+    "context": {
+      "ja": "ここまで来たら・現段階では",
+      "en": "at this point",
+      "usage": "一定の経過の後に今の段階を指す。",
+      "prompt": "Given the progress already made, you reassess what should happen next.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "469d21c5365bdb19209596ed766c6a982dc926ad33d8834c5c3d82ea36cbe71d",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0750": {
+    "context": {
+      "ja": "さすがにもう・今となっては",
+      "en": "by now",
+      "usage": "時間が過ぎて今なら〜のはず。",
+      "prompt": "You think enough time has passed for something to have happened already.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "f088f8679ae7b78547e1a2c5af7cb8a19cea075d0f519002af01f04fdbed39bc",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0751": {
+    "context": {
+      "ja": "少し面倒だ",
+      "en": "It's a hassle.",
+      "usage": "手間が多く煩わしい。",
+      "prompt": "A simple errand requires several annoying extra steps.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "db6281799458bfb9b289201e30b23130ae2ff9dc8e8d01d773a5dfb017501db8",
+    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "method": "visual_image_context_review"
   }
 }

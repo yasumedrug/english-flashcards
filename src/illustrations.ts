@@ -2736,6 +2736,362 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_0661": {
     "ja": "〜することは可能でしょうか",
     "en": "Would it be possible to ...?"
+  },
+  "expr_0663": {
+    "ja": "それはいいね",
+    "en": "That’s great."
+  },
+  "expr_0664": {
+    "ja": "なるほど、筋が通る",
+    "en": "That makes sense."
+  },
+  "expr_0665": {
+    "ja": "それは知らなかった",
+    "en": "I didn’t know that."
+  },
+  "expr_0666": {
+    "ja": "それは考えたことがなかった",
+    "en": "I hadn’t thought of that."
+  },
+  "expr_0667": {
+    "ja": "BがAでないのと同じくXもAでない",
+    "en": "no more A than B"
+  },
+  "expr_0668": {
+    "ja": "全く〜ない",
+    "en": "not ... at all"
+  },
+  "expr_0669": {
+    "ja": "少しも〜ない",
+    "en": "not remotely ..."
+  },
+  "expr_0670": {
+    "ja": "決して〜ではない",
+    "en": "by no means ..."
+  },
+  "expr_0671": {
+    "ja": "〜どころか程遠い",
+    "en": "far from ..."
+  },
+  "expr_0672": {
+    "ja": "決して〜ではない／むしろ逆",
+    "en": "anything but ..."
+  },
+  "expr_0673": {
+    "ja": "〜には程遠い",
+    "en": "nowhere near ..."
+  },
+  "expr_0674": {
+    "ja": "全然違う／かすりもしない",
+    "en": "Not even close."
+  },
+  "expr_0675": {
+    "ja": "Bに劣らずXもAだ",
+    "en": "no less A than B"
+  },
+  "expr_0676": {
+    "ja": "Bと同じくらいA",
+    "en": "just as A as B"
+  },
+  "expr_0677": {
+    "ja": "Bに少しも劣らずA",
+    "en": "every bit as A as B"
+  },
+  "expr_0678": {
+    "ja": "なんと〜も",
+    "en": "no less than + 数量"
+  },
+  "expr_0679": {
+    "ja": "美容室・美容院",
+    "en": "hair salon"
+  },
+  "expr_0680": {
+    "ja": "美容師",
+    "en": "hairstylist"
+  },
+  "expr_0681": {
+    "ja": "美容師",
+    "en": "hairdresser"
+  },
+  "expr_0682": {
+    "ja": "〜になぞらえて考える",
+    "en": "compare A to B"
+  },
+  "expr_0683": {
+    "ja": "〜に例えると分かりやすいかも",
+    "en": "It might help to compare it to X."
+  },
+  "expr_0684": {
+    "ja": "Xみたいなものだと考えて",
+    "en": "Think of it like X."
+  },
+  "expr_0685": {
+    "ja": "まさにその通り",
+    "en": "Exactly."
+  },
+  "expr_0686": {
+    "ja": "まさにそれ！",
+    "en": "That’s exactly it."
+  },
+  "expr_0687": {
+    "ja": "まさにその〜／他でもないその〜",
+    "en": "the very ..."
+  },
+  "expr_0688": {
+    "ja": "過去の経験を活かす",
+    "en": "draw on my past experience"
+  },
+  "expr_0689": {
+    "ja": "〜を有効活用する",
+    "en": "put ... to good use"
+  },
+  "expr_0690": {
+    "ja": "〜になると思う・見込む",
+    "en": "expect"
+  },
+  "expr_0691": {
+    "ja": "将来の見込み・可能性",
+    "en": "prospect"
+  },
+  "expr_0692": {
+    "ja": "おしゃれな・洗練された",
+    "en": "stylish"
+  },
+  "expr_0693": {
+    "ja": "流行のおしゃれな",
+    "en": "trendy"
+  },
+  "expr_0694": {
+    "ja": "洗練された上品なおしゃれ",
+    "en": "chic"
+  },
+  "expr_0695": {
+    "ja": "ちょっと洒落てる・高級感がある",
+    "en": "fancy"
+  },
+  "expr_0696": {
+    "ja": "一皿の量・ポーション",
+    "en": "portion"
+  },
+  "expr_0697": {
+    "ja": "食欲旺盛",
+    "en": "have a big appetite"
+  },
+  "expr_0698": {
+    "ja": "すれ違う",
+    "en": "pass each other"
+  },
+  "expr_0699": {
+    "ja": "人の横を通り過ぎる",
+    "en": "walk past someone"
+  },
+  "expr_0700": {
+    "ja": "追い越す",
+    "en": "pass someone"
+  },
+  "expr_0701": {
+    "ja": "追い越す",
+    "en": "overtake"
+  },
+  "expr_0702": {
+    "ja": "紛らわしい",
+    "en": "confusing"
+  },
+  "expr_0703": {
+    "ja": "複雑でややこしい",
+    "en": "complicated"
+  },
+  "expr_0704": {
+    "ja": "微妙でややこしい・一筋縄ではいかない",
+    "en": "tricky"
+  },
+  "expr_0705": {
+    "ja": "ごちゃごちゃして面倒な",
+    "en": "messy"
+  },
+  "expr_0706": {
+    "ja": "やんちゃ・いたずら好き",
+    "en": "mischievous"
+  },
+  "expr_0707": {
+    "ja": "元気すぎて騒がしい",
+    "en": "rambunctious"
+  },
+  "expr_0708": {
+    "ja": "活発で元気な",
+    "en": "energetic"
+  },
+  "expr_0709": {
+    "ja": "穏やかで優しい",
+    "en": "gentle"
+  },
+  "expr_0710": {
+    "ja": "控えめで上品な",
+    "en": "demure"
+  },
+  "expr_0711": {
+    "ja": "行儀がよい",
+    "en": "well-mannered"
+  },
+  "expr_0712": {
+    "ja": "状況・緊張が落ち着く",
+    "en": "calm down"
+  },
+  "expr_0713": {
+    "ja": "〜を舞台にしている",
+    "en": "be set in ..."
+  },
+  "expr_0714": {
+    "ja": "〜で起こる・展開する",
+    "en": "take place in ..."
+  },
+  "expr_0715": {
+    "ja": "〜で撮影された",
+    "en": "be filmed in ..."
+  },
+  "expr_0716": {
+    "ja": "空気感・なんかいい感じ",
+    "en": "vibe"
+  },
+  "expr_0717": {
+    "ja": "その場全体の雰囲気",
+    "en": "atmosphere"
+  },
+  "expr_0718": {
+    "ja": "〜な雰囲気を醸し出す",
+    "en": "give off a ... vibe"
+  },
+  "expr_0719": {
+    "ja": "〜から何か変な感じを受ける",
+    "en": "get a ... vibe from ..."
+  },
+  "expr_0720": {
+    "ja": "日本食が恋しい",
+    "en": "I miss Japanese food."
+  },
+  "expr_0721": {
+    "ja": "日本食が無性に食べたい",
+    "en": "I’m craving Japanese food."
+  },
+  "expr_0722": {
+    "ja": "〜に由来する・〜から来ている",
+    "en": "come from"
+  },
+  "expr_0723": {
+    "ja": "〜に由来する",
+    "en": "derive from"
+  },
+  "expr_0724": {
+    "ja": "〜に起源を持つ・発祥する",
+    "en": "originate from / in"
+  },
+  "expr_0725": {
+    "ja": "〜に起因する",
+    "en": "stem from"
+  },
+  "expr_0726": {
+    "ja": "控えめで洗練された",
+    "en": "understated"
+  },
+  "expr_0727": {
+    "ja": "洗練された・大人っぽい",
+    "en": "sophisticated"
+  },
+  "expr_0728": {
+    "ja": "センスがよく上品な",
+    "en": "tasteful"
+  },
+  "expr_0729": {
+    "ja": "既知の対象を受ける it",
+    "en": "it"
+  },
+  "expr_0730": {
+    "ja": "今出た話・出来事を指す that",
+    "en": "that"
+  },
+  "expr_0731": {
+    "ja": "地方・農村部",
+    "en": "rural area"
+  },
+  "expr_0732": {
+    "ja": "すなわち・正確に言い直すと",
+    "en": "that is, ..."
+  },
+  "expr_0733": {
+    "ja": "言い換えると",
+    "en": "in other words, ..."
+  },
+  "expr_0734": {
+    "ja": "要するに",
+    "en": "basically, ..."
+  },
+  "expr_0735": {
+    "ja": "つまり〜ということだ",
+    "en": "which means ..."
+  },
+  "expr_0736": {
+    "ja": "その気持ちわかる",
+    "en": "I feel that."
+  },
+  "expr_0737": {
+    "ja": "自分にも心当たりがある",
+    "en": "I can relate."
+  },
+  "expr_0738": {
+    "ja": "それは大変そう",
+    "en": "That sounds really tough."
+  },
+  "expr_0739": {
+    "ja": "それは楽しそう",
+    "en": "That sounds fun."
+  },
+  "expr_0740": {
+    "ja": "うそ・まさか！",
+    "en": "No way!"
+  },
+  "expr_0741": {
+    "ja": "本気で言ってるの？",
+    "en": "Are you serious?"
+  },
+  "expr_0742": {
+    "ja": "本当？・興味を示す",
+    "en": "Really? (rising)"
+  },
+  "expr_0743": {
+    "ja": "本当なの？・疑いやあきれ",
+    "en": "Really? (falling)"
+  },
+  "expr_0744": {
+    "ja": "なんとなく・特に理由はない",
+    "en": "just because"
+  },
+  "expr_0745": {
+    "ja": "AだからといってBとは限らない",
+    "en": "Just because A doesn't mean B."
+  },
+  "expr_0746": {
+    "ja": "それはさすがにちょっと",
+    "en": "That's a bit much."
+  },
+  "expr_0747": {
+    "ja": "それはやりすぎ・無理がある",
+    "en": "That's pushing it."
+  },
+  "expr_0748": {
+    "ja": "さすがの私でも",
+    "en": "even I ..."
+  },
+  "expr_0749": {
+    "ja": "ここまで来たら・現段階では",
+    "en": "at this point"
+  },
+  "expr_0750": {
+    "ja": "さすがにもう・今となっては",
+    "en": "by now"
+  },
+  "expr_0751": {
+    "ja": "少し面倒だ",
+    "en": "It's a hassle."
   }
 }
 
