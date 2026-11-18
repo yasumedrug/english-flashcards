@@ -3092,6 +3092,330 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_0751": {
     "ja": "少し面倒だ",
     "en": "It's a hassle."
+  },
+  "expr_0752": {
+    "ja": "厄介で嫌になる",
+    "en": "It's a pain."
+  },
+  "expr_0753": {
+    "ja": "面倒でやる気がしない",
+    "en": "I can't be bothered."
+  },
+  "expr_0754": {
+    "ja": "それはひどいね",
+    "en": "That sucks."
+  },
+  "expr_0755": {
+    "ja": "それはきついね",
+    "en": "That's rough."
+  },
+  "expr_0756": {
+    "ja": "それはひどい・つらい",
+    "en": "That's awful."
+  },
+  "expr_0757": {
+    "ja": "壁にペンキを塗る",
+    "en": "paint the wall"
+  },
+  "expr_0758": {
+    "ja": "クリームなどを塗布する",
+    "en": "apply ..."
+  },
+  "expr_0759": {
+    "ja": "日焼け止めを塗る",
+    "en": "put on sunscreen"
+  },
+  "expr_0760": {
+    "ja": "バターなどを薄く広げる",
+    "en": "spread ... on ..."
+  },
+  "expr_0761": {
+    "ja": "表面全体を覆う",
+    "en": "coat ... with ..."
+  },
+  "expr_0762": {
+    "ja": "こすり込む",
+    "en": "rub it in"
+  },
+  "expr_0763": {
+    "ja": "べったり塗る",
+    "en": "smear it on"
+  },
+  "expr_0764": {
+    "ja": "たっぷり塗る",
+    "en": "slather it on"
+  },
+  "expr_0765": {
+    "ja": "スプレーを吹きかける",
+    "en": "spray ... on ..."
+  },
+  "expr_0766": {
+    "ja": "軽くシュッと吹きかける",
+    "en": "spritz it on"
+  },
+  "expr_0767": {
+    "ja": "細かい霧を吹く",
+    "en": "mist ... onto ..."
+  },
+  "expr_0769": {
+    "ja": "親切ではない",
+    "en": "unkind"
+  },
+  "expr_0770": {
+    "ja": "嫌な・悪意のある",
+    "en": "nasty"
+  },
+  "expr_0771": {
+    "ja": "悪意を込めて意地悪な",
+    "en": "spiteful"
+  },
+  "expr_0772": {
+    "ja": "残酷な",
+    "en": "cruel"
+  },
+  "expr_0774": {
+    "ja": "つぶつぶした食感",
+    "en": "grainy"
+  },
+  "expr_0775": {
+    "ja": "砂っぽくザラザラ",
+    "en": "gritty"
+  },
+  "expr_0776": {
+    "ja": "表面がざらざら",
+    "en": "rough"
+  },
+  "expr_0777": {
+    "ja": "つるつる・滑らか",
+    "en": "smooth"
+  },
+  "expr_0778": {
+    "ja": "滑りやすい",
+    "en": "slippery"
+  },
+  "expr_0779": {
+    "ja": "ぷにぷにした",
+    "en": "squishy"
+  },
+  "expr_0780": {
+    "ja": "ぷるぷる揺れる",
+    "en": "jiggly"
+  },
+  "expr_0781": {
+    "ja": "表面にぶつぶつ凹凸がある",
+    "en": "bumpy"
+  },
+  "expr_0782": {
+    "ja": "小さな斑点が散った",
+    "en": "speckled"
+  },
+  "expr_0784": {
+    "ja": "広く示す・見せる",
+    "en": "show"
+  },
+  "expr_0785": {
+    "ja": "徴候・データが示す",
+    "en": "indicate"
+  },
+  "expr_0786": {
+    "ja": "根拠・実演で明確に示す",
+    "en": "demonstrate"
+  },
+  "expr_0787": {
+    "ja": "可能性を示唆する",
+    "en": "suggest"
+  },
+  "expr_0788": {
+    "ja": "隠れていたことを明らかにする",
+    "en": "reveal"
+  },
+  "expr_0789": {
+    "ja": "〜を強く示唆する",
+    "en": "point to ..."
+  },
+  "expr_0790": {
+    "ja": "兆候・合図として示す",
+    "en": "signal"
+  },
+  "expr_0791": {
+    "ja": "背後の特徴を反映する",
+    "en": "reflect"
+  },
+  "expr_0792": {
+    "ja": "重要な点として",
+    "en": "It's worth noting that ..."
+  },
+  "expr_0793": {
+    "ja": "注目に値する",
+    "en": "noteworthy"
+  },
+  "expr_0794": {
+    "ja": "今後の動向を注視する価値",
+    "en": "worth keeping an eye on"
+  },
+  "expr_0795": {
+    "ja": "注目すべきは〜",
+    "en": "What stands out is ..."
+  },
+  "expr_0798": {
+    "ja": "何を考え込んでいるの？",
+    "en": "What's on your mind?"
+  },
+  "expr_0799": {
+    "ja": "何か気になっている",
+    "en": "It's been on my mind."
+  },
+  "expr_0800": {
+    "ja": "自分の考えでは",
+    "en": "In my mind, ..."
+  },
+  "expr_0801": {
+    "ja": "正確な名前は覚えてないけど",
+    "en": "I can't remember exactly what it's called, but ..."
+  },
+  "expr_0802": {
+    "ja": "正確な名前は思い出せない",
+    "en": "I can't remember the exact name."
+  },
+  "expr_0803": {
+    "ja": "ふと自分が〜と考えていることに気づく",
+    "en": "I catch myself thinking ..."
+  },
+  "expr_0804": {
+    "ja": "いったい自分は何をしてるんだろう",
+    "en": "What am I even doing?"
+  },
+  "expr_0805": {
+    "ja": "次の問題を出して",
+    "en": "Give me the next one."
+  },
+  "expr_0806": {
+    "ja": "では次に進もう",
+    "en": "Let's move on."
+  },
+  "expr_0807": {
+    "ja": "次は何？",
+    "en": "What's next?"
+  },
+  "expr_0808": {
+    "ja": "そのまま続けて",
+    "en": "Keep going."
+  },
+  "expr_0809": {
+    "ja": "話の続きをどうぞ",
+    "en": "Go on."
+  },
+  "expr_0810": {
+    "ja": "夜更かしする",
+    "en": "stay up late"
+  },
+  "expr_0811": {
+    "ja": "遅く寝る",
+    "en": "go to bed late"
+  },
+  "expr_0812": {
+    "ja": "つい夜更かしする",
+    "en": "I tend to stay up late."
+  },
+  "expr_0813": {
+    "ja": "〜するようにしている",
+    "en": "I try to ..."
+  },
+  "expr_0814": {
+    "ja": "意識して習慣として行う",
+    "en": "I make a point of ...ing."
+  },
+  "expr_0815": {
+    "ja": "必ず〜するようにしている",
+    "en": "I make sure to ..."
+  },
+  "expr_0816": {
+    "ja": "〜することが大切だと思う",
+    "en": "I think it's important to ..."
+  },
+  "expr_0817": {
+    "ja": "〜することが大切だ",
+    "en": "It's important to ..."
+  },
+  "expr_0818": {
+    "ja": "あるときから〜し始めた",
+    "en": "At some point, I started ...ing."
+  },
+  "expr_0819": {
+    "ja": "いつの間にか",
+    "en": "somewhere along the way"
+  },
+  "expr_0820": {
+    "ja": "〜する習慣がついた",
+    "en": "get into the habit of ...ing"
+  },
+  "expr_0821": {
+    "ja": "今も続いている",
+    "en": "still"
+  },
+  "expr_0822": {
+    "ja": "今になってもなお",
+    "en": "even now"
+  },
+  "expr_0823": {
+    "ja": "今日に至るまでずっと",
+    "en": "to this day"
+  },
+  "expr_0824": {
+    "ja": "当時の〜",
+    "en": "... at the time"
+  },
+  "expr_0825": {
+    "ja": "あの頃・当時は",
+    "en": "back then"
+  },
+  "expr_0826": {
+    "ja": "そこに着く",
+    "en": "get there"
+  },
+  "expr_0827": {
+    "ja": "ここに着く",
+    "en": "get here"
+  },
+  "expr_0828": {
+    "ja": "家に着く",
+    "en": "get home"
+  },
+  "expr_0829": {
+    "ja": "駅に着く",
+    "en": "get to the station"
+  },
+  "expr_0830": {
+    "ja": "乗客",
+    "en": "passenger"
+  },
+  "expr_0831": {
+    "ja": "乗る人・利用客",
+    "en": "rider"
+  },
+  "expr_0832": {
+    "ja": "通勤・通学者",
+    "en": "commuter"
+  },
+  "expr_0833": {
+    "ja": "風呂とトイレが別々",
+    "en": "The bathroom and toilet are separate."
+  },
+  "expr_0834": {
+    "ja": "浴室とは別のトイレ",
+    "en": "separate toilet"
+  },
+  "expr_0835": {
+    "ja": "浴槽とシャワーのある浴室",
+    "en": "bathroom with a tub and shower"
+  },
+  "expr_0836": {
+    "ja": "鈴虫",
+    "en": "Japanese bell cricket"
+  },
+  "expr_0841": {
+    "ja": "毛深い",
+    "en": "hairy"
   }
 }
 

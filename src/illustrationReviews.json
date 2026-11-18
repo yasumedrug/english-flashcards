@@ -10047,5 +10047,1058 @@
     "imageSha256": "db6281799458bfb9b289201e30b23130ae2ff9dc8e8d01d773a5dfb017501db8",
     "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
     "method": "visual_image_context_review"
+  },
+  "expr_0752": {
+    "context": {
+      "ja": "厄介で嫌になる",
+      "en": "It's a pain.",
+      "usage": "面倒でうんざりする。",
+      "prompt": "An inconvenient task is frustrating enough that you complain casually.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "3dac1ef4a1bff4b82f7d022ffe8da995f48e4d932be4b8ce1d851dd4bd9d5f60",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0753": {
+    "context": {
+      "ja": "面倒でやる気がしない",
+      "en": "I can't be bothered.",
+      "usage": "面倒だからしたくない。",
+      "prompt": "You do not feel motivated enough to make the effort.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "9c156ddc922903c58d2f4e737572d2427df14dd18b7f56542486646f69db0b00",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0754": {
+    "context": {
+      "ja": "それはひどいね",
+      "en": "That sucks.",
+      "usage": "悪いニュースへの口語的な反応。",
+      "prompt": "A friend reports bad news. You react with casual sympathy.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "6df0b33021809d38eab4c97847f44d277e86b18eba5942ec2fcf3f6f342f4b81",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0755": {
+    "context": {
+      "ja": "それはきついね",
+      "en": "That's rough.",
+      "usage": "気軽な会話でも共感的で乱暴さが少ない。",
+      "prompt": "A friend describes a difficult experience. You recognize how demanding it was.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "0a7f6c208271fac355ba7fe037ebdb863c8bb417ddbf5eeb4442ef4e2cc39bce",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0756": {
+    "context": {
+      "ja": "それはひどい・つらい",
+      "en": "That's awful.",
+      "usage": "内容が重大で望ましくないと評価。",
+      "prompt": "You react with concern to something particularly unpleasant or distressing.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "bb19559b62e296b4a407aa77b626b4e5b25010397d3df9e9d981566de61120a5",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0757": {
+    "context": {
+      "ja": "壁にペンキを塗る",
+      "en": "paint the wall",
+      "usage": "塗料で色を付ける。",
+      "prompt": "You change a room's color using a brush and a coating.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "d7e9da61296e9de014a6a4b8eb4fa3d18b852a5ffac2d1568f2c7a9688c53bfe",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0758": {
+    "context": {
+      "ja": "クリームなどを塗布する",
+      "en": "apply ...",
+      "usage": "薬・化粧品・日焼け止めを一定の場所につける。",
+      "prompt": "You put a small amount of medical cream onto your skin.",
+      "form": "Verb",
+      "register": "formal"
+    },
+    "imageSha256": "7f797a6ceb9044251721012d9e1e954f0b78fbd493373a7ca1bf7019ac7394dd",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0759": {
+    "context": {
+      "ja": "日焼け止めを塗る",
+      "en": "put on sunscreen",
+      "usage": "肌に塗る日常会話。",
+      "prompt": "You cover exposed skin with protection before going outside in sunlight.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "666ad29ec6425ba226528c421051b5e354970bf0e771f51225bf41f1971a12d1",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0760": {
+    "context": {
+      "ja": "バターなどを薄く広げる",
+      "en": "spread ... on ...",
+      "usage": "表面に薄く広げる。",
+      "prompt": "You distribute butter thinly across a piece of bread.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "f5f7a9aca44e782c5ad3659d9ec7b7954dc1f24c06591e3cc6e58a3e4027dc75",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0761": {
+    "context": {
+      "ja": "表面全体を覆う",
+      "en": "coat ... with ...",
+      "usage": "薄い層で全体を覆う。",
+      "prompt": "You cover an entire surface evenly with another substance.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "25648c05ab71b4bb9238b38328c1718849e63ba4ec057835b8a8db2aedc5833a",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0762": {
+    "context": {
+      "ja": "こすり込む",
+      "en": "rub it in",
+      "usage": "クリームを擦り込んでなじませる。",
+      "prompt": "You work cream into your skin using repeated small movements.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "2407d9fac5b0c82b3ee0a8488aecf79acbd56ed1c749917a47c12960d2551098",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0763": {
+    "context": {
+      "ja": "べったり塗る",
+      "en": "smear it on",
+      "usage": "やや雑・厚く広げる。",
+      "prompt": "You put a thick, uneven layer of cream onto a surface.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "88a5be33cc5dc05d2d95094514e96a3b9fa83f6dff8cf08297a1c99c8c98a9cc",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0764": {
+    "context": {
+      "ja": "たっぷり塗る",
+      "en": "slather it on",
+      "usage": "クリーム・日焼け止めなどを大量に塗る。",
+      "prompt": "You generously cover your skin with a large amount of lotion.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "c1c7b33e271158079d55674097b89a56a311ce509d848e7fcc617dbe9deb375b",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0765": {
+    "context": {
+      "ja": "スプレーを吹きかける",
+      "en": "spray ... on ...",
+      "usage": "霧状に対象へ吹きかける。",
+      "prompt": "You apply liquid from a pressurized bottle to a surface.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "0cb9ed46938c65e7624791c4183252057906adbc3e3382dcb323b513b0790591",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0766": {
+    "context": {
+      "ja": "軽くシュッと吹きかける",
+      "en": "spritz it on",
+      "usage": "少量を軽く吹き付ける。",
+      "prompt": "You apply a small quick burst of perfume.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "9da837bd210ba22a3c804bd8f8bec4a64a9137cb52729d67afc2dd58974aebe4",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0767": {
+    "context": {
+      "ja": "細かい霧を吹く",
+      "en": "mist ... onto ...",
+      "usage": "ミスト状に均一に付ける。",
+      "prompt": "You apply a fine cloud of tiny water droplets to leaves.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "2c4d15f3c990344d2c32009f54067121b94a2b971c0314d9eedb57a27e5c8872",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0769": {
+    "context": {
+      "ja": "親切ではない",
+      "en": "unkind",
+      "usage": "思いやりが欠けている。",
+      "prompt": "Someone's behavior shows little concern for another person's feelings.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "54a4ce7ee5374a1dcbb269ec9b862a14062782d811e465459e8588be6c49c8d3",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0770": {
+    "context": {
+      "ja": "嫌な・悪意のある",
+      "en": "nasty",
+      "usage": "感じの悪い言動や性格。",
+      "prompt": "A person makes an unpleasant, malicious comment.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "a0b733f60af545aa54662ad2f204ba1626ce7fc64373aae5e57ebde29afa8da2",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0771": {
+    "context": {
+      "ja": "悪意を込めて意地悪な",
+      "en": "spiteful",
+      "usage": "相手を傷つける意図がある。",
+      "prompt": "Someone deliberately acts to hurt another person out of resentment.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "942c07405028db044514eca6182f11ddb4e2fae5da5c18e98037573b4e71f549",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0772": {
+    "context": {
+      "ja": "残酷な",
+      "en": "cruel",
+      "usage": "重大な苦痛を与える残酷さ。",
+      "prompt": "Someone intentionally causes serious suffering without sympathy.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "b1b06a4be298f3b5d1d55dfb49260019ca54b56a37c7ee958f78d647e9b43918",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0774": {
+    "context": {
+      "ja": "つぶつぶした食感",
+      "en": "grainy",
+      "usage": "細かい粒を感じる。",
+      "prompt": "A sauce contains small particles you can feel while eating.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "652a572bd927a9338ea89dd5e81d574ffa583c428bf44444be35bb57eacae874",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0775": {
+    "context": {
+      "ja": "砂っぽくザラザラ",
+      "en": "gritty",
+      "usage": "硬い砂粒のような細かな摩擦。",
+      "prompt": "A mouthful feels unpleasantly like tiny grains of sand.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "4c6f8681603e93e111323c501545a8e199e17021fcc09bad7fc726e04648e972",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0776": {
+    "context": {
+      "ja": "表面がざらざら",
+      "en": "rough",
+      "usage": "なめらかではない表面。",
+      "prompt": "A wooden surface feels uneven and scratchy against your fingers.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "c5735349f35cc24311ae992dba6ce1d846e1c65080d3d83043c11653f018c90e",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0777": {
+    "context": {
+      "ja": "つるつる・滑らか",
+      "en": "smooth",
+      "usage": "凹凸がなく滑らか。",
+      "prompt": "A surface feels even and pleasant without bumps.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "2be2626bd61b2621bdc295a64d23ff08b64c07c9212e75f53b6627779fb23910",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0778": {
+    "context": {
+      "ja": "滑りやすい",
+      "en": "slippery",
+      "usage": "滑って転びそう、摩擦が少ない。",
+      "prompt": "A wet floor makes it easy to lose your footing.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "ba9d2fe44f79aff2241c5990aba7bb2791e395b50c40d60616710ff3dd2ebd5a",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0779": {
+    "context": {
+      "ja": "ぷにぷにした",
+      "en": "squishy",
+      "usage": "押すと柔らかくへこむ。",
+      "prompt": "A soft toy yields easily when squeezed and returns slowly.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "86f3decb8077b494f6a9f46187c3af6ce3a04c96b7148ba08820823696872875",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0780": {
+    "context": {
+      "ja": "ぷるぷる揺れる",
+      "en": "jiggly",
+      "usage": "ゼリーなどが柔らかく揺れる。",
+      "prompt": "A jelly dessert wobbles when you move the plate.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "47f4d9c0bf89945a1672d65b3d4170b6edf96139e478b3822ccd8f5ea050ea90",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0781": {
+    "context": {
+      "ja": "表面にぶつぶつ凹凸がある",
+      "en": "bumpy",
+      "usage": "小さな盛り上がり・凹凸がある。",
+      "prompt": "A surface has many raised and uneven spots.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "3a5e9475d34136acf160ff28a372d0c8fce9c911a0bbb4ac5f8c743f39bf7e0a",
+    "reviewedAt": "2026-11-17T23:16:52.847423+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0782": {
+    "context": {
+      "ja": "小さな斑点が散った",
+      "en": "speckled",
+      "usage": "細かい点々が見える。",
+      "prompt": "A bird's eggs have many tiny scattered markings.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "af4f88082fa91753b3f0f09087263a9452cff294a66f0d74c0dcbc7f6bff8cd2",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0784": {
+    "context": {
+      "ja": "広く示す・見せる",
+      "en": "show",
+      "usage": "日常会話から研究結果まで最も広い。",
+      "prompt": "You let someone see an object or piece of information.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "6e6fb080fb0847b48106410fb5b04c03c46f14f10554c8049ae0a0e02f69b7dd",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0785": {
+    "context": {
+      "ja": "徴候・データが示す",
+      "en": "indicate",
+      "usage": "徴候・結果がある解釈の方向を示す。",
+      "prompt": "The evidence points toward a particular conclusion without stating it directly.",
+      "form": "Verb",
+      "register": "formal"
+    },
+    "imageSha256": "fca57b9d5c98db5e44c7b09248f92041e667b7d290710c64c2f5b2aca9a6594b",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0786": {
+    "context": {
+      "ja": "根拠・実演で明確に示す",
+      "en": "demonstrate",
+      "usage": "効果・能力・手順を明らかに示す。",
+      "prompt": "You establish an idea clearly using evidence or a practical example.",
+      "form": "Verb",
+      "register": "formal"
+    },
+    "imageSha256": "7db9db43075e52dd0401f5b36f82f2d4b7121635cf7f5ee627524cb4f1666747",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0787": {
+    "context": {
+      "ja": "可能性を示唆する",
+      "en": "suggest",
+      "usage": "確定せず、データからの示唆を伝える。",
+      "prompt": "The evidence supports a possibility without proving it conclusively.",
+      "form": "Verb",
+      "register": "formal"
+    },
+    "imageSha256": "cccafa33fe9a8e577c976fe74a86ee3de8484a94f06a8b2d4bebb0e87714b1fd",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0788": {
+    "context": {
+      "ja": "隠れていたことを明らかにする",
+      "en": "reveal",
+      "usage": "検査・調査などが見えなかった事実を明るみに出す。",
+      "prompt": "New information makes a previously hidden fact known.",
+      "form": "Verb",
+      "register": "formal"
+    },
+    "imageSha256": "f49042e705bebfb7fee9bde1ac87e99b4031c40a0a195d7ffafc906f7e13778b",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0789": {
+    "context": {
+      "ja": "〜を強く示唆する",
+      "en": "point to ...",
+      "usage": "証拠が特定の結論・原因を指す。",
+      "prompt": "Several pieces of evidence strongly support one particular explanation.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "6f56bc9fc19e802cecd6ac26e41e013fc3280225f6b448564b2041d1972a44a5",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0790": {
+    "context": {
+      "ja": "兆候・合図として示す",
+      "en": "signal",
+      "usage": "変化や意図のサインになる。",
+      "prompt": "A change serves as an early sign that something is happening.",
+      "form": "Verb",
+      "register": "formal"
+    },
+    "imageSha256": "b609e7a95704879c1a6652ba0c34fa5a399b726b9cd15b38e1ab28a49cbe6a97",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0791": {
+    "context": {
+      "ja": "背後の特徴を反映する",
+      "en": "reflect",
+      "usage": "観察されることが内部の状態を映す。",
+      "prompt": "A person's choices express their underlying values and priorities.",
+      "form": "Verb",
+      "register": "formal"
+    },
+    "imageSha256": "99134d7479ab2deee6777e28204630986c1c80536cf234141029d6bb648eb58f",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0792": {
+    "context": {
+      "ja": "重要な点として",
+      "en": "It's worth noting that ...",
+      "usage": "指摘・確認しておく価値のある事実を導入。",
+      "prompt": "You draw attention to a significant detail in a formal explanation.",
+      "form": "Sentence pattern",
+      "register": "formal"
+    },
+    "imageSha256": "484f7acfac89b0bec36fd4def74b0e317a2dc93d0bf3acf790ce4e975fb48af5",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0793": {
+    "context": {
+      "ja": "注目に値する",
+      "en": "noteworthy",
+      "usage": "取り上げる価値がある。",
+      "prompt": "A finding is significant enough to deserve special notice.",
+      "form": "Adjective",
+      "register": "formal"
+    },
+    "imageSha256": "50bebc2785a7470857ab3562bfdbaf9f9dfc9ba3ab34e257c7879112f2402a37",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0794": {
+    "context": {
+      "ja": "今後の動向を注視する価値",
+      "en": "worth keeping an eye on",
+      "usage": "将来どうなるか経過観察する価値がある。",
+      "prompt": "A trend deserves continued observation because it could become important.",
+      "form": "Adjective phrase",
+      "register": "daily"
+    },
+    "imageSha256": "3dcd0fbfbfdb30690d3077ff1cfc1c23a1a8e45678a97842a3c09c02071c0170",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0795": {
+    "context": {
+      "ja": "注目すべきは〜",
+      "en": "What stands out is ...",
+      "usage": "複数の情報から際立つ点を取り上げる。",
+      "prompt": "You single out the feature that is most noticeable.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "d22833ee391f6dd093b0ca7c6366218c1c34c2557dafbc655a6f8251c5781bcb",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0798": {
+    "context": {
+      "ja": "何を考え込んでいるの？",
+      "en": "What's on your mind?",
+      "usage": "頭や心を占める考え・心配・関心を広く聞く。",
+      "prompt": "Your friend seems thoughtful, and you ask about their current concerns.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "4428ec86411bdcde0b5d04bc5ecf422d8d213fc8324ccabb18fac530d57a4f4b",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0799": {
+    "context": {
+      "ja": "何か気になっている",
+      "en": "It's been on my mind.",
+      "usage": "意識に残り気になり続けている。",
+      "prompt": "A particular issue has occupied your thoughts for some time.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "81ef6fa5187aca2e2434cf783562fead26edad2349c7aab2c2f4192122993a13",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0800": {
+    "context": {
+      "ja": "自分の考えでは",
+      "en": "In my mind, ...",
+      "usage": "自分の判断・見方から言うと。",
+      "prompt": "You introduce your personal perspective rather than an objective fact.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "ac9d7637cf033594c02636e0cd80744377cac2c708d30998dccd0252626baa20",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0801": {
+    "context": {
+      "ja": "正確な名前は覚えてないけど",
+      "en": "I can't remember exactly what it's called, but ...",
+      "usage": "名称を思い出せないまま説明を続ける。",
+      "prompt": "You describe an object while admitting its precise label escapes you.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "015e297f051907748b04f26f508a0d2eb82a2a13d682a5b976604f4ea1070ce0",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0802": {
+    "context": {
+      "ja": "正確な名前は思い出せない",
+      "en": "I can't remember the exact name.",
+      "usage": "短く名前を思い出せないと言う。",
+      "prompt": "You recognize an object but cannot retrieve its precise label.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "55451687fc2dfb050dccd8592a15f5d0df26fcd653756ae579a17387fda2cb72",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0803": {
+    "context": {
+      "ja": "ふと自分が〜と考えていることに気づく",
+      "en": "I catch myself thinking ...",
+      "usage": "気づいたら自分が考えている。",
+      "prompt": "You suddenly notice an unexpected thought already occupying your attention.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "a54582ab9a8b3168c54996bfa25e9bd283b8d665c2b5eb4904fbe9cf78339b80",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0804": {
+    "context": {
+      "ja": "いったい自分は何をしてるんだろう",
+      "en": "What am I even doing?",
+      "usage": "自嘲・戸惑い・自問の強調。",
+      "prompt": "You question your own actions in a moment of confusion or frustration.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "d0de6c3a4b0b336bb88d2fb832213b0c21d5cb25ee35dcba81fe803580002912",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0805": {
+    "context": {
+      "ja": "次の問題を出して",
+      "en": "Give me the next one.",
+      "usage": "会話練習で次の項目を要求。",
+      "prompt": "You ask your study partner to present another question.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "3ea68102c47bd2492418fc47582a7921ba2cdf5a94f6044ab597daff62a43b68",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0806": {
+    "context": {
+      "ja": "では次に進もう",
+      "en": "Let's move on.",
+      "usage": "今の問題や話題を終えて次へ切り替える。",
+      "prompt": "You suggest ending this topic and proceeding to another.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "3f0f27c8715969b58344e0b0a6eba25cd65d86bd81864be2961f75c89d26d5d1",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0807": {
+    "context": {
+      "ja": "次は何？",
+      "en": "What's next?",
+      "usage": "順番のある話題・設問の次を聞く。",
+      "prompt": "You ask which task comes after the current one.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "97fa839a5f66727db0877ed3bc849275547f706dfcb4d0db6e600146a8257668",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0808": {
+    "context": {
+      "ja": "そのまま続けて",
+      "en": "Keep going.",
+      "usage": "中断せず続けてほしい。",
+      "prompt": "You encourage someone to continue their activity without stopping.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "b9daa63d40420db3d03d14c4cb3b667f793268a9da83daa65b6ecb36ff49ec94",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0809": {
+    "context": {
+      "ja": "話の続きをどうぞ",
+      "en": "Go on.",
+      "usage": "相手に続けて話してもらう。",
+      "prompt": "You invite someone to continue the story they were telling.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "c2e90001fcc13a9bdcfdfaf0f9238c74a08e90952447a5d871435db4b9d18c74",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0810": {
+    "context": {
+      "ja": "夜更かしする",
+      "en": "stay up late",
+      "usage": "遅くまで起きている。",
+      "prompt": "You remain awake well beyond your usual nighttime routine.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "027456843bdc8014fc9b79a533977310d3f2bc1b7b868f22bfe25673b760e4e1",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0811": {
+    "context": {
+      "ja": "遅く寝る",
+      "en": "go to bed late",
+      "usage": "就寝する時刻が遅い。",
+      "prompt": "You remain awake beyond your usual nighttime routine, then finally lie down.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "cf774c1da624589b71714a8afa8669543afc1892a3372b9bf9e979d6196a0027",
+    "reviewedAt": "2026-11-18T05:13:58.548631+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0812": {
+    "context": {
+      "ja": "つい夜更かしする",
+      "en": "I tend to stay up late.",
+      "usage": "夜更かししがちな傾向。",
+      "prompt": "You describe your recurring habit of remaining awake too long at night.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "c29715d2a14bb9d17c98aa3f3fbf23d7d228e2d8fe204c08d3595e70b5aa33fb",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0813": {
+    "context": {
+      "ja": "〜するようにしている",
+      "en": "I try to ...",
+      "usage": "習慣を目指して努力する。",
+      "prompt": "You describe an effort to regularly perform a useful action.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "6b02597419384248e847a57fbe0c3b55c080b727d5ca9f671d7959ed9f0b9441",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0814": {
+    "context": {
+      "ja": "意識して習慣として行う",
+      "en": "I make a point of ...ing.",
+      "usage": "自分の原則として意識的に行う。",
+      "prompt": "You deliberately treat an activity as something important to do regularly.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "1d4e78c6b255ca77dbb7d3765d0a0c5906c96751d01e61fa49ec671905a36e12",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0815": {
+    "context": {
+      "ja": "必ず〜するようにしている",
+      "en": "I make sure to ...",
+      "usage": "忘れずに確実に行う。",
+      "prompt": "You take care that a particular action always happens.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "8422d58ddaf74df4ab9b779628384e1b1634bf15b979df19aaf31fad173042df",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0816": {
+    "context": {
+      "ja": "〜することが大切だと思う",
+      "en": "I think it's important to ...",
+      "usage": "自分の判断として大切さを述べる。",
+      "prompt": "You express your belief that a particular action matters.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "3d2830f27bfd89545d54a37735a45b47cdd40498caec1b012d4337d18dd54899",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0817": {
+    "context": {
+      "ja": "〜することが大切だ",
+      "en": "It's important to ...",
+      "usage": "一般的な重要性を伝える。",
+      "prompt": "You state that a particular action matters in general.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "a7de80435626de10b7b5e8ab307f7b3ab56f4d5edb8851350f72d3ac295aa7c8",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0818": {
+    "context": {
+      "ja": "あるときから〜し始めた",
+      "en": "At some point, I started ...ing.",
+      "usage": "いつかは不明でも開始した変化を述べる。",
+      "prompt": "You describe an activity that began during an unspecified past period.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "52b367a82a60ded12a3edb1a47d73b4415862276cc61f579b55b65a67077d92e",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0819": {
+    "context": {
+      "ja": "いつの間にか",
+      "en": "somewhere along the way",
+      "usage": "変化のプロセスの途中で自然とそうなった。",
+      "prompt": "A change happened during your journey, but you cannot identify the exact moment.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "f1572d6f94a8da23c3767af17409fc2f37f96be9daa2f9c3d07fdb490ad92580",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0820": {
+    "context": {
+      "ja": "〜する習慣がついた",
+      "en": "get into the habit of ...ing",
+      "usage": "新しい習慣を身につける。",
+      "prompt": "Repeatedly performing an action makes it part of your normal routine.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "64d1103d7fd9e1de310ba6ab80c741dde3bab5f82f5995828483eb6e44fa6ecb",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0821": {
+    "context": {
+      "ja": "今も続いている",
+      "en": "still",
+      "usage": "過去に始まった状態が今も変わらない。",
+      "prompt": "An activity that began earlier continues at the present moment.",
+      "form": "Adverb",
+      "register": "daily"
+    },
+    "imageSha256": "d11a90e44dddff71015ed135aaa55b71a33ae0e046aeff60f842f4a3ecb3a89a",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0822": {
+    "context": {
+      "ja": "今になってもなお",
+      "en": "even now",
+      "usage": "年月を経ても続いているという意外性。",
+      "prompt": "You emphasize that something continues despite the long time that has passed.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "440b4be270422878ed266ed3b746cd2dbbc1228178c4f7f5fa3b3e4f61895f76",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0823": {
+    "context": {
+      "ja": "今日に至るまでずっと",
+      "en": "to this day",
+      "usage": "過去から現在まで継続していることを振り返る。",
+      "prompt": "You emphasize continuity from a distant past event until the present.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "6c5f3ec04560b9594e1bb819aa33980124d3d5f89993e51bd1dd009e8a720ff5",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0824": {
+    "context": {
+      "ja": "当時の〜",
+      "en": "... at the time",
+      "usage": "特定の過去の時点での役割・状況。",
+      "prompt": "You refer to the circumstances during a particular earlier period.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "f2616bf7339d5d60e7244abdb8dedc7557111aedb59941a7ed6786a207103bbb",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0825": {
+    "context": {
+      "ja": "あの頃・当時は",
+      "en": "back then",
+      "usage": "昔の状況を振り返り、現在と対比する。",
+      "prompt": "You contrast an earlier period of your life with the present.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "8fc64752c57e32c0e9a5a1339f467c2acdbb7e23537b05c7e8136500f1475734",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0826": {
+    "context": {
+      "ja": "そこに着く",
+      "en": "get there",
+      "usage": "目的の場所に到着する。",
+      "prompt": "You ask when someone will arrive at a previously mentioned destination.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "4b5ef25e538f64fecd86a15e53c7c2266348d0af2098713a4437c8b777778f90",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0827": {
+    "context": {
+      "ja": "ここに着く",
+      "en": "get here",
+      "usage": "話者のいる場所に到着する。",
+      "prompt": "You ask when your friend will arrive where you currently are.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "f977295f530ebbdbf9dd52dda57c3c0218c63b7ff07b6c8eaa5bc34f45de1c97",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0828": {
+    "context": {
+      "ja": "家に着く",
+      "en": "get home",
+      "usage": "自宅に到着する。",
+      "prompt": "After work, you finally arrive at your own residence.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "1caa8da03b3f91ff9ee508d6f45854bf4ffafc4c48653f1248fcf772892df194",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0829": {
+    "context": {
+      "ja": "駅に着く",
+      "en": "get to the station",
+      "usage": "場所を名詞で表す場合はtoが必要。",
+      "prompt": "You reach the place where trains arrive and depart.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "3ecab6c42a278819f5262ab7ab89e36b8ab5b75d89b1e9eac3e62e9c924e1ad6",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0830": {
+    "context": {
+      "ja": "乗客",
+      "en": "passenger",
+      "usage": "飛行機・バス・電車などの乗客。",
+      "prompt": "You travel in a vehicle without being its driver.",
+      "form": "Noun",
+      "register": "daily"
+    },
+    "imageSha256": "7311ca57936a050768c16f9d08eb31a8851bd558408b6655563083ee0d4d4007",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0831": {
+    "context": {
+      "ja": "乗る人・利用客",
+      "en": "rider",
+      "usage": "バス・電車などの利用者。",
+      "prompt": "You describe a person using a bicycle or public vehicle.",
+      "form": "Noun",
+      "register": "daily"
+    },
+    "imageSha256": "dae13df05019d33f5b38fa5d007acc9e715fa26961115191293675841c772237",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0832": {
+    "context": {
+      "ja": "通勤・通学者",
+      "en": "commuter",
+      "usage": "通勤・通学など定期的な移動をする人。",
+      "prompt": "You regularly travel between your residence and workplace.",
+      "form": "Noun",
+      "register": "daily"
+    },
+    "imageSha256": "19e5b392b02a1511703be368e929644657f25db6efe743935dff641d963fa8a4",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0833": {
+    "context": {
+      "ja": "風呂とトイレが別々",
+      "en": "The bathroom and toilet are separate.",
+      "usage": "日本式の風呂・トイレ別を説明する。",
+      "prompt": "You explain that washing facilities and the WC occupy different rooms.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "ec02c06a06764bfd04d8cc0bccc03b23fe03ba17fc1343ee356ae1a80941bad7",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0834": {
+    "context": {
+      "ja": "浴室とは別のトイレ",
+      "en": "separate toilet",
+      "usage": "住宅設備で浴室と独立したトイレ。",
+      "prompt": "You describe a WC located outside the room used for washing.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "4446154fe47010cfb98389f5ed175930c0f8007ddc8fef6beb7c745ff7412a35",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0835": {
+    "context": {
+      "ja": "浴槽とシャワーのある浴室",
+      "en": "bathroom with a tub and shower",
+      "usage": "風呂のみの部屋を設備込みで説明。",
+      "prompt": "You describe a room containing facilities for soaking and standing washing.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "7c3dd24256edb6f2571451164579ef6b6a169045e3c898fe5f6ebbf3876b7997",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0836": {
+    "context": {
+      "ja": "鈴虫",
+      "en": "Japanese bell cricket",
+      "usage": "日本の鈴虫を種として明示する。",
+      "prompt": "You hear a familiar autumn insect making a clear ringing sound.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "e2a59d84947c7a02da4ad861756a26725ed12c5ee079e1df4069502a4249fe51",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_0841": {
+    "context": {
+      "ja": "毛深い",
+      "en": "hairy",
+      "usage": "体毛が多い人や動物。",
+      "prompt": "A person's limbs are covered in a noticeable amount of natural growth.",
+      "form": "Adjective",
+      "register": "daily"
+    },
+    "imageSha256": "c35b2dd8eb1cd82c2947200012541060449f74facc2ec9ab0bedd03fbf628713",
+    "reviewedAt": "2026-11-18T11:16:35.953757+00:00",
+    "method": "visual_image_context_review"
   }
 }
