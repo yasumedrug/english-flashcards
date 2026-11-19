@@ -9676,12 +9676,12 @@
       "ja": "〜に由来する",
       "en": "derive from",
       "usage": "語・概念・利益などが源から生じる。",
-      "prompt": "You formally trace an idea to its original source.",
+      "prompt": "A new bridge design is based on an older one.",
       "form": "Verb phrase",
       "register": "formal"
     },
     "imageSha256": "573bdccf0807c8b04723663c1c3b39c51ebdfa4af9ef3127383d49a2478e01f5",
-    "reviewedAt": "2026-11-17T11:21:26.281608+00:00",
+    "reviewedAt": "2026-11-19T01:53:17.357772+00:00",
     "method": "visual_image_context_review"
   },
   "expr_0724": {
