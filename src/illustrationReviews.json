@@ -1093,16 +1093,16 @@
   },
   "expr_0055": {
     "context": {
-      "ja": "深く考える",
+      "ja": "深く考える・行動を真剣に検討する",
       "en": "contemplate",
-      "usage": "重大なことを深く熟考する。",
+      "usage": "転職などの大きな選択肢を、まだ決めずにじっくり検討する。",
       "prompt": "You carefully consider a major life change before deciding.",
       "form": "Verb",
       "register": "formal"
     },
     "imageSha256": "49f8ed6ce4745ee602e6c5e7d32c08952976c2af29ed5d3ff76b8f2e6c63e3c7",
-    "reviewedAt": "2026-11-15T01:11:34.275048+00:00",
-    "method": "visual_context_audit"
+    "reviewedAt": "2026-11-19T05:00:25.110476+00:00",
+    "method": "visual_image_context_review"
   },
   "expr_0056": {
     "context": {
@@ -1314,16 +1314,16 @@
   },
   "expr_0072": {
     "context": {
-      "ja": "ありがたさ",
+      "ja": "便利さ・利便性",
       "en": "convenience",
-      "usage": "便利さ。",
+      "usage": "家電などのおかげで生活の手間が減り、楽になる点を話す。",
       "prompt": "A washing machine at home saves you time and effort.",
       "form": "Noun",
       "register": "daily"
     },
     "imageSha256": "cf348ac5346034be25b050016adfc11479978ddbeba894058a9ba85d4a0f242e",
-    "reviewedAt": "2026-11-15T01:11:34.275048+00:00",
-    "method": "visual_context_audit"
+    "reviewedAt": "2026-11-19T05:00:25.110744+00:00",
+    "method": "visual_image_context_review"
   },
   "expr_0073": {
     "context": {
@@ -1522,16 +1522,16 @@
   },
   "expr_0089": {
     "context": {
-      "ja": "多数",
+      "ja": "非常に多くの〜",
       "en": "a multitude of",
-      "usage": "非常に多くの。ややフォーマル。",
-      "prompt": "There are countless activities you could choose from in your free hours.",
+      "usage": "多くの異なる要因が関わることを、文章や説明で強調する。",
+      "prompt": "Your learning is influenced by numerous resources, activities, and people.",
       "form": "Quantity phrase",
       "register": "written"
     },
     "imageSha256": "61509392676f7ec75cd436f2399b2a49ab9e26541410b6db9db45eba2b2670de",
-    "reviewedAt": "2026-11-15T01:11:34.275048+00:00",
-    "method": "visual_context_audit"
+    "reviewedAt": "2026-11-19T05:00:25.110811+00:00",
+    "method": "visual_image_context_review"
   },
   "expr_0090": {
     "context": {
@@ -1587,16 +1587,16 @@
   },
   "expr_0094": {
     "context": {
-      "ja": "傾向がある",
+      "ja": "〜する傾向がある・どちらかというと〜と思う",
       "en": "be inclined to",
-      "usage": "気持ちや判断がそちらに傾く。",
+      "usage": "相手の意見に、断定は控えつつ賛成寄りだと伝える。",
       "prompt": "You naturally lean toward one proposal after hearing your colleague's explanation.",
       "form": "Adjective phrase",
       "register": "formal"
     },
     "imageSha256": "90ff249345195d141f5a037fa0d0641cda22d386955c281f8f1c1b2da75a786c",
-    "reviewedAt": "2026-11-15T01:11:34.275048+00:00",
-    "method": "visual_context_audit"
+    "reviewedAt": "2026-11-19T05:00:25.111018+00:00",
+    "method": "visual_image_context_review"
   },
   "expr_0095": {
     "context": {
@@ -1925,7 +1925,7 @@
   },
   "expr_0120": {
     "context": {
-      "ja": "解説する",
+      "ja": "複雑な内容をかみ砕いて説明する",
       "en": "break down",
       "usage": "複雑なものをかみ砕いて説明する。",
       "prompt": "Your friend needs a complicated topic explained in smaller, easier pieces.",
@@ -1933,12 +1933,12 @@
       "register": "daily"
     },
     "imageSha256": "e72fac64596e6c47fb1df10e4843dfb1c4853b13f1cefe8bdef9fb9aa02e7b07",
-    "reviewedAt": "2026-11-15T01:11:34.275048+00:00",
-    "method": "visual_context_audit"
+    "reviewedAt": "2026-11-19T05:00:25.111230+00:00",
+    "method": "visual_image_context_review"
   },
   "expr_0121": {
     "context": {
-      "ja": "解説する",
+      "ja": "相手に手順を一つずつ説明する",
       "en": "walk someone through",
       "usage": "順を追って説明する。",
       "prompt": "You guide a beginner through each step while doing the task together.",
@@ -1946,8 +1946,8 @@
       "register": "daily"
     },
     "imageSha256": "6c121d06c82f0ca1eb2939c6fdaa79531ce6219f0153fbb77804b73e5439936d",
-    "reviewedAt": "2026-11-15T01:11:34.275048+00:00",
-    "method": "visual_context_audit"
+    "reviewedAt": "2026-11-19T05:00:25.111436+00:00",
+    "method": "visual_image_context_review"
   },
   "expr_0122": {
     "context": {
@@ -3589,16 +3589,16 @@
   },
   "expr_0251": {
     "context": {
-      "ja": "余分な",
+      "ja": "追加の・予備の",
       "en": "extra",
-      "usage": "基本量に加えてもう一つ。中立。",
+      "usage": "普段の分に加えて、タオルをもう一枚ほしいと頼む。",
       "prompt": "A guest needs one more towel beyond the one already provided.",
       "form": "Adjective",
       "register": "daily"
     },
     "imageSha256": "e4e004c3408596f571e6d84e181b84d25c0050f3f02e1e025de1c4ea386e1186",
-    "reviewedAt": "2026-11-15T01:11:34.275048+00:00",
-    "method": "visual_context_audit"
+    "reviewedAt": "2026-11-19T05:00:25.111647+00:00",
+    "method": "visual_image_context_review"
   },
   "expr_0252": {
     "context": {
@@ -3708,27 +3708,27 @@
     "context": {
       "ja": "よく考える",
       "en": "think it over",
-      "usage": "決断前にじっくり考える。",
+      "usage": "返事をすぐに決めず、選択肢を考える時間がほしいと伝える。",
       "prompt": "You want time to consider a choice carefully before deciding.",
       "form": "Verb phrase",
       "register": "daily"
     },
     "imageSha256": "25ea13c2508359b8e053506c034da50ac4e3719cd176ab9a6e197aef62dfc8b6",
-    "reviewedAt": "2026-11-15T01:11:34.275048+00:00",
-    "method": "visual_context_audit"
+    "reviewedAt": "2026-11-19T05:00:25.111855+00:00",
+    "method": "visual_image_context_review"
   },
   "expr_0261": {
     "context": {
-      "ja": "よく考える",
+      "ja": "結果まで筋道立ててよく考える",
       "en": "think it through",
-      "usage": "結果まで筋道立てて考える。",
+      "usage": "行動を決める前に、その先の結果や手順も考えておく。",
       "prompt": "You carefully consider each step and its likely consequences before acting.",
       "form": "Verb phrase",
       "register": "daily"
     },
     "imageSha256": "3c16b0b721184ea6ff901e4a63b85d30587590709adf5ee675b54cf9f02ad354",
-    "reviewedAt": "2026-11-15T01:11:34.275048+00:00",
-    "method": "visual_context_audit"
+    "reviewedAt": "2026-11-19T05:00:25.112061+00:00",
+    "method": "visual_image_context_review"
   },
   "expr_0262": {
     "context": {
@@ -4122,29 +4122,29 @@
   },
   "expr_0292": {
     "context": {
-      "ja": "今のところ",
+      "ja": "当面は／ここまでのところは",
       "en": "for now / so far",
-      "usage": "for nowは当面、so farはここまでの経過。",
+      "usage": "当面の対応と、始めてから現在までの進み具合を区別して述べる。",
       "prompt": "Everything has gone well up to this point, though the task is unfinished.",
       "form": "Adverbial phrase",
       "register": "daily"
     },
     "imageSha256": "c5bd4aecf59b843ae63b5e8b711997604f54c5230d30dca35ea33dc67aa7fac5",
-    "reviewedAt": "2026-11-15T01:11:34.275048+00:00",
-    "method": "visual_context_audit"
+    "reviewedAt": "2026-11-19T05:00:25.112267+00:00",
+    "method": "visual_image_context_review"
   },
   "expr_0293": {
     "context": {
-      "ja": "今までは",
+      "ja": "今まで・今に至るまでは",
       "en": "until now / up to now",
-      "usage": "過去から現在まで。",
-      "prompt": "You have mostly studied alone throughout the period ending today.",
+      "usage": "これまでは一人で練習していたが、今は講師と話し始めたと説明する。",
+      "prompt": "You studied alone before today, but now someone is helping you.",
       "form": "Adverbial phrase",
       "register": "daily"
     },
     "imageSha256": "94ec2350bd2f0bf9170cbee74e54934e1156577f09ed12c5734d5aebefa26b0d",
-    "reviewedAt": "2026-11-15T01:11:34.275048+00:00",
-    "method": "visual_context_audit"
+    "reviewedAt": "2026-11-19T05:00:25.112321+00:00",
+    "method": "visual_image_context_review"
   },
   "expr_0294": {
     "context": {

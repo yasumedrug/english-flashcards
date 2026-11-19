@@ -6,6 +6,7 @@ type Hint = { label: string; text: string }
 // silently keep an out-of-date hint. These are contextual cues, not translations
 // of the English comparisons and grammar explanations on the answer side.
 const contextRewrites: Record<string, string> = {
+  '写真をSNSに載せたくなるような場所・食べ物などを形容するくだけた語。': '写真を交流サイトに投稿したくなるほど、見た目の美しい場所や料理について話す。',
   '控えめな人柄。助けを求めにくいという具体的な行動なら例文。': '人前であまり感情や意見を表に出さない、控えめな人柄について話す。',
   '親切で配慮がある。細かい点に気づくことを褒めるなら例文。': '相手の立場を考えて、さりげなく配慮できる人を褒める。',
   '秘密を守れない。例文は婉曲な忠告。': '内緒の話もすぐほかの人に話してしまう人について述べる。',

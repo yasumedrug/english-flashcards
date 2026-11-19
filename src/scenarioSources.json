@@ -432,9 +432,9 @@
     "register": "formal"
   },
   "expr_0055": {
-    "ja": "深く考える",
+    "ja": "深く考える・行動を真剣に検討する",
     "en": "contemplate",
-    "usage": "重大なことを深く熟考する。",
+    "usage": "転職などの大きな選択肢を、まだ決めずにじっくり検討する。",
     "prompt": "You carefully consider a major life change before deciding.",
     "form": "Verb",
     "register": "formal"
@@ -568,9 +568,9 @@
     "register": "formal"
   },
   "expr_0072": {
-    "ja": "ありがたさ",
+    "ja": "便利さ・利便性",
     "en": "convenience",
-    "usage": "便利さ。",
+    "usage": "家電などのおかげで生活の手間が減り、楽になる点を話す。",
     "prompt": "A washing machine at home saves you time and effort.",
     "form": "Noun",
     "register": "daily"
@@ -704,10 +704,10 @@
     "register": "formal"
   },
   "expr_0089": {
-    "ja": "多数",
+    "ja": "非常に多くの〜",
     "en": "a multitude of",
-    "usage": "非常に多くの。ややフォーマル。",
-    "prompt": "There are countless activities you could choose from in your free hours.",
+    "usage": "多くの異なる要因が関わることを、文章や説明で強調する。",
+    "prompt": "Your learning is influenced by numerous resources, activities, and people.",
     "form": "Quantity phrase",
     "register": "written"
   },
@@ -744,9 +744,9 @@
     "register": "daily"
   },
   "expr_0094": {
-    "ja": "傾向がある",
+    "ja": "〜する傾向がある・どちらかというと〜と思う",
     "en": "be inclined to",
-    "usage": "気持ちや判断がそちらに傾く。",
+    "usage": "相手の意見に、断定は控えつつ賛成寄りだと伝える。",
     "prompt": "You naturally lean toward one proposal after hearing your colleague's explanation.",
     "form": "Adjective phrase",
     "register": "formal"
@@ -952,7 +952,7 @@
     "register": "formal"
   },
   "expr_0120": {
-    "ja": "解説する",
+    "ja": "複雑な内容をかみ砕いて説明する",
     "en": "break down",
     "usage": "複雑なものをかみ砕いて説明する。",
     "prompt": "Your friend needs a complicated topic explained in smaller, easier pieces.",
@@ -960,7 +960,7 @@
     "register": "daily"
   },
   "expr_0121": {
-    "ja": "解説する",
+    "ja": "相手に手順を一つずつ説明する",
     "en": "walk someone through",
     "usage": "順を追って説明する。",
     "prompt": "You guide a beginner through each step while doing the task together.",
@@ -2000,9 +2000,9 @@
     "register": "daily"
   },
   "expr_0251": {
-    "ja": "余分な",
+    "ja": "追加の・予備の",
     "en": "extra",
-    "usage": "基本量に加えてもう一つ。中立。",
+    "usage": "普段の分に加えて、タオルをもう一枚ほしいと頼む。",
     "prompt": "A guest needs one more towel beyond the one already provided.",
     "form": "Adjective",
     "register": "daily"
@@ -2074,15 +2074,15 @@
   "expr_0260": {
     "ja": "よく考える",
     "en": "think it over",
-    "usage": "決断前にじっくり考える。",
+    "usage": "返事をすぐに決めず、選択肢を考える時間がほしいと伝える。",
     "prompt": "You want time to consider a choice carefully before deciding.",
     "form": "Verb phrase",
     "register": "daily"
   },
   "expr_0261": {
-    "ja": "よく考える",
+    "ja": "結果まで筋道立ててよく考える",
     "en": "think it through",
-    "usage": "結果まで筋道立てて考える。",
+    "usage": "行動を決める前に、その先の結果や手順も考えておく。",
     "prompt": "You carefully consider each step and its likely consequences before acting.",
     "form": "Verb phrase",
     "register": "daily"
@@ -2328,18 +2328,18 @@
     "register": "daily"
   },
   "expr_0292": {
-    "ja": "今のところ",
+    "ja": "当面は／ここまでのところは",
     "en": "for now / so far",
-    "usage": "for nowは当面、so farはここまでの経過。",
+    "usage": "当面の対応と、始めてから現在までの進み具合を区別して述べる。",
     "prompt": "Everything has gone well up to this point, though the task is unfinished.",
     "form": "Adverbial phrase",
     "register": "daily"
   },
   "expr_0293": {
-    "ja": "今までは",
+    "ja": "今まで・今に至るまでは",
     "en": "until now / up to now",
-    "usage": "過去から現在まで。",
-    "prompt": "You have mostly studied alone throughout the period ending today.",
+    "usage": "これまでは一人で練習していたが、今は講師と話し始めたと説明する。",
+    "prompt": "You studied alone before today, but now someone is helping you.",
     "form": "Adverbial phrase",
     "register": "daily"
   },
@@ -9906,8 +9906,8 @@
   "expr_1239": {
     "ja": "人につらい経験をさせる",
     "en": "put someone through ...",
-    "usage": "困難や負担を相手に経験させる。",
-    "prompt": "Someone's choices force another person to experience considerable hardship.",
+    "usage": "患者にさらなる苦痛を伴う処置を受けさせたくないと話す。",
+    "prompt": "You worry that another medical procedure would cause the patient further suffering.",
     "form": "Phrasal verb",
     "register": "daily"
   },
@@ -12042,8 +12042,8 @@
   "expr_1506": {
     "ja": "一番後悔しているのは〜だ",
     "en": "My biggest regret is ...ing.",
-    "usage": "過去の行動を振り返る。",
-    "prompt": "You identify the past action you most wish you could change.",
+    "usage": "過去にしなかった行動のうち、最も後悔していることを話す。",
+    "prompt": "Your greatest disappointment is not taking a past opportunity when you could.",
     "form": "Sentence",
     "register": "daily"
   },
@@ -13880,10 +13880,10 @@
     "register": "formal"
   },
   "expr_1736": {
-    "ja": "気にしすぎ",
+    "ja": "考えすぎる",
     "en": "overthink",
-    "usage": "考えすぎ。単語自体も会話で普通に使う。",
-    "prompt": "You examine a small issue repeatedly until it becomes unnecessarily complicated.",
+    "usage": "考えすぎて決断や行動が難しくなるという、自分の弱点を話す。",
+    "prompt": "Excessive analysis makes deciding and acting harder for you.",
     "form": "Verb",
     "register": "daily"
   },
@@ -14029,6 +14029,1646 @@
     "usage": "自然に気が合う。人同士の相性を表す。",
     "prompt": "You meet someone and immediately feel naturally in tune with them.",
     "form": "Verb",
+    "register": "daily"
+  },
+  "expr_1755": {
+    "ja": "その着こなし、素敵ですね",
+    "en": "I love how you put that outfit together.",
+    "usage": "初対面で服の組み合わせやセンスを褒める。",
+    "prompt": "You compliment the clever combination of clothes someone is wearing.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1756": {
+    "ja": "そのひと工夫、素敵ですね",
+    "en": "That’s such a nice touch.",
+    "usage": "服装や持ち物などの気の利いた細部に気づいたとき。",
+    "prompt": "You admire a small detail that improves someone's appearance.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1757": {
+    "ja": "温かい笑顔ですね",
+    "en": "You have such a warm smile.",
+    "usage": "初対面で笑顔の温かさを褒める。",
+    "prompt": "Someone's friendly expression makes meeting them especially pleasant.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1758": {
+    "ja": "すごく話しやすいですね",
+    "en": "You’re really easy to talk to.",
+    "usage": "少し会話した後に相手の話しやすさを伝える。",
+    "prompt": "Conversation flows comfortably with someone you have recently met.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1759": {
+    "ja": "すぐにリラックスして話せました",
+    "en": "You made me feel at ease right away.",
+    "usage": "初対面でも緊張がほぐれたとき。",
+    "prompt": "A new acquaintance quickly helps your initial nervousness disappear.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1760": {
+    "ja": "よく考えられた質問ですね",
+    "en": "That’s a really thoughtful question.",
+    "usage": "相手の質問の視点や配慮を褒める。",
+    "prompt": "You praise the care and insight behind someone's inquiry.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1761": {
+    "ja": "その見方は思いつきませんでした",
+    "en": "I hadn’t thought of it that way.",
+    "usage": "相手の意外な視点を聞いたとき。",
+    "prompt": "Another person's perspective gives you a completely new understanding.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1762": {
+    "ja": "話をすっと理解させるのが上手ですね",
+    "en": "You have a way of making things click.",
+    "usage": "相手の説明で腑に落ちたとき。",
+    "prompt": "Someone explains an idea so clearly that you suddenly understand.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1763": {
+    "ja": "話し方がうまいですね",
+    "en": "You tell a great story.",
+    "usage": "相手のエピソードを聞いた後で語り方を褒める。",
+    "prompt": "You praise someone's engaging delivery after hearing their entertaining anecdote.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1764": {
+    "ja": "お話しできて本当によかったです",
+    "en": "I’m really glad we got to talk.",
+    "usage": "初対面の別れ際に相手との会話への感謝を伝える。",
+    "prompt": "Before leaving, you express appreciation for an enjoyable first conversation.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1765": {
+    "ja": "進撃の巨人",
+    "en": "Attack on Titan",
+    "usage": "英語圏の作品名。",
+    "prompt": "You name an anime about walled cities threatened by enormous humanoids.",
+    "form": "Proper noun · Title",
+    "register": "daily"
+  },
+  "expr_1766": {
+    "ja": "薬屋のひとりごと",
+    "en": "The Apothecary Diaries",
+    "usage": "英語圏の作品名。",
+    "prompt": "You name a mystery anime about a medicine expert inside an imperial palace.",
+    "form": "Proper noun · Title",
+    "register": "daily"
+  },
+  "expr_1767": {
+    "ja": "葬送のフリーレン",
+    "en": "Frieren: Beyond Journey’s End",
+    "usage": "英語圏の作品名。",
+    "prompt": "You name an anime about an elf travelling after her companions grow old.",
+    "form": "Proper noun · Title",
+    "register": "daily"
+  },
+  "expr_1768": {
+    "ja": "僕の心のヤバイやつ",
+    "en": "The Dangers in My Heart",
+    "usage": "英語圏の作品名。",
+    "prompt": "You name a school romance about an awkward boy and a popular girl.",
+    "form": "Proper noun · Title",
+    "register": "daily"
+  },
+  "expr_1769": {
+    "ja": "鬼滅の刃",
+    "en": "Demon Slayer",
+    "usage": "英語圏で通じやすい短い作品名。",
+    "prompt": "You name an anime about a swordsman protecting his transformed younger sister.",
+    "form": "Proper noun · Title",
+    "register": "daily"
+  },
+  "expr_1770": {
+    "ja": "ゼルダの伝説",
+    "en": "The Legend of Zelda",
+    "usage": "英語圏のゲーム作品名。",
+    "prompt": "You name a fantasy game series about a hero and a princess.",
+    "form": "Proper noun · Title",
+    "register": "daily"
+  },
+  "expr_1771": {
+    "ja": "ちょうど～しようとしていた",
+    "en": "I was just about to ...",
+    "usage": "何かを始める直前だったと伝える。",
+    "prompt": "A call arrives moments before you intended to contact that person.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1772": {
+    "ja": "何となく引っかかる・気が進まない",
+    "en": "Something about it puts me off.",
+    "usage": "人・物・考え方に理由を言い切れない違和感があるとき。",
+    "prompt": "An approach leaves you uneasy, although you cannot explain why.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1773": {
+    "ja": "条件にぴったり合う",
+    "en": "fit the bill",
+    "usage": "人・物・案が求めていた条件に合うとき。",
+    "prompt": "You find an option that meets the requirements you were given.",
+    "form": "Verb phrase · Idiom",
+    "register": "daily"
+  },
+  "expr_1774": {
+    "ja": "意地を張らずに、プライドを脇に置く",
+    "en": "set aside my pride",
+    "usage": "助けを求める・謝るなどのために意地や自尊心をいったん脇に置く。",
+    "prompt": "You swallow your embarrassment and ask someone else for help.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1775": {
+    "ja": "手ぶらで・何も持たずに",
+    "en": "empty-handed",
+    "usage": "訪問や帰宅などで、持ってくるはずの物や成果がない。",
+    "prompt": "You arrive for a visit without bringing anything at all.",
+    "form": "Adjective",
+    "register": "daily"
+  },
+  "expr_1776": {
+    "ja": "歩いて行ける距離に",
+    "en": "within walking distance",
+    "usage": "場所が無理なく歩いて行ける範囲にある。",
+    "prompt": "The supermarket is close enough to reach comfortably without a vehicle.",
+    "form": "Prepositional phrase",
+    "register": "daily"
+  },
+  "expr_1777": {
+    "ja": "けちな",
+    "en": "stingy",
+    "usage": "お金や物を出し渋る人への否定的な評価。",
+    "prompt": "Someone refuses to spend money, even when generosity seems appropriate.",
+    "form": "Adjective",
+    "register": "daily"
+  },
+  "expr_1778": {
+    "ja": "解凍された・凍ったものが溶けた",
+    "en": "thawed",
+    "usage": "冷凍していた食品などが解凍された状態。",
+    "prompt": "Meat taken out of the freezer is no longer solid with ice.",
+    "form": "Adjective · Past participle",
+    "register": "daily"
+  },
+  "expr_1779": {
+    "ja": "目が充血した",
+    "en": "bloodshot",
+    "usage": "白目に血管が目立って赤い状態。",
+    "prompt": "After a sleepless night, the whites of someone's eyes look red.",
+    "form": "Adjective",
+    "register": "daily"
+  },
+  "expr_1780": {
+    "ja": "ゲーム内で課金した",
+    "en": "make an in-app purchase",
+    "usage": "アプリ内でアイテムや機能などを購入する。",
+    "prompt": "You pay for an extra item while playing a mobile game.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1781": {
+    "ja": "いつも激しくけんかする",
+    "en": "fight like cats and dogs",
+    "usage": "二人の仲が悪く、頻繁に激しくけんかする。",
+    "prompt": "Two people argue fiercely and repeatedly whenever they are together.",
+    "form": "Verb phrase · Idiom",
+    "register": "daily"
+  },
+  "expr_1782": {
+    "ja": "列に割り込む",
+    "en": "cut in line",
+    "usage": "順番を守らず列の途中に入る。主に米語。",
+    "prompt": "Someone joins a queue ahead of people who were already waiting.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1783": {
+    "ja": "無理をする・自分を追い込む",
+    "en": "push yourself",
+    "usage": "体力や精神面で限界を超えて頑張る。肯定的に「自分に挑戦する」意味にもなる。",
+    "prompt": "You continue working beyond what your tired body can comfortably handle.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1784": {
+    "ja": "SNS映えする・写真に映える",
+    "en": "Instagrammable",
+    "usage": "写真をSNSに載せたくなるような場所・食べ物などを形容するくだけた語。",
+    "prompt": "A beautifully decorated cafe seems perfect for sharing photos online.",
+    "form": "Adjective",
+    "register": "daily"
+  },
+  "expr_1785": {
+    "ja": "この咳がなかなか治まらない",
+    "en": "can't shake this cough",
+    "usage": "何日も続く咳について、なかなか治らず困っていると伝える。",
+    "prompt": "An irritating throat symptom has persisted for days despite your efforts.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1786": {
+    "ja": "咳が止まらない",
+    "en": "can't stop coughing",
+    "usage": "咳が次々に出て、話を続けられないほどだと伝える。",
+    "prompt": "Repeated bursts from your throat make it impossible to finish speaking.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1787": {
+    "ja": "不要なもの・厄介なものを取り除く",
+    "en": "get rid of ...",
+    "usage": "家にある不要な物を処分して、場所を空けたいと話す。",
+    "prompt": "You want to dispose of old boxes and clear some space.",
+    "form": "Phrasal verb",
+    "register": "daily"
+  },
+  "expr_1788": {
+    "ja": "〜なので・〜という事情があるので",
+    "en": "since ... (reason)",
+    "usage": "今ある事情を背景の理由として、選択や判断を説明する。",
+    "prompt": "Having free time provides the background reason for your decision.",
+    "form": "Conjunction",
+    "register": "daily"
+  },
+  "expr_1789": {
+    "ja": "〜できるように",
+    "en": "so that ...",
+    "usage": "聞き手が理解しやすくなることを目指して、説明方法を工夫する。",
+    "prompt": "You simplify an explanation with the aim of helping someone understand.",
+    "form": "Conjunction",
+    "register": "daily"
+  },
+  "expr_1790": {
+    "ja": "〜という感じで言う・反応する",
+    "en": "be like + quoted reaction",
+    "usage": "相手の発言や驚いた反応を、くだけた会話で再現する。",
+    "prompt": "You recreate someone's surprised response while telling a friend what happened.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1791": {
+    "ja": "人に〜させる・するきっかけになる",
+    "en": "make someone do ...",
+    "usage": "相手の質問のおかげで、普段意識しないことを考えたと話す。",
+    "prompt": "Someone's questions cause you to reconsider what matters most to you.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1792": {
+    "ja": "ある物事が〜であってほしい",
+    "en": "want something to be ...",
+    "usage": "新しい挑戦が、失敗でなく成功してほしいと願う。",
+    "prompt": "You hope your first attempt will succeed rather than fail.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1793": {
+    "ja": "全部を書き起こす必要はありません",
+    "en": "You don't have to type everything.",
+    "usage": "講師に、一言一句ではなく修正点だけチャットに書いてほしいと伝える。",
+    "prompt": "You ask your tutor to record corrections rather than every spoken word.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1794": {
+    "ja": "知っていることと実際にできることは違う",
+    "en": "Knowing something is different from doing it.",
+    "usage": "学んだ知識が、現場ではすぐ使えるとは限らないと説明する。",
+    "prompt": "You understand the theory but cannot yet apply it in practice.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1795": {
+    "ja": "〜すべきだったのに",
+    "en": "should have + past participle",
+    "usage": "過去の仕事と家庭の両立を振り返り、もっと上手くできたはずだと後悔する。",
+    "prompt": "Looking back, you believe you ought to have acted differently.",
+    "form": "Modal verb pattern",
+    "register": "daily"
+  },
+  "expr_1796": {
+    "ja": "大切でかけがえのない",
+    "en": "precious",
+    "usage": "忙しい生活の中で得られる自由時間を、大切に感じている。",
+    "prompt": "Your limited free time matters deeply to you on a personal level.",
+    "form": "Adjective",
+    "register": "daily"
+  },
+  "expr_1797": {
+    "ja": "めったにない・珍しい",
+    "en": "rare",
+    "usage": "忙しくて、家でゆっくり過ごせる機会がほとんどない。",
+    "prompt": "A quiet morning at home is an unusual event in your busy life.",
+    "form": "Adjective",
+    "register": "daily"
+  },
+  "expr_1798": {
+    "ja": "めったに味わえない楽しみ",
+    "en": "a rare treat",
+    "usage": "普段は忙しいので、たまに得られる楽しい時間を喜ぶ。",
+    "prompt": "An afternoon entirely to yourself is an infrequent but delightful experience.",
+    "form": "Noun phrase",
+    "register": "daily"
+  },
+  "expr_1799": {
+    "ja": "特に〜という事情もあるので",
+    "en": "especially since ...",
+    "usage": "後悔する気持ちが強い理由として、当時は時間があったことを付け加える。",
+    "prompt": "Your disappointment is stronger because you actually had plenty of time.",
+    "form": "Conjunction phrase",
+    "register": "daily"
+  },
+  "expr_1800": {
+    "ja": "あのとき〜しておけばよかった",
+    "en": "I wish I'd ...",
+    "usage": "学生時代の行動について、今になって違う選択をしたかったと思う。",
+    "prompt": "Looking back, you long to change what you did as a student.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1801": {
+    "ja": "その場で素早く考えて対応する",
+    "en": "think on your feet",
+    "usage": "準備していない質問にも、すぐ適切に答えられる人を説明する。",
+    "prompt": "An unexpected question requires an immediate, sensible response without preparation.",
+    "form": "Verb phrase · Idiom",
+    "register": "daily"
+  },
+  "expr_1802": {
+    "ja": "前もって計画するタイプです",
+    "en": "I'm a planner.",
+    "usage": "行き当たりばったりよりも、事前に段取りを決めるのが好きだと話す。",
+    "prompt": "You prefer arranging things beforehand rather than deciding as events unfold.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1803": {
+    "ja": "思いつくままに行動する・自然に出る",
+    "en": "spontaneous",
+    "usage": "前もって決めなくても、その場で行動できる性格を説明する。",
+    "prompt": "Someone happily decides what to do without arranging it beforehand.",
+    "form": "Adjective",
+    "register": "daily"
+  },
+  "expr_1804": {
+    "ja": "〜に頼りすぎる",
+    "en": "rely too much on ...",
+    "usage": "事前準備への依存が強く、予定外の質問で困るという弱点を話す。",
+    "prompt": "Depending excessively on preparation leaves you helpless when questions change.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1805": {
+    "ja": "感謝・ありがたみの認識",
+    "en": "appreciation",
+    "usage": "誰かの支えがどれほど大切だったかを振り返り、感謝を伝える。",
+    "prompt": "You express gratitude after recognizing how much someone's support mattered.",
+    "form": "Noun",
+    "register": "daily"
+  },
+  "expr_1806": {
+    "ja": "はい、どうぞ",
+    "en": "Here you are.",
+    "usage": "頼まれたタオルや飲み物を相手に手渡す。",
+    "prompt": "You hand a requested towel or drink to another person.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1807": {
+    "ja": "舌で表面をなめる",
+    "en": "lick",
+    "usage": "棒付きキャンディーの表面に舌を当ててなめる動作を説明する。",
+    "prompt": "A child moves their tongue across the surface of a lollipop.",
+    "form": "Verb",
+    "register": "daily"
+  },
+  "expr_1808": {
+    "ja": "口に含んで吸う・しゃぶる",
+    "en": "suck on ...",
+    "usage": "硬い飴をかまず、口の中でゆっくり溶かして味わう。",
+    "prompt": "You hold hard candy inside your mouth and let it dissolve slowly.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1809": {
+    "ja": "無作為の・脈絡のない",
+    "en": "random",
+    "usage": "今の話題とは関係のない質問を、ふと思いついて尋ねる。",
+    "prompt": "An unrelated inquiry suddenly occurs to you during a conversation.",
+    "form": "Adjective",
+    "register": "daily"
+  },
+  "expr_1810": {
+    "ja": "相手の答えを受けてさらに尋ねる質問",
+    "en": "a follow-up question",
+    "usage": "インタビュー中、相手の答えをもっと詳しく知るために質問を加える。",
+    "prompt": "An interviewer's next inquiry explores something the speaker has just mentioned.",
+    "form": "Noun phrase",
+    "register": "daily"
+  },
+  "expr_1811": {
+    "ja": "相手が何を意味するのか確認する",
+    "en": "clarify what someone means",
+    "usage": "質問が広すぎるとき、何について知りたいのかを確かめる。",
+    "prompt": "An inquiry is too broad, so you ask about its intended meaning.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1812": {
+    "ja": "自分の経験と結びつけて理解する・共感する",
+    "en": "relate to ...",
+    "usage": "相手にも身近な例を使い、説明を自分のこととして理解してもらう。",
+    "prompt": "An example becomes understandable because it resembles your own experience.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1813": {
+    "ja": "実際に〜するのはどんな感じか",
+    "en": "what it's like to ...",
+    "usage": "職業の実際や、その立場で経験することを知りたいと話す。",
+    "prompt": "You ask about the actual experience of working as a doctor.",
+    "form": "Noun clause pattern",
+    "register": "daily"
+  },
+  "expr_1814": {
+    "ja": "心に残ったのは〜でした",
+    "en": "what stayed with me was ...",
+    "usage": "会話を振り返り、今も印象に残る相手の言葉を紹介する。",
+    "prompt": "Looking back, you identify the remark that continues to affect you.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1815": {
+    "ja": "良いときと悪いとき・浮き沈み",
+    "en": "highs and lows",
+    "usage": "英語学習で、うれしい日と落ち込む日があると説明する。",
+    "prompt": "Some learning days bring delight, while others leave you discouraged.",
+    "form": "Noun phrase",
+    "register": "daily"
+  },
+  "expr_1816": {
+    "ja": "想像していた以上に",
+    "en": "more than I ever thought I would",
+    "usage": "ある経験を通じ、自分でも予想しなかったほど多くを学んだと振り返る。",
+    "prompt": "The amount you learned exceeded your original expectations by a lot.",
+    "form": "Comparative phrase",
+    "register": "daily"
+  },
+  "expr_1817": {
+    "ja": "その会話は自然な感じがした",
+    "en": "The conversation felt natural.",
+    "usage": "会話全体が無理なく進み、気楽に話せたという印象を伝える。",
+    "prompt": "Despite meeting for the first time, the discussion flows without effort.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1818": {
+    "ja": "富裕層・貧しい人々",
+    "en": "the rich / the poor",
+    "usage": "経済状況が共通する人々を、社会の集団として取り上げる。",
+    "prompt": "You discuss wealthy and disadvantaged people as groups within society.",
+    "form": "Noun phrase",
+    "register": "daily"
+  },
+  "expr_1819": {
+    "ja": "その中の頭のよい人たち",
+    "en": "the smart ones",
+    "usage": "その場にいる人のうち、判断を任せられそうな人たちを指す。",
+    "prompt": "Among those present, you identify the people with the strongest judgment.",
+    "form": "Noun phrase",
+    "register": "daily"
+  },
+  "expr_1820": {
+    "ja": "〜する練習をする",
+    "en": "practice doing ...",
+    "usage": "自分の家庭や仕事の状況を説明する練習をしたいと講師に伝える。",
+    "prompt": "You repeatedly rehearse explaining your circumstances to become better at it.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1821": {
+    "ja": "相手に経験や情報を共有する",
+    "en": "share something with someone",
+    "usage": "レッスンの題材として、自分に起きた出来事を相手に話す。",
+    "prompt": "You tell your tutor about an experience that happened to you.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1822": {
+    "ja": "患者に手術を行う",
+    "en": "operate on patients",
+    "usage": "医師としての仕事を説明し、手術を担当するかどうかを話す。",
+    "prompt": "You describe whether performing surgery forms part of your medical work.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1823": {
+    "ja": "自分にとって身近な人たち",
+    "en": "people close to me",
+    "usage": "尊敬する相手として、家族や以前の上司を挙げる。",
+    "prompt": "You identify relatives and mentors who are personally important to you.",
+    "form": "Noun phrase",
+    "register": "daily"
+  },
+  "expr_1824": {
+    "ja": "今日の仕事はもう終わりました",
+    "en": "I'm done with my work today.",
+    "usage": "勤務後なので、これからは自由な時間だと話す。",
+    "prompt": "Your duties are finished, leaving you free for the rest of today.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1825": {
+    "ja": "今日は仕事が休みです",
+    "en": "I have the day off.",
+    "usage": "本日は勤務予定がなく、自由に使える日だと話す。",
+    "prompt": "There is no shift on your schedule, leaving today entirely free.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1826": {
+    "ja": "考えや気持ちを相手に伝える",
+    "en": "convey something to someone",
+    "usage": "言いたいことを他の人へ伝えるのが難しいと説明する。",
+    "prompt": "You struggle to communicate your feelings clearly to another person.",
+    "form": "Verb pattern",
+    "register": "formal"
+  },
+  "expr_1827": {
+    "ja": "やりがい・充実感を覚える",
+    "en": "feel fulfilled",
+    "usage": "患者の診療や後輩の指導から、深い満足感を得ていたと話す。",
+    "prompt": "Caring for patients and mentoring colleagues gives your work deep personal meaning.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1828": {
+    "ja": "私はどちらかというと〜です",
+    "en": "I'm more of a ...",
+    "usage": "オンラインで教えるより、現場で見せながら教える方が自分らしいと話す。",
+    "prompt": "You describe which of two teaching styles suits your personality better.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1829": {
+    "ja": "実際に取り組む・実践的な",
+    "en": "hands-on",
+    "usage": "患者のそばで実演し、学習者にも実際にやってもらう指導を説明する。",
+    "prompt": "Students learn by actively performing a task rather than only hearing explanations.",
+    "form": "Adjective",
+    "register": "daily"
+  },
+  "expr_1830": {
+    "ja": "人に〜のやり方を見せる",
+    "en": "show someone how to ...",
+    "usage": "研修医に患者の診察方法を実演して教える。",
+    "prompt": "You demonstrate a physical examination while a junior colleague watches.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1831": {
+    "ja": "お互いから学ぶ",
+    "en": "learn from each other",
+    "usage": "違う背景や得意分野を持つ人たちが、一緒に学ぶ意義を説明する。",
+    "prompt": "Classmates with different strengths gain knowledge through their mutual interaction.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1832": {
+    "ja": "仕事と家庭生活を両立する",
+    "en": "balance work and family life",
+    "usage": "家族への関わりと、医師としての仕事の配分を考える。",
+    "prompt": "You divide your time between hospital duties and caring for relatives.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1833": {
+    "ja": "どういう意味ですか・もう少し説明してもらえますか",
+    "en": "How do you mean?",
+    "usage": "相手が今述べた内容や意図を、詳しく説明してほしいと尋ねる。",
+    "prompt": "You politely ask someone to explain the intention behind their last remark.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1834": {
+    "ja": "今度の週末・今の週末",
+    "en": "this weekend",
+    "usage": "予定を尋ねるとき、話している日に近い土日について話す。",
+    "prompt": "You ask about plans for the approaching Saturday and Sunday.",
+    "form": "Noun phrase · Time expression",
+    "register": "daily"
+  },
+  "expr_1835": {
+    "ja": "こんなに急なお願いで",
+    "en": "on such short notice",
+    "usage": "準備する時間がほとんどなかったのに来てくれた相手に感謝する。",
+    "prompt": "You thank someone who agreed to come with almost no preparation time.",
+    "form": "Prepositional phrase",
+    "register": "daily"
+  },
+  "expr_1836": {
+    "ja": "〜するのを先延ばしにする",
+    "en": "put off doing ...",
+    "usage": "緊張して、会話の練習を始めるのを何度も後回しにする。",
+    "prompt": "Nervousness repeatedly causes you to postpone starting your speaking practice.",
+    "form": "Phrasal verb pattern",
+    "register": "daily"
+  },
+  "expr_1837": {
+    "ja": "なるほど、つじつまが合う",
+    "en": "That tracks.",
+    "usage": "新しい説明を聞き、すでに知っている事情と一致すると感じる。",
+    "prompt": "A new explanation fits the circumstances you already knew about.",
+    "form": "Sentence · Idiom",
+    "register": "daily"
+  },
+  "expr_1838": {
+    "ja": "あなたに不満があるわけではないのですが",
+    "en": "Nothing against you, but ...",
+    "usage": "相手を個人的に批判する意図はないと伝えてから、断る理由を述べる。",
+    "prompt": "Before declining, you explain that your objection is not personally directed.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1839": {
+    "ja": "人の能力や努力をもっと認める",
+    "en": "give someone more credit",
+    "usage": "自分や仲間の能力を、相手が低く見積もっていると感じる。",
+    "prompt": "You realize someone's abilities deserve greater recognition than they receive.",
+    "form": "Verb phrase · Idiom",
+    "register": "daily"
+  },
+  "expr_1840": {
+    "ja": "〜への関与や量を減らす",
+    "en": "pull back on ...",
+    "usage": "家族との時間を増やすため、勤務時間を以前より少なくしたと話す。",
+    "prompt": "You reduce your working hours to spend longer with your family.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1841": {
+    "ja": "〜のための時間や余地を作る",
+    "en": "make room for ...",
+    "usage": "楽しみや家族との時間を、忙しい生活の中で確保する。",
+    "prompt": "You adjust a busy schedule to accommodate activities that matter to you.",
+    "form": "Verb phrase · Idiom",
+    "register": "daily"
+  },
+  "expr_1842": {
+    "ja": "どうしても〜できない",
+    "en": "can't for the life of me ...",
+    "usage": "思い出そうとしても、相手の名前が全く出てこないと話す。",
+    "prompt": "Despite every effort, you simply cannot remember an acquaintance's name.",
+    "form": "Verb phrase · Idiom",
+    "register": "daily"
+  },
+  "expr_1843": {
+    "ja": "私もそうではありません",
+    "en": "Neither am I.",
+    "usage": "相手がある状態ではないと言い、自分も同じだと応じる。",
+    "prompt": "Your friend says they are not ready, and you share that state.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1844": {
+    "ja": "誰が〜と言い切れるのか",
+    "en": "Who's to say ...?",
+    "usage": "同じ問題が再発しないと断言できる人はいない、と疑問を示す。",
+    "prompt": "You challenge the certainty of a claim that trouble cannot return.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1845": {
+    "ja": "その人が自分らしくいられるようにする",
+    "en": "let someone be themselves",
+    "usage": "子どもの好みを抑え込まず、本人らしく過ごせるようにしたいと提案する。",
+    "prompt": "You encourage a child to express their preferences without pressure to conform.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1846": {
+    "ja": "人を迎えに行く",
+    "en": "pick someone up",
+    "usage": "夕食に行く約束をし、相手の家まで迎えに行くと伝える。",
+    "prompt": "You arrange to collect a friend at home before dinner together.",
+    "form": "Phrasal verb",
+    "register": "daily"
+  },
+  "expr_1847": {
+    "ja": "調子やバランスを狂わせる",
+    "en": "throw something off",
+    "usage": "予想外の質問で、それまでの話の調子が乱れたと説明する。",
+    "prompt": "An unexpected question disrupts your concentration and the flow of your response.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1848": {
+    "ja": "今にも・もうすぐ",
+    "en": "any minute now",
+    "usage": "約束した人が到着するはずの時間で、間もなく来ると伝える。",
+    "prompt": "Your visitor's expected arrival is so close that you watch the door.",
+    "form": "Adverbial phrase",
+    "register": "daily"
+  },
+  "expr_1849": {
+    "ja": "昔に戻ったような感じがする",
+    "en": "It feels like the old days.",
+    "usage": "以前の仲間と働き、昔の雰囲気を思い出す。",
+    "prompt": "Working with former colleagues brings back the familiar atmosphere you remember.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1850": {
+    "ja": "〜に申し込む・参加を引き受ける",
+    "en": "sign up for ...",
+    "usage": "ある活動への参加を自分で決めたことを振り返る。",
+    "prompt": "You voluntarily agree to participate in an activity and accept its responsibilities.",
+    "form": "Phrasal verb",
+    "register": "daily"
+  },
+  "expr_1851": {
+    "ja": "賛成する人は・一緒にやる人は",
+    "en": "Who's with me?",
+    "usage": "自分の提案に賛同し、一緒に行動する人を募る。",
+    "prompt": "After suggesting a break, you ask who wants to join you.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1852": {
+    "ja": "夜中に起きず朝まで眠る",
+    "en": "sleep through the night",
+    "usage": "子どもが夜間に何度も起きるかどうかを話す。",
+    "prompt": "Your child finally rests until morning without waking you repeatedly.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1853": {
+    "ja": "彼の好みを中心に皆が動いている",
+    "en": "It's his world; we just live in it.",
+    "usage": "子どもの好みに家族が振り回される様子を、冗談交じりに話す。",
+    "prompt": "You jokingly describe a household organized around one child's preferences.",
+    "form": "Sentence · Idiom",
+    "register": "daily"
+  },
+  "expr_1854": {
+    "ja": "残念ですが〜です",
+    "en": "I'm afraid ...",
+    "usage": "期待に沿えない知らせを、やわらかく伝える。",
+    "prompt": "You gently introduce unwelcome news about an appointment being unavailable.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1855": {
+    "ja": "人生を思いきり楽しむ",
+    "en": "live my best life",
+    "usage": "旅行中など、充実して楽しく過ごしていた時期を話す。",
+    "prompt": "On holiday, you enjoy yourself fully and feel especially content.",
+    "form": "Verb phrase · Idiom",
+    "register": "daily"
+  },
+  "expr_1856": {
+    "ja": "体が思うようについてこなかった",
+    "en": "My body wouldn't cooperate.",
+    "usage": "やりたいことがあったのに、体調や身体反応のため実現できなかった。",
+    "prompt": "You wanted to continue, but physical difficulties prevented you from doing so.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1857": {
+    "ja": "本来到達しているはずの段階",
+    "en": "where you're supposed to be",
+    "usage": "研修の進み具合を、今期待される到達度と比べる。",
+    "prompt": "You compare your training progress with the level currently expected of you.",
+    "form": "Noun clause",
+    "register": "daily"
+  },
+  "expr_1858": {
+    "ja": "一人で担当する・独り立ちする",
+    "en": "fly solo",
+    "usage": "これまで助けてもらっていた仕事を、主担当として行う。",
+    "prompt": "After working with assistance, you are ready to handle a task independently.",
+    "form": "Verb phrase · Idiom",
+    "register": "daily"
+  },
+  "expr_1859": {
+    "ja": "私が若かったころは・昔は",
+    "en": "back in my day",
+    "usage": "昔の職場の習慣を、今の状況と比べて話す。",
+    "prompt": "You introduce a comparison between former workplace customs and today's habits.",
+    "form": "Adverbial phrase",
+    "register": "daily"
+  },
+  "expr_1860": {
+    "ja": "その場しのぎの対策",
+    "en": "a Band-Aid solution",
+    "usage": "症状だけを抑える対応より、原因への対策が必要だと話す。",
+    "prompt": "A temporary fix addresses symptoms while leaving the underlying cause unresolved.",
+    "form": "Noun phrase · Idiom",
+    "register": "daily"
+  },
+  "expr_1861": {
+    "ja": "人の評価に不利に働く",
+    "en": "count against someone",
+    "usage": "技能試験で、ある動きが減点になると説明する。",
+    "prompt": "During an assessment, a particular movement lowers the candidate's score.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1862": {
+    "ja": "それはどういう意味ですか",
+    "en": "What's that supposed to mean?",
+    "usage": "相手の発言を批判や皮肉と受け取り、その意図を問い返す。",
+    "prompt": "A remark sounds insulting, and you demand to know its intention.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1863": {
+    "ja": "だから何だというの・大したことない",
+    "en": "Big whoop.",
+    "usage": "相手が自慢する成果を、皮肉っぽく軽く扱う。",
+    "prompt": "You sarcastically dismiss an achievement that someone else considers impressive.",
+    "form": "Interjection · Idiom",
+    "register": "daily"
+  },
+  "expr_1864": {
+    "ja": "悪くなった状況の残りを何とか救う",
+    "en": "salvage ...",
+    "usage": "予定が崩れた週末を、少しでも楽しい時間に戻したいと話す。",
+    "prompt": "After plans go wrong, you try to rescue the remaining weekend.",
+    "form": "Verb",
+    "register": "daily"
+  },
+  "expr_1865": {
+    "ja": "〜が多すぎて手に負えない",
+    "en": "be drowning in ...",
+    "usage": "大量の仕事や症例を抱え、圧倒されていると話す。",
+    "prompt": "An overwhelming quantity of paperwork leaves you unable to keep up.",
+    "form": "Verb phrase · Idiom",
+    "register": "daily"
+  },
+  "expr_1866": {
+    "ja": "普通ならそう思いますよね",
+    "en": "You would think that.",
+    "usage": "もっともらしい推測にうなずきつつ、実際には違う事情があると説明する。",
+    "prompt": "You acknowledge a plausible assumption before revealing that reality is different.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1867": {
+    "ja": "たとえ〜だとして、それがどうしたのか",
+    "en": "So what if ...?",
+    "usage": "失敗の可能性だけで挑戦を諦める必要があるのかと問いかける。",
+    "prompt": "You question whether the possibility of failure really matters enough to quit.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1868": {
+    "ja": "断れないほど魅力的な申し出",
+    "en": "an offer I couldn't refuse",
+    "usage": "条件のよい仕事の誘いを受け、引き受けた理由を話す。",
+    "prompt": "You accept a job proposal because its conditions are exceptionally attractive.",
+    "form": "Noun phrase",
+    "register": "daily"
+  },
+  "expr_1869": {
+    "ja": "参加します・その話に乗ります",
+    "en": "I'm in.",
+    "usage": "提案を聞き、一緒に取り組むと決めて応じる。",
+    "prompt": "After hearing a proposal, you enthusiastically agree to participate.",
+    "form": "Sentence · Idiom",
+    "register": "daily"
+  },
+  "expr_1870": {
+    "ja": "案をいったん棚上げにする",
+    "en": "shelve an idea",
+    "usage": "考えていた計画を、今は実行せず保留しようと提案する。",
+    "prompt": "You decide to postpone a proposed plan without abandoning it permanently.",
+    "form": "Verb phrase · Idiom",
+    "register": "daily"
+  },
+  "expr_1871": {
+    "ja": "障害や制約を回避する方法",
+    "en": "a way around ...",
+    "usage": "規則が目的達成を妨げるとき、別の手段がないか尋ねる。",
+    "prompt": "An obstacle blocks your objective, so you seek an alternative method.",
+    "form": "Noun phrase",
+    "register": "daily"
+  },
+  "expr_1872": {
+    "ja": "それほど待てる時間はない",
+    "en": "not have that kind of time",
+    "usage": "手続きに時間がかかるが、状況が切迫して待てないと伝える。",
+    "prompt": "A lengthy process is suggested, but your situation is too urgent to wait.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1873": {
+    "ja": "さらにうれしいこと・皮肉に、追い打ち",
+    "en": "the cherry on top",
+    "usage": "良い出来事に、もう一つ特別な喜びが加わったと話す。",
+    "prompt": "An already enjoyable occasion becomes even better through an unexpected bonus.",
+    "form": "Noun phrase · Idiom",
+    "register": "daily"
+  },
+  "expr_1874": {
+    "ja": "〜に手本を示す",
+    "en": "set an example for ...",
+    "usage": "自分の挑戦する姿が、子どもの学びになると考える。",
+    "prompt": "You hope your children will learn by observing your own good conduct.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1875": {
+    "ja": "計画や進歩を後退・遅延させる",
+    "en": "set something back",
+    "usage": "研究の失敗によって、進み具合が何年分も遅れる可能性を話す。",
+    "prompt": "A failed experiment could delay the research project by several years.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1876": {
+    "ja": "〜を考慮すると",
+    "en": "given ...",
+    "usage": "ある人の体調を判断材料にして、無理な活動を避けるべきだと話す。",
+    "prompt": "You take someone's health condition into account before recommending an activity.",
+    "form": "Preposition",
+    "register": "daily"
+  },
+  "expr_1877": {
+    "ja": "案や可能性を検討する",
+    "en": "entertain an idea",
+    "usage": "大きな転職の誘いを、実行すると決める前に考慮する。",
+    "prompt": "You consider changing jobs without yet deciding to accept an invitation.",
+    "form": "Verb phrase",
+    "register": "formal"
+  },
+  "expr_1878": {
+    "ja": "機会・関係・状況を断って離れる",
+    "en": "walk away from ...",
+    "usage": "魅力的な仕事の機会を受けずに終えるかどうか悩む。",
+    "prompt": "You hesitate to decline an attractive opportunity and leave it behind.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1879": {
+    "ja": "長く試され信頼されてきた",
+    "en": "tried and true",
+    "usage": "以前から使われている方法を、実績のあるやり方として紹介する。",
+    "prompt": "You recommend a method that has proved reliable over many years.",
+    "form": "Adjective phrase · Idiom",
+    "register": "daily"
+  },
+  "expr_1880": {
+    "ja": "〜を調べる・検討する",
+    "en": "look into ...",
+    "usage": "相談された問題について、詳しく確認すると約束する。",
+    "prompt": "You promise to investigate a reported problem before responding further.",
+    "form": "Phrasal verb",
+    "register": "daily"
+  },
+  "expr_1881": {
+    "ja": "いったい何がまずいことになるというのか",
+    "en": "What could possibly go wrong?",
+    "usage": "明らかに危ない計画について、皮肉を込めて反応する。",
+    "prompt": "You sarcastically question the safety of an obviously reckless plan.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1882": {
+    "ja": "〜に働きかけても進展がない",
+    "en": "get nowhere with ...",
+    "usage": "何度窓口に相談しても、必要な支援が得られないと話す。",
+    "prompt": "Repeated appeals to customer support produce no useful progress.",
+    "form": "Verb phrase · Idiom",
+    "register": "daily"
+  },
+  "expr_1883": {
+    "ja": "細かい段取りや方法を考えて決める",
+    "en": "figure out the details",
+    "usage": "まず必要な行動を始め、具体的な手順は後で詰めようと話す。",
+    "prompt": "You begin the essential action and plan to resolve practical arrangements later.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1884": {
+    "ja": "待っていた物・結果が届く",
+    "en": "come through",
+    "usage": "必要な承認や資金が、いつ実際に得られるかを話す。",
+    "prompt": "You are waiting for promised funding to actually become available.",
+    "form": "Phrasal verb",
+    "register": "daily"
+  },
+  "expr_1885": {
+    "ja": "同じタイプだから分かる",
+    "en": "It takes one to know one.",
+    "usage": "相手の性格を見抜けるのは、自分にも同じ特徴があるからだと話す。",
+    "prompt": "You recognize someone's character because you possess the same trait yourself.",
+    "form": "Sentence · Idiom",
+    "register": "daily"
+  },
+  "expr_1886": {
+    "ja": "勝っても負けても・結果にかかわらず",
+    "en": "win or lose",
+    "usage": "挑戦の成否にかかわらず、経験には意味があると励ます。",
+    "prompt": "You emphasize that the experience matters regardless of the competition's outcome.",
+    "form": "Adverbial phrase",
+    "register": "daily"
+  },
+  "expr_1887": {
+    "ja": "強烈で忘れられない経験",
+    "en": "a hell of a ride",
+    "usage": "大きな挑戦が、結果はどうあれ刺激的な経験になると話す。",
+    "prompt": "You describe an intense, memorable experience filled with excitement and challenges.",
+    "form": "Noun phrase · Idiom",
+    "register": "daily"
+  },
+  "expr_1888": {
+    "ja": "こんな日が来るとは思わなかった",
+    "en": "I never thought I'd see this day.",
+    "usage": "長く望んでいたことがついに実現し、驚きと喜びを伝える。",
+    "prompt": "Something you long considered unlikely finally happens before your eyes.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1889": {
+    "ja": "とても健康で元気",
+    "en": "healthy as a horse",
+    "usage": "退職の理由が病気ではなく、本人は元気だと伝える。",
+    "prompt": "Someone is exceptionally fit, so illness does not explain their retirement.",
+    "form": "Adjective phrase · Idiom",
+    "register": "daily"
+  },
+  "expr_1890": {
+    "ja": "同じ困難や目的を仲間として共有する",
+    "en": "be in this together",
+    "usage": "大変な仕事でも、一人でなく皆で取り組んでいると励ます。",
+    "prompt": "You reassure colleagues that everyone shares the same challenge and responsibility.",
+    "form": "Verb phrase · Idiom",
+    "register": "daily"
+  },
+  "expr_1891": {
+    "ja": "個人の利害を超えた大きな目的",
+    "en": "something bigger than ourselves",
+    "usage": "仕事を通じて、地域や社会に役立つ目的を共有していたと話す。",
+    "prompt": "Your shared mission serves the community beyond your own individual interests.",
+    "form": "Noun phrase",
+    "register": "daily"
+  },
+  "expr_1892": {
+    "ja": "思い描いていた未来を失って悲しむ",
+    "en": "grieve the future you thought you had",
+    "usage": "関係や進路が変わり、実現すると思っていた生活を惜しむ。",
+    "prompt": "A changed relationship leaves you mourning the life you had expected.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1893": {
+    "ja": "自分が提示できる最善の条件",
+    "en": "the best I can offer",
+    "usage": "勤務条件を相談し、これ以上は譲れない具体的な案を示す。",
+    "prompt": "During negotiations, you explain the limit of the conditions you can provide.",
+    "form": "Noun phrase",
+    "register": "daily"
+  },
+  "expr_1894": {
+    "ja": "〜を始めたばかりだ［現在完了］",
+    "en": "I've only just started ...",
+    "usage": "最近始めたことを伝える。学び始めて間もないと話すときなど。",
+    "prompt": "You began studying English very recently and are still a beginner.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1895": {
+    "ja": "以前やっていたことをまた始める",
+    "en": "get back into ...",
+    "usage": "しばらく離れていた勉強・運動・趣味に戻った経緯を話す。",
+    "prompt": "After a long break, you resume a hobby you once enjoyed.",
+    "form": "Phrasal verb",
+    "register": "daily"
+  },
+  "expr_1896": {
+    "ja": "点数や目標を目指す",
+    "en": "aim for ...",
+    "usage": "試験の点数、締め切り、目標とする水準を伝える。",
+    "prompt": "You identify the exam score you hope to achieve.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1897": {
+    "ja": "大きな変化につながる・大きな効果がある",
+    "en": "make a big difference",
+    "usage": "新しい練習法や誰かの助けで、物事が大きく変わったと話す。",
+    "prompt": "A new practice method substantially improves your confidence and performance.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1898": {
+    "ja": "心の中でふとこう思う",
+    "en": "think to myself",
+    "usage": "そのとき心の中で浮かんだ言葉を紹介する。",
+    "prompt": "You introduce the private words that occurred silently inside your head.",
+    "form": "Verb phrase",
+    "register": "daily"
+  },
+  "expr_1899": {
+    "ja": "なんとか〜できる・苦労してやり遂げる",
+    "en": "manage to do something",
+    "usage": "難しいと感じていたことを、努力や工夫によって達成した経験を伝える。",
+    "prompt": "Despite considerable difficulty, you succeed in explaining your idea in English.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1900": {
+    "ja": "〜するのに苦労する",
+    "en": "struggle to do something",
+    "usage": "やりたいことは分かっているのに、実行するのが難しい状況を説明する。",
+    "prompt": "Responding quickly in another language remains difficult despite your efforts.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1901": {
+    "ja": "〜するのを避ける",
+    "en": "avoid doing something",
+    "usage": "好ましくない行動をしないよう、意識して別の行動を選ぶときに使う。",
+    "prompt": "You deliberately choose another approach rather than perform an unhelpful action.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1902": {
+    "ja": "〜することを検討する",
+    "en": "consider doing something",
+    "usage": "何かを始めるかどうかまだ決めておらず、選択肢として考えている。",
+    "prompt": "You weigh the option of enrolling without making a final decision.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1903": {
+    "ja": "〜するのをためらう",
+    "en": "hesitate to do something",
+    "usage": "気まずさや遠慮があり、行動に移すまで少し迷うときに使う。",
+    "prompt": "Embarrassment briefly holds you back before you ask another question.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1904": {
+    "ja": "〜につながる・その結果を招く",
+    "en": "lead to something / doing something",
+    "usage": "一つの出来事や取り組みから、次の変化が生まれる流れを説明する。",
+    "prompt": "Consistent practice gradually produces greater confidence as a later effect.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1905": {
+    "ja": "〜という結果になる",
+    "en": "result in something / doing something",
+    "usage": "ある行動や条件から起きた具体的な結果を説明する。",
+    "prompt": "You explain the specific outcome produced by poor communication.",
+    "form": "Verb pattern",
+    "register": "formal"
+  },
+  "expr_1906": {
+    "ja": "〜次第である・〜に依存する",
+    "en": "depend on something / doing something",
+    "usage": "正解や結論が一つではなく、条件によって変わると説明する。",
+    "prompt": "The appropriate approach changes according to the circumstances you face.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1907": {
+    "ja": "人が〜するのを防ぐ",
+    "en": "prevent someone from doing something",
+    "usage": "望ましくない事態が起きないよう、環境や方法を工夫する。",
+    "prompt": "Clear instructions stop patients making mistakes before they can occur.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1908": {
+    "ja": "〜することを提案する",
+    "en": "suggest doing something / suggest that ...",
+    "usage": "相手に押しつけず、実行できそうな方法を一つ示す。",
+    "prompt": "Your teacher puts forward a possible practice method without imposing it.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1909": {
+    "ja": "〜することを勧める",
+    "en": "recommend doing something / recommend that ...",
+    "usage": "自分の経験や根拠を踏まえて、相手に選択肢を勧める。",
+    "prompt": "Based on experience, you advise someone to try a helpful practice method.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1910": {
+    "ja": "人を説得して〜してもらう",
+    "en": "convince someone to do something",
+    "usage": "説明や理由を伝え、相手の判断・行動を変えられたことを述べる。",
+    "prompt": "Your reasons persuade someone to continue an activity they considered quitting.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1911": {
+    "ja": "人に〜するよう思い出させる",
+    "en": "remind someone to do something",
+    "usage": "忘れてしまいそうな予定や行動を、相手に知らせておく。",
+    "prompt": "You ask a friend to prompt you about tomorrow's planned review.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1912": {
+    "ja": "ＡとＢを区別する",
+    "en": "distinguish A from B",
+    "usage": "似ているものを混同しないよう、違いを明確に説明する。",
+    "prompt": "You explain how two similar qualities differ rather than confusing them.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1913": {
+    "ja": "〜に貢献する・役立つ",
+    "en": "contribute to something / doing something",
+    "usage": "成果を生み出す要因の一つとして、何かの働きを説明する。",
+    "prompt": "Regular discussions are one of several factors helping improve speaking ability.",
+    "form": "Verb pattern",
+    "register": "formal"
+  },
+  "expr_1914": {
+    "ja": "〜を担当している・責任を持つ",
+    "en": "be responsible for something / doing something",
+    "usage": "仕事や研修の中で、自分がどの部分を担当するか説明する。",
+    "prompt": "You explain which part of a training program is your duty.",
+    "form": "Adjective phrase pattern",
+    "register": "daily"
+  },
+  "expr_1915": {
+    "ja": "〜に力を注ぐと決めている",
+    "en": "be committed to something / doing something",
+    "usage": "長期的な目標に対して、継続的に取り組む意思を伝える。",
+    "prompt": "You firmly intend to keep working toward a long term learning goal.",
+    "form": "Adjective phrase pattern",
+    "register": "daily"
+  },
+  "expr_1916": {
+    "ja": "〜する可能性が高い",
+    "en": "be likely to do something",
+    "usage": "予想を述べるとき、確実ではないが可能性が高いと伝える。",
+    "prompt": "You expect an event to happen, although it is not certain.",
+    "form": "Adjective phrase pattern",
+    "register": "daily"
+  },
+  "expr_1917": {
+    "ja": "ＡはＢのおかげ・せいだと考える",
+    "en": "attribute A to B",
+    "usage": "結果の主な原因や要因について、自分の解釈を説明する。",
+    "prompt": "You credit regular practice as the main explanation for your improvement.",
+    "form": "Verb pattern",
+    "register": "formal"
+  },
+  "expr_1918": {
+    "ja": "〜することに気が進まない",
+    "en": "be reluctant to do something",
+    "usage": "必要性は分かるものの、気が進まず前向きになれない気持ちを説明する。",
+    "prompt": "You understand the need to speak publicly but feel unwilling.",
+    "form": "Adjective phrase pattern",
+    "register": "daily"
+  },
+  "expr_1919": {
+    "ja": "〜を試すことに前向きである",
+    "en": "be open to something / doing something",
+    "usage": "自分の方法だけにこだわらず、新しい選択肢を受け入れる姿勢を示す。",
+    "prompt": "You are willing to consider a different method instead of rejecting it.",
+    "form": "Adjective phrase pattern",
+    "register": "daily"
+  },
+  "expr_1920": {
+    "ja": "〜する能力がある",
+    "en": "be capable of something / doing something",
+    "usage": "自分や相手が実際にできる範囲や能力を説明する。",
+    "prompt": "You describe having the ability to explain difficult ideas successfully.",
+    "form": "Adjective phrase pattern",
+    "register": "daily"
+  },
+  "expr_1921": {
+    "ja": "〜に適応する・慣れていく",
+    "en": "adapt to something / doing something",
+    "usage": "新しい環境や習慣に合わせて、自分のやり方を変えていく。",
+    "prompt": "You change your habits to function comfortably in a new environment.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1922": {
+    "ja": "困難な状況に対処する",
+    "en": "cope with something / doing something",
+    "usage": "思い通りにならない状況でも何とか対応する必要があるときに使う。",
+    "prompt": "You need to handle uncertainty and remain functional despite the difficulty.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1923": {
+    "ja": "〜から恩恵や効果を得る",
+    "en": "benefit from something / doing something",
+    "usage": "学習法や支援などから、実際に良い影響を受けた経験を説明する。",
+    "prompt": "Conversations with different tutors have had a positive effect on your learning.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1924": {
+    "ja": "〜に積極的に参加する・従事する",
+    "en": "engage in something / doing something",
+    "usage": "単に参加するだけでなく、活動に主体的に関わる。",
+    "prompt": "Residents actively participate in discussions rather than merely observing them.",
+    "form": "Verb pattern",
+    "register": "formal"
+  },
+  "expr_1925": {
+    "ja": "〜することを強く求める・譲らない",
+    "en": "insist on something / doing something",
+    "usage": "自分が重要だと思う行動や条件について、強い意志を持って譲らない。",
+    "prompt": "You firmly demand that evidence be checked before any decision.",
+    "form": "Verb pattern",
+    "register": "daily"
+  },
+  "expr_1926": {
+    "ja": "確信はないが、〜と思う",
+    "en": "I'm not entirely sure, but ...",
+    "usage": "確かな情報は持っていないが、自分の考えを控えめに述べ始める。",
+    "prompt": "Without complete confidence, you cautiously begin to give your opinion.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1927": {
+    "ja": "少し考えさせてください",
+    "en": "Let me think for a second.",
+    "usage": "質問を受けて、すぐには答えられないので短く考える時間が欲しい。",
+    "prompt": "An unexpected difficult question makes you request a brief pause before answering.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1928": {
+    "ja": "私の知る限りでは〜",
+    "en": "As far as I know, ...",
+    "usage": "情報の正確性を断定せず、自分の把握している範囲で事実を述べる。",
+    "prompt": "You qualify a statement by limiting it to your current information.",
+    "form": "Discourse marker",
+    "register": "daily"
+  },
+  "expr_1929": {
+    "ja": "思いつく範囲で言うと〜",
+    "en": "Off the top of my head, ...",
+    "usage": "調べずに記憶だけで、ひとまず思いついた答えを述べる。",
+    "prompt": "Without checking any sources, you offer an immediate answer using memory.",
+    "form": "Discourse marker · Idiom",
+    "register": "daily"
+  },
+  "expr_1930": {
+    "ja": "それについては今まであまり考えたことがありません",
+    "en": "I haven't really thought about that before.",
+    "usage": "相手に新しい視点を示され、これまで考えていなかったと率直に応じる。",
+    "prompt": "A new perspective makes you acknowledge that the topic is unfamiliar.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1931": {
+    "ja": "個人的には〜だと思います",
+    "en": "Personally, I think ...",
+    "usage": "一般論や他人の意見と区別して、自分の見方を伝える。",
+    "prompt": "You introduce your own opinion separately from general views or facts.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1932": {
+    "ja": "私の見方では〜",
+    "en": "The way I see it, ...",
+    "usage": "複雑な話題について、自分がどう解釈しているかを説明する。",
+    "prompt": "You introduce your particular interpretation of a complicated issue.",
+    "form": "Discourse marker",
+    "register": "daily"
+  },
+  "expr_1933": {
+    "ja": "どちらかというと〜だと思います",
+    "en": "I tend to think that ...",
+    "usage": "意見はあるが絶対的な主張ではなく、普段の考えの傾向を述べる。",
+    "prompt": "You present a usual leaning without claiming your opinion is absolute.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1934": {
+    "ja": "私の立場・観点からすると〜",
+    "en": "From my perspective, ...",
+    "usage": "経験や専門的な立場を踏まえて問題をどう見ているか話す。",
+    "prompt": "You frame an opinion through your own experience and professional viewpoint.",
+    "form": "Discourse marker",
+    "register": "daily"
+  },
+  "expr_1935": {
+    "ja": "私に言わせれば〜",
+    "en": "If you ask me, ...",
+    "usage": "相手の話題について、少し率直に自分の意見を伝える。",
+    "prompt": "You give your candid personal opinion about the current topic.",
+    "form": "Discourse marker",
+    "register": "daily"
+  },
+  "expr_1936": {
+    "ja": "言いたいことは分かりますが〜",
+    "en": "I see your point, but ...",
+    "usage": "相手の言い分を一度認めたうえで、自分の異なる意見を述べる。",
+    "prompt": "You acknowledge the argument before offering a different opinion.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1937": {
+    "ja": "それはもっともな指摘ですね",
+    "en": "That's a fair point.",
+    "usage": "相手の主張に一定の妥当性があると認めて返答する。",
+    "prompt": "You recognize that the other person's argument has genuine merit.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1938": {
+    "ja": "ある程度は賛成します",
+    "en": "To some extent, I agree.",
+    "usage": "全面的ではないが一部は同意していると伝える。",
+    "prompt": "You accept part of an argument while retaining some reservations.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1939": {
+    "ja": "それには必ずしも賛成できません",
+    "en": "I'm not sure I agree with that.",
+    "usage": "相手の意見と違うと思うが、角が立たない形で反対する。",
+    "prompt": "You gently disagree without presenting your objection too bluntly.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1940": {
+    "ja": "つまり私が伝えたいのは〜",
+    "en": "What I'm trying to say is ...",
+    "usage": "説明が伝わっていないと感じたとき、言いたい要点を言い直す。",
+    "prompt": "An explanation has not landed, so you restate its central message.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1941": {
+    "ja": "最大の理由は〜ということです",
+    "en": "The main reason is that ...",
+    "usage": "理由が複数ある話題で、まず中心的な根拠を述べる。",
+    "prompt": "Several explanations exist, but you introduce the most important cause.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1942": {
+    "ja": "私の言いたいことは〜です",
+    "en": "What I mean is ...",
+    "usage": "自分の言葉が誤解されそうなとき、意図を言い換えて明確にする。",
+    "prompt": "You clarify the intended meaning of something you have just said.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1943": {
+    "ja": "その理由の一つは〜",
+    "en": "This is partly because ...",
+    "usage": "現象の背景に複数の要因があると示し、一つの要因を説明する。",
+    "prompt": "You explain one contributing cause without claiming it accounts for everything.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1944": {
+    "ja": "ぱっと思いつく例の一つは〜です",
+    "en": "One example that comes to mind is ...",
+    "usage": "抽象的な説明をした後、すぐ思いついた具体例を挙げる。",
+    "prompt": "After an abstract explanation, you introduce a concrete case recalled spontaneously.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1945": {
+    "ja": "例えば〜",
+    "en": "For instance, ...",
+    "usage": "一般論を述べた後、説明を支える具体例を挙げる。",
+    "prompt": "You support a general statement by introducing a specific case.",
+    "form": "Discourse marker",
+    "register": "daily"
+  },
+  "expr_1946": {
+    "ja": "〜を例に取りましょう",
+    "en": "Take ... for example.",
+    "usage": "抽象的な論点を説明するため、具体的な国や人・事例を取り出す。",
+    "prompt": "You select a particular country to illustrate an abstract argument.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1947": {
+    "ja": "良い例としては〜があります",
+    "en": "A good example would be ...",
+    "usage": "何かを説明する際、適切な事例を一つ提案する。",
+    "prompt": "You tentatively propose a suitable case to illustrate your explanation.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1948": {
+    "ja": "仮に〜だとしましょう",
+    "en": "Let's say ...",
+    "usage": "仮定の場面をつくって、そこで何が起きるか説明する。",
+    "prompt": "You set up an imaginary situation to explore what might happen.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1949": {
+    "ja": "一方で〜",
+    "en": "On the other hand, ...",
+    "usage": "先に述べた側面と対照的な側面を提示する。",
+    "prompt": "You introduce a contrasting aspect after discussing the first side.",
+    "form": "Discourse marker",
+    "register": "daily"
+  },
+  "expr_1950": {
+    "ja": "必ずしも〜というわけではありません",
+    "en": "It's not necessarily the case that ...",
+    "usage": "一般的な主張について、いつでも当てはまるとは限らないと指摘する。",
+    "prompt": "You challenge a generalization without claiming it is always false.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1951": {
+    "ja": "〜には長所と短所があります",
+    "en": "There are pros and cons to ...",
+    "usage": "ある選択肢について、メリットとデメリットの両方を述べたい。",
+    "prompt": "You explain that a choice has both advantages and disadvantages.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1952": {
+    "ja": "〜についてどう思いますか",
+    "en": "What do you think about ...?",
+    "usage": "会話の話題について、相手の意見を尋ねる。",
+    "prompt": "You invite another person to give their opinion on a topic.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1953": {
+    "ja": "それは興味深いですね。どうしてですか",
+    "en": "That's interesting. How come?",
+    "usage": "相手が意外な意見や選択を言ったので、自然に理由を尋ねる。",
+    "prompt": "An unexpected preference interests you, so you casually ask for its reason.",
+    "form": "Sentence",
+    "register": "daily"
+  },
+  "expr_1954": {
+    "ja": "もう少し詳しく説明していただけますか",
+    "en": "Could you elaborate on that?",
+    "usage": "相手の発言が短く、理由や背景をもう少し詳しく聞きたい。",
+    "prompt": "A brief remark leaves you wanting a fuller explanation of its background.",
+    "form": "Sentence",
+    "register": "formal"
+  },
+  "expr_1955": {
+    "ja": "つまり〜という意味ですか",
+    "en": "Do you mean that ...?",
+    "usage": "相手の意図を確認し、自分の理解が正しいか確かめる。",
+    "prompt": "You paraphrase someone's statement to check that you understood their intention.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1956": {
+    "ja": "私が最も懸念しているのは〜です",
+    "en": "What concerns me most is ...",
+    "usage": "重要な問題をいくつか挙げたうえで、最大の心配事を示す。",
+    "prompt": "Among several worries, you identify the one that matters most.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1957": {
+    "ja": "最大の課題は〜です",
+    "en": "The biggest challenge is ...",
+    "usage": "問題点を整理し、最も難しい点をはっきり示す。",
+    "prompt": "You identify the most difficult obstacle after reviewing several problems.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1958": {
+    "ja": "以前は〜と思っていましたが、今は〜",
+    "en": "I used to think ..., but now ...",
+    "usage": "経験や学習によって、以前の考え方がどう変わったか振り返る。",
+    "prompt": "Experience has changed your opinion, and you contrast it with earlier beliefs.",
+    "form": "Sentence pattern",
+    "register": "daily"
+  },
+  "expr_1959": {
+    "ja": "結果的に〜と分かりました",
+    "en": "It turned out that ...",
+    "usage": "予想と実際の結果が違ったことを後から説明する。",
+    "prompt": "Later evidence reveals that the actual situation differed from your expectations.",
+    "form": "Sentence pattern",
     "register": "daily"
   }
 }

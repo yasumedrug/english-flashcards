@@ -29,10 +29,6 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
     "ja": "妻に仕事の愚痴をこぼす",
     "en": "vent to my wife about work"
   },
-  "expr_1506": {
-    "ja": "一番後悔しているのは〜だ",
-    "en": "My biggest regret is ...ing."
-  },
   "expr_1510": {
     "ja": "〜の時は我慢できない",
     "en": "I can't stand it when ..."
@@ -338,7 +334,7 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
     "en": "ponder"
   },
   "expr_0055": {
-    "ja": "深く考える",
+    "ja": "深く考える・行動を真剣に検討する",
     "en": "contemplate"
   },
   "expr_0056": {
@@ -406,7 +402,7 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
     "en": "retrospective"
   },
   "expr_0072": {
-    "ja": "ありがたさ",
+    "ja": "便利さ・利便性",
     "en": "convenience"
   },
   "expr_0073": {
@@ -470,7 +466,7 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
     "en": "adoption"
   },
   "expr_0089": {
-    "ja": "多数",
+    "ja": "非常に多くの〜",
     "en": "a multitude of"
   },
   "expr_0090": {
@@ -490,7 +486,7 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
     "en": "tend to"
   },
   "expr_0094": {
-    "ja": "傾向がある",
+    "ja": "〜する傾向がある・どちらかというと〜と思う",
     "en": "be inclined to"
   },
   "expr_0095": {
@@ -594,11 +590,11 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
     "en": "logical"
   },
   "expr_0120": {
-    "ja": "解説する",
+    "ja": "複雑な内容をかみ砕いて説明する",
     "en": "break down"
   },
   "expr_0121": {
-    "ja": "解説する",
+    "ja": "相手に手順を一つずつ説明する",
     "en": "walk someone through"
   },
   "expr_0122": {
@@ -1106,7 +1102,7 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
     "en": "a craftsman’s mindset"
   },
   "expr_0251": {
-    "ja": "余分な",
+    "ja": "追加の・予備の",
     "en": "extra"
   },
   "expr_0252": {
@@ -1146,7 +1142,7 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
     "en": "think it over"
   },
   "expr_0261": {
-    "ja": "よく考える",
+    "ja": "結果まで筋道立ててよく考える",
     "en": "think it through"
   },
   "expr_0262": {
@@ -1270,11 +1266,11 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
     "en": "now / these days"
   },
   "expr_0292": {
-    "ja": "今のところ",
+    "ja": "当面は／ここまでのところは",
     "en": "for now / so far"
   },
   "expr_0293": {
-    "ja": "今までは",
+    "ja": "今まで・今に至るまでは",
     "en": "until now / up to now"
   },
   "expr_0294": {
