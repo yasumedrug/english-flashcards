@@ -3416,6 +3416,314 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_1506": {
     "ja": "一番後悔しているのは〜だ",
     "en": "My biggest regret is ...ing."
+  },
+  "expr_0845": {
+    "ja": "味が強い・濃い",
+    "en": "strong flavor"
+  },
+  "expr_0846": {
+    "ja": "コクのある濃厚な味",
+    "en": "rich flavor"
+  },
+  "expr_0847": {
+    "ja": "薄く味気ない",
+    "en": "bland"
+  },
+  "expr_0848": {
+    "ja": "穏やかで優しい味",
+    "en": "mild flavor"
+  },
+  "expr_0849": {
+    "ja": "食べ物を皿に残す",
+    "en": "leave food on my plate"
+  },
+  "expr_0850": {
+    "ja": "食事を食べきれない",
+    "en": "not finish my meal"
+  },
+  "expr_0851": {
+    "ja": "残った料理・食べ残し",
+    "en": "leftovers"
+  },
+  "expr_0852": {
+    "ja": "後で食べるため残しておく",
+    "en": "save some for later"
+  },
+  "expr_0860": {
+    "ja": "ドル（正式な通貨）",
+    "en": "dollars"
+  },
+  "expr_0861": {
+    "ja": "ドル（くだけた呼び方）",
+    "en": "bucks"
+  },
+  "expr_0862": {
+    "ja": "貯金・蓄え",
+    "en": "savings"
+  },
+  "expr_0863": {
+    "ja": "お金を貯める",
+    "en": "save money"
+  },
+  "expr_0864": {
+    "ja": "お金を取り分けて貯める",
+    "en": "put money aside"
+  },
+  "expr_0865": {
+    "ja": "貯金を少し取り崩す",
+    "en": "dip into my savings"
+  },
+  "expr_0866": {
+    "ja": "貯金をコツコツ増やす",
+    "en": "build up my savings"
+  },
+  "expr_0867": {
+    "ja": "退院する",
+    "en": "be discharged from the hospital"
+  },
+  "expr_0868": {
+    "ja": "患者を退院させる",
+    "en": "discharge a patient"
+  },
+  "expr_0869": {
+    "ja": "退院後",
+    "en": "after discharge"
+  },
+  "expr_0870": {
+    "ja": "退院支援",
+    "en": "discharge planning"
+  },
+  "expr_0871": {
+    "ja": "苦しんでいる患者に寄り添う",
+    "en": "be there for patients who are suffering"
+  },
+  "expr_0872": {
+    "ja": "患者の苦痛を認め受け止める",
+    "en": "acknowledge patients' suffering"
+  },
+  "expr_0873": {
+    "ja": "共感して患者を理解しようとする",
+    "en": "empathize with patients"
+  },
+  "expr_0874": {
+    "ja": "苦痛に思いやりをもって応じる",
+    "en": "respond with compassion"
+  },
+  "expr_0875": {
+    "ja": "身体的・心理社会的な苦しみ",
+    "en": "suffering"
+  },
+  "expr_0876": {
+    "ja": "苦痛・精神的つらさ",
+    "en": "distress"
+  },
+  "expr_0877": {
+    "ja": "業務を外部委託する",
+    "en": "outsource ... to ..."
+  },
+  "expr_0878": {
+    "ja": "請負業者を雇う",
+    "en": "hire a contractor"
+  },
+  "expr_0879": {
+    "ja": "業者にやってもらう",
+    "en": "have a company do ..."
+  },
+  "expr_0880": {
+    "ja": "請負業者",
+    "en": "contractor"
+  },
+  "expr_0881": {
+    "ja": "取引業者",
+    "en": "vendor"
+  },
+  "expr_0882": {
+    "ja": "サービス提供事業者",
+    "en": "service provider"
+  },
+  "expr_0883": {
+    "ja": "あなたはAをして私がBをやる",
+    "en": "You do A, and I'll do B."
+  },
+  "expr_0884": {
+    "ja": "あなたはA私がBはどう？",
+    "en": "How about you do A, and I'll do B?"
+  },
+  "expr_0885": {
+    "ja": "その間に私は〜する",
+    "en": "in the meantime"
+  },
+  "expr_0886": {
+    "ja": "お返しとして",
+    "en": "in return"
+  },
+  "expr_0887": {
+    "ja": "代わりにやる",
+    "en": "do it instead"
+  },
+  "expr_0888": {
+    "ja": "学習会に参加する機会がある",
+    "en": "get to attend ..."
+  },
+  "expr_0889": {
+    "ja": "私にとって参加しやすい",
+    "en": "It's easy for me to attend."
+  },
+  "expr_0890": {
+    "ja": "無理なく都合をつけて参加できる",
+    "en": "make it to ..."
+  },
+  "expr_0891": {
+    "ja": "実は・実際には・意外にも",
+    "en": "actually"
+  },
+  "expr_0892": {
+    "ja": "実際、それどころか",
+    "en": "in fact"
+  },
+  "expr_0893": {
+    "ja": "本当に・実際に",
+    "en": "really"
+  },
+  "expr_0894": {
+    "ja": "正直に言うと",
+    "en": "to be honest"
+  },
+  "expr_0895": {
+    "ja": "現実には",
+    "en": "in reality"
+  },
+  "expr_0896": {
+    "ja": "ある意味では",
+    "en": "in a way"
+  },
+  "expr_0897": {
+    "ja": "ある意味で〜という事実が興味深い",
+    "en": "In a way, it's interesting that ..."
+  },
+  "expr_0898": {
+    "ja": "ある意味で〜するのは興味深い",
+    "en": "In a way, it's interesting to ..."
+  },
+  "expr_0899": {
+    "ja": "特定の観点では",
+    "en": "in a sense"
+  },
+  "expr_0900": {
+    "ja": "〜について言えば",
+    "en": "when it comes to ..."
+  },
+  "expr_0901": {
+    "ja": "〜に限って言えば",
+    "en": "as far as ... is concerned"
+  },
+  "expr_0902": {
+    "ja": "特に〜について話すなら",
+    "en": "if we're talking specifically about ..."
+  },
+  "expr_0903": {
+    "ja": "決して〜ではない（文頭倒置）",
+    "en": "By no means is ..."
+  },
+  "expr_0904": {
+    "ja": "ぜひどうぞ！",
+    "en": "By all means!"
+  },
+  "expr_0905": {
+    "ja": "遠慮なくどうぞ",
+    "en": "Go ahead!"
+  },
+  "expr_0906": {
+    "ja": "疲れたどころじゃない",
+    "en": "I'm way beyond tired."
+  },
+  "expr_0907": {
+    "ja": "Aどころじゃない、Bだ",
+    "en": "It's not just A; it's B."
+  },
+  "expr_0908": {
+    "ja": "Aなんて言葉では表せない",
+    "en": "A doesn't even begin to describe it."
+  },
+  "expr_0909": {
+    "ja": "根負けする・誘惑に負ける",
+    "en": "give in"
+  },
+  "expr_0910": {
+    "ja": "途中で投げ出す",
+    "en": "give up halfway through"
+  },
+  "expr_0913": {
+    "ja": "直感を信じる",
+    "en": "trust my gut"
+  },
+  "expr_0914": {
+    "ja": "直感・本能的判断を信じる",
+    "en": "trust my instincts"
+  },
+  "expr_0915": {
+    "ja": "価値あるものとして大事にする",
+    "en": "value ..."
+  },
+  "expr_0916": {
+    "ja": "優先して大事にする",
+    "en": "prioritize ..."
+  },
+  "expr_0917": {
+    "ja": "心に留めて意識する",
+    "en": "keep ... in mind"
+  },
+  "expr_0918": {
+    "ja": "〜を意識・配慮する",
+    "en": "be mindful of ..."
+  },
+  "expr_0919": {
+    "ja": "驚き・驚かせる（R）",
+    "en": "surprise"
+  },
+  "expr_0920": {
+    "ja": "物資・備品（L）",
+    "en": "supplies"
+  },
+  "expr_0921": {
+    "ja": "事務・管理上の",
+    "en": "administrative"
+  },
+  "expr_0922": {
+    "ja": "定型的な事務の",
+    "en": "clerical"
+  },
+  "expr_0923": {
+    "ja": "事務仕事（口語）",
+    "en": "admin work"
+  },
+  "expr_0924": {
+    "ja": "書類仕事",
+    "en": "paperwork"
+  },
+  "expr_0925": {
+    "ja": "自分の声・意見を届ける",
+    "en": "make my voice heard"
+  },
+  "expr_0926": {
+    "ja": "遠慮せず発言する",
+    "en": "speak up"
+  },
+  "expr_0927": {
+    "ja": "全体を台無しにする",
+    "en": "ruin"
+  },
+  "expr_0928": {
+    "ja": "楽しみ・よさを損なう",
+    "en": "spoil"
+  },
+  "expr_0929": {
+    "ja": "二度寝する",
+    "en": "go back to sleep"
+  },
+  "expr_0930": {
+    "ja": "また眠ってしまう",
+    "en": "fall back asleep"
   }
 }
 
