@@ -94,14 +94,14 @@
     "context": {
       "ja": "一番後悔しているのは〜だ",
       "en": "My biggest regret is ...ing.",
-      "usage": "過去の行動を振り返る。",
-      "prompt": "You identify the past action you most wish you could change.",
+      "usage": "過去にしなかった行動のうち、最も後悔していることを話す。",
+      "prompt": "Your greatest disappointment is not taking a past opportunity when you could.",
       "form": "Sentence",
       "register": "daily"
     },
-    "imageSha256": "8f9aa9a37756eee08d55f6231b869b57cd5438cc86aeb8be415f1aef891140cc",
-    "reviewedAt": "2026-11-15T01:11:34.275048+00:00",
-    "method": "visual_context_audit"
+    "imageSha256": "a5d2c6e95db99873f9515b56a7c7c53e5bebc5bb741faae5ae3558f7a6958262",
+    "reviewedAt": "2026-11-19T05:57:01.139072+00:00",
+    "method": "visual_image_context_review"
   },
   "expr_1510": {
     "context": {

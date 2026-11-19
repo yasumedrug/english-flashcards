@@ -3412,6 +3412,10 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_0841": {
     "ja": "毛深い",
     "en": "hairy"
+  },
+  "expr_1506": {
+    "ja": "一番後悔しているのは〜だ",
+    "en": "My biggest regret is ...ing."
   }
 }
 
