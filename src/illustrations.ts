@@ -3724,6 +3724,342 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_0930": {
     "ja": "また眠ってしまう",
     "en": "fall back asleep"
+  },
+  "expr_0931": {
+    "ja": "普段より遅くまで寝る",
+    "en": "sleep in"
+  },
+  "expr_0932": {
+    "ja": "十分あり得る",
+    "en": "may well"
+  },
+  "expr_0933": {
+    "ja": "十分あり得る（控えめ）",
+    "en": "might well"
+  },
+  "expr_0934": {
+    "ja": "それなら〜しよう",
+    "en": "might as well"
+  },
+  "expr_0935": {
+    "ja": "せっかくだし〜しよう",
+    "en": "may as well"
+  },
+  "expr_0936": {
+    "ja": "〜を思いつく・思い浮かべる",
+    "en": "think of"
+  },
+  "expr_0937": {
+    "ja": "〜について考える・検討する",
+    "en": "think about"
+  },
+  "expr_0938": {
+    "ja": "〜として捉える",
+    "en": "think of A as B"
+  },
+  "expr_0939": {
+    "ja": "決して〜ではない",
+    "en": "anything but ..."
+  },
+  "expr_0940": {
+    "ja": "〜だけ・〜にすぎない",
+    "en": "nothing but ..."
+  },
+  "expr_0941": {
+    "ja": "必要なときに（頓服で）",
+    "en": "as needed"
+  },
+  "expr_0942": {
+    "ja": "頓服薬",
+    "en": "as-needed medication"
+  },
+  "expr_0943": {
+    "ja": "頓服薬（医療者向け）",
+    "en": "PRN medication"
+  },
+  "expr_0944": {
+    "ja": "水以外は要らない",
+    "en": "I don’t want anything but water."
+  },
+  "expr_0945": {
+    "ja": "文字通り・本当に",
+    "en": "literally"
+  },
+  "expr_0946": {
+    "ja": "厳密には・技術上は",
+    "en": "technically"
+  },
+  "expr_0947": {
+    "ja": "正確に・厳密に",
+    "en": "precisely"
+  },
+  "expr_0948": {
+    "ja": "およそ・ざっと",
+    "en": "roughly"
+  },
+  "expr_0949": {
+    "ja": "比較的",
+    "en": "relatively"
+  },
+  "expr_0950": {
+    "ja": "危うく〜するところだった・ほとんど",
+    "en": "almost"
+  },
+  "expr_0951": {
+    "ja": "ひどく・とても",
+    "en": "badly"
+  },
+  "expr_0952": {
+    "ja": "ほとんど〜ない",
+    "en": "hardly"
+  },
+  "expr_0953": {
+    "ja": "もしかして・どうしても（否定文）",
+    "en": "possibly"
+  },
+  "expr_0954": {
+    "ja": "確実に・もちろん",
+    "en": "definitely"
+  },
+  "expr_0955": {
+    "ja": "確かに・もちろん",
+    "en": "certainly"
+  },
+  "expr_0956": {
+    "ja": "かなり・むしろ",
+    "en": "rather"
+  },
+  "expr_0957": {
+    "ja": "実に・本当に",
+    "en": "indeed"
+  },
+  "expr_0958": {
+    "ja": "非常に・高く",
+    "en": "highly"
+  },
+  "expr_0959": {
+    "ja": "最終的に・やがて",
+    "en": "eventually"
+  },
+  "expr_0960": {
+    "ja": "時々・たまに",
+    "en": "occasionally"
+  },
+  "expr_0962": {
+    "ja": "また合流する",
+    "en": "meet up again"
+  },
+  "expr_0963": {
+    "ja": "我慢する・持ちこたえる",
+    "en": "withstand"
+  },
+  "expr_0964": {
+    "ja": "〜したい衝動を抑える",
+    "en": "resist the urge to ..."
+  },
+  "expr_0965": {
+    "ja": "こだわりが強い・好みがはっきりしている",
+    "en": "have strong preferences"
+  },
+  "expr_0966": {
+    "ja": "決まった順序でやりたがる",
+    "en": "like to do things in a certain order"
+  },
+  "expr_0967": {
+    "ja": "〜なんて存在しない",
+    "en": "there is no such thing as ..."
+  },
+  "expr_0968": {
+    "ja": "〜の存在を否定する",
+    "en": "deny the existence of ..."
+  },
+  "expr_0969": {
+    "ja": "少し離れたところから見守る",
+    "en": "keep an eye on ... from a little way off"
+  },
+  "expr_0970": {
+    "ja": "やりながらうまくいく方法を見つける",
+    "en": "figure out what works as we go"
+  },
+  "expr_0971": {
+    "ja": "もっとよいやり方",
+    "en": "a better way"
+  },
+  "expr_0972": {
+    "ja": "向き合い方・進め方",
+    "en": "approach"
+  },
+  "expr_0973": {
+    "ja": "手順のある方法",
+    "en": "method"
+  },
+  "expr_0974": {
+    "ja": "目的達成のための作戦",
+    "en": "strategy"
+  },
+  "expr_0975": {
+    "ja": "具体的なコツ・技術",
+    "en": "technique"
+  },
+  "expr_0976": {
+    "ja": "目や耳で気づく",
+    "en": "notice"
+  },
+  "expr_0977": {
+    "ja": "考えて気づく・理解する",
+    "en": "realize"
+  },
+  "expr_0978": {
+    "ja": "調べたり聞いたりして知る",
+    "en": "find out"
+  },
+  "expr_0979": {
+    "ja": "微妙なサインを察する",
+    "en": "pick up on ..."
+  },
+  "expr_0980": {
+    "ja": "徐々に認識する",
+    "en": "become aware of ..."
+  },
+  "expr_0981": {
+    "ja": "はっと気づく",
+    "en": "it dawned on me that ..."
+  },
+  "expr_0982": {
+    "ja": "時間をかけて気づく",
+    "en": "come to realize that ..."
+  },
+  "expr_0983": {
+    "ja": "機会や資源を最大限利用する",
+    "en": "exploit an opportunity or a resource"
+  },
+  "expr_0984": {
+    "ja": "痛みを和らげる力",
+    "en": "the ability to relieve pain"
+  },
+  "expr_0985": {
+    "ja": "〜を三つの部分に分ける",
+    "en": "break ... down into three parts"
+  },
+  "expr_0986": {
+    "ja": "考えるべき点が三つある",
+    "en": "There are three things to consider."
+  },
+  "expr_0987": {
+    "ja": "スペクトラムとして捉える",
+    "en": "think of it as a spectrum"
+  },
+  "expr_0988": {
+    "ja": "AからBまで幅がある",
+    "en": "It ranges from A to B."
+  },
+  "expr_0989": {
+    "ja": "中間だがA寄り",
+    "en": "It falls somewhere in between, but closer to A."
+  },
+  "expr_0990": {
+    "ja": "〜らしいんだけど・聞いた話では",
+    "en": "I heard ..."
+  },
+  "expr_0991": {
+    "ja": "どうやら〜らしい",
+    "en": "Apparently, ..."
+  },
+  "expr_0993": {
+    "ja": "〜をオフのままにする",
+    "en": "keep ... off"
+  },
+  "expr_0994": {
+    "ja": "〜をオフにする",
+    "en": "turn ... off"
+  },
+  "expr_0995": {
+    "ja": "〜をつけたままにする",
+    "en": "leave ... on"
+  },
+  "expr_0996": {
+    "ja": "靴を履いたままにする",
+    "en": "keep your shoes on"
+  },
+  "expr_0997": {
+    "ja": "靴を履く",
+    "en": "put your shoes on"
+  },
+  "expr_0998": {
+    "ja": "さらに・いっそう",
+    "en": "even more"
+  },
+  "expr_1001": {
+    "ja": "健康診断を受ける",
+    "en": "get a health checkup"
+  },
+  "expr_1002": {
+    "ja": "がん検診を受ける",
+    "en": "get screened for cancer"
+  },
+  "expr_1003": {
+    "ja": "制度的に・制度の面で",
+    "en": "institutionally"
+  },
+  "expr_1004": {
+    "ja": "危うく〜するところだった",
+    "en": "almost + 過去形"
+  },
+  "expr_1005": {
+    "ja": "そもそも・最初から話すと",
+    "en": "To begin with, ..."
+  },
+  "expr_1007": {
+    "ja": "だから思わず〜した",
+    "en": "I couldn't help ...ing"
+  },
+  "expr_1008": {
+    "ja": "〜するにつれて",
+    "en": "as ..."
+  },
+  "expr_1009": {
+    "ja": "ただの時間稼ぎだ",
+    "en": "It's just a way to buy time."
+  },
+  "expr_1010": {
+    "ja": "最初から最後まで",
+    "en": "all the way through"
+  },
+  "expr_1011": {
+    "ja": "〜の間ずっと・全体にわたって",
+    "en": "throughout"
+  },
+  "expr_1013": {
+    "ja": "親しい・親密な",
+    "en": "close"
+  },
+  "expr_1014": {
+    "ja": "考え・思い込み",
+    "en": "notion"
+  },
+  "expr_1015": {
+    "ja": "概念・構想",
+    "en": "concept"
+  },
+  "expr_1016": {
+    "ja": "診察室",
+    "en": "examination room"
+  },
+  "expr_1017": {
+    "ja": "民間の・伝承の",
+    "en": "folk"
+  },
+  "expr_1018": {
+    "ja": "なんとか間に合う・参加できる",
+    "en": "make it"
+  },
+  "expr_1019": {
+    "ja": "一見役に立たないもの",
+    "en": "something that seems useless at first"
+  },
+  "expr_1020": {
+    "ja": "見返りを期待せずに",
+    "en": "without expecting anything in return"
   }
 }
 
