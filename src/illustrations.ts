@@ -4060,6 +4060,318 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_1020": {
     "ja": "見返りを期待せずに",
     "en": "without expecting anything in return"
+  },
+  "expr_1021": {
+    "ja": "妥当な価格",
+    "en": "a reasonable price"
+  },
+  "expr_1022": {
+    "ja": "さらに五万円値切る",
+    "en": "negotiate another 50,000 yen off"
+  },
+  "expr_1023": {
+    "ja": "AについてBに相談する",
+    "en": "consult B about A"
+  },
+  "expr_1024": {
+    "ja": "秘密や悩みをBに打ち明ける",
+    "en": "confide in B about A"
+  },
+  "expr_1025": {
+    "ja": "驚くことに〜",
+    "en": "Surprisingly, ..."
+  },
+  "expr_1028": {
+    "ja": "男子校",
+    "en": "an all-boys school"
+  },
+  "expr_1029": {
+    "ja": "バカ話・くだらないおしゃべり",
+    "en": "silly conversations"
+  },
+  "expr_1030": {
+    "ja": "成功体験",
+    "en": "the experience of succeeding at something"
+  },
+  "expr_1031": {
+    "ja": "努力は実るという考え方",
+    "en": "the belief that hard work pays off"
+  },
+  "expr_1032": {
+    "ja": "痛みの管理",
+    "en": "pain management"
+  },
+  "expr_1034": {
+    "ja": "変えられることと変えられないこと",
+    "en": "what's within our control and what isn't"
+  },
+  "expr_1035": {
+    "ja": "〜以外に・〜を除いて",
+    "en": "other than ..."
+  },
+  "expr_1036": {
+    "ja": "〜を除けば・〜に加えて",
+    "en": "apart from ..."
+  },
+  "expr_1037": {
+    "ja": "目標",
+    "en": "goal"
+  },
+  "expr_1038": {
+    "ja": "目標数値・達成目標",
+    "en": "target"
+  },
+  "expr_1039": {
+    "ja": "〜のように見えるかもしれない",
+    "en": "It might seem that ..."
+  },
+  "expr_1040": {
+    "ja": "〜する可能性が高い",
+    "en": "There's a good chance that ..."
+  },
+  "expr_1041": {
+    "ja": "絶好の機会",
+    "en": "a great chance to ..."
+  },
+  "expr_1042": {
+    "ja": "可能性が低い",
+    "en": "a slim chance"
+  },
+  "expr_1043": {
+    "ja": "一人で・独力で",
+    "en": "on my own"
+  },
+  "expr_1044": {
+    "ja": "一人で",
+    "en": "by myself"
+  },
+  "expr_1045": {
+    "ja": "何をすればよいか",
+    "en": "what to do"
+  },
+  "expr_1046": {
+    "ja": "どう対処すればよいか",
+    "en": "how to handle it"
+  },
+  "expr_1047": {
+    "ja": "どこへ行けばよいか",
+    "en": "where to go"
+  },
+  "expr_1048": {
+    "ja": "〜の上へ・上に乗って",
+    "en": "onto ..."
+  },
+  "expr_1049": {
+    "ja": "食事に誘う",
+    "en": "ask someone to lunch"
+  },
+  "expr_1050": {
+    "ja": "一緒に来ないか誘う",
+    "en": "ask someone to come with us"
+  },
+  "expr_1051": {
+    "ja": "あまり乗り気ではない",
+    "en": "not very keen on ..."
+  },
+  "expr_1052": {
+    "ja": "今夜はあまり気が乗らない",
+    "en": "I'm not really up for it tonight."
+  },
+  "expr_1053": {
+    "ja": "連絡を取る",
+    "en": "get in touch with someone"
+  },
+  "expr_1054": {
+    "ja": "自分から連絡する",
+    "en": "reach out to someone"
+  },
+  "expr_1055": {
+    "ja": "連絡がつかない",
+    "en": "can't reach someone"
+  },
+  "expr_1056": {
+    "ja": "ドライバー・ねじ回し",
+    "en": "screwdriver"
+  },
+  "expr_1057": {
+    "ja": "ネジ",
+    "en": "screw"
+  },
+  "expr_1058": {
+    "ja": "ダンボール箱",
+    "en": "cardboard box"
+  },
+  "expr_1059": {
+    "ja": "箱の側面に穴を開ける",
+    "en": "make a hole in the side of the box"
+  },
+  "expr_1060": {
+    "ja": "以前は〜していたが今は違う",
+    "en": "I used to ..., but now ..."
+  },
+  "expr_1061": {
+    "ja": "ある時点で・いつしか",
+    "en": "At some point, ..."
+  },
+  "expr_1062": {
+    "ja": "考えて〜と気づく",
+    "en": "I realized that ..."
+  },
+  "expr_1063": {
+    "ja": "〜するのに苦労した",
+    "en": "I struggled to ..."
+  },
+  "expr_1064": {
+    "ja": "〜に頼り続けていた",
+    "en": "I kept relying on ..."
+  },
+  "expr_1066": {
+    "ja": "AからBへ移行した",
+    "en": "I shifted from A to B."
+  },
+  "expr_1067": {
+    "ja": "一つ問題があると気づいた",
+    "en": "I noticed one problem."
+  },
+  "expr_1068": {
+    "ja": "私が話したいのは〜です",
+    "en": "What I want to talk about is ..."
+  },
+  "expr_1069": {
+    "ja": "役に立ったが〜",
+    "en": "It was helpful, but ..."
+  },
+  "expr_1070": {
+    "ja": "主に〜に集中する",
+    "en": "focus mainly on ..."
+  },
+  "expr_1071": {
+    "ja": "〜に時間をかけすぎる",
+    "en": "spend too much time doing ..."
+  },
+  "expr_1072": {
+    "ja": "学んだことを実践に移す",
+    "en": "put what I've learned into practice"
+  },
+  "expr_1073": {
+    "ja": "より幅広い表現を使う",
+    "en": "use a wider range of expressions"
+  },
+  "expr_1074": {
+    "ja": "上達に合わせて方法を調整する",
+    "en": "adapt my approach as I progress"
+  },
+  "expr_1075": {
+    "ja": "仕事が全然進まない",
+    "en": "can't get any work done"
+  },
+  "expr_1076": {
+    "ja": "気になった・引っかかったこと",
+    "en": "something that bothered me"
+  },
+  "expr_1077": {
+    "ja": "〜しても構いませんか",
+    "en": "Would you mind if I ...?"
+  },
+  "expr_1083": {
+    "ja": "重要なのはBではなくAだ",
+    "en": "What matters is A, not B."
+  },
+  "expr_1085": {
+    "ja": "温かく明るい",
+    "en": "warm and cheerful"
+  },
+  "expr_1086": {
+    "ja": "〜の一日を明るくする",
+    "en": "brighten someone's day"
+  },
+  "expr_1087": {
+    "ja": "時間とともに積み重なる",
+    "en": "add up over time"
+  },
+  "expr_1088": {
+    "ja": "〜に…を思い出させる",
+    "en": "remind someone of ..."
+  },
+  "expr_1089": {
+    "ja": "〜にとって大きな意味がある",
+    "en": "mean a lot to someone"
+  },
+  "expr_1090": {
+    "ja": "〜を元気づける",
+    "en": "lift someone's spirits"
+  },
+  "expr_1092": {
+    "ja": "実際には〜だが、それでも…",
+    "en": "even though + 文"
+  },
+  "expr_1093": {
+    "ja": "〜だったに違いない",
+    "en": "must have + 過去分詞"
+  },
+  "expr_1094": {
+    "ja": "とても〜なので…",
+    "en": "so + 形容詞 + that + 文"
+  },
+  "expr_1095": {
+    "ja": "〜にとって思い出深い",
+    "en": "hold special memories for ..."
+  },
+  "expr_1096": {
+    "ja": "今は昔よりずっと多い",
+    "en": "There are far more ... now than there used to be."
+  },
+  "expr_1098": {
+    "ja": "論点はAではなくBだ",
+    "en": "It's not about A; it's about B."
+  },
+  "expr_1099": {
+    "ja": "この問題に対処する",
+    "en": "address this issue"
+  },
+  "expr_1100": {
+    "ja": "この問題を真剣に受け止める",
+    "en": "take this issue seriously"
+  },
+  "expr_1101": {
+    "ja": "〜ということを明確に伝える",
+    "en": "make it clear that ..."
+  },
+  "expr_1102": {
+    "ja": "してよいこと・いけないことを説明する",
+    "en": "explain what visitors should and shouldn't do"
+  },
+  "expr_1103": {
+    "ja": "文化遺産",
+    "en": "cultural heritage"
+  },
+  "expr_1104": {
+    "ja": "地元経済に恩恵をもたらす",
+    "en": "benefit the local economy"
+  },
+  "expr_1105": {
+    "ja": "〜に大きな可能性を秘めている",
+    "en": "hold great potential for ..."
+  },
+  "expr_1106": {
+    "ja": "〜の鍵を握っている",
+    "en": "hold the key to + 名詞／動詞ing"
+  },
+  "expr_1107": {
+    "ja": "〜の観点では",
+    "en": "in terms of + 評価の軸"
+  },
+  "expr_1108": {
+    "ja": "私たちにとって特別な場所",
+    "en": "a special place for us"
+  },
+  "expr_1110": {
+    "ja": "一部の観光客の振る舞い",
+    "en": "how some tourists behave"
+  },
+  "expr_1111": {
+    "ja": "〜が傷つけられるのは容認できない",
+    "en": "It's unacceptable for ... to be damaged."
   }
 }
 
