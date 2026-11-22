@@ -4372,6 +4372,350 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_1111": {
     "ja": "〜が傷つけられるのは容認できない",
     "en": "It's unacceptable for ... to be damaged."
+  },
+  "expr_1112": {
+    "ja": "観光の経済的な恩恵",
+    "en": "the economic benefits of tourism"
+  },
+  "expr_1113": {
+    "ja": "外国人観光客",
+    "en": "international tourists"
+  },
+  "expr_1114": {
+    "ja": "最初から",
+    "en": "from the off"
+  },
+  "expr_1115": {
+    "ja": "そういえば、それに関連して",
+    "en": "speaking of which, ..."
+  },
+  "expr_1116": {
+    "ja": "〜の本場・発祥の地",
+    "en": "the home of ..."
+  },
+  "expr_1118": {
+    "ja": "全体像・状況を把握する",
+    "en": "get a handle on ..."
+  },
+  "expr_1119": {
+    "ja": "時間がたてば〜",
+    "en": "with time, ..."
+  },
+  "expr_1120": {
+    "ja": "やめてよ",
+    "en": "cut it out"
+  },
+  "expr_1121": {
+    "ja": "いい加減にやめて",
+    "en": "knock it off"
+  },
+  "expr_1122": {
+    "ja": "さっさと言って",
+    "en": "spit it out"
+  },
+  "expr_1123": {
+    "ja": "急いで／もっと頑張って",
+    "en": "step on it"
+  },
+  "expr_1124": {
+    "ja": "その調子で続けて",
+    "en": "keep it up"
+  },
+  "expr_1125": {
+    "ja": "捨てる",
+    "en": "throw it away"
+  },
+  "expr_1126": {
+    "ja": "そんな可能性はまったくない",
+    "en": "not a chance"
+  },
+  "expr_1127": {
+    "ja": "実現させる",
+    "en": "make it happen"
+  },
+  "expr_1128": {
+    "ja": "準備ができた／問題なく進められる",
+    "en": "good to go"
+  },
+  "expr_1129": {
+    "ja": "何度も行ったり来たりする",
+    "en": "back and forth"
+  },
+  "expr_1130": {
+    "ja": "〜だったかもしれない／〜できたはず",
+    "en": "could have been ..."
+  },
+  "expr_1131": {
+    "ja": "〜だったかもしれない",
+    "en": "might have been ..."
+  },
+  "expr_1132": {
+    "ja": "よかったね（その人にとって）",
+    "en": "good for him / her"
+  },
+  "expr_1133": {
+    "ja": "わかった、言いたいことは伝わった",
+    "en": "Got you."
+  },
+  "expr_1135": {
+    "ja": "まったく見当がつかない",
+    "en": "I have no idea."
+  },
+  "expr_1136": {
+    "ja": "私なら〜と思う",
+    "en": "I'd say ..."
+  },
+  "expr_1137": {
+    "ja": "自分にご褒美をあげる",
+    "en": "treat yourself to ..."
+  },
+  "expr_1138": {
+    "ja": "あちこちに／時々",
+    "en": "here and there"
+  },
+  "expr_1139": {
+    "ja": "大量の助言を短時間で消化する",
+    "en": "digest a lot of advice"
+  },
+  "expr_1140": {
+    "ja": "有限である",
+    "en": "finite"
+  },
+  "expr_1141": {
+    "ja": "長く続く・長続きする",
+    "en": "enduring"
+  },
+  "expr_1142": {
+    "ja": "〜を支持する",
+    "en": "get behind ... / back ..."
+  },
+  "expr_1144": {
+    "ja": "観光客であふれている",
+    "en": "be flooded with tourists"
+  },
+  "expr_1145": {
+    "ja": "経済的な恩恵をもたらす",
+    "en": "bring economic benefits to ..."
+  },
+  "expr_1146": {
+    "ja": "地元の習慣を尊重する",
+    "en": "respect local customs"
+  },
+  "expr_1147": {
+    "ja": "声を抑える",
+    "en": "keep your voice down"
+  },
+  "expr_1148": {
+    "ja": "敬意の表れとみなされる",
+    "en": "be considered a sign of respect"
+  },
+  "expr_1149": {
+    "ja": "AをBに押し付ける",
+    "en": "impose A on B"
+  },
+  "expr_1150": {
+    "ja": "意見の共通点を見つける",
+    "en": "find common ground"
+  },
+  "expr_1151": {
+    "ja": "共通理解を形成する",
+    "en": "build a shared understanding of ..."
+  },
+  "expr_1152": {
+    "ja": "相互尊重",
+    "en": "mutual respect"
+  },
+  "expr_1153": {
+    "ja": "協力して〜する",
+    "en": "work together to ..."
+  },
+  "expr_1154": {
+    "ja": "あなた以外に誰が来るの？",
+    "en": "Who else is going, besides you?"
+  },
+  "expr_1155": {
+    "ja": "ほかに誰か来る？",
+    "en": "Is anyone else coming?"
+  },
+  "expr_1157": {
+    "ja": "ほかに何か必要？",
+    "en": "Do you need anything else?"
+  },
+  "expr_1158": {
+    "ja": "別の場所へ行こう",
+    "en": "Let's go somewhere else."
+  },
+  "expr_1159": {
+    "ja": "ほかにどう説明できる？",
+    "en": "How else can we explain ...?"
+  },
+  "expr_1160": {
+    "ja": "それを手渡す・引き渡す",
+    "en": "hand it over"
+  },
+  "expr_1161": {
+    "ja": "一晩考える",
+    "en": "sleep on it"
+  },
+  "expr_1162": {
+    "ja": "彼女を中に入れる",
+    "en": "let her in"
+  },
+  "expr_1163": {
+    "ja": "そのかなりの部分",
+    "en": "a lot of it"
+  },
+  "expr_1164": {
+    "ja": "それも一因だ",
+    "en": "That's part of it."
+  },
+  "expr_1165": {
+    "ja": "なんてもったいない",
+    "en": "What a waste!"
+  },
+  "expr_1166": {
+    "ja": "かなり・けっこう",
+    "en": "quite a bit"
+  },
+  "expr_1167": {
+    "ja": "今回は大目に見る",
+    "en": "let it slide"
+  },
+  "expr_1168": {
+    "ja": "正しく理解する・行う",
+    "en": "get it right"
+  },
+  "expr_1169": {
+    "ja": "一つずつ",
+    "en": "one at a time"
+  },
+  "expr_1170": {
+    "ja": "それを次の人に伝える",
+    "en": "pass it on to ..."
+  },
+  "expr_1171": {
+    "ja": "今回は見送る",
+    "en": "pass on it"
+  },
+  "expr_1172": {
+    "ja": "彼らの代わりに",
+    "en": "instead of them"
+  },
+  "expr_1173": {
+    "ja": "ずいぶん厚かましい",
+    "en": "have a lot of nerve"
+  },
+  "expr_1174": {
+    "ja": "そのままにしておく",
+    "en": "leave it alone"
+  },
+  "expr_1175": {
+    "ja": "彼を陥れる",
+    "en": "set him up"
+  },
+  "expr_1176": {
+    "ja": "成功できるようお膳立てする",
+    "en": "set someone up for success"
+  },
+  "expr_1177": {
+    "ja": "彼の話を最後まで聞く",
+    "en": "hear him out"
+  },
+  "expr_1178": {
+    "ja": "彼女を案内して回る",
+    "en": "show her around"
+  },
+  "expr_1179": {
+    "ja": "2時間ほど",
+    "en": "a couple of hours"
+  },
+  "expr_1180": {
+    "ja": "断続的に",
+    "en": "on and off"
+  },
+  "expr_1181": {
+    "ja": "一度に全部",
+    "en": "all at once"
+  },
+  "expr_1182": {
+    "ja": "これ以上先はない・ここで終わりだ",
+    "en": "the end of the line"
+  },
+  "expr_1183": {
+    "ja": "今度こそ決着をつける",
+    "en": "settle this once and for all"
+  },
+  "expr_1184": {
+    "ja": "たまに",
+    "en": "once in a while"
+  },
+  "expr_1185": {
+    "ja": "しばらく保留する",
+    "en": "sit on it"
+  },
+  "expr_1186": {
+    "ja": "どうぞやってみて",
+    "en": "Have at it."
+  },
+  "expr_1187": {
+    "ja": "だから何だというの？",
+    "en": "What of it?"
+  },
+  "expr_1188": {
+    "ja": "ぼんやりして頭が働かない",
+    "en": "be out of it"
+  },
+  "expr_1189": {
+    "ja": "でたらめなことを言っている",
+    "en": "be full of it"
+  },
+  "expr_1190": {
+    "ja": "もう取りかかっています・任せてください",
+    "en": "I'm all over it."
+  },
+  "expr_1191": {
+    "ja": "彼をぼんやりした状態から引き戻す",
+    "en": "snap him out of it"
+  },
+  "expr_1192": {
+    "ja": "今日はこの辺にしましょうか",
+    "en": "Shall we call it a day?"
+  },
+  "expr_1193": {
+    "ja": "私にできることにも限界がある",
+    "en": "There's only so much I can do."
+  },
+  "expr_1194": {
+    "ja": "いまひとつイメージが湧かない",
+    "en": "I can't quite picture it."
+  },
+  "expr_1195": {
+    "ja": "それを聞いて気が楽になった",
+    "en": "That takes a load off my mind."
+  },
+  "expr_1196": {
+    "ja": "それなら理想的ですね",
+    "en": "That would be ideal."
+  },
+  "expr_1197": {
+    "ja": "だいたいそんなところです",
+    "en": "I guess that's about right."
+  },
+  "expr_1198": {
+    "ja": "何かをして過ごす・手を動かしておく",
+    "en": "keep yourself busy"
+  },
+  "expr_1199": {
+    "ja": "最初からやり直す",
+    "en": "start over"
+  },
+  "expr_1200": {
+    "ja": "今ちょうど終わらせているところ",
+    "en": "I'm just finishing up."
+  },
+  "expr_1201": {
+    "ja": "〜することを難しくする",
+    "en": "make it harder to ..."
   }
 }
 
