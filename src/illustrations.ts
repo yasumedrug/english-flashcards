@@ -4716,6 +4716,346 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_1201": {
     "ja": "〜することを難しくする",
     "en": "make it harder to ..."
+  },
+  "expr_1202": {
+    "ja": "それらに共通しているのは〜",
+    "en": "What they have in common is ..."
+  },
+  "expr_1203": {
+    "ja": "それが彼らの物事の捉え方です",
+    "en": "That's how they look at things."
+  },
+  "expr_1204": {
+    "ja": "その件についてはどうすることもできない",
+    "en": "There's nothing I can do about it."
+  },
+  "expr_1205": {
+    "ja": "〜する意思がある・応じてもよい",
+    "en": "be willing to ..."
+  },
+  "expr_1206": {
+    "ja": "〜の助けを借りて",
+    "en": "with the help of ..."
+  },
+  "expr_1208": {
+    "ja": "結果を待ってそわそわしている",
+    "en": "be on pins and needles"
+  },
+  "expr_1209": {
+    "ja": "普通と違う・いつもと違う",
+    "en": "out of the ordinary"
+  },
+  "expr_1210": {
+    "ja": "口コミで",
+    "en": "through word of mouth"
+  },
+  "expr_1211": {
+    "ja": "細かい話は省きますね",
+    "en": "I'll spare you the details."
+  },
+  "expr_1212": {
+    "ja": "急にどうしたのですか",
+    "en": "What's with the sudden change?"
+  },
+  "expr_1214": {
+    "ja": "やっぱり・そうだと思った",
+    "en": "I knew it."
+  },
+  "expr_1215": {
+    "ja": "いい加減な・やっつけの",
+    "en": "half-assed"
+  },
+  "expr_1216": {
+    "ja": "思い上がった相手に身の程をわからせる",
+    "en": "put someone in their place"
+  },
+  "expr_1217": {
+    "ja": "なぜ〜かはっきりとは分からない",
+    "en": "I'm not entirely sure why ..."
+  },
+  "expr_1218": {
+    "ja": "Aというより、むしろBです",
+    "en": "It's not so much A as B."
+  },
+  "expr_1220": {
+    "ja": "すでに〜を考えて整理してある",
+    "en": "I've already worked out ..."
+  },
+  "expr_1221": {
+    "ja": "〜であることを確認する必要がある",
+    "en": "I need to make sure ..."
+  },
+  "expr_1222": {
+    "ja": "驚いたのは〜でした",
+    "en": "What surprised me was ..."
+  },
+  "expr_1223": {
+    "ja": "一番感心したのは〜でした",
+    "en": "What impressed me most was ..."
+  },
+  "expr_1224": {
+    "ja": "〜のように見えるもの",
+    "en": "something that looks like ..."
+  },
+  "expr_1225": {
+    "ja": "どれほど〜かに驚いた",
+    "en": "I was amazed by how ..."
+  },
+  "expr_1226": {
+    "ja": "AをBのように見せる",
+    "en": "make A look like B"
+  },
+  "expr_1227": {
+    "ja": "創造力",
+    "en": "creativity"
+  },
+  "expr_1228": {
+    "ja": "本物らしい・現実的な",
+    "en": "realistic"
+  },
+  "expr_1229": {
+    "ja": "細部まで作り込まれた・詳しい",
+    "en": "detailed"
+  },
+  "expr_1230": {
+    "ja": "元のものによく似ている",
+    "en": "closely resemble the original"
+  },
+  "expr_1231": {
+    "ja": "彼女をけなす",
+    "en": "put her down"
+  },
+  "expr_1232": {
+    "ja": "彼にも計画や秘密を教える",
+    "en": "let him in on it"
+  },
+  "expr_1233": {
+    "ja": "彼をその件に巻き込まない",
+    "en": "keep him out of it"
+  },
+  "expr_1234": {
+    "ja": "説得して思いとどまらせる",
+    "en": "talk someone out of ..."
+  },
+  "expr_1235": {
+    "ja": "案を話して意見をもらう",
+    "en": "run something by someone"
+  },
+  "expr_1236": {
+    "ja": "内容を理解・実感する時間を置く",
+    "en": "let it sink in"
+  },
+  "expr_1237": {
+    "ja": "気持ちや行動を立て直す",
+    "en": "get it together"
+  },
+  "expr_1238": {
+    "ja": "ちょっと見て確認する",
+    "en": "take a look at ..."
+  },
+  "expr_1239": {
+    "ja": "人につらい経験をさせる",
+    "en": "put someone through ..."
+  },
+  "expr_1240": {
+    "ja": "唯一無二の",
+    "en": "one of a kind"
+  },
+  "expr_1241": {
+    "ja": "〜するのは時間の問題です",
+    "en": "It's only a matter of time before ..."
+  },
+  "expr_1242": {
+    "ja": "意外かもしれませんが、実は",
+    "en": "Believe it or not, ..."
+  },
+  "expr_1243": {
+    "ja": "その話はもうやめて",
+    "en": "Give it a rest."
+  },
+  "expr_1244": {
+    "ja": "〜であるべきではなかった",
+    "en": "shouldn't have been ..."
+  },
+  "expr_1245": {
+    "ja": "〜だったはずがない",
+    "en": "couldn't have been ..."
+  },
+  "expr_1246": {
+    "ja": "条件が違えば〜ではなかっただろう",
+    "en": "wouldn't have been ..."
+  },
+  "expr_1247": {
+    "ja": "真夜中に",
+    "en": "in the middle of the night"
+  },
+  "expr_1248": {
+    "ja": "さあ取りかかろう・先へ進めよう",
+    "en": "Let's get on with it."
+  },
+  "expr_1249": {
+    "ja": "ぼんやりした状態から抜け出す",
+    "en": "snap out of it"
+  },
+  "expr_1250": {
+    "ja": "人をそそのかして〜させる",
+    "en": "put someone up to ..."
+  },
+  "expr_1251": {
+    "ja": "口出しせず、そのまま進めさせる",
+    "en": "let him get on with it"
+  },
+  "expr_1252": {
+    "ja": "説得して〜する気にさせる",
+    "en": "talk someone into ..."
+  },
+  "expr_1253": {
+    "ja": "気の進まないことを早く済ませる",
+    "en": "get it over with"
+  },
+  "expr_1254": {
+    "ja": "相手に怒りや不満をはっきりぶつける",
+    "en": "give someone a piece of my mind"
+  },
+  "expr_1255": {
+    "ja": "人を責任や義務から解放する",
+    "en": "let someone off the hook"
+  },
+  "expr_1256": {
+    "ja": "安心",
+    "en": "peace of mind"
+  },
+  "expr_1257": {
+    "ja": "いくつか〜を作った経験がある",
+    "en": "I've built a few ..."
+  },
+  "expr_1258": {
+    "ja": "〜するための助けとして",
+    "en": "to help me ..."
+  },
+  "expr_1260": {
+    "ja": "〜の経験がない状態で",
+    "en": "with no ... experience"
+  },
+  "expr_1261": {
+    "ja": "〜に基づいている",
+    "en": "be based on ..."
+  },
+  "expr_1263": {
+    "ja": "ほとんどいつも",
+    "en": "almost always"
+  },
+  "expr_1264": {
+    "ja": "たいてい・普段は",
+    "en": "usually"
+  },
+  "expr_1265": {
+    "ja": "よく・頻繁に",
+    "en": "often"
+  },
+  "expr_1266": {
+    "ja": "時々",
+    "en": "sometimes"
+  },
+  "expr_1267": {
+    "ja": "あまり〜しない",
+    "en": "not very often"
+  },
+  "expr_1268": {
+    "ja": "めったに〜しない",
+    "en": "hardly ever"
+  },
+  "expr_1269": {
+    "ja": "よく・たくさん",
+    "en": "a lot"
+  },
+  "expr_1270": {
+    "ja": "三つの異なる観点から見る",
+    "en": "look at ... from three different perspectives"
+  },
+  "expr_1271": {
+    "ja": "一体感を生む",
+    "en": "create a sense of togetherness"
+  },
+  "expr_1272": {
+    "ja": "信頼を築く助けになる",
+    "en": "help build trust"
+  },
+  "expr_1273": {
+    "ja": "〜の妨げになる",
+    "en": "get in the way of ..."
+  },
+  "expr_1274": {
+    "ja": "会話を始める",
+    "en": "strike up a conversation with ..."
+  },
+  "expr_1275": {
+    "ja": "事前に会議の予定を決める",
+    "en": "schedule a meeting in advance"
+  },
+  "expr_1276": {
+    "ja": "全員に都合のよい時間を見つける",
+    "en": "find a time that works for everyone"
+  },
+  "expr_1277": {
+    "ja": "〜するほど、機会が少なくなる",
+    "en": "The more ..., the fewer chances ..."
+  },
+  "expr_1278": {
+    "ja": "ときどき直接集まる",
+    "en": "get together in person from time to time"
+  },
+  "expr_1279": {
+    "ja": "自慢するつもりはないけれど",
+    "en": "Not to brag, but ..."
+  },
+  "expr_1280": {
+    "ja": "結構うまくできたと思う",
+    "en": "I think I did pretty well."
+  },
+  "expr_1281": {
+    "ja": "たとえ〜でも",
+    "en": "even if + 文"
+  },
+  "expr_1282": {
+    "ja": "〜に反対している",
+    "en": "be against ..."
+  },
+  "expr_1283": {
+    "ja": "〜を変えずに守る・貫く",
+    "en": "stick to ..."
+  },
+  "expr_1284": {
+    "ja": "考えや気持ちを言語化する",
+    "en": "put ... into words"
+  },
+  "expr_1285": {
+    "ja": "考えを明確に言葉で表す",
+    "en": "articulate my thoughts"
+  },
+  "expr_1286": {
+    "ja": "まだできるうちに",
+    "en": "while you still can"
+  },
+  "expr_1287": {
+    "ja": "あれこれ言われてはいるけれど",
+    "en": "For all that's been said, ..."
+  },
+  "expr_1288": {
+    "ja": "〜する人・〜したのはその人",
+    "en": "the one who ..."
+  },
+  "expr_1289": {
+    "ja": "人を大切に思う・気にかける",
+    "en": "care about someone"
+  },
+  "expr_1290": {
+    "ja": "自分でもなぜそう言ったか分からない",
+    "en": "I don't even know why I said that."
+  },
+  "expr_1291": {
+    "ja": "私自身が・自分で〔強調〕",
+    "en": "I did it myself."
   }
 }
 
