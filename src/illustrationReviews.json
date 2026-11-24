@@ -16430,5 +16430,1058 @@
     "imageSha256": "7b6da1ee8222e83dcca127a4bdcd2ec2c57afe2fb6acbb1ba403746c2eac5851",
     "reviewedAt": "2026-11-23T11:16:50.538100+00:00",
     "method": "visual_image_context_review"
+  },
+  "expr_1294": {
+    "context": {
+      "ja": "以前の経験",
+      "en": "prior experience",
+      "usage": "ある時点より前に得た経験を示す。",
+      "prompt": "You describe relevant background gained before the present situation.",
+      "form": "Noun phrase",
+      "register": "formal"
+    },
+    "imageSha256": "ea825ba30ef5ad7937803f33a3864fe14f048f7a2239c4adc8001e09db7ead25",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1295": {
+    "context": {
+      "ja": "〜より前に",
+      "en": "prior to ...",
+      "usage": "基準の出来事より前の時点を示す。",
+      "prompt": "You formally place an event earlier than another event.",
+      "form": "Prepositional phrase",
+      "register": "formal"
+    },
+    "imageSha256": "afaa870212b86edecb8d0f70f19385a6e5adaf5abbaa96aee8cb3395a73688a8",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1297": {
+    "context": {
+      "ja": "元恋人・元配偶者",
+      "en": "my ex",
+      "usage": "以前の交際相手や配偶者を指す。",
+      "prompt": "You casually refer to a past romantic partner.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "3275553dcbfc7a560396b7f94b91e092a4f29d284be31d1340cd7e45eef79310",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1298": {
+    "context": {
+      "ja": "前者",
+      "en": "the former",
+      "usage": "二つ挙げたうち、先に挙げたものを指す。",
+      "prompt": "Of two previously mentioned items, you refer to the first.",
+      "form": "Noun phrase",
+      "register": "formal"
+    },
+    "imageSha256": "638edb547e190aa13eb92b0b9693708efd569ec3b807699c28b0c79e8306c5c0",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1299": {
+    "context": {
+      "ja": "後者",
+      "en": "the latter",
+      "usage": "二つ挙げたうち、後に挙げたものを指す。",
+      "prompt": "Of two previously mentioned items, you refer to the second.",
+      "form": "Noun phrase",
+      "register": "formal"
+    },
+    "imageSha256": "07b0e5c659b7ef9d2104c1d8591b4944cdca27cda72ca29d30947f8bde525c46",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1300": {
+    "context": {
+      "ja": "防音・遮音対策",
+      "en": "soundproofing",
+      "usage": "部屋などの音の出入りを減らす対策・性能を話す。",
+      "prompt": "You add materials to prevent noise passing between rooms.",
+      "form": "Noun",
+      "register": "daily"
+    },
+    "imageSha256": "469e4ca34bf48f5d76ced2c40cc48c6d713315ee97ce681344480bf0f2a09f79",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1301": {
+    "context": {
+      "ja": "防音の・防音にする",
+      "en": "soundproof",
+      "usage": "部屋の遮音性を尋ねたり対策を話したりする。",
+      "prompt": "You modify a room so little outside noise enters it.",
+      "form": "Verb",
+      "register": "daily"
+    },
+    "imageSha256": "fe6eade200408430c6fa52b44b6e2c960e5fb1e15d293195dad28ac7714b7c12",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1302": {
+    "context": {
+      "ja": "それでもやるつもりですか",
+      "en": "Are you still going to do it?",
+      "usage": "事情を聞いた後も予定が変わらないか確認する。",
+      "prompt": "After hearing a warning, you ask whether your friend intends to proceed.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "8a743737bc42ae07816fa993fde15f29825fdf8d0c6267316af7c7a54a8380ce",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1303": {
+    "context": {
+      "ja": "それでも実行するつもりですか",
+      "en": "Are you going to do it anyway?",
+      "usage": "問題があっても実行するか確認する。",
+      "prompt": "You ask whether a friend will proceed despite the obstacle just mentioned.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "c8a507913f8cad0c453ec00860444efbaf3d7a67178514255079e3c594b547f5",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1304": {
+    "context": {
+      "ja": "〜のこととなると結構うるさい",
+      "en": "I'm pretty picky when it comes to ...",
+      "usage": "好みへのこだわりを冗談交じりに話す。",
+      "prompt": "You admit having demanding preferences about one particular subject.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "f292c2b863c1e9512559a0c5de41c3acec7d6f38d71d5fdbf420eff4563488a7",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1305": {
+    "context": {
+      "ja": "〜にはこだわりがある",
+      "en": "be particular about ...",
+      "usage": "好みや基準を細かく持っていると述べる。",
+      "prompt": "You strongly prefer certain details to be exactly right.",
+      "form": "Adjective phrase",
+      "register": "daily"
+    },
+    "imageSha256": "fe993567602ccc7f447613c1224043b428a6fa27a5f7a9722410bd672a60ee80",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1306": {
+    "context": {
+      "ja": "その機会がなければ出会わなかった人",
+      "en": "someone I would never have met otherwise",
+      "usage": "実際の出会いを、別の条件では起こらなかったと振り返る。",
+      "prompt": "A special event introduced you to a person outside your usual social world.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "79d30083c7010f4aad3f2ec4e8d436f7b84942e71aba01d173785d471eeddac6",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1307": {
+    "context": {
+      "ja": "出会うとは思っていなかった人",
+      "en": "someone I never expected to meet",
+      "usage": "予想外の出会いを振り返る。",
+      "prompt": "You met a person whose encounter had previously seemed very unlikely.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "e993c7601ec58cd86a856976455b8dd0187f06750b1ad96e4866fbbc095bc4e8",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1308": {
+    "context": {
+      "ja": "審査中・査読中",
+      "en": "under review",
+      "usage": "論文などが審査を受けている状態を伝える。",
+      "prompt": "A submitted paper is currently being assessed by evaluators.",
+      "form": "Adjective phrase",
+      "register": "formal"
+    },
+    "imageSha256": "275dbe44bc8d533ab5586f5ec1e5eb5953c73d31b417dfd6b11b0c457d8f920c",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1309": {
+    "context": {
+      "ja": "建設中",
+      "en": "under construction",
+      "usage": "建物や設備が建設されていると伝える。",
+      "prompt": "A new building is being built and is not ready for use.",
+      "form": "Adjective phrase",
+      "register": "daily"
+    },
+    "imageSha256": "0f01e271ce3c5b23db88b45800d4ef20761122d580003b6736642a8cdd2a8a68",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1310": {
+    "context": {
+      "ja": "検討中",
+      "en": "under consideration",
+      "usage": "案などが検討されていると伝える。",
+      "prompt": "A proposal is currently being evaluated before a final decision.",
+      "form": "Adjective phrase",
+      "register": "formal"
+    },
+    "imageSha256": "40e882630430b98725d080f8dd4bab45d4535c48dd772d3d9f34494e5d79a1ee",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1311": {
+    "context": {
+      "ja": "私服・自分の服",
+      "en": "your own clothes",
+      "usage": "制服との対比で普段の自分の服を指す。",
+      "prompt": "You dress in your personal clothing rather than required institutional clothing.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "6d539850a25dd7ee9135dc1c8a121ea3f72f31162b0a915cb201d18b5faebd5b",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1312": {
+    "context": {
+      "ja": "制服・ユニフォーム",
+      "en": "a uniform",
+      "usage": "学校・職場・チームでそろえる服を指す。",
+      "prompt": "All staff wear the same required style of clothing.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "bdcb53c12b1fed58f7fb628179d681a85313c8fa3c958b8320cbc1f37d2af140",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1313": {
+    "context": {
+      "ja": "作業服・仕事用の服",
+      "en": "work clothes",
+      "usage": "作業や仕事のために着る服を指す。",
+      "prompt": "You wear clothing specifically suited to your occupation's tasks.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "46889d1d42387b556cda2ddd19e58c8e391381cccacbd602be26f4839cb69ffc",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1315": {
+    "context": {
+      "ja": "〜、その後に…",
+      "en": "..., followed by ...",
+      "usage": "先に述べた予定や出来事に、次の内容を付け足す。",
+      "prompt": "You add a second event after describing the first.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "dcd463bd718a3ea60b2149c31cb24e19913917c111c1222e8094a4e0c70f8911",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1316": {
+    "context": {
+      "ja": "〜ということを心配している",
+      "en": "be concerned that ...",
+      "usage": "心配の内容を文で説明する。",
+      "prompt": "You fear that a possible outcome may cause problems.",
+      "form": "Adjective phrase",
+      "register": "daily"
+    },
+    "imageSha256": "f6a40090d64c6ca845f1cb4e7c26e7aa5cfbfaaa4a5dfdded81f6676a5555bcb",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1317": {
+    "context": {
+      "ja": "きっと〜だと思います",
+      "en": "I'm sure ...",
+      "usage": "相手の状態をくみ取ったり確信を示したりする。",
+      "prompt": "You confidently express belief in a particular fact.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "7e15766ea794ff3f382adf2f4ab92d719f91acf605474525b40c7a3e27611d56",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1319": {
+    "context": {
+      "ja": "〜するために必要な力・資質がある",
+      "en": "have what it takes to ...",
+      "usage": "能力・根気・適性があると評価する。",
+      "prompt": "You believe someone possesses the abilities required for a demanding role.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "e12cb090b9b22c9a19523ee350c83174a67600dd7a0facfe648a9b25b852d98c",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1320": {
+    "context": {
+      "ja": "〜しながら",
+      "en": "while + 動詞ing",
+      "usage": "同じ主体が並行して行う活動を述べる。",
+      "prompt": "You describe two activities happening simultaneously.",
+      "form": "Conjunction",
+      "register": "daily"
+    },
+    "imageSha256": "65f064960fcc1d1543b314913051b03265566bfa9423601d683809ffe334ee2b",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1321": {
+    "context": {
+      "ja": "どうしても〜したい",
+      "en": "want to ... so badly",
+      "usage": "強い願望や切実な気持ちを伝える。",
+      "prompt": "You express a very intense desire to accomplish something.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "0387bc157f24fef5a0cbe55b1161be383a4ccee22db5165b31722cda3af63f4e",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1322": {
+    "context": {
+      "ja": "改札を通る",
+      "en": "go through the ticket gates",
+      "usage": "駅の改札を通過する動きを説明する。",
+      "prompt": "You pass through the barriers controlling access to railway platforms.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "bf0c545b3a0447b954087006b12f303c0e20fd4eecdd433ead0c55d37101955a",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1323": {
+    "context": {
+      "ja": "改札の外で待つ",
+      "en": "wait outside the ticket gates",
+      "usage": "待ち合わせ場所を伝える。",
+      "prompt": "You arrange to meet before passing the barriers to railway platforms.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "d2eed6eb56297427ba7d568601b206d915f6b7624c82e5bbdcca4edecb88b27d",
+    "reviewedAt": "2026-11-23T23:16:28.466376+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1324": {
+    "context": {
+      "ja": "電車に何駅か分乗る",
+      "en": "take the train a few stops",
+      "usage": "乗車する区間を駅の数で説明する。",
+      "prompt": "You travel a short distance by rail rather than a long journey.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "a1e7d31a0c1bea4ac22d33f531f064a590895833fc50f481a5b9b2f4ba14e81d",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1325": {
+    "context": {
+      "ja": "あと何駅かで降りる",
+      "en": "I'm getting off in a few stops.",
+      "usage": "乗車中に降りるまでの駅数を伝える。",
+      "prompt": "You tell a friend that you will leave the carriage shortly.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "85fa5a6e13ba84a103b46b6525f5f0f82b650e2a97a28e64d5ebbd6e281b90fb",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1326": {
+    "context": {
+      "ja": "これまで〜を続けている",
+      "en": "I've been + 動詞ing",
+      "usage": "過去から今にかけて続く活動を説明する。",
+      "prompt": "You describe an activity continuing from the past into the present.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "020ba65c98895ec712c062e9cf9dc0f034c4848dd0d3ff8528a441f54e133ccb",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1327": {
+    "context": {
+      "ja": "試しに〜してみる",
+      "en": "try + 動詞ing",
+      "usage": "方法を試して効果を確かめる。",
+      "prompt": "You experiment with performing an activity to discover whether it helps.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "5d4e6cd99305488d13a8bf1a19766a8ec5ab2327ddb0e1f2df2a7fecfe4b5635",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1328": {
+    "context": {
+      "ja": "創設者",
+      "en": "the founder of ...",
+      "usage": "組織を設立した人を指す。",
+      "prompt": "You identify the person who originally established an organization.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "2a87edb2fb0dc053244118986ab4a9b6085bc47e7c551520bfa99242681eac20",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1329": {
+    "context": {
+      "ja": "組織の責任者",
+      "en": "the head of ...",
+      "usage": "組織や部門を率いる人を指す。",
+      "prompt": "You identify the person currently leading an organization.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "50f4e4ce60782734cfa28c9d864a93ea32033ce8beef48e3d1f6d52dca6ac2d6",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1330": {
+    "context": {
+      "ja": "人が〜できるよう訓練する",
+      "en": "train someone to ...",
+      "usage": "人材育成の目標を説明する。",
+      "prompt": "You teach a person until they can perform a particular action.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "22698ef508e72fce7854b0f7f1b31a1e7bd04f252c3b4ee58f54ecb8bd519ac1",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1331": {
+    "context": {
+      "ja": "人に〜の技能を教える",
+      "en": "train someone in ...",
+      "usage": "指導する領域・技能を示す。",
+      "prompt": "You provide someone with instruction in a particular skill area.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "c7b53724a305bc6d4b65da48a20a6efb75ba8a9c546d1a98f04b527a37d51082",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1332": {
+    "context": {
+      "ja": "自分にもっと優しくする",
+      "en": "be kinder to myself",
+      "usage": "自分への態度を柔らかくする。",
+      "prompt": "After a mistake, you decide to judge yourself less harshly.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "d55f2fe1687807fc3aef7680d3bac11a6335fea1d02bdf83a1d2321048bc9acd",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1334": {
+    "context": {
+      "ja": "人に〜するよう頼む",
+      "en": "ask someone to ...",
+      "usage": "依頼した内容を説明する。",
+      "prompt": "You request another person to perform a specific task.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "75d5abd5f6a22baaf50a0601e3fd1b65bf298700cdea243ea853540b099a0f16",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1335": {
+    "context": {
+      "ja": "試してみる",
+      "en": "give it a try",
+      "usage": "試すことを勧めたり決めたりする。",
+      "prompt": "You decide to attempt an unfamiliar activity once.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "807f44540dfd4f3181c1d049bf689978f4547dcacf83472ff47d06a2aae760af",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1336": {
+    "context": {
+      "ja": "〜するように見える",
+      "en": "seem to + 動詞の原形",
+      "usage": "様子から行動・気づきを推測する。",
+      "prompt": "You cautiously describe what someone's behavior appears to indicate.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "733cabc2fe314f087abe0b42e44496530305b655e5ceb342aa6b7655b112882d",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1337": {
+    "context": {
+      "ja": "表情が和らぐ",
+      "en": "Her expression softened.",
+      "usage": "顔の緊張や厳しさが薄れたと描写する。",
+      "prompt": "After reassuring news, a woman's face becomes less tense.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "77f81706150e1553818635e5ff2000c39a817446d001046a3a5504e0c993e8d1",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1340": {
+    "context": {
+      "ja": "〜が人の助けになる",
+      "en": "help someone + 動詞の原形",
+      "usage": "取り組みの効果を説明する。",
+      "prompt": "You explain that an activity assists another person in accomplishing something.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "db14c019bd63a4e50eb03bb17f3d603422aab6615868c9d616993ec2fc8306b7",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1341": {
+    "context": {
+      "ja": "少し時間を取って〜する",
+      "en": "take a moment to ...",
+      "usage": "短く立ち止まって何かをする。",
+      "prompt": "You briefly stop other activities to do something worthwhile.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "187c87992763d8edd4b7381b533db545837921f0815ee6bfd7ccd1cf0e56cf8e",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1342": {
+    "context": {
+      "ja": "〜する時間を確保する",
+      "en": "make time to ...",
+      "usage": "忙しい中で活動の時間を作る。",
+      "prompt": "Despite a busy schedule, you deliberately reserve space for an important activity.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "ef6278f6180a46d38f3e9eff4c5f64ff904b144f58d8cc4d5e45a928df4205bb",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1343": {
+    "context": {
+      "ja": "立ち止まる機会を与える",
+      "en": "give us a chance to pause",
+      "usage": "実践によって自分を振り返る余地が生まれると説明する。",
+      "prompt": "A quiet ritual lets your group briefly stop and reflect.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "fb29a32076260615f4e5c12f67f66c19fa30745c89bef587d198c3615c41d45a",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1344": {
+    "context": {
+      "ja": "ゴム手袋",
+      "en": "rubber gloves",
+      "usage": "掃除などに使うゴム製の手袋。",
+      "prompt": "You protect your hands with reusable flexible coverings while cleaning.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "49ce5ff2879aab5d71010e375dcdfd412f0969459f910969544e23c7bec02269",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1345": {
+    "context": {
+      "ja": "使い捨て手袋",
+      "en": "disposable gloves",
+      "usage": "一回使用で捨てる手袋。",
+      "prompt": "You protect your hands with coverings intended for a single use.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "5175b0ec97538e868653c7a61cc084e72ab777c79d1b8faec8787da5ba04101a",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1346": {
+    "context": {
+      "ja": "棚",
+      "en": "a shelf",
+      "usage": "物を置く一段の棚。",
+      "prompt": "You place books on a flat horizontal storage surface.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "d0e050ff507350b2460d06224ffa04dcd693e8189d9a447d083c906932bce0ea",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1347": {
+    "context": {
+      "ja": "家事を分担する",
+      "en": "share the housework",
+      "usage": "夫婦などが協力して家事をする。",
+      "prompt": "Both partners contribute to cleaning and other domestic tasks.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "8a5b0f93a399fa2b58b0e6c6cefe2585b0acec1982f432634102b0f38cf04758",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1348": {
+    "context": {
+      "ja": "家事を割り振る",
+      "en": "split the chores",
+      "usage": "担当を決めて家事を分ける。",
+      "prompt": "You divide particular domestic tasks between two people.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "4845b58232c319a1c674bf629f2ee3ab93611024cd26844c5205236aaec2751a",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1349": {
+    "context": {
+      "ja": "〜を形作る",
+      "en": "shape ...",
+      "usage": "経験などが人や考え方に影響して形成する。",
+      "prompt": "Early experiences influence the way someone's personality develops.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "4cacc0c61517ef7d7efa43b5542211788f60fdf5c96925c7b909d3e05d6fea42",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1350": {
+    "context": {
+      "ja": "形になり始める",
+      "en": "take shape",
+      "usage": "計画や考えが具体化する。",
+      "prompt": "A vague proposal begins to develop a clear structure.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "85998cc94dac5b65a623a987ab1090e182c9387ab4300eca50a4ba24d4150843",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1352": {
+    "context": {
+      "ja": "〜が気になる（興味）",
+      "en": "be curious about ...",
+      "usage": "知りたい・興味がある。",
+      "prompt": "You want to learn more because something interests you.",
+      "form": "Adjective phrase",
+      "register": "daily"
+    },
+    "imageSha256": "f5f6425a559757bb56b715686894fc99ac3928a3e05c598692b063fa01c88a3a",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1355": {
+    "context": {
+      "ja": "夫婦",
+      "en": "a married couple",
+      "usage": "結婚している二人を指す。",
+      "prompt": "You refer to two people joined legally as spouses.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "50f966298817ec401e03a5f4e23422a4da9f78e0205642b8d3ff57dcfc9c2f6b",
+    "reviewedAt": "2026-11-24T05:16:05.364541+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1356": {
+    "context": {
+      "ja": "夫婦によります",
+      "en": "It depends on the couple.",
+      "usage": "夫婦ごとに事情ややり方が違う。",
+      "prompt": "You explain that different partners may have different arrangements.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "a8470f0c213ade063a4055b470ed6ba6b53a24ed30b1dc1d52cf799d40941030",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1357": {
+    "context": {
+      "ja": "それぞれの夫婦が決めることです",
+      "en": "It's up to each couple to decide.",
+      "usage": "決定権は各夫婦にある。",
+      "prompt": "You say that the partners themselves should choose their arrangement.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "c0f3cdf67e0dd56fa3fef827aca9c33a7cf450f9f7c0e20567bc11d784a4e54e",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1358": {
+    "context": {
+      "ja": "彼の助けが必要です",
+      "en": "I need his help.",
+      "usage": "手伝ってもらう必要がある。",
+      "prompt": "You require a particular man's practical support.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "fcb635fb66cb66636a776a47a89f8660faabd1a7d7296022a88910bf90aed1a9",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1359": {
+    "context": {
+      "ja": "彼に〜してもらう必要がある",
+      "en": "I need him to ...",
+      "usage": "相手にしてほしい行動を明確に言う。",
+      "prompt": "You require a particular man to perform an action.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "dc6b95dbe881cbfa422243c626e20fdb302fb8c9c675dce382643dfef90e3fce",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1360": {
+    "context": {
+      "ja": "私は大切な存在です",
+      "en": "I matter.",
+      "usage": "自分の存在には価値がある。",
+      "prompt": "You affirm that your own existence has worth and importance.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "172240f19224c3955fac97d77a8b270f2cb8cefe0cc41f0605077b8532c6f9c9",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1361": {
+    "context": {
+      "ja": "あなたは私にとって大切です",
+      "en": "You matter to me.",
+      "usage": "相手の存在が自分にとって重要だと伝える。",
+      "prompt": "You affirm another person's personal importance in your life.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "ce65cdf705a0c3ebc6e0ce79240840a8b6057b05fa58ab75299843aef60fc2a4",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1362": {
+    "context": {
+      "ja": "ちょっとこちらを見て",
+      "en": "Look over here for a second.",
+      "usage": "視線をこちらに向けてほしい。",
+      "prompt": "You briefly ask someone to direct their gaze toward your location.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "329682ef381cdeb3a3af4dd3ead216b3f6c15c1bf283809cbad78c47a398c72a",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1363": {
+    "context": {
+      "ja": "ちょっと見てもらえますか",
+      "en": "Could you take a quick look at this?",
+      "usage": "物や資料を確認してほしい。",
+      "prompt": "You politely ask someone to inspect an item briefly.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "3c7616a2a3bb4b1cbcf5a3fd4097aff0c468c3c73d3d3a7d30a5b894ebf1e869",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1364": {
+    "context": {
+      "ja": "妻の愚痴を言う",
+      "en": "complain about my wife",
+      "usage": "妻を不満の対象として話す。",
+      "prompt": "You express dissatisfaction concerning your spouse to another person.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "d9a505ff063cccc4e3d49d83fcb4eced7067a4c81367f5361262938b13729119",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1365": {
+    "context": {
+      "ja": "妻に愚痴を言う",
+      "en": "complain to my wife",
+      "usage": "妻を聞き手として不満を話す。",
+      "prompt": "You express dissatisfaction directly to your spouse as the listener.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "0b99ce0dd9583505c755f1bb2ec3a27f72343796dab078be8ab762c65103457e",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1367": {
+    "context": {
+      "ja": "長所と短所",
+      "en": "the pros and cons",
+      "usage": "メリットとデメリットを比べる。",
+      "prompt": "You compare both the advantages and disadvantages of an option.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "52652e0b4d2e515ad12120c6d311c3293c3d395b3be87fceb53742e56adc4c19",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1369": {
+    "context": {
+      "ja": "人をだまし取る",
+      "en": "con someone out of ...",
+      "usage": "人から金などを詐欺で奪う。",
+      "prompt": "A dishonest person tricks someone into giving up their property.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "3798a2e1b2d1a42ceef4940b210a1daf9b540675a93b2558b3eef58e3d9ffffd",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1370": {
+    "context": {
+      "ja": "どうしてそう思うのですか",
+      "en": "What makes you say that?",
+      "usage": "発言の理由や根拠を尋ねる。",
+      "prompt": "You ask for the reason behind another person's statement.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "4a9a6e37fc320254bd2f539ebdecdf4e4b3b55113f74dc135a650289ae4a1301",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1371": {
+    "context": {
+      "ja": "何と言えばいいか分からないのですが",
+      "en": "I don't know how to put it, but ...",
+      "usage": "言葉を探しながら話し始める。",
+      "prompt": "You introduce a difficult thought despite uncertainty about the right wording.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "32261bbecf8abf0d11283e1f2527d51944683f3e18439e3086b4de77eaf58822",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1372": {
+    "context": {
+      "ja": "いい意味で",
+      "en": "in a good way",
+      "usage": "誤解されそうな評価を好意的と補足する。",
+      "prompt": "You clarify that your unusual description is intended positively.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "3af80f057f00a12ec580b2f629532f2641189037b92e231cc38614148aec829f",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1373": {
+    "context": {
+      "ja": "〜する意味は何ですか",
+      "en": "What's the point of ...?",
+      "usage": "意義を問う。",
+      "prompt": "You question whether an activity has any useful purpose.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "81b2a07aa0d924e64260413539ed3035564e09cb8f6b9dde0974a65f9756ec0a",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1374": {
+    "context": {
+      "ja": "〜から気を紛らわせる",
+      "en": "take my mind off ...",
+      "usage": "心配事から一時的に意識を離す。",
+      "prompt": "An enjoyable activity temporarily distracts you from your worries.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "b30af2c1f5ec89a6e0bb7cbf8a77b8562f6c6f3f63503b098a015abcb8eea9cf",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1375": {
+    "context": {
+      "ja": "今ごろはもう終わっているかもしれない",
+      "en": "It might be over by now.",
+      "usage": "今の時点で既に完了したと推測する。",
+      "prompt": "You suggest that a past activity may already have finished.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "d0b499a9af08b4ae2002acb47feaaadd2bc61735ae31df1f9366d406fe48e1d6",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1376": {
+    "context": {
+      "ja": "〜の次に…が続く",
+      "en": "... is followed by ...",
+      "usage": "順番を説明する。",
+      "prompt": "You describe which event comes next after the one mentioned.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "739d05461d6c7a4b42ec93eb1e867ead3e636a255266b09f8d09645e4feed6be",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1378": {
+    "context": {
+      "ja": "〜を承認する",
+      "en": "greenlight ...",
+      "usage": "企画や計画に実施許可を出す。",
+      "prompt": "A manager gives formal approval for a project to proceed.",
+      "form": "Verb phrase",
+      "register": "formal"
+    },
+    "imageSha256": "b71ab39dc66d09dc14a197eb42f3941e03f6e780ac75828148e2b1ff0ec86599",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1379": {
+    "context": {
+      "ja": "正々堂々と",
+      "en": "fair and square",
+      "usage": "公正な手段で勝負する。",
+      "prompt": "You win without cheating or receiving an unfair advantage.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "6c67de97af91d32d1656184410c7e3ca3ca835e5b8e23fc5f233e3de6dde250e",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1380": {
+    "context": {
+      "ja": "もう少しで〜する",
+      "en": "be close to ...ing",
+      "usage": "目標・完成に近い。",
+      "prompt": "You are nearly at the point of completing an activity.",
+      "form": "Adjective phrase",
+      "register": "daily"
+    },
+    "imageSha256": "b7db45b8ae96c4c13b67b1fa4ebbb277c4c56b4046102d3ab9f57d082457fa2d",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1381": {
+    "context": {
+      "ja": "話の要点を薄める",
+      "en": "water down ...",
+      "usage": "質・主張・要求を弱める。",
+      "prompt": "An explanation loses its important meaning when simplified excessively.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "7569b710add85c57dda5a82c038a8bea703498f7f03973677656a0a61bd1da62",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1382": {
+    "context": {
+      "ja": "個人的な攻撃として受け取る",
+      "en": "take it personally",
+      "usage": "批判などを自分への否定と受け止める。",
+      "prompt": "You interpret criticism of your work as an attack on yourself.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "f87230e26fa6ffbfa9e2ee05a446c7c95a1fc80c96dc3aa553df8000890cf6b5",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1383": {
+    "context": {
+      "ja": "わざわざ〜する",
+      "en": "go out of one's way to ...",
+      "usage": "普段以上の手間をかけて行う。",
+      "prompt": "You make an unusual extra effort to help someone.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "044601edf655953b0be9f523d8893eb58da53be8d4ef27b84c613966c33df3a3",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1384": {
+    "context": {
+      "ja": "最初から",
+      "en": "from the start",
+      "usage": "最初の時点から。",
+      "prompt": "An important condition has been true since the beginning.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "818e131c775f8d31cc8495244c53a781f42fcface0d739ef7f5eb3dca21b4401",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1385": {
+    "context": {
+      "ja": "ただ待っているだけ",
+      "en": "sit around waiting",
+      "usage": "何も行動せず待つ。",
+      "prompt": "You remain inactive instead of making useful preparations during a delay.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "1f8fad2adcbd901a433cd9ad77447689783ab9171e2237c2dc6572471a6002c3",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1386": {
+    "context": {
+      "ja": "意見を交わす",
+      "en": "compare notes on ...",
+      "usage": "互いに経験や見方を照らし合わせる。",
+      "prompt": "Two colleagues exchange observations about their experiences of the same task.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "e7bf8857e87b0e8e84c0c65b7a32361f6589a38b64cf34801bc664477bdfe3d4",
+    "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
+    "method": "visual_image_context_review"
   }
 }

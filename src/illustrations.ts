@@ -5056,6 +5056,330 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_1291": {
     "ja": "私自身が・自分で〔強調〕",
     "en": "I did it myself."
+  },
+  "expr_1294": {
+    "ja": "以前の経験",
+    "en": "prior experience"
+  },
+  "expr_1295": {
+    "ja": "〜より前に",
+    "en": "prior to ..."
+  },
+  "expr_1297": {
+    "ja": "元恋人・元配偶者",
+    "en": "my ex"
+  },
+  "expr_1298": {
+    "ja": "前者",
+    "en": "the former"
+  },
+  "expr_1299": {
+    "ja": "後者",
+    "en": "the latter"
+  },
+  "expr_1300": {
+    "ja": "防音・遮音対策",
+    "en": "soundproofing"
+  },
+  "expr_1301": {
+    "ja": "防音の・防音にする",
+    "en": "soundproof"
+  },
+  "expr_1302": {
+    "ja": "それでもやるつもりですか",
+    "en": "Are you still going to do it?"
+  },
+  "expr_1303": {
+    "ja": "それでも実行するつもりですか",
+    "en": "Are you going to do it anyway?"
+  },
+  "expr_1304": {
+    "ja": "〜のこととなると結構うるさい",
+    "en": "I'm pretty picky when it comes to ..."
+  },
+  "expr_1305": {
+    "ja": "〜にはこだわりがある",
+    "en": "be particular about ..."
+  },
+  "expr_1306": {
+    "ja": "その機会がなければ出会わなかった人",
+    "en": "someone I would never have met otherwise"
+  },
+  "expr_1307": {
+    "ja": "出会うとは思っていなかった人",
+    "en": "someone I never expected to meet"
+  },
+  "expr_1308": {
+    "ja": "審査中・査読中",
+    "en": "under review"
+  },
+  "expr_1309": {
+    "ja": "建設中",
+    "en": "under construction"
+  },
+  "expr_1310": {
+    "ja": "検討中",
+    "en": "under consideration"
+  },
+  "expr_1311": {
+    "ja": "私服・自分の服",
+    "en": "your own clothes"
+  },
+  "expr_1312": {
+    "ja": "制服・ユニフォーム",
+    "en": "a uniform"
+  },
+  "expr_1313": {
+    "ja": "作業服・仕事用の服",
+    "en": "work clothes"
+  },
+  "expr_1315": {
+    "ja": "〜、その後に…",
+    "en": "..., followed by ..."
+  },
+  "expr_1316": {
+    "ja": "〜ということを心配している",
+    "en": "be concerned that ..."
+  },
+  "expr_1317": {
+    "ja": "きっと〜だと思います",
+    "en": "I'm sure ..."
+  },
+  "expr_1319": {
+    "ja": "〜するために必要な力・資質がある",
+    "en": "have what it takes to ..."
+  },
+  "expr_1320": {
+    "ja": "〜しながら",
+    "en": "while + 動詞ing"
+  },
+  "expr_1321": {
+    "ja": "どうしても〜したい",
+    "en": "want to ... so badly"
+  },
+  "expr_1322": {
+    "ja": "改札を通る",
+    "en": "go through the ticket gates"
+  },
+  "expr_1323": {
+    "ja": "改札の外で待つ",
+    "en": "wait outside the ticket gates"
+  },
+  "expr_1324": {
+    "ja": "電車に何駅か分乗る",
+    "en": "take the train a few stops"
+  },
+  "expr_1325": {
+    "ja": "あと何駅かで降りる",
+    "en": "I'm getting off in a few stops."
+  },
+  "expr_1326": {
+    "ja": "これまで〜を続けている",
+    "en": "I've been + 動詞ing"
+  },
+  "expr_1327": {
+    "ja": "試しに〜してみる",
+    "en": "try + 動詞ing"
+  },
+  "expr_1328": {
+    "ja": "創設者",
+    "en": "the founder of ..."
+  },
+  "expr_1329": {
+    "ja": "組織の責任者",
+    "en": "the head of ..."
+  },
+  "expr_1330": {
+    "ja": "人が〜できるよう訓練する",
+    "en": "train someone to ..."
+  },
+  "expr_1331": {
+    "ja": "人に〜の技能を教える",
+    "en": "train someone in ..."
+  },
+  "expr_1332": {
+    "ja": "自分にもっと優しくする",
+    "en": "be kinder to myself"
+  },
+  "expr_1334": {
+    "ja": "人に〜するよう頼む",
+    "en": "ask someone to ..."
+  },
+  "expr_1335": {
+    "ja": "試してみる",
+    "en": "give it a try"
+  },
+  "expr_1336": {
+    "ja": "〜するように見える",
+    "en": "seem to + 動詞の原形"
+  },
+  "expr_1337": {
+    "ja": "表情が和らぐ",
+    "en": "Her expression softened."
+  },
+  "expr_1340": {
+    "ja": "〜が人の助けになる",
+    "en": "help someone + 動詞の原形"
+  },
+  "expr_1341": {
+    "ja": "少し時間を取って〜する",
+    "en": "take a moment to ..."
+  },
+  "expr_1342": {
+    "ja": "〜する時間を確保する",
+    "en": "make time to ..."
+  },
+  "expr_1343": {
+    "ja": "立ち止まる機会を与える",
+    "en": "give us a chance to pause"
+  },
+  "expr_1344": {
+    "ja": "ゴム手袋",
+    "en": "rubber gloves"
+  },
+  "expr_1345": {
+    "ja": "使い捨て手袋",
+    "en": "disposable gloves"
+  },
+  "expr_1346": {
+    "ja": "棚",
+    "en": "a shelf"
+  },
+  "expr_1347": {
+    "ja": "家事を分担する",
+    "en": "share the housework"
+  },
+  "expr_1348": {
+    "ja": "家事を割り振る",
+    "en": "split the chores"
+  },
+  "expr_1349": {
+    "ja": "〜を形作る",
+    "en": "shape ..."
+  },
+  "expr_1350": {
+    "ja": "形になり始める",
+    "en": "take shape"
+  },
+  "expr_1352": {
+    "ja": "〜が気になる（興味）",
+    "en": "be curious about ..."
+  },
+  "expr_1355": {
+    "ja": "夫婦",
+    "en": "a married couple"
+  },
+  "expr_1356": {
+    "ja": "夫婦によります",
+    "en": "It depends on the couple."
+  },
+  "expr_1357": {
+    "ja": "それぞれの夫婦が決めることです",
+    "en": "It's up to each couple to decide."
+  },
+  "expr_1358": {
+    "ja": "彼の助けが必要です",
+    "en": "I need his help."
+  },
+  "expr_1359": {
+    "ja": "彼に〜してもらう必要がある",
+    "en": "I need him to ..."
+  },
+  "expr_1360": {
+    "ja": "私は大切な存在です",
+    "en": "I matter."
+  },
+  "expr_1361": {
+    "ja": "あなたは私にとって大切です",
+    "en": "You matter to me."
+  },
+  "expr_1362": {
+    "ja": "ちょっとこちらを見て",
+    "en": "Look over here for a second."
+  },
+  "expr_1363": {
+    "ja": "ちょっと見てもらえますか",
+    "en": "Could you take a quick look at this?"
+  },
+  "expr_1364": {
+    "ja": "妻の愚痴を言う",
+    "en": "complain about my wife"
+  },
+  "expr_1365": {
+    "ja": "妻に愚痴を言う",
+    "en": "complain to my wife"
+  },
+  "expr_1367": {
+    "ja": "長所と短所",
+    "en": "the pros and cons"
+  },
+  "expr_1369": {
+    "ja": "人をだまし取る",
+    "en": "con someone out of ..."
+  },
+  "expr_1370": {
+    "ja": "どうしてそう思うのですか",
+    "en": "What makes you say that?"
+  },
+  "expr_1371": {
+    "ja": "何と言えばいいか分からないのですが",
+    "en": "I don't know how to put it, but ..."
+  },
+  "expr_1372": {
+    "ja": "いい意味で",
+    "en": "in a good way"
+  },
+  "expr_1373": {
+    "ja": "〜する意味は何ですか",
+    "en": "What's the point of ...?"
+  },
+  "expr_1374": {
+    "ja": "〜から気を紛らわせる",
+    "en": "take my mind off ..."
+  },
+  "expr_1375": {
+    "ja": "今ごろはもう終わっているかもしれない",
+    "en": "It might be over by now."
+  },
+  "expr_1376": {
+    "ja": "〜の次に…が続く",
+    "en": "... is followed by ..."
+  },
+  "expr_1378": {
+    "ja": "〜を承認する",
+    "en": "greenlight ..."
+  },
+  "expr_1379": {
+    "ja": "正々堂々と",
+    "en": "fair and square"
+  },
+  "expr_1380": {
+    "ja": "もう少しで〜する",
+    "en": "be close to ...ing"
+  },
+  "expr_1381": {
+    "ja": "話の要点を薄める",
+    "en": "water down ..."
+  },
+  "expr_1382": {
+    "ja": "個人的な攻撃として受け取る",
+    "en": "take it personally"
+  },
+  "expr_1383": {
+    "ja": "わざわざ〜する",
+    "en": "go out of one's way to ..."
+  },
+  "expr_1384": {
+    "ja": "最初から",
+    "en": "from the start"
+  },
+  "expr_1385": {
+    "ja": "ただ待っているだけ",
+    "en": "sit around waiting"
+  },
+  "expr_1386": {
+    "ja": "意見を交わす",
+    "en": "compare notes on ..."
   }
 }
 
