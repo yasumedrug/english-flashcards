@@ -17483,5 +17483,1149 @@
     "imageSha256": "e7bf8857e87b0e8e84c0c65b7a32361f6589a38b64cf34801bc664477bdfe3d4",
     "reviewedAt": "2026-11-24T11:17:38.628874+00:00",
     "method": "visual_image_context_review"
+  },
+  "expr_1387": {
+    "context": {
+      "ja": "〜の前に",
+      "en": "before ...",
+      "usage": "基準の時点より前に起こる。",
+      "prompt": "You place one event earlier than another event.",
+      "form": "Prepositional phrase",
+      "register": "daily"
+    },
+    "imageSha256": "6425a99c4bec8ccba8e5af51eceb7a5f8515452dd4e6163939f56313513987df",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1388": {
+    "context": {
+      "ja": "〜までずっと",
+      "en": "until ...",
+      "usage": "時点まで行動や状態が続く。",
+      "prompt": "You describe an activity continuing throughout the period ending at a deadline.",
+      "form": "Prepositional phrase",
+      "register": "daily"
+    },
+    "imageSha256": "59b4f1f80d7c76f517c6041f2e578dd025fbb8cc13456bf5e96ad57e4ea9c6a7",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1389": {
+    "context": {
+      "ja": "〜までに",
+      "en": "by ...",
+      "usage": "期限の時点までに条件が成立する。",
+      "prompt": "You specify a deadline for an action to be completed.",
+      "form": "Prepositional phrase",
+      "register": "daily"
+    },
+    "imageSha256": "a55be14576e30b369d584fe56cfa44e943afc2c8dfcde1301debdb9373c9f63e",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1390": {
+    "context": {
+      "ja": "〜して初めて…した",
+      "en": "I didn't ... until ...",
+      "usage": "それまでは起きず、基準時点で変化。",
+      "prompt": "An event finally happens at the moment a necessary condition is met.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "3591d48a00e4eda0c4d383f7b1dcc3cedc971e6de053ce68e3198ae5c5d7e901",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1391": {
+    "context": {
+      "ja": "〜とは限りません",
+      "en": "not necessarily ...",
+      "usage": "例外の可能性を残し全面的な断定を否定する。",
+      "prompt": "You explain that a conclusion is possible but not guaranteed.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "548f05c5cc637d1553281750600ec74cfca0a79b4992f0faa47aff505ec23dbc",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1392": {
+    "context": {
+      "ja": "いつも〜とは限らない",
+      "en": "not always ...",
+      "usage": "頻度の全面否定ではなく一部の例外を示す。",
+      "prompt": "You explain that something happens on many occasions but has exceptions.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "8b3655cdb69c1b44f981a47f5bfed361a528b75d99964f2b9a49fe769374897a",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1393": {
+    "context": {
+      "ja": "〜というわけではなく、ただ…です",
+      "en": "It's not that ... It's just that ...",
+      "usage": "相手の想定する理由を否定し本当の理由を述べる。",
+      "prompt": "You reject one explanation and replace it with the actual reason.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "87b99702a0fe89ccf4685ca0a39ca55e4a9dbb83ad5d9e48cad542d16ad944bd",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1394": {
+    "context": {
+      "ja": "そういう意味で言ったわけではない",
+      "en": "I didn't mean it that way.",
+      "usage": "言葉は発したが意図を否定する。",
+      "prompt": "Someone misunderstands your remark, and you clarify what you intended to express.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "4c5fbe0fc08d5c494ee51c5e8b9f684a50c42682e0cd7a292263c97685660cc4",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1395": {
+    "context": {
+      "ja": "わざと〜したわけではない",
+      "en": "I didn't mean to ...",
+      "usage": "行為は起きたが意図はなかった。",
+      "prompt": "You explain that an action was accidental rather than deliberate.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "b5fbf6eb8559217b690a13212b4730094791e316b28a2baeeed794a472c590d8",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1396": {
+    "context": {
+      "ja": "今は〜なので",
+      "en": "Now that ..., ...",
+      "usage": "以前と変わった現在の状況を理由にする。",
+      "prompt": "A newly true situation gives you a reason to do something.",
+      "form": "Conjunction",
+      "register": "daily"
+    },
+    "imageSha256": "49c5fda57a8ab06ef22e94293765ab051a0a9b2ccc79752e3c7f977fbdaed5ee",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1397": {
+    "context": {
+      "ja": "〜に慣れたので",
+      "en": "Now that I'm used to ...",
+      "usage": "現在の慣れた状態を理由に続ける。",
+      "prompt": "Something has become familiar, so a previously difficult activity is easier.",
+      "form": "Conjunction",
+      "register": "daily"
+    },
+    "imageSha256": "c2af34615615ea8e7a0e5bb025ac33a7bc5ae1a337d18cbf166c52eb1d0cb941",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1398": {
+    "context": {
+      "ja": "今はむしろ〜のほうが",
+      "en": "Now it's ... that ...",
+      "usage": "以前との感覚の逆転を強調する。",
+      "prompt": "You emphasize that the present difficulty differs from the earlier one.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "c83c7fa0880ba1ea5bfbf840fe14558d9417e0a648c1a9f1905315dba5c6e980",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1399": {
+    "context": {
+      "ja": "面白いことに",
+      "en": "Funny enough, ...",
+      "usage": "意外な変化や結果を軽く提示する。",
+      "prompt": "You introduce a mildly surprising or amusing coincidence.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "5de89a0a2de215af70bb76343b6f9e9419a2ba9da4ff5effd315ccb3b127da75",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1400": {
+    "context": {
+      "ja": "いつも・しょっちゅう",
+      "en": "all the time",
+      "usage": "日頃の頻度を強調する。",
+      "prompt": "An activity happens repeatedly and very frequently.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "df5a4ff95f1c965b69b77abb47901d765b6427af35676e63bef1918ea5162560",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1401": {
+    "context": {
+      "ja": "ずっと道のりを",
+      "en": "all the way",
+      "usage": "道のりの最後まで、または全面的に。",
+      "prompt": "You travel the entire distance without stopping partway.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "4cc8ec263f8faa64b6797098c74d56b565923460109ea67b082b8a23ac6fb8b4",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1402": {
+    "context": {
+      "ja": "ますます",
+      "en": "all the more ...",
+      "usage": "前述の理由によってさらに程度が増す。",
+      "prompt": "A new reason makes an existing feeling even stronger.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "d0b7b2c700431e525df8b9792cd3a971a77f7dde83cf98b4c04f1368d61b8903",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1403": {
+    "context": {
+      "ja": "それでもなお",
+      "en": "all the same",
+      "usage": "事情を認めた上で変わらない判断。",
+      "prompt": "You acknowledge a difficulty but maintain your previous decision.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "37a8c80c567ed89ccc7ed1a49c2ee41abcf7b0f1bc811317f0d1e416af661f89",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1404": {
+    "context": {
+      "ja": "一日中",
+      "en": "all day",
+      "usage": "その日を通じて。",
+      "prompt": "An activity occupies the entire period between morning and evening.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "db6f32074c7cdb2258a52dda6a0655f4bcb44eb002665c7298874689bcc79913",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1405": {
+    "context": {
+      "ja": "〜に向かっているところです",
+      "en": "I'm on my way to ...",
+      "usage": "現在移動している。",
+      "prompt": "You tell a friend you are already traveling toward your destination.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "c1413c7e07b26bac88c014ecfae43b8038728ee5834644992230b4226530e28c",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1406": {
+    "context": {
+      "ja": "少し離れたところから",
+      "en": "from a distance",
+      "usage": "離れた位置から見たり聞いたりする。",
+      "prompt": "You observe something without standing close to it.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "f3796d8d8ef7746b27aeefa9558a7e3c26f3ce8b7cee6bc304564b82341ce8ef",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1407": {
+    "context": {
+      "ja": "私のそばを通り過ぎる",
+      "en": "drive past me",
+      "usage": "車でいる場所を通過する。",
+      "prompt": "A car continues beyond your position without stopping.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "efd954ee97b9519d7acb6a8b8f5a8e58478dd1c4afbf2296538118b2aad235f3",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1408": {
+    "context": {
+      "ja": "この季節になると",
+      "en": "This time of year, ...",
+      "usage": "毎年のこの時期の特徴を述べる。",
+      "prompt": "You describe something that regularly happens during this particular season.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "bc3604e6d112e715689f52b07b41e1f8d3a9b96bd9888f227db6f9080771c3eb",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1409": {
+    "context": {
+      "ja": "季節の変化を感じる",
+      "en": "I can feel the seasons changing.",
+      "usage": "気温や風などから季節の移り変わりを体感。",
+      "prompt": "The air and trees make you notice autumn approaching.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "ccb3993ce7e19727119b512111b0b28d2bf1f703461129ed307276651c24e8e9",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1410": {
+    "context": {
+      "ja": "葉が赤くなってきている",
+      "en": "The leaves are turning red.",
+      "usage": "紅葉の変化の途中。",
+      "prompt": "Autumn changes the trees' foliage from green to a warmer shade.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "6d7c7bfbab9c370e78b87f75924ddd51a74b3fc84862e1ffbe96541264dedae1",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1411": {
+    "context": {
+      "ja": "懐かしい記憶がよみがえる",
+      "en": "It brings back memories.",
+      "usage": "景色などが昔を思い出させる。",
+      "prompt": "A familiar song makes old experiences return vividly to your thoughts.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "4734c83a1da45fabac2884d1b22fc975395af39a391f98e5cd7983be5cb47942",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1412": {
+    "context": {
+      "ja": "大人っぽく感じた",
+      "en": "It felt so grown-up.",
+      "usage": "体験や行為を大人っぽく感じた。",
+      "prompt": "A childhood activity seemed unusually adult and mature.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "a98126a274ee6acbb3ef6f0faadb315979a176a6813f89950ff66f37857c387a",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1413": {
+    "context": {
+      "ja": "+正面から争って決着をつける",
+      "en": "fight it out",
+      "usage": "勝敗が決まるまで競う。",
+      "prompt": "Two rivals confront their disagreement directly until a winner emerges.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "d2928a1dd8677a1181c365b20d3b0d40d64b7fed0b12921bbf46d93f41e7030d",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1414": {
+    "context": {
+      "ja": "〜しても仕方ない",
+      "en": "There's no point in ...ing",
+      "usage": "行動の意義がないと述べる。",
+      "prompt": "You believe performing an activity would serve no useful purpose.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "d0d795b6ac7f7e5ac24af3e06f09f2f77b64ff8f32f328ebe01ba8eb38fcce88",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1415": {
+    "context": {
+      "ja": "飲みに行く",
+      "en": "get a drink",
+      "usage": "飲み物を飲みに行く誘い。",
+      "prompt": "You invite a friend to spend time together over beverages.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "e5d77f1db92cc19eda73a504690e3b40c53f162f4fcfe8a170975db45721c0ff",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1416": {
+    "context": {
+      "ja": "独特の作風がある",
+      "en": "have a distinctive style",
+      "usage": "他とは区別できる個性がある。",
+      "prompt": "An artist's work has a recognizable manner different from anyone else's.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "bff1f5ee01e9d1259e94ba34834394e66cc53062a721177f06c48d65979c1158",
+    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1417": {
+    "context": {
+      "ja": "その間ずっと",
+      "en": "all the while",
+      "usage": "別の出来事が進む同じ期間中ずっと。",
+      "prompt": "Something remained true throughout the period being described.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "1d1b85c16e1104a86bb3fba15c91ee22cf4f8166e582fa402539cce45859af8c",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1419": {
+    "context": {
+      "ja": "とても〜したい",
+      "en": "want to ... so bad",
+      "usage": "くだけた会話で強い願望を表す。",
+      "prompt": "You casually express a very strong desire to accomplish something.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "f4f1a81a9c542b1c8da9c1f3887e8f5d58e6dfb1f57f12c34d0cfb4acfcd9b4d",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1420": {
+    "context": {
+      "ja": "あくまで私個人の意見です",
+      "en": "That's just my personal opinion.",
+      "usage": "全体の見解でなく個人的な発言だと断る。",
+      "prompt": "You clarify that a statement represents your individual judgment rather than universal truth.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "28c3b9b1ba4b5f14725dfc635d485278a1d47914bdcc3745a7400ea3e9e904bb",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1421": {
+    "context": {
+      "ja": "全員が〜というわけではない",
+      "en": "not everyone ...",
+      "usage": "集団全体への一般化を否定。",
+      "prompt": "You explain that a statement applies to some people but not all.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "4400dc306e7e7d402a00b373dd8c2b0751939e5ea41ac4ae0c043aaf020496b5",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1422": {
+    "context": {
+      "ja": "思ったより大人になった気がした",
+      "en": "I felt so grown-up.",
+      "usage": "自分の気分として大人になったように感じた。",
+      "prompt": "An experience made you personally seem more mature than expected.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "f288f0218d356062ed56d683537f79b9ff56cf3c6d81736dea6d1c1ccf0e75bb",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1423": {
+    "context": {
+      "ja": "インタビューで（発言内容）",
+      "en": "in the interview",
+      "usage": "インタビューの会話・内容の中で何を言ったか。",
+      "prompt": "You refer specifically to words spoken during a recorded conversation.",
+      "form": "Prepositional phrase",
+      "register": "daily"
+    },
+    "imageSha256": "630ee25d88cfded6bc66a3fbc1c909815e13b4a886a6bd272570c9824c4da209",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1424": {
+    "context": {
+      "ja": "インタビューの場で",
+      "en": "at the interview",
+      "usage": "インタビューという予定・場に焦点。",
+      "prompt": "You refer to your physical presence at a selection appointment.",
+      "form": "Prepositional phrase",
+      "register": "daily"
+    },
+    "imageSha256": "dfc65ed50ef968cf1ab39d3adacb8f53b8b8acd414b3b222bcd81a93f0a2d3f1",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1425": {
+    "context": {
+      "ja": "会議の議論の中で",
+      "en": "in the meeting",
+      "usage": "議論や進行の中での発言。",
+      "prompt": "You refer to the content discussed during a group discussion.",
+      "form": "Prepositional phrase",
+      "register": "daily"
+    },
+    "imageSha256": "b438c213ff72d47f79a2fe974c2054c685a42d7f04b76629f978df885bd76c79",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1426": {
+    "context": {
+      "ja": "会議の場で",
+      "en": "at the meeting",
+      "usage": "会議という場で起きた出来事。",
+      "prompt": "You refer to being present at an organized group discussion.",
+      "form": "Prepositional phrase",
+      "register": "daily"
+    },
+    "imageSha256": "edd8b74d82feab6c04cb8474543abc5ad727d691da96b5c0d2af694ce042abbb",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1427": {
+    "context": {
+      "ja": "高島屋で待ち合わせる",
+      "en": "meet at Takashimaya",
+      "usage": "高島屋を集合場所として捉える。",
+      "prompt": "You arrange to encounter a friend at a named department store.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "aa3f870cec1c9ccc121544a5a33bb6551f55c94c55c2c33127a182ded4ce8e75",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1428": {
+    "context": {
+      "ja": "高島屋の中にいる",
+      "en": "be in Takashimaya",
+      "usage": "建物・店内にいる。",
+      "prompt": "You tell a friend that you are inside a particular department store.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "8d77bdc62fea1028332799c7b6ebf3ffeeedb780791a46c55896c39c10759770",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1429": {
+    "context": {
+      "ja": "その本をもう読んだ？",
+      "en": "Have you read it yet?",
+      "usage": "先に挙がった本の話を継続する。",
+      "prompt": "You ask whether a friend has finished a particular book.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "ea28b4c3aacc602aaabf1fb89ead4a1af22d4fa948cfb166f1392a05a8b67c9a",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1430": {
+    "context": {
+      "ja": "それはすごいですね",
+      "en": "That's amazing!",
+      "usage": "直前の報告や発言全体への反応。",
+      "prompt": "You enthusiastically praise surprising and impressive news.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "8ffa65a862aabd2a232f246a990ae56e24358c991605212f83a0e2f02974c58f",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1431": {
+    "context": {
+      "ja": "それを知らなかった",
+      "en": "I didn't know that.",
+      "usage": "相手が今言った情報を受ける。",
+      "prompt": "You react to information that was previously unfamiliar to you.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "fb3e48f1fa1b36091c5e855963472f757cc118478287daa34d892127260c1278",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1432": {
+    "context": {
+      "ja": "インタビューでそう言った",
+      "en": "I said that in the interview.",
+      "usage": "先に挙げた発言内容をそのように言った。",
+      "prompt": "You explain where you expressed a particular statement during a recorded conversation.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "e123ef1c6005bf0b20cd532d72a62bfb010e4ebea7a6f01dd542c38667833977",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1433": {
+    "context": {
+      "ja": "それについてどう見ていますか",
+      "en": "What's your take on ...?",
+      "usage": "相手の評価・解釈・判断を尋ねる口語。",
+      "prompt": "You casually ask for another person's interpretation of an issue.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "f306d3bbdd025a8800fbe0f8f8d4653f41decdfdbce7bb13b5127a5ad7eaa719",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1435": {
+    "context": {
+      "ja": "〜についてどう考えていますか",
+      "en": "What are your thoughts on ...?",
+      "usage": "意見を柔らかく広く尋ねる。",
+      "prompt": "You invite someone's opinion about a proposed plan.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "88bd18300cd4cdb1286ac0277eb578b96ab3101cc422a76f002d2d612c5d27b5",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1436": {
+    "context": {
+      "ja": "〜をどう読み取りますか",
+      "en": "What's your read on ...?",
+      "usage": "状況や発言の意味をどう解釈するか。",
+      "prompt": "You ask how a colleague interprets an ambiguous situation.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "b16d9da7745867e6e93668b4564ad1e88c45c0cf2b61da8cf23e9f15531b6781",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1437": {
+    "context": {
+      "ja": "よくあることだ",
+      "en": "par for the course",
+      "usage": "望ましくないことも含め想定内。",
+      "prompt": "A predictable inconvenience is typical for this kind of situation.",
+      "form": "Adjective phrase · Idiom",
+      "register": "daily"
+    },
+    "imageSha256": "8ad9c4d3f9ca2617fb03b17006003d8637a4c86882f361274e74447e57ec452c",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1438": {
+    "context": {
+      "ja": "何よりも",
+      "en": "most of all",
+      "usage": "挙げた複数の理由や感情の中で最も。",
+      "prompt": "Among many reasons, you emphasize the most important one.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "727d807cd3e9d13c00ee073f23596b6209e3435b3bcd236ee540c276abda8ed3",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1439": {
+    "context": {
+      "ja": "〜に連絡が取れる",
+      "en": "get hold of someone",
+      "usage": "相手をつかまえ連絡を取る。",
+      "prompt": "After several attempts, you finally succeed in contacting a friend.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "1efb2b5b10a3bd64bc6d7e7a2bfbef94fd155dfcbbaf80e409aa49d2d7479384",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1440": {
+    "context": {
+      "ja": "必要な時に使えるように確保しておく",
+      "en": "have ... on hand",
+      "usage": "人員や物を手元に置く。",
+      "prompt": "You keep necessary items available for immediate use.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "2c5d4aeb312e0521f821b18938b910b077d1774d991014ee02f450d8cd2efadc",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1441": {
+    "context": {
+      "ja": "〜のほかに",
+      "en": "aside from ...",
+      "usage": "何かに加えてほかにも。",
+      "prompt": "You introduce an exception or an additional item alongside those already mentioned.",
+      "form": "Prepositional phrase",
+      "register": "daily"
+    },
+    "imageSha256": "daedc0d1c2149c05b7535d4f0514f3d8451fa00666bb5154fc8c2c24bcba8233",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1442": {
+    "context": {
+      "ja": "一緒に仕事がしやすい",
+      "en": "easy to work with",
+      "usage": "協力的で円滑に働ける。",
+      "prompt": "A colleague cooperates smoothly and causes few difficulties.",
+      "form": "Adjective phrase",
+      "register": "daily"
+    },
+    "imageSha256": "d313c27c1f70164a03eaa5ae003aaa381f46b8e63add468b0e83daec7c928192",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1443": {
+    "context": {
+      "ja": "〜を担当する",
+      "en": "be in charge of ...",
+      "usage": "役割や責任の範囲を示す。",
+      "prompt": "You are responsible for managing a particular task or group.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "d98ad1336cc6d2ecc8837e22c4d61c2457a3d9eb5bf2253e7a2e31d87baa4f92",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1444": {
+    "context": {
+      "ja": "手が空いている人なら誰でも",
+      "en": "Whoever's free ...",
+      "usage": "その時に余裕がある人が行う。",
+      "prompt": "You invite any available person to help without specifying an individual.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "7967580448a40ec2412d99639d372e2db877301dd95334a3084f7d79ab2d4eaa",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1445": {
+    "context": {
+      "ja": "機転が利く",
+      "en": "on the ball",
+      "usage": "気づきが早く適切に反応する。",
+      "prompt": "A colleague notices problems quickly and reacts effectively.",
+      "form": "Adjective phrase",
+      "register": "daily"
+    },
+    "imageSha256": "1c861fd6ef28873ff857c7e57901c00d5aa34981701f031e250ff805cf5ebf1e",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1446": {
+    "context": {
+      "ja": "仕事をきちんと把握している",
+      "en": "on top of things",
+      "usage": "複数の用事を把握し管理できている。",
+      "prompt": "You understand your responsibilities and manage them without losing track.",
+      "form": "Adjective phrase",
+      "register": "daily"
+    },
+    "imageSha256": "83f8bdd681ca1f68feffd902b3a615296d4280498ac0490db414ccc47ee8aae6",
+    "reviewedAt": "2026-11-25T05:19:44.848469+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1447": {
+    "context": {
+      "ja": "少しよそよそしく見える",
+      "en": "seem a bit aloof",
+      "usage": "感情的な距離を置いた印象。",
+      "prompt": "A coworker appears slightly distant and difficult to approach.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "d7e56f68c4b2d0fe0df9b5ac7118eeee5249de473a12cae12e5813127f826bdb",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1448": {
+    "context": {
+      "ja": "ほとんど話さなかった",
+      "en": "hardly spoke",
+      "usage": "話す量がほぼゼロ。",
+      "prompt": "A person said very little during the gathering.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "e63c3910dbcce9eeb719991d150a1e978a51c7688e125822705c846da6827ace",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1449": {
+    "context": {
+      "ja": "〜という気がしてならない",
+      "en": "can't shake the feeling that ...",
+      "usage": "嫌な予感や疑念が消えない。",
+      "prompt": "A persistent impression remains despite your attempts to dismiss it.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "ecc72825aadf7983e3fac75af171063fe4bab41e4623e0579cfe6be523e66bac",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1450": {
+    "context": {
+      "ja": "次第に立ち消えになる",
+      "en": "fizzle out",
+      "usage": "当初の勢いが徐々に消える。",
+      "prompt": "A promising conversation gradually loses energy and stops without a clear conclusion.",
+      "form": "Phrasal verb",
+      "register": "daily"
+    },
+    "imageSha256": "f940f820240e9ae88d2e97880dfc733bc8298d7d84051d0ab4ba90b8cf5df7ec",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1451": {
+    "context": {
+      "ja": "単なる勘ですが",
+      "en": "It's just a hunch, but ...",
+      "usage": "証拠は不十分だが直感を示す。",
+      "prompt": "You introduce an intuition while admitting you lack solid evidence.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "d2add00f7a52a2ccbc2cceacbbac041574cc4a9d09fc2cddfb42a6f3415fb707",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1452": {
+    "context": {
+      "ja": "よくやったね",
+      "en": "Way to go!",
+      "usage": "成果をくだけた調子で褒める。",
+      "prompt": "You enthusiastically congratulate a friend on a successful performance.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "2bdf557a1f4d99ba0e9e34a649b98b5ecba43cb085774047e0d4ca11cb264e91",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1453": {
+    "context": {
+      "ja": "事前に予約する",
+      "en": "book ... in advance",
+      "usage": "予定の日より前に予約する。",
+      "prompt": "You reserve an appointment before the day you need it.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "4be6ed894350cd922fbd3d52511bfe97952c5b1e5a76e0b3467647e57b24bd6f",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1454": {
+    "context": {
+      "ja": "前もって準備しておく",
+      "en": "get ... ready ahead of time",
+      "usage": "必要な時のために物を用意する。",
+      "prompt": "You prepare the necessary items before they are required.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "7e36509c35553361d237aa995a226d8c6a0bba908a2d8a66fbbfd595fa46879b",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1455": {
+    "context": {
+      "ja": "前の晩に用意しておく",
+      "en": "get ... ready the night before",
+      "usage": "翌朝に備える。",
+      "prompt": "You prepare tomorrow's belongings before going to sleep.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "209ef640f95b8727c99d7c593a1e84413135236115c2272ddf09d9aa229c5679",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1456": {
+    "context": {
+      "ja": "頭をスッキリさせる",
+      "en": "clear my head",
+      "usage": "疲れや考え事から離れて思考を整理する。",
+      "prompt": "A short walk helps your confused thoughts become orderly again.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "3cd03dd51053665c2b7dc1a978db0cbff3cba8d01d60c2aa10b1f58535290c5a",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1457": {
+    "context": {
+      "ja": "問題から一歩引く",
+      "en": "take a step back from ...",
+      "usage": "いったん離れて落ち着いて見直す。",
+      "prompt": "You gain perspective by temporarily disengaging from a difficult issue.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "b8e143893300d5e39e28e8f192498b8771a93b7b67581fde7d3a97eeefaaf738",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1458": {
+    "context": {
+      "ja": "しばらく〜を休む",
+      "en": "take a break from ...",
+      "usage": "活動を一時的に中断する。",
+      "prompt": "You pause an activity temporarily to rest.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "59c30aaf1ce0dc6290760a408a6ef75f633656b35d40229f9410a794b5bac836",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1459": {
+    "context": {
+      "ja": "人と距離を置く",
+      "en": "keep my distance from someone",
+      "usage": "相手と関わりを控える。",
+      "prompt": "You deliberately avoid becoming too personally involved with someone.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "0fe82218a42e207ccb64587c5f23d117910f3fd2d8cf89df2a65f17922c734a9",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1460": {
+    "context": {
+      "ja": "仕事からいったん離れる",
+      "en": "step away from ... for a bit",
+      "usage": "短時間離れて頭を切り替える。",
+      "prompt": "You temporarily leave your desk to regain perspective.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "324d0052a2b096c793abd37bfc63be7c2ba5b6a92e5b11506a9508707980b144",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1461": {
+    "context": {
+      "ja": "ついさっき",
+      "en": "just now",
+      "usage": "ごく最近の出来事。",
+      "prompt": "You refer to something that happened a moment ago.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "e6396047a8b3b5ac2d9bf2ac66a5df4603db6aac1d10ab7e1718e2e4e5a31260",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1462": {
+    "context": {
+      "ja": "さっき",
+      "en": "earlier",
+      "usage": "同じ日の少し前を広く指す。",
+      "prompt": "You refer to a past event before the current moment today.",
+      "form": "Adverb",
+      "register": "daily"
+    },
+    "imageSha256": "e6ce8477fd0605578297bc3dbc1f3dd48a6fe78663b2416556e1375988cc1ef5",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1463": {
+    "context": {
+      "ja": "前回",
+      "en": "last time",
+      "usage": "前の機会・授業・会合。",
+      "prompt": "You refer to the previous occasion when the same activity happened.",
+      "form": "Adverbial phrase",
+      "register": "daily"
+    },
+    "imageSha256": "bf675bf7b82d1663d6eba8a1344530c9ce61525994229d6a5aa406582af2f819",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1464": {
+    "context": {
+      "ja": "睡眠不足だった",
+      "en": "I didn't get enough sleep.",
+      "usage": "昨夜など睡眠が足りなかった。",
+      "prompt": "You feel tired because your nighttime rest was insufficient.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "89acfbe6bc15f2d073d5133247c61b33e1e1c076c38ddec6dd118463486e8cbe",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1465": {
+    "context": {
+      "ja": "睡眠不足",
+      "en": "lack of sleep",
+      "usage": "睡眠が不足している状態。",
+      "prompt": "You describe an insufficient amount of nighttime rest.",
+      "form": "Noun phrase",
+      "register": "daily"
+    },
+    "imageSha256": "569c9cc560137095dd1f6eab478d0e89a42634b13614f4165c1f201644b036dc",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1466": {
+    "context": {
+      "ja": "集中しにくくする",
+      "en": "make it harder to focus",
+      "usage": "原因が集中を難しくする。",
+      "prompt": "Background noise reduces your ability to concentrate.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "43c5d557c9aafa93f6ef357431cc27c2efa6843ef49d3f00150157396e9f1b4b",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1467": {
+    "context": {
+      "ja": "集中できない",
+      "en": "I can't focus.",
+      "usage": "今の状態に焦点。",
+      "prompt": "Your thoughts keep wandering instead of staying with the task.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "3342291abd43aaa33a3072d32f3aea60f3c119ae811f588b2431197de445ac99",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1468": {
+    "context": {
+      "ja": "集中するのが難しい",
+      "en": "I'm having trouble concentrating.",
+      "usage": "一時的な困難を表す。",
+      "prompt": "You struggle to direct sustained attention toward your work.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "e118265c595e3098b8797a03d4902bf55c1e96b75bba67ab9bfa853dc73a1448",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1469": {
+    "context": {
+      "ja": "長く集中し続けられない",
+      "en": "I can't stay focused for long.",
+      "usage": "集中の持続が難しい。",
+      "prompt": "Your attention fades quickly even after you begin concentrating.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "dea33d245e69dd2e16d8a63446c483a48898850c6de50ec2fb51ba1924207326",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1470": {
+    "context": {
+      "ja": "彼の物静かなところが好き",
+      "en": "I like how quiet he is.",
+      "usage": "普段の性格や口数の少なさを好む。",
+      "prompt": "You appreciate a man's calm, reserved way of behaving.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "9e2641d2ff63cdaf8ed629b15ff0d9a0338ac613bcd38c17494d02981257ab17",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1471": {
+    "context": {
+      "ja": "彼のそういう一面が好き",
+      "en": "I like that ... side of him.",
+      "usage": "相手の複数ある一面を取り上げる。",
+      "prompt": "You appreciate one particular aspect of a man's personality.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "5360cbe90bd7318a167c98ec4ca9c976e30f2c99c39990a971fedb9cebaee330",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1472": {
+    "context": {
+      "ja": "彼のそういうところが好き",
+      "en": "I like that about him.",
+      "usage": "直前に挙げた性質を受ける。",
+      "prompt": "You appreciate a quality of a man that was just mentioned.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "a4ccea4158934475fdcf59afa150a36a32409e0c4181b85fcd5d3e7a83372858",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1473": {
+    "context": {
+      "ja": "〜をしばらく見送る",
+      "en": "hold off on ... for a while",
+      "usage": "今は開始せず後日にする。",
+      "prompt": "You decide to postpone an activity temporarily.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "7e58f3d13482812b4c4e943f3103b0989b9edc3d2da34f7ad8cd65395685c4e3",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1474": {
+    "context": {
+      "ja": "〜を先延ばしにしていた",
+      "en": "I'd been putting off ...",
+      "usage": "以前から開始や実行を延期していた。",
+      "prompt": "You describe a task repeatedly delayed before another past event.",
+      "form": "Sentence pattern",
+      "register": "daily"
+    },
+    "imageSha256": "2bb1eaab61912dc123486ec1f68a88d6b55f6a2d7466e8f707bb80e65eb5d88a",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1475": {
+    "context": {
+      "ja": "学習習慣を続ける",
+      "en": "keep up with my study routines",
+      "usage": "既にある学習習慣を維持する。",
+      "prompt": "Despite a busy week, you maintain your regular learning activities.",
+      "form": "Verb phrase",
+      "register": "daily"
+    },
+    "imageSha256": "ac87b11c0dffa6ea455e06fba12a1e3f8f2bd342196b3ac41635f901d074b9fe",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
+  },
+  "expr_1476": {
+    "context": {
+      "ja": "今日はもう終わりそう",
+      "en": "I'm almost done for the day.",
+      "usage": "その日の仕事・勉強を終えかけている。",
+      "prompt": "You have only a small amount of today's tasks remaining.",
+      "form": "Sentence",
+      "register": "daily"
+    },
+    "imageSha256": "f03702bda13a6c8146de22289996a994511ec9ae8718b5a2ab5ec8654c291a50",
+    "reviewedAt": "2026-11-25T11:16:07.544629+00:00",
+    "method": "visual_image_context_review"
   }
 }

@@ -5380,6 +5380,358 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_1386": {
     "ja": "意見を交わす",
     "en": "compare notes on ..."
+  },
+  "expr_1387": {
+    "ja": "〜の前に",
+    "en": "before ..."
+  },
+  "expr_1388": {
+    "ja": "〜までずっと",
+    "en": "until ..."
+  },
+  "expr_1389": {
+    "ja": "〜までに",
+    "en": "by ..."
+  },
+  "expr_1390": {
+    "ja": "〜して初めて…した",
+    "en": "I didn't ... until ..."
+  },
+  "expr_1391": {
+    "ja": "〜とは限りません",
+    "en": "not necessarily ..."
+  },
+  "expr_1392": {
+    "ja": "いつも〜とは限らない",
+    "en": "not always ..."
+  },
+  "expr_1393": {
+    "ja": "〜というわけではなく、ただ…です",
+    "en": "It's not that ... It's just that ..."
+  },
+  "expr_1394": {
+    "ja": "そういう意味で言ったわけではない",
+    "en": "I didn't mean it that way."
+  },
+  "expr_1395": {
+    "ja": "わざと〜したわけではない",
+    "en": "I didn't mean to ..."
+  },
+  "expr_1396": {
+    "ja": "今は〜なので",
+    "en": "Now that ..., ..."
+  },
+  "expr_1397": {
+    "ja": "〜に慣れたので",
+    "en": "Now that I'm used to ..."
+  },
+  "expr_1398": {
+    "ja": "今はむしろ〜のほうが",
+    "en": "Now it's ... that ..."
+  },
+  "expr_1399": {
+    "ja": "面白いことに",
+    "en": "Funny enough, ..."
+  },
+  "expr_1400": {
+    "ja": "いつも・しょっちゅう",
+    "en": "all the time"
+  },
+  "expr_1401": {
+    "ja": "ずっと道のりを",
+    "en": "all the way"
+  },
+  "expr_1402": {
+    "ja": "ますます",
+    "en": "all the more ..."
+  },
+  "expr_1403": {
+    "ja": "それでもなお",
+    "en": "all the same"
+  },
+  "expr_1404": {
+    "ja": "一日中",
+    "en": "all day"
+  },
+  "expr_1405": {
+    "ja": "〜に向かっているところです",
+    "en": "I'm on my way to ..."
+  },
+  "expr_1406": {
+    "ja": "少し離れたところから",
+    "en": "from a distance"
+  },
+  "expr_1407": {
+    "ja": "私のそばを通り過ぎる",
+    "en": "drive past me"
+  },
+  "expr_1408": {
+    "ja": "この季節になると",
+    "en": "This time of year, ..."
+  },
+  "expr_1409": {
+    "ja": "季節の変化を感じる",
+    "en": "I can feel the seasons changing."
+  },
+  "expr_1410": {
+    "ja": "葉が赤くなってきている",
+    "en": "The leaves are turning red."
+  },
+  "expr_1411": {
+    "ja": "懐かしい記憶がよみがえる",
+    "en": "It brings back memories."
+  },
+  "expr_1412": {
+    "ja": "大人っぽく感じた",
+    "en": "It felt so grown-up."
+  },
+  "expr_1413": {
+    "ja": "+正面から争って決着をつける",
+    "en": "fight it out"
+  },
+  "expr_1414": {
+    "ja": "〜しても仕方ない",
+    "en": "There's no point in ...ing"
+  },
+  "expr_1415": {
+    "ja": "飲みに行く",
+    "en": "get a drink"
+  },
+  "expr_1416": {
+    "ja": "独特の作風がある",
+    "en": "have a distinctive style"
+  },
+  "expr_1417": {
+    "ja": "その間ずっと",
+    "en": "all the while"
+  },
+  "expr_1419": {
+    "ja": "とても〜したい",
+    "en": "want to ... so bad"
+  },
+  "expr_1420": {
+    "ja": "あくまで私個人の意見です",
+    "en": "That's just my personal opinion."
+  },
+  "expr_1421": {
+    "ja": "全員が〜というわけではない",
+    "en": "not everyone ..."
+  },
+  "expr_1422": {
+    "ja": "思ったより大人になった気がした",
+    "en": "I felt so grown-up."
+  },
+  "expr_1423": {
+    "ja": "インタビューで（発言内容）",
+    "en": "in the interview"
+  },
+  "expr_1424": {
+    "ja": "インタビューの場で",
+    "en": "at the interview"
+  },
+  "expr_1425": {
+    "ja": "会議の議論の中で",
+    "en": "in the meeting"
+  },
+  "expr_1426": {
+    "ja": "会議の場で",
+    "en": "at the meeting"
+  },
+  "expr_1427": {
+    "ja": "高島屋で待ち合わせる",
+    "en": "meet at Takashimaya"
+  },
+  "expr_1428": {
+    "ja": "高島屋の中にいる",
+    "en": "be in Takashimaya"
+  },
+  "expr_1429": {
+    "ja": "その本をもう読んだ？",
+    "en": "Have you read it yet?"
+  },
+  "expr_1430": {
+    "ja": "それはすごいですね",
+    "en": "That's amazing!"
+  },
+  "expr_1431": {
+    "ja": "それを知らなかった",
+    "en": "I didn't know that."
+  },
+  "expr_1432": {
+    "ja": "インタビューでそう言った",
+    "en": "I said that in the interview."
+  },
+  "expr_1433": {
+    "ja": "それについてどう見ていますか",
+    "en": "What's your take on ...?"
+  },
+  "expr_1435": {
+    "ja": "〜についてどう考えていますか",
+    "en": "What are your thoughts on ...?"
+  },
+  "expr_1436": {
+    "ja": "〜をどう読み取りますか",
+    "en": "What's your read on ...?"
+  },
+  "expr_1437": {
+    "ja": "よくあることだ",
+    "en": "par for the course"
+  },
+  "expr_1438": {
+    "ja": "何よりも",
+    "en": "most of all"
+  },
+  "expr_1439": {
+    "ja": "〜に連絡が取れる",
+    "en": "get hold of someone"
+  },
+  "expr_1440": {
+    "ja": "必要な時に使えるように確保しておく",
+    "en": "have ... on hand"
+  },
+  "expr_1441": {
+    "ja": "〜のほかに",
+    "en": "aside from ..."
+  },
+  "expr_1442": {
+    "ja": "一緒に仕事がしやすい",
+    "en": "easy to work with"
+  },
+  "expr_1443": {
+    "ja": "〜を担当する",
+    "en": "be in charge of ..."
+  },
+  "expr_1444": {
+    "ja": "手が空いている人なら誰でも",
+    "en": "Whoever's free ..."
+  },
+  "expr_1445": {
+    "ja": "機転が利く",
+    "en": "on the ball"
+  },
+  "expr_1446": {
+    "ja": "仕事をきちんと把握している",
+    "en": "on top of things"
+  },
+  "expr_1447": {
+    "ja": "少しよそよそしく見える",
+    "en": "seem a bit aloof"
+  },
+  "expr_1448": {
+    "ja": "ほとんど話さなかった",
+    "en": "hardly spoke"
+  },
+  "expr_1449": {
+    "ja": "〜という気がしてならない",
+    "en": "can't shake the feeling that ..."
+  },
+  "expr_1450": {
+    "ja": "次第に立ち消えになる",
+    "en": "fizzle out"
+  },
+  "expr_1451": {
+    "ja": "単なる勘ですが",
+    "en": "It's just a hunch, but ..."
+  },
+  "expr_1452": {
+    "ja": "よくやったね",
+    "en": "Way to go!"
+  },
+  "expr_1453": {
+    "ja": "事前に予約する",
+    "en": "book ... in advance"
+  },
+  "expr_1454": {
+    "ja": "前もって準備しておく",
+    "en": "get ... ready ahead of time"
+  },
+  "expr_1455": {
+    "ja": "前の晩に用意しておく",
+    "en": "get ... ready the night before"
+  },
+  "expr_1456": {
+    "ja": "頭をスッキリさせる",
+    "en": "clear my head"
+  },
+  "expr_1457": {
+    "ja": "問題から一歩引く",
+    "en": "take a step back from ..."
+  },
+  "expr_1458": {
+    "ja": "しばらく〜を休む",
+    "en": "take a break from ..."
+  },
+  "expr_1459": {
+    "ja": "人と距離を置く",
+    "en": "keep my distance from someone"
+  },
+  "expr_1460": {
+    "ja": "仕事からいったん離れる",
+    "en": "step away from ... for a bit"
+  },
+  "expr_1461": {
+    "ja": "ついさっき",
+    "en": "just now"
+  },
+  "expr_1462": {
+    "ja": "さっき",
+    "en": "earlier"
+  },
+  "expr_1463": {
+    "ja": "前回",
+    "en": "last time"
+  },
+  "expr_1464": {
+    "ja": "睡眠不足だった",
+    "en": "I didn't get enough sleep."
+  },
+  "expr_1465": {
+    "ja": "睡眠不足",
+    "en": "lack of sleep"
+  },
+  "expr_1466": {
+    "ja": "集中しにくくする",
+    "en": "make it harder to focus"
+  },
+  "expr_1467": {
+    "ja": "集中できない",
+    "en": "I can't focus."
+  },
+  "expr_1468": {
+    "ja": "集中するのが難しい",
+    "en": "I'm having trouble concentrating."
+  },
+  "expr_1469": {
+    "ja": "長く集中し続けられない",
+    "en": "I can't stay focused for long."
+  },
+  "expr_1470": {
+    "ja": "彼の物静かなところが好き",
+    "en": "I like how quiet he is."
+  },
+  "expr_1471": {
+    "ja": "彼のそういう一面が好き",
+    "en": "I like that ... side of him."
+  },
+  "expr_1472": {
+    "ja": "彼のそういうところが好き",
+    "en": "I like that about him."
+  },
+  "expr_1473": {
+    "ja": "〜をしばらく見送る",
+    "en": "hold off on ... for a while"
+  },
+  "expr_1474": {
+    "ja": "〜を先延ばしにしていた",
+    "en": "I'd been putting off ..."
+  },
+  "expr_1475": {
+    "ja": "学習習慣を続ける",
+    "en": "keep up with my study routines"
+  },
+  "expr_1476": {
+    "ja": "今日はもう終わりそう",
+    "en": "I'm almost done for the day."
   }
 }
 
