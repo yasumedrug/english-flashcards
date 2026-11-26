@@ -5732,6 +5732,318 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_1476": {
     "ja": "今日はもう終わりそう",
     "en": "I'm almost done for the day."
+  },
+  "expr_1477": {
+    "ja": "予定がぎっしり詰まっていた",
+    "en": "My study schedule was already packed."
+  },
+  "expr_1478": {
+    "ja": "好奇心から試してみる",
+    "en": "give ... a try out of curiosity"
+  },
+  "expr_1479": {
+    "ja": "まだ〜する準備ができていないと思う",
+    "en": "I don't think I'm ready for ... yet."
+  },
+  "expr_1480": {
+    "ja": "最初に苦労するのは当然だった",
+    "en": "It was only natural to struggle at first."
+  },
+  "expr_1481": {
+    "ja": "〜を粘り強く続ける",
+    "en": "stick with ..."
+  },
+  "expr_1482": {
+    "ja": "互いに強め合う",
+    "en": "reinforce each other"
+  },
+  "expr_1483": {
+    "ja": "腑に落ちた",
+    "en": "It clicked for me."
+  },
+  "expr_1484": {
+    "ja": "それで見方が変わった",
+    "en": "That changed how I see it."
+  },
+  "expr_1485": {
+    "ja": "これ以上は看過できない",
+    "en": "This has gone far enough."
+  },
+  "expr_1486": {
+    "ja": "必要ならそうします",
+    "en": "if that's what it takes"
+  },
+  "expr_1487": {
+    "ja": "全力を尽くす",
+    "en": "give it our all"
+  },
+  "expr_1488": {
+    "ja": "〜にとって打撃",
+    "en": "a blow to ..."
+  },
+  "expr_1489": {
+    "ja": "幸運にも〜できた",
+    "en": "have the good fortune to ..."
+  },
+  "expr_1490": {
+    "ja": "〜だと確信している",
+    "en": "I'm positive (that) ..."
+  },
+  "expr_1491": {
+    "ja": "〜に片思いしている",
+    "en": "have a crush on ..."
+  },
+  "expr_1492": {
+    "ja": "亡くなること",
+    "en": "someone's passing"
+  },
+  "expr_1493": {
+    "ja": "結構長い間〜している",
+    "en": "I've been ... for quite a long time."
+  },
+  "expr_1494": {
+    "ja": "〜次第だと思う",
+    "en": "I guess it depends on ..."
+  },
+  "expr_1495": {
+    "ja": "〜するより…したい",
+    "en": "I'd rather ... than ..."
+  },
+  "expr_1496": {
+    "ja": "結局のところ",
+    "en": "At the end of the day, ..."
+  },
+  "expr_1499": {
+    "ja": "そんなものが本当にあるなら",
+    "en": "if that's even a thing"
+  },
+  "expr_1500": {
+    "ja": "自分を〜だとは思わない",
+    "en": "I don't consider myself ..."
+  },
+  "expr_1501": {
+    "ja": "〜がないと頭が働かない",
+    "en": "I can't function without ..."
+  },
+  "expr_1502": {
+    "ja": "まさか〜することになるとは思わなかった",
+    "en": "I never thought I'd end up ...ing."
+  },
+  "expr_1503": {
+    "ja": "まったく別物だ",
+    "en": "a completely different animal"
+  },
+  "expr_1505": {
+    "ja": "〜の気分ではない",
+    "en": "I don't feel like ...ing."
+  },
+  "expr_1507": {
+    "ja": "〜すると結局…になる",
+    "en": "I always ... and end up ...ing."
+  },
+  "expr_1508": {
+    "ja": "〜するともっと…になる",
+    "en": "It makes me more ... when ..."
+  },
+  "expr_1509": {
+    "ja": "〜しても損はない",
+    "en": "It wouldn't hurt to ..."
+  },
+  "expr_1511": {
+    "ja": "全然知らなかった",
+    "en": "I had no idea (that) ..."
+  },
+  "expr_1513": {
+    "ja": "後で確認しないと",
+    "en": "I'll have to check."
+  },
+  "expr_1515": {
+    "ja": "〜して何になるの",
+    "en": "What's the point of ...ing?"
+  },
+  "expr_1516": {
+    "ja": "最近〜にハマっている",
+    "en": "I've been into ... lately."
+  },
+  "expr_1517": {
+    "ja": "〜と思われたくないのですが",
+    "en": "I don't want to come off as ..."
+  },
+  "expr_1520": {
+    "ja": "〜を亡くした",
+    "en": "lost someone"
+  },
+  "expr_1521": {
+    "ja": "お悔やみ申し上げます",
+    "en": "I'm sorry for your loss."
+  },
+  "expr_1522": {
+    "ja": "〜するのが好き",
+    "en": "I like ...ing."
+  },
+  "expr_1523": {
+    "ja": "〜をいただきたい",
+    "en": "I'd like ..."
+  },
+  "expr_1524": {
+    "ja": "〜したい",
+    "en": "I'd like to ..."
+  },
+  "expr_1525": {
+    "ja": "どんな感じですか",
+    "en": "What's ... like?"
+  },
+  "expr_1526": {
+    "ja": "どんな見た目ですか",
+    "en": "What does ... look like?"
+  },
+  "expr_1527": {
+    "ja": "〜のように感じる",
+    "en": "It feels like ..."
+  },
+  "expr_1528": {
+    "ja": "〜のように聞こえる",
+    "en": "That sounds like ..."
+  },
+  "expr_1529": {
+    "ja": "〜として働く",
+    "en": "work as ..."
+  },
+  "expr_1530": {
+    "ja": "晴れているけれど肌寒い",
+    "en": "It's sunny but chilly today."
+  },
+  "expr_1531": {
+    "ja": "寒さが苦手",
+    "en": "I don't do well in cold weather."
+  },
+  "expr_1532": {
+    "ja": "好きだった人に振られた",
+    "en": "Someone I had a crush on turned me down."
+  },
+  "expr_1533": {
+    "ja": "今もその思い出を大切にしている",
+    "en": "I still cherish those memories."
+  },
+  "expr_1534": {
+    "ja": "経験が今の自分を形づくった",
+    "en": "Those experiences have shaped who I am today."
+  },
+  "expr_1535": {
+    "ja": "入院しないと決めた",
+    "en": "She decided against being hospitalized."
+  },
+  "expr_1536": {
+    "ja": "入院を断った",
+    "en": "She declined admission to the hospital."
+  },
+  "expr_1537": {
+    "ja": "かすかに微笑んだ",
+    "en": "She gave me a faint smile."
+  },
+  "expr_1538": {
+    "ja": "何とかかすかに微笑んだ",
+    "en": "She managed a faint smile."
+  },
+  "expr_1539": {
+    "ja": "言葉が見つからなかった",
+    "en": "I couldn't find the words."
+  },
+  "expr_1540": {
+    "ja": "悲しかったけれど意味深かった",
+    "en": "It was a sad but deeply meaningful moment."
+  },
+  "expr_1542": {
+    "ja": "大量の〜が出回っている",
+    "en": "There's so much ... out there."
+  },
+  "expr_1544": {
+    "ja": "結局時間を無駄にするかも",
+    "en": "We might end up wasting time."
+  },
+  "expr_1545": {
+    "ja": "その質問をお返しします",
+    "en": "Let me turn that question back on you."
+  },
+  "expr_1546": {
+    "ja": "人間の判断も必ず正しいとは限らない",
+    "en": "Human judgments aren't necessarily right, either."
+  },
+  "expr_1548": {
+    "ja": "日本式クリームシチュー",
+    "en": "Japanese-style cream stew"
+  },
+  "expr_1549": {
+    "ja": "市販のシチューの素",
+    "en": "store-bought stew mix"
+  },
+  "expr_1550": {
+    "ja": "味や魅力を引き出す",
+    "en": "bring out ..."
+  },
+  "expr_1551": {
+    "ja": "〜と互いによく合う",
+    "en": "complement ..."
+  },
+  "expr_1552": {
+    "ja": "〜を際立たせる",
+    "en": "make ... stand out"
+  },
+  "expr_1553": {
+    "ja": "その色はあなたを引き立てる",
+    "en": "That color flatters you."
+  },
+  "expr_1554": {
+    "ja": "ちょっとした工夫",
+    "en": "a small tweak"
+  },
+  "expr_1555": {
+    "ja": "レシピにひと工夫した",
+    "en": "I tweaked the recipe."
+  },
+  "expr_1556": {
+    "ja": "お先に〜させてもらいます",
+    "en": "I'll take the liberty of ...ing."
+  },
+  "expr_1557": {
+    "ja": "あなたが〜するのを待つ",
+    "en": "I'll wait for you to ..."
+  },
+  "expr_1558": {
+    "ja": "その日からずっと",
+    "en": "From that day forward, ..."
+  },
+  "expr_1560": {
+    "ja": "念のため",
+    "en": "just to be on the safe side"
+  },
+  "expr_1562": {
+    "ja": "〜で生計を立てる",
+    "en": "... for a living"
+  },
+  "expr_1563": {
+    "ja": "厳しい現実を思い知る",
+    "en": "get a dose of reality"
+  },
+  "expr_1564": {
+    "ja": "〜すればするほどますます…",
+    "en": "The more ..., the more ..."
+  },
+  "expr_1565": {
+    "ja": "つらい経験をする",
+    "en": "go through ..."
+  },
+  "expr_1566": {
+    "ja": "〜を受け入れ折り合いをつける",
+    "en": "come to terms with ..."
+  },
+  "expr_1567": {
+    "ja": "場を盛り上げる",
+    "en": "liven up the place"
+  },
+  "expr_1568": {
+    "ja": "〜するのはほかでもないあなた",
+    "en": "You're the one who ..."
   }
 }
 
