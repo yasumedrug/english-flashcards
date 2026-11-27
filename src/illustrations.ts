@@ -6044,6 +6044,1434 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
   "expr_1568": {
     "ja": "〜するのはほかでもないあなた",
     "en": "You're the one who ..."
+  },
+  "expr_1600": {
+    "ja": "〜の発売・活動を一時休止する",
+    "en": "go on hiatus"
+  },
+  "expr_1601": {
+    "ja": "〜を切らしている・もう〜がない",
+    "en": "I'm out of ..."
+  },
+  "expr_1602": {
+    "ja": "〜が残り少ない",
+    "en": "I'm low on ..."
+  },
+  "expr_1603": {
+    "ja": "〜が足りない",
+    "en": "I'm short on ..."
+  },
+  "expr_1604": {
+    "ja": "〜でいっぱいである",
+    "en": "I'm full of ..."
+  },
+  "expr_1605": {
+    "ja": "〜から解放されている",
+    "en": "I'm free of ..."
+  },
+  "expr_1607": {
+    "ja": "〜が遅れている・滞っている",
+    "en": "I'm behind on ..."
+  },
+  "expr_1608": {
+    "ja": "〜を必要としている",
+    "en": "I'm in need of ..."
+  },
+  "expr_1609": {
+    "ja": "〜だらけである",
+    "en": "I'm covered in ..."
+  },
+  "expr_1610": {
+    "ja": "〜に囲まれている",
+    "en": "I'm surrounded by ..."
+  },
+  "expr_1611": {
+    "ja": "〜から立ち直った・もう気にしていない",
+    "en": "I'm over ..."
+  },
+  "expr_1612": {
+    "ja": "率直に言わせてください",
+    "en": "Let me level with you."
+  },
+  "expr_1613": {
+    "ja": "仕事・学校を休む",
+    "en": "take time off"
+  },
+  "expr_1614": {
+    "ja": "自分で矛盾したことを言う",
+    "en": "contradict myself"
+  },
+  "expr_1615": {
+    "ja": "安心させる・緊張をほぐす",
+    "en": "put someone at ease"
+  },
+  "expr_1616": {
+    "ja": "〜を気にかける・面倒を見る",
+    "en": "look out for someone"
+  },
+  "expr_1617": {
+    "ja": "聞き覚えがある",
+    "en": "sound familiar"
+  },
+  "expr_1618": {
+    "ja": "考えや話がまとまっていない",
+    "en": "all over the place"
+  },
+  "expr_1619": {
+    "ja": "同じ理屈で",
+    "en": "by the same token"
+  },
+  "expr_1620": {
+    "ja": "〜との接し方が上手だ",
+    "en": "have a way with ..."
+  },
+  "expr_1621": {
+    "ja": "〜かどうか分からない",
+    "en": "I'm not sure if ..."
+  },
+  "expr_1622": {
+    "ja": "〜することになっている",
+    "en": "I'm supposed to ..."
+  },
+  "expr_1623": {
+    "ja": "結局〜した",
+    "en": "end up -ing"
+  },
+  "expr_1624": {
+    "ja": "〜で困っている・〜するのが難しい",
+    "en": "have trouble -ing"
+  },
+  "expr_1625": {
+    "ja": "言いたいこと分かりますか",
+    "en": "You know what I mean?"
+  },
+  "expr_1626": {
+    "ja": "うまく伝わっていればいいのですが",
+    "en": "if that makes sense"
+  },
+  "expr_1627": {
+    "ja": "金欠だ",
+    "en": "I'm broke."
+  },
+  "expr_1628": {
+    "ja": "もうまずい・おしまいだ",
+    "en": "I'm toast."
+  },
+  "expr_1629": {
+    "ja": "へとへとだ",
+    "en": "I'm beat."
+  },
+  "expr_1631": {
+    "ja": "それで大丈夫です",
+    "en": "I'm cool with that."
+  },
+  "expr_1632": {
+    "ja": "意地を張るために意地を張る",
+    "en": "be stubborn for the sake of being stubborn"
+  },
+  "expr_1633": {
+    "ja": "まず無理だね",
+    "en": "Fat chance."
+  },
+  "expr_1634": {
+    "ja": "一度くらいしっかり意見を言って",
+    "en": "Have a backbone for once."
+  },
+  "expr_1635": {
+    "ja": "美人には弱い",
+    "en": "Beautiful women have a way with me."
+  },
+  "expr_1636": {
+    "ja": "少し時間がかかるかも",
+    "en": "It might take a while."
+  },
+  "expr_1637": {
+    "ja": "〜かなと思う",
+    "en": "I wonder if ..."
+  },
+  "expr_1639": {
+    "ja": "今の話の根本は〜にある",
+    "en": "It all goes back to ..."
+  },
+  "expr_1640": {
+    "ja": "その話題に戻りましょう",
+    "en": "Let’s go back to that."
+  },
+  "expr_1641": {
+    "ja": "むしろ",
+    "en": "if anything"
+  },
+  "expr_1642": {
+    "ja": "勘弁してよ・冗談でしょう",
+    "en": "Give me a break!"
+  },
+  "expr_1643": {
+    "ja": "楽しかったです、ありがとう",
+    "en": "I had a great time. Thanks!"
+  },
+  "expr_1644": {
+    "ja": "お話しできて楽しかったです",
+    "en": "I really enjoyed talking with you."
+  },
+  "expr_1645": {
+    "ja": "招いてくれてありがとう",
+    "en": "Thanks for having me."
+  },
+  "expr_1646": {
+    "ja": "今日はあまり体調がよくない",
+    "en": "I’m not feeling great today."
+  },
+  "expr_1647": {
+    "ja": "なんとなく具合が悪い",
+    "en": "I’m feeling a bit under the weather."
+  },
+  "expr_1648": {
+    "ja": "風邪をひきかけているかも",
+    "en": "I think I’m coming down with a cold."
+  },
+  "expr_1649": {
+    "ja": "節々が痛い",
+    "en": "I feel achy all over."
+  },
+  "expr_1650": {
+    "ja": "関節が痛い",
+    "en": "My joints ache."
+  },
+  "expr_1651": {
+    "ja": "熱っぽい",
+    "en": "I feel feverish."
+  },
+  "expr_1652": {
+    "ja": "こぢんまりと居心地がよい",
+    "en": "cozy"
+  },
+  "expr_1653": {
+    "ja": "チェーン店",
+    "en": "a chain"
+  },
+  "expr_1654": {
+    "ja": "仕方なく〜に頼る",
+    "en": "resort to ..."
+  },
+  "expr_1655": {
+    "ja": "最後の手段",
+    "en": "a last resort"
+  },
+  "expr_1657": {
+    "ja": "ありとあらゆるもの",
+    "en": "everything under the sun"
+  },
+  "expr_1658": {
+    "ja": "そろそろ行かないと",
+    "en": "Well, I should get going."
+  },
+  "expr_1659": {
+    "ja": "そろそろこの辺で",
+    "en": "I’ll let you go."
+  },
+  "expr_1660": {
+    "ja": "話を終える空気を作る",
+    "en": "Alright then ..."
+  },
+  "expr_1661": {
+    "ja": "駅・空港で人を見送る",
+    "en": "see someone off"
+  },
+  "expr_1662": {
+    "ja": "玄関までお送りします",
+    "en": "I’ll walk you to the door."
+  },
+  "expr_1663": {
+    "ja": "最期のお別れを言えた",
+    "en": "I got to say goodbye to her before she passed away."
+  },
+  "expr_1664": {
+    "ja": "亡くなるときそばにいた",
+    "en": "We were by her side when she passed away."
+  },
+  "expr_1665": {
+    "ja": "葬儀で最期のお別れをした",
+    "en": "We said our final goodbyes at the funeral."
+  },
+  "expr_1666": {
+    "ja": "温かく送り出した",
+    "en": "We gave her a beautiful send-off."
+  },
+  "expr_1667": {
+    "ja": "アラームが鳴った",
+    "en": "My alarm went off."
+  },
+  "expr_1668": {
+    "ja": "人や圧力に立ち向かう",
+    "en": "stand up to someone"
+  },
+  "expr_1669": {
+    "ja": "怠ける、手を抜く",
+    "en": "slack off"
+  },
+  "expr_1670": {
+    "ja": "全力を尽くす",
+    "en": "give it all we've got"
+  },
+  "expr_1671": {
+    "ja": "作風・信念を貫く",
+    "en": "stay true to something"
+  },
+  "expr_1672": {
+    "ja": "ふさわしい結末を目指す",
+    "en": "try for a fitting conclusion"
+  },
+  "expr_1673": {
+    "ja": "新しいことを試す",
+    "en": "try things out"
+  },
+  "expr_1674": {
+    "ja": "よくやった仕事、成果",
+    "en": "a job well done"
+  },
+  "expr_1676": {
+    "ja": "二回連続で",
+    "en": "twice in a row"
+  },
+  "expr_1677": {
+    "ja": "失敗する、空振りに終わる",
+    "en": "strike out"
+  },
+  "expr_1678": {
+    "ja": "結局は～に行き着く",
+    "en": "it all boils down to ..."
+  },
+  "expr_1679": {
+    "ja": "話題を変える",
+    "en": "change the subject"
+  },
+  "expr_1680": {
+    "ja": "私が決められることではない",
+    "en": "it's not within my power to ..."
+  },
+  "expr_1681": {
+    "ja": "～しても無駄だ",
+    "en": "it's no use doing ..."
+  },
+  "expr_1684": {
+    "ja": "自由に思い切ってやる",
+    "en": "go wild with something"
+  },
+  "expr_1685": {
+    "ja": "進行中、計画中である",
+    "en": "be in the pipeline"
+  },
+  "expr_1686": {
+    "ja": "好意的に受け止められる",
+    "en": "go over well"
+  },
+  "expr_1688": {
+    "ja": "必ず起こりそうだ",
+    "en": "be bound to happen"
+  },
+  "expr_1690": {
+    "ja": "人を道から外れさせる",
+    "en": "lead someone astray"
+  },
+  "expr_1691": {
+    "ja": "たくさんの～を入れる",
+    "en": "work in as much ... as possible"
+  },
+  "expr_1692": {
+    "ja": "～することが重要だとわかる",
+    "en": "it just goes to show ..."
+  },
+  "expr_1694": {
+    "ja": "強い印象だが控えめな形で",
+    "en": "but in a ... way"
+  },
+  "expr_1695": {
+    "ja": "十分すぎるほどある",
+    "en": "more than enough"
+  },
+  "expr_1696": {
+    "ja": "そんなに難しくない",
+    "en": "not that hard"
+  },
+  "expr_1697": {
+    "ja": "戻ったら話す",
+    "en": "once we get back"
+  },
+  "expr_1699": {
+    "ja": "書類を提出する",
+    "en": "turn in ..."
+  },
+  "expr_1702": {
+    "ja": "思いつきで案を出す",
+    "en": "pull an idea out of a hat"
+  },
+  "expr_1703": {
+    "ja": "強みを生かす",
+    "en": "play to someone's strengths"
+  },
+  "expr_1706": {
+    "ja": "効果や主張を弱める",
+    "en": "undercut"
+  },
+  "expr_1708": {
+    "ja": "どう取り組むか",
+    "en": "go about ..."
+  },
+  "expr_1711": {
+    "ja": "定刻どおり",
+    "en": "on time"
+  },
+  "expr_1712": {
+    "ja": "わざと",
+    "en": "on purpose"
+  },
+  "expr_1713": {
+    "ja": "時給、時間給",
+    "en": "hourly pay"
+  },
+  "expr_1714": {
+    "ja": "一時間あたりの料金",
+    "en": "hourly rate"
+  },
+  "expr_1717": {
+    "ja": "お話しできてよかったです",
+    "en": "It was really nice talking with you."
+  },
+  "expr_1719": {
+    "ja": "遠慮がち",
+    "en": "reserved"
+  },
+  "expr_1721": {
+    "ja": "マイペース",
+    "en": "go at one’s own pace"
+  },
+  "expr_1723": {
+    "ja": "口が堅い",
+    "en": "discreet"
+  },
+  "expr_1724": {
+    "ja": "飲み込みが早い",
+    "en": "a quick learner"
+  },
+  "expr_1725": {
+    "ja": "要領がいい",
+    "en": "efficient"
+  },
+  "expr_1726": {
+    "ja": "要領が悪い",
+    "en": "inefficient"
+  },
+  "expr_1727": {
+    "ja": "几帳面",
+    "en": "meticulous"
+  },
+  "expr_1728": {
+    "ja": "大雑把",
+    "en": "not detail-oriented"
+  },
+  "expr_1729": {
+    "ja": "凝り性",
+    "en": "get really into things"
+  },
+  "expr_1733": {
+    "ja": "遠慮しないで・自由に取って",
+    "en": "help yourself"
+  },
+  "expr_1734": {
+    "ja": "相性がいい",
+    "en": "compatible"
+  },
+  "expr_1735": {
+    "ja": "距離を置く",
+    "en": "distance oneself"
+  },
+  "expr_1736": {
+    "ja": "考えすぎる",
+    "en": "overthink"
+  },
+  "expr_1739": {
+    "ja": "根に持つ",
+    "en": "hold a grudge"
+  },
+  "expr_1740": {
+    "ja": "期待しすぎた",
+    "en": "get one’s hopes up"
+  },
+  "expr_1741": {
+    "ja": "ほっとした",
+    "en": "relieved"
+  },
+  "expr_1742": {
+    "ja": "二度手間",
+    "en": "duplicated effort"
+  },
+  "expr_1744": {
+    "ja": "手が空いた",
+    "en": "be free"
+  },
+  "expr_1745": {
+    "ja": "先が見えない",
+    "en": "uncertain"
+  },
+  "expr_1746": {
+    "ja": "話が脱線した",
+    "en": "go off topic"
+  },
+  "expr_1747": {
+    "ja": "話を盛る",
+    "en": "exaggerate"
+  },
+  "expr_1749": {
+    "ja": "その場しのぎ",
+    "en": "a temporary fix"
+  },
+  "expr_1750": {
+    "ja": "元を取る",
+    "en": "get one’s money’s worth"
+  },
+  "expr_1751": {
+    "ja": "当たり外れがある",
+    "en": "hit-or-miss"
+  },
+  "expr_1752": {
+    "ja": "融通が利かない",
+    "en": "inflexible"
+  },
+  "expr_1754": {
+    "ja": "波長が合う",
+    "en": "click"
+  },
+  "expr_1755": {
+    "ja": "その着こなし、素敵ですね",
+    "en": "I love how you put that outfit together."
+  },
+  "expr_1756": {
+    "ja": "そのひと工夫、素敵ですね",
+    "en": "That’s such a nice touch."
+  },
+  "expr_1757": {
+    "ja": "温かい笑顔ですね",
+    "en": "You have such a warm smile."
+  },
+  "expr_1758": {
+    "ja": "すごく話しやすいですね",
+    "en": "You’re really easy to talk to."
+  },
+  "expr_1759": {
+    "ja": "すぐにリラックスして話せました",
+    "en": "You made me feel at ease right away."
+  },
+  "expr_1760": {
+    "ja": "よく考えられた質問ですね",
+    "en": "That’s a really thoughtful question."
+  },
+  "expr_1761": {
+    "ja": "その見方は思いつきませんでした",
+    "en": "I hadn’t thought of it that way."
+  },
+  "expr_1762": {
+    "ja": "話をすっと理解させるのが上手ですね",
+    "en": "You have a way of making things click."
+  },
+  "expr_1763": {
+    "ja": "話し方がうまいですね",
+    "en": "You tell a great story."
+  },
+  "expr_1764": {
+    "ja": "お話しできて本当によかったです",
+    "en": "I’m really glad we got to talk."
+  },
+  "expr_1765": {
+    "ja": "進撃の巨人",
+    "en": "Attack on Titan"
+  },
+  "expr_1766": {
+    "ja": "薬屋のひとりごと",
+    "en": "The Apothecary Diaries"
+  },
+  "expr_1767": {
+    "ja": "葬送のフリーレン",
+    "en": "Frieren: Beyond Journey’s End"
+  },
+  "expr_1768": {
+    "ja": "僕の心のヤバイやつ",
+    "en": "The Dangers in My Heart"
+  },
+  "expr_1769": {
+    "ja": "鬼滅の刃",
+    "en": "Demon Slayer"
+  },
+  "expr_1770": {
+    "ja": "ゼルダの伝説",
+    "en": "The Legend of Zelda"
+  },
+  "expr_1771": {
+    "ja": "ちょうど～しようとしていた",
+    "en": "I was just about to ..."
+  },
+  "expr_1772": {
+    "ja": "何となく引っかかる・気が進まない",
+    "en": "Something about it puts me off."
+  },
+  "expr_1773": {
+    "ja": "条件にぴったり合う",
+    "en": "fit the bill"
+  },
+  "expr_1774": {
+    "ja": "意地を張らずに、プライドを脇に置く",
+    "en": "set aside my pride"
+  },
+  "expr_1775": {
+    "ja": "手ぶらで・何も持たずに",
+    "en": "empty-handed"
+  },
+  "expr_1776": {
+    "ja": "歩いて行ける距離に",
+    "en": "within walking distance"
+  },
+  "expr_1777": {
+    "ja": "けちな",
+    "en": "stingy"
+  },
+  "expr_1778": {
+    "ja": "解凍された・凍ったものが溶けた",
+    "en": "thawed"
+  },
+  "expr_1779": {
+    "ja": "目が充血した",
+    "en": "bloodshot"
+  },
+  "expr_1780": {
+    "ja": "ゲーム内で課金した",
+    "en": "make an in-app purchase"
+  },
+  "expr_1781": {
+    "ja": "いつも激しくけんかする",
+    "en": "fight like cats and dogs"
+  },
+  "expr_1782": {
+    "ja": "列に割り込む",
+    "en": "cut in line"
+  },
+  "expr_1783": {
+    "ja": "無理をする・自分を追い込む",
+    "en": "push yourself"
+  },
+  "expr_1784": {
+    "ja": "SNS映えする・写真に映える",
+    "en": "Instagrammable"
+  },
+  "expr_1785": {
+    "ja": "この咳がなかなか治まらない",
+    "en": "can't shake this cough"
+  },
+  "expr_1786": {
+    "ja": "咳が止まらない",
+    "en": "can't stop coughing"
+  },
+  "expr_1787": {
+    "ja": "不要なもの・厄介なものを取り除く",
+    "en": "get rid of ..."
+  },
+  "expr_1788": {
+    "ja": "〜なので・〜という事情があるので",
+    "en": "since ... (reason)"
+  },
+  "expr_1789": {
+    "ja": "〜できるように",
+    "en": "so that ..."
+  },
+  "expr_1790": {
+    "ja": "〜という感じで言う・反応する",
+    "en": "be like + quoted reaction"
+  },
+  "expr_1791": {
+    "ja": "人に〜させる・するきっかけになる",
+    "en": "make someone do ..."
+  },
+  "expr_1792": {
+    "ja": "ある物事が〜であってほしい",
+    "en": "want something to be ..."
+  },
+  "expr_1793": {
+    "ja": "全部を書き起こす必要はありません",
+    "en": "You don't have to type everything."
+  },
+  "expr_1794": {
+    "ja": "知っていることと実際にできることは違う",
+    "en": "Knowing something is different from doing it."
+  },
+  "expr_1795": {
+    "ja": "〜すべきだったのに",
+    "en": "should have + past participle"
+  },
+  "expr_1796": {
+    "ja": "大切でかけがえのない",
+    "en": "precious"
+  },
+  "expr_1797": {
+    "ja": "めったにない・珍しい",
+    "en": "rare"
+  },
+  "expr_1798": {
+    "ja": "めったに味わえない楽しみ",
+    "en": "a rare treat"
+  },
+  "expr_1799": {
+    "ja": "特に〜という事情もあるので",
+    "en": "especially since ..."
+  },
+  "expr_1800": {
+    "ja": "あのとき〜しておけばよかった",
+    "en": "I wish I'd ..."
+  },
+  "expr_1801": {
+    "ja": "その場で素早く考えて対応する",
+    "en": "think on your feet"
+  },
+  "expr_1802": {
+    "ja": "前もって計画するタイプです",
+    "en": "I'm a planner."
+  },
+  "expr_1803": {
+    "ja": "思いつくままに行動する・自然に出る",
+    "en": "spontaneous"
+  },
+  "expr_1804": {
+    "ja": "〜に頼りすぎる",
+    "en": "rely too much on ..."
+  },
+  "expr_1805": {
+    "ja": "感謝・ありがたみの認識",
+    "en": "appreciation"
+  },
+  "expr_1806": {
+    "ja": "はい、どうぞ",
+    "en": "Here you are."
+  },
+  "expr_1807": {
+    "ja": "舌で表面をなめる",
+    "en": "lick"
+  },
+  "expr_1808": {
+    "ja": "口に含んで吸う・しゃぶる",
+    "en": "suck on ..."
+  },
+  "expr_1809": {
+    "ja": "無作為の・脈絡のない",
+    "en": "random"
+  },
+  "expr_1810": {
+    "ja": "相手の答えを受けてさらに尋ねる質問",
+    "en": "a follow-up question"
+  },
+  "expr_1811": {
+    "ja": "相手が何を意味するのか確認する",
+    "en": "clarify what someone means"
+  },
+  "expr_1812": {
+    "ja": "自分の経験と結びつけて理解する・共感する",
+    "en": "relate to ..."
+  },
+  "expr_1813": {
+    "ja": "実際に〜するのはどんな感じか",
+    "en": "what it's like to ..."
+  },
+  "expr_1814": {
+    "ja": "心に残ったのは〜でした",
+    "en": "what stayed with me was ..."
+  },
+  "expr_1815": {
+    "ja": "良いときと悪いとき・浮き沈み",
+    "en": "highs and lows"
+  },
+  "expr_1816": {
+    "ja": "想像していた以上に",
+    "en": "more than I ever thought I would"
+  },
+  "expr_1817": {
+    "ja": "その会話は自然な感じがした",
+    "en": "The conversation felt natural."
+  },
+  "expr_1818": {
+    "ja": "富裕層・貧しい人々",
+    "en": "the rich / the poor"
+  },
+  "expr_1819": {
+    "ja": "その中の頭のよい人たち",
+    "en": "the smart ones"
+  },
+  "expr_1820": {
+    "ja": "〜する練習をする",
+    "en": "practice doing ..."
+  },
+  "expr_1821": {
+    "ja": "相手に経験や情報を共有する",
+    "en": "share something with someone"
+  },
+  "expr_1822": {
+    "ja": "患者に手術を行う",
+    "en": "operate on patients"
+  },
+  "expr_1823": {
+    "ja": "自分にとって身近な人たち",
+    "en": "people close to me"
+  },
+  "expr_1824": {
+    "ja": "今日の仕事はもう終わりました",
+    "en": "I'm done with my work today."
+  },
+  "expr_1825": {
+    "ja": "今日は仕事が休みです",
+    "en": "I have the day off."
+  },
+  "expr_1826": {
+    "ja": "考えや気持ちを相手に伝える",
+    "en": "convey something to someone"
+  },
+  "expr_1827": {
+    "ja": "やりがい・充実感を覚える",
+    "en": "feel fulfilled"
+  },
+  "expr_1828": {
+    "ja": "私はどちらかというと〜です",
+    "en": "I'm more of a ..."
+  },
+  "expr_1829": {
+    "ja": "実際に取り組む・実践的な",
+    "en": "hands-on"
+  },
+  "expr_1830": {
+    "ja": "人に〜のやり方を見せる",
+    "en": "show someone how to ..."
+  },
+  "expr_1831": {
+    "ja": "お互いから学ぶ",
+    "en": "learn from each other"
+  },
+  "expr_1832": {
+    "ja": "仕事と家庭生活を両立する",
+    "en": "balance work and family life"
+  },
+  "expr_1833": {
+    "ja": "どういう意味ですか・もう少し説明してもらえますか",
+    "en": "How do you mean?"
+  },
+  "expr_1834": {
+    "ja": "今度の週末・今の週末",
+    "en": "this weekend"
+  },
+  "expr_1835": {
+    "ja": "こんなに急なお願いで",
+    "en": "on such short notice"
+  },
+  "expr_1836": {
+    "ja": "〜するのを先延ばしにする",
+    "en": "put off doing ..."
+  },
+  "expr_1837": {
+    "ja": "なるほど、つじつまが合う",
+    "en": "That tracks."
+  },
+  "expr_1838": {
+    "ja": "あなたに不満があるわけではないのですが",
+    "en": "Nothing against you, but ..."
+  },
+  "expr_1839": {
+    "ja": "人の能力や努力をもっと認める",
+    "en": "give someone more credit"
+  },
+  "expr_1840": {
+    "ja": "〜への関与や量を減らす",
+    "en": "pull back on ..."
+  },
+  "expr_1841": {
+    "ja": "〜のための時間や余地を作る",
+    "en": "make room for ..."
+  },
+  "expr_1842": {
+    "ja": "どうしても〜できない",
+    "en": "can't for the life of me ..."
+  },
+  "expr_1843": {
+    "ja": "私もそうではありません",
+    "en": "Neither am I."
+  },
+  "expr_1844": {
+    "ja": "誰が〜と言い切れるのか",
+    "en": "Who's to say ...?"
+  },
+  "expr_1845": {
+    "ja": "その人が自分らしくいられるようにする",
+    "en": "let someone be themselves"
+  },
+  "expr_1846": {
+    "ja": "人を迎えに行く",
+    "en": "pick someone up"
+  },
+  "expr_1847": {
+    "ja": "調子やバランスを狂わせる",
+    "en": "throw something off"
+  },
+  "expr_1848": {
+    "ja": "今にも・もうすぐ",
+    "en": "any minute now"
+  },
+  "expr_1849": {
+    "ja": "昔に戻ったような感じがする",
+    "en": "It feels like the old days."
+  },
+  "expr_1850": {
+    "ja": "〜に申し込む・参加を引き受ける",
+    "en": "sign up for ..."
+  },
+  "expr_1851": {
+    "ja": "賛成する人は・一緒にやる人は",
+    "en": "Who's with me?"
+  },
+  "expr_1852": {
+    "ja": "夜中に起きず朝まで眠る",
+    "en": "sleep through the night"
+  },
+  "expr_1853": {
+    "ja": "彼の好みを中心に皆が動いている",
+    "en": "It's his world; we just live in it."
+  },
+  "expr_1854": {
+    "ja": "残念ですが〜です",
+    "en": "I'm afraid ..."
+  },
+  "expr_1855": {
+    "ja": "人生を思いきり楽しむ",
+    "en": "live my best life"
+  },
+  "expr_1856": {
+    "ja": "体が思うようについてこなかった",
+    "en": "My body wouldn't cooperate."
+  },
+  "expr_1857": {
+    "ja": "本来到達しているはずの段階",
+    "en": "where you're supposed to be"
+  },
+  "expr_1858": {
+    "ja": "一人で担当する・独り立ちする",
+    "en": "fly solo"
+  },
+  "expr_1859": {
+    "ja": "私が若かったころは・昔は",
+    "en": "back in my day"
+  },
+  "expr_1860": {
+    "ja": "その場しのぎの対策",
+    "en": "a Band-Aid solution"
+  },
+  "expr_1861": {
+    "ja": "人の評価に不利に働く",
+    "en": "count against someone"
+  },
+  "expr_1862": {
+    "ja": "それはどういう意味ですか",
+    "en": "What's that supposed to mean?"
+  },
+  "expr_1863": {
+    "ja": "だから何だというの・大したことない",
+    "en": "Big whoop."
+  },
+  "expr_1864": {
+    "ja": "悪くなった状況の残りを何とか救う",
+    "en": "salvage ..."
+  },
+  "expr_1865": {
+    "ja": "〜が多すぎて手に負えない",
+    "en": "be drowning in ..."
+  },
+  "expr_1866": {
+    "ja": "普通ならそう思いますよね",
+    "en": "You would think that."
+  },
+  "expr_1867": {
+    "ja": "たとえ〜だとして、それがどうしたのか",
+    "en": "So what if ...?"
+  },
+  "expr_1868": {
+    "ja": "断れないほど魅力的な申し出",
+    "en": "an offer I couldn't refuse"
+  },
+  "expr_1869": {
+    "ja": "参加します・その話に乗ります",
+    "en": "I'm in."
+  },
+  "expr_1870": {
+    "ja": "案をいったん棚上げにする",
+    "en": "shelve an idea"
+  },
+  "expr_1871": {
+    "ja": "障害や制約を回避する方法",
+    "en": "a way around ..."
+  },
+  "expr_1872": {
+    "ja": "それほど待てる時間はない",
+    "en": "not have that kind of time"
+  },
+  "expr_1873": {
+    "ja": "さらにうれしいこと・皮肉に、追い打ち",
+    "en": "the cherry on top"
+  },
+  "expr_1874": {
+    "ja": "〜に手本を示す",
+    "en": "set an example for ..."
+  },
+  "expr_1875": {
+    "ja": "計画や進歩を後退・遅延させる",
+    "en": "set something back"
+  },
+  "expr_1876": {
+    "ja": "〜を考慮すると",
+    "en": "given ..."
+  },
+  "expr_1877": {
+    "ja": "案や可能性を検討する",
+    "en": "entertain an idea"
+  },
+  "expr_1878": {
+    "ja": "機会・関係・状況を断って離れる",
+    "en": "walk away from ..."
+  },
+  "expr_1879": {
+    "ja": "長く試され信頼されてきた",
+    "en": "tried and true"
+  },
+  "expr_1880": {
+    "ja": "〜を調べる・検討する",
+    "en": "look into ..."
+  },
+  "expr_1881": {
+    "ja": "いったい何がまずいことになるというのか",
+    "en": "What could possibly go wrong?"
+  },
+  "expr_1882": {
+    "ja": "〜に働きかけても進展がない",
+    "en": "get nowhere with ..."
+  },
+  "expr_1883": {
+    "ja": "細かい段取りや方法を考えて決める",
+    "en": "figure out the details"
+  },
+  "expr_1884": {
+    "ja": "待っていた物・結果が届く",
+    "en": "come through"
+  },
+  "expr_1885": {
+    "ja": "同じタイプだから分かる",
+    "en": "It takes one to know one."
+  },
+  "expr_1886": {
+    "ja": "勝っても負けても・結果にかかわらず",
+    "en": "win or lose"
+  },
+  "expr_1887": {
+    "ja": "強烈で忘れられない経験",
+    "en": "a hell of a ride"
+  },
+  "expr_1888": {
+    "ja": "こんな日が来るとは思わなかった",
+    "en": "I never thought I'd see this day."
+  },
+  "expr_1889": {
+    "ja": "とても健康で元気",
+    "en": "healthy as a horse"
+  },
+  "expr_1890": {
+    "ja": "同じ困難や目的を仲間として共有する",
+    "en": "be in this together"
+  },
+  "expr_1891": {
+    "ja": "個人の利害を超えた大きな目的",
+    "en": "something bigger than ourselves"
+  },
+  "expr_1892": {
+    "ja": "思い描いていた未来を失って悲しむ",
+    "en": "grieve the future you thought you had"
+  },
+  "expr_1893": {
+    "ja": "自分が提示できる最善の条件",
+    "en": "the best I can offer"
+  },
+  "expr_1894": {
+    "ja": "〜を始めたばかりだ［現在完了］",
+    "en": "I've only just started ..."
+  },
+  "expr_1895": {
+    "ja": "以前やっていたことをまた始める",
+    "en": "get back into ..."
+  },
+  "expr_1896": {
+    "ja": "点数や目標を目指す",
+    "en": "aim for ..."
+  },
+  "expr_1897": {
+    "ja": "大きな変化につながる・大きな効果がある",
+    "en": "make a big difference"
+  },
+  "expr_1898": {
+    "ja": "心の中でふとこう思う",
+    "en": "think to myself"
+  },
+  "expr_1899": {
+    "ja": "なんとか〜できる・苦労してやり遂げる",
+    "en": "manage to do something"
+  },
+  "expr_1900": {
+    "ja": "〜するのに苦労する",
+    "en": "struggle to do something"
+  },
+  "expr_1901": {
+    "ja": "〜するのを避ける",
+    "en": "avoid doing something"
+  },
+  "expr_1902": {
+    "ja": "〜することを検討する",
+    "en": "consider doing something"
+  },
+  "expr_1903": {
+    "ja": "〜するのをためらう",
+    "en": "hesitate to do something"
+  },
+  "expr_1904": {
+    "ja": "〜につながる・その結果を招く",
+    "en": "lead to something / doing something"
+  },
+  "expr_1905": {
+    "ja": "〜という結果になる",
+    "en": "result in something / doing something"
+  },
+  "expr_1906": {
+    "ja": "〜次第である・〜に依存する",
+    "en": "depend on something / doing something"
+  },
+  "expr_1907": {
+    "ja": "人が〜するのを防ぐ",
+    "en": "prevent someone from doing something"
+  },
+  "expr_1908": {
+    "ja": "〜することを提案する",
+    "en": "suggest doing something / suggest that ..."
+  },
+  "expr_1909": {
+    "ja": "〜することを勧める",
+    "en": "recommend doing something / recommend that ..."
+  },
+  "expr_1910": {
+    "ja": "人を説得して〜してもらう",
+    "en": "convince someone to do something"
+  },
+  "expr_1911": {
+    "ja": "人に〜するよう思い出させる",
+    "en": "remind someone to do something"
+  },
+  "expr_1912": {
+    "ja": "ＡとＢを区別する",
+    "en": "distinguish A from B"
+  },
+  "expr_1913": {
+    "ja": "〜に貢献する・役立つ",
+    "en": "contribute to something / doing something"
+  },
+  "expr_1914": {
+    "ja": "〜を担当している・責任を持つ",
+    "en": "be responsible for something / doing something"
+  },
+  "expr_1915": {
+    "ja": "〜に力を注ぐと決めている",
+    "en": "be committed to something / doing something"
+  },
+  "expr_1916": {
+    "ja": "〜する可能性が高い",
+    "en": "be likely to do something"
+  },
+  "expr_1917": {
+    "ja": "ＡはＢのおかげ・せいだと考える",
+    "en": "attribute A to B"
+  },
+  "expr_1918": {
+    "ja": "〜することに気が進まない",
+    "en": "be reluctant to do something"
+  },
+  "expr_1919": {
+    "ja": "〜を試すことに前向きである",
+    "en": "be open to something / doing something"
+  },
+  "expr_1920": {
+    "ja": "〜する能力がある",
+    "en": "be capable of something / doing something"
+  },
+  "expr_1921": {
+    "ja": "〜に適応する・慣れていく",
+    "en": "adapt to something / doing something"
+  },
+  "expr_1922": {
+    "ja": "困難な状況に対処する",
+    "en": "cope with something / doing something"
+  },
+  "expr_1923": {
+    "ja": "〜から恩恵や効果を得る",
+    "en": "benefit from something / doing something"
+  },
+  "expr_1924": {
+    "ja": "〜に積極的に参加する・従事する",
+    "en": "engage in something / doing something"
+  },
+  "expr_1925": {
+    "ja": "〜することを強く求める・譲らない",
+    "en": "insist on something / doing something"
+  },
+  "expr_1926": {
+    "ja": "確信はないが、〜と思う",
+    "en": "I'm not entirely sure, but ..."
+  },
+  "expr_1927": {
+    "ja": "少し考えさせてください",
+    "en": "Let me think for a second."
+  },
+  "expr_1928": {
+    "ja": "私の知る限りでは〜",
+    "en": "As far as I know, ..."
+  },
+  "expr_1929": {
+    "ja": "思いつく範囲で言うと〜",
+    "en": "Off the top of my head, ..."
+  },
+  "expr_1930": {
+    "ja": "それについては今まであまり考えたことがありません",
+    "en": "I haven't really thought about that before."
+  },
+  "expr_1931": {
+    "ja": "個人的には〜だと思います",
+    "en": "Personally, I think ..."
+  },
+  "expr_1932": {
+    "ja": "私の見方では〜",
+    "en": "The way I see it, ..."
+  },
+  "expr_1933": {
+    "ja": "どちらかというと〜だと思います",
+    "en": "I tend to think that ..."
+  },
+  "expr_1934": {
+    "ja": "私の立場・観点からすると〜",
+    "en": "From my perspective, ..."
+  },
+  "expr_1935": {
+    "ja": "私に言わせれば〜",
+    "en": "If you ask me, ..."
+  },
+  "expr_1936": {
+    "ja": "言いたいことは分かりますが〜",
+    "en": "I see your point, but ..."
+  },
+  "expr_1937": {
+    "ja": "それはもっともな指摘ですね",
+    "en": "That's a fair point."
+  },
+  "expr_1938": {
+    "ja": "ある程度は賛成します",
+    "en": "To some extent, I agree."
+  },
+  "expr_1939": {
+    "ja": "それには必ずしも賛成できません",
+    "en": "I'm not sure I agree with that."
+  },
+  "expr_1940": {
+    "ja": "つまり私が伝えたいのは〜",
+    "en": "What I'm trying to say is ..."
+  },
+  "expr_1941": {
+    "ja": "最大の理由は〜ということです",
+    "en": "The main reason is that ..."
+  },
+  "expr_1942": {
+    "ja": "私の言いたいことは〜です",
+    "en": "What I mean is ..."
+  },
+  "expr_1943": {
+    "ja": "その理由の一つは〜",
+    "en": "This is partly because ..."
+  },
+  "expr_1944": {
+    "ja": "ぱっと思いつく例の一つは〜です",
+    "en": "One example that comes to mind is ..."
+  },
+  "expr_1945": {
+    "ja": "例えば〜",
+    "en": "For instance, ..."
+  },
+  "expr_1946": {
+    "ja": "〜を例に取りましょう",
+    "en": "Take ... for example."
+  },
+  "expr_1947": {
+    "ja": "良い例としては〜があります",
+    "en": "A good example would be ..."
+  },
+  "expr_1948": {
+    "ja": "仮に〜だとしましょう",
+    "en": "Let's say ..."
+  },
+  "expr_1949": {
+    "ja": "一方で〜",
+    "en": "On the other hand, ..."
+  },
+  "expr_1950": {
+    "ja": "必ずしも〜というわけではありません",
+    "en": "It's not necessarily the case that ..."
+  },
+  "expr_1951": {
+    "ja": "〜には長所と短所があります",
+    "en": "There are pros and cons to ..."
+  },
+  "expr_1952": {
+    "ja": "〜についてどう思いますか",
+    "en": "What do you think about ...?"
+  },
+  "expr_1953": {
+    "ja": "それは興味深いですね。どうしてですか",
+    "en": "That's interesting. How come?"
+  },
+  "expr_1954": {
+    "ja": "もう少し詳しく説明していただけますか",
+    "en": "Could you elaborate on that?"
+  },
+  "expr_1955": {
+    "ja": "つまり〜という意味ですか",
+    "en": "Do you mean that ...?"
+  },
+  "expr_1956": {
+    "ja": "私が最も懸念しているのは〜です",
+    "en": "What concerns me most is ..."
+  },
+  "expr_1957": {
+    "ja": "最大の課題は〜です",
+    "en": "The biggest challenge is ..."
+  },
+  "expr_1958": {
+    "ja": "以前は〜と思っていましたが、今は〜",
+    "en": "I used to think ..., but now ..."
+  },
+  "expr_1959": {
+    "ja": "結果的に〜と分かりました",
+    "en": "It turned out that ..."
+  },
+  "expr_1569": {
+    "ja": "そう言われてみれば",
+    "en": "Now that you mention it, ..."
+  },
+  "expr_1570": {
+    "ja": "それは一理ある",
+    "en": "You have a point."
+  },
+  "expr_1571": {
+    "ja": "確かに・いい指摘ですね",
+    "en": "Good point."
+  },
+  "expr_1572": {
+    "ja": "なるほど、だから〜なのですね",
+    "en": "No wonder ..."
+  },
+  "expr_1573": {
+    "ja": "気のせいかもしれませんが、もしかして〜？",
+    "en": "Is it my imagination, or ...?"
+  },
+  "expr_1574": {
+    "ja": "〜をだんだん好きになる",
+    "en": "warm up to ..."
+  },
+  "expr_1575": {
+    "ja": "そのことであまり気を病まないで",
+    "en": "Don’t let it bother you."
+  },
+  "expr_1576": {
+    "ja": "難しいことをやってのける",
+    "en": "pull it off"
+  },
+  "expr_1577": {
+    "ja": "そうやって〜する",
+    "en": "That’s how ..."
+  },
+  "expr_1578": {
+    "ja": "〜を有効に活用する",
+    "en": "make good use of ..."
+  },
+  "expr_1579": {
+    "ja": "普段から〜して回っているわけではない",
+    "en": "I don’t go around ...ing"
+  },
+  "expr_1580": {
+    "ja": "仕方ない",
+    "en": "It can’t be helped."
+  },
+  "expr_1581": {
+    "ja": "〜を頼りにできる",
+    "en": "rely on ..."
+  },
+  "expr_1582": {
+    "ja": "肝心なところでしくじる",
+    "en": "drop the ball"
+  },
+  "expr_1583": {
+    "ja": "〜するようきちんと手配する",
+    "en": "see to it that ..."
+  },
+  "expr_1584": {
+    "ja": "〜するしかない",
+    "en": "There’s no choice but to ..."
+  },
+  "expr_1585": {
+    "ja": "〜せずにはいられなかった",
+    "en": "I couldn’t help but ..."
+  },
+  "expr_1587": {
+    "ja": "事情を知らせずにおく",
+    "en": "keep someone in the dark"
+  },
+  "expr_1588": {
+    "ja": "寝起きなどで頭がぼんやりする",
+    "en": "feel groggy"
+  },
+  "expr_1589": {
+    "ja": "感情的に崩れる・取り乱す",
+    "en": "fall apart"
+  },
+  "expr_1590": {
+    "ja": "〜に全力を尽くす",
+    "en": "give it my all"
+  },
+  "expr_1591": {
+    "ja": "〜を見ると胸を打たれる",
+    "en": "It moves me to see ..."
+  },
+  "expr_1592": {
+    "ja": "〜を見て安心した・うれしい",
+    "en": "I’m glad to see ..."
+  },
+  "expr_1594": {
+    "ja": "うまくやったね・その通り",
+    "en": "You nailed it!"
+  },
+  "expr_1595": {
+    "ja": "詳細をきっちり決める",
+    "en": "nail down the details"
+  },
+  "expr_1596": {
+    "ja": "いろいろな経験をする",
+    "en": "have lots of different experiences"
+  },
+  "expr_1597": {
+    "ja": "12歳年上・年下",
+    "en": "twelve years older / younger"
+  },
+  "expr_1599": {
+    "ja": "おおよそ10歳年上・年下",
+    "en": "a decade older / younger"
   }
 }
 
