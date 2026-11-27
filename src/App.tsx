@@ -6,6 +6,7 @@ import Icon from './Icons'
 import { partOfSpeech } from './partOfSpeech'
 import { scenarioFor, registerLabels } from './scenarios'
 import CardIllustration from './CardIllustration'
+import Collocations from './Collocations'
 import { illustrationPath } from './illustrations'
 
 type Page = 'today' | 'study' | 'browse' | 'settings'
@@ -258,7 +259,9 @@ export default function App() {
             <CardIllustration key={candidate.note.card_id} note={candidate.note} />
             {revealed && <div className="answer"><span className="answer-label">ONE EXPRESSION TO PRACTISE</span><h3>{candidate.note.en}</h3><p className="answer-translation">{candidate.note.ja}</p><span className="usage-register">{registerLabels[scenario.register]}</span><p className="hint">別の自然な言い方もあります。このカードの表現を思い出せたかで評価してください。</p>
               <div className="context"><span>{candidate.note.scene}</span><span className="part-of-speech">品詞・種類: {partOfSpeech(candidate.note)}</span>{candidate.note.tag && <span>{candidate.note.tag}</span>}{editedIds.has(candidate.note.card_id) && <span className="edited-badge">編集済み</span>}</div>
-              {candidate.note.ipa && <p className="ipa">{candidate.note.ipa}</p>}{candidate.note.usage && <div className="detail"><b>使い所</b><p>{candidate.note.usage}</p></div>}{candidate.note.nuance && <div className="detail"><b>使い分け</b><p>{candidate.note.nuance}</p></div>}{candidate.note.example_en && <div className="example"><b>EXAMPLE</b><p>{candidate.note.example_en}</p>{candidate.note.example_ipa && <small>{candidate.note.example_ipa}</small>}</div>}
+              {candidate.note.ipa && <p className="ipa">{candidate.note.ipa}</p>}{candidate.note.usage && <div className="detail"><b>使い所</b><p>{candidate.note.usage}</p></div>}{candidate.note.nuance && <div className="detail"><b>使い分け</b><p>{candidate.note.nuance}</p></div>}
+              <Collocations note={candidate.note} />
+              {candidate.note.example_en && <div className="example"><b>EXAMPLE</b><p>{candidate.note.example_en}</p>{candidate.note.example_ipa && <small>{candidate.note.example_ipa}</small>}</div>}
               <p className="card-meta">ID: {candidate.note.card_id}{candidate.review ? ` · 復習 ${candidate.review.fsrsCard.reps}回` : ' · 未学習'}{candidate.review?.fsrsCard.last_review ? ` · 前回 ${fullDate(candidate.review.fsrsCard.last_review)}` : ''}</p>
               <button className="speak" onClick={() => speak(candidate.note.en)}><Icon name="volume" />英語を読み上げる</button>
             </div>}
@@ -275,7 +278,9 @@ export default function App() {
         <p className="result-count">{found.length}件表示{found.length === 100 ? '（先頭100件）' : ''} · 非表示カードも検索できます。学習はイラストと状況文が揃ったカードのみです。</p>
         <div className="browse-list">{found.map(note => <button className="browse-item" key={note.card_id} onClick={() => { setBrowseNote(note); setBrowseIndex(found.indexOf(note)) }}><span><b>{note.en}{suspendedIds.has(note.card_id) && <em className="suspended-tag">非表示</em>}</b><small>{note.ja} · {note.card_id}</small></span><span>›</span></button>)}</div>
         {browseNote && <div className="modal-backdrop" onClick={() => setBrowseNote(null)}><div className="modal" role="dialog" aria-modal="true" aria-label="カード詳細" onClick={e => e.stopPropagation()}>
-          <button className="modal-close" aria-label="カード詳細を閉じる" onClick={() => setBrowseNote(null)}><Icon name="close" /></button><span className="eyebrow">CARD DETAIL · {browseNote.card_id}</span><h2>{browseNote.en}</h2><p className="ipa">{browseNote.ipa}</p><h3>{browseNote.ja}</h3><p>{browseNote.usage}</p><p>{browseNote.nuance}</p><div className="example"><b>EXAMPLE</b><p>{browseNote.example_en}</p><small>{browseNote.example_ipa}</small></div>
+          <button className="modal-close" aria-label="カード詳細を閉じる" onClick={() => setBrowseNote(null)}><Icon name="close" /></button><span className="eyebrow">CARD DETAIL · {browseNote.card_id}</span><h2>{browseNote.en}</h2><p className="ipa">{browseNote.ipa}</p><h3>{browseNote.ja}</h3><p>{browseNote.usage}</p><p>{browseNote.nuance}</p>
+          <Collocations note={browseNote} />
+          <div className="example"><b>EXAMPLE</b><p>{browseNote.example_en}</p><small>{browseNote.example_ipa}</small></div>
           {(!illustrationPath(browseNote) || !scenarioFor(browseNote)) && <p className="hint">イラストまたは状況文の確認待ちのため学習対象外です。学習記録は保持しています。日本語・英語・使い所を編集した場合も、内容を確認するまで対象外になります。</p>}
           {scenarioFor(browseNote) && <p><span className="usage-register">{registerLabels[scenarioFor(browseNote)!.register]}</span></p>}
           <button className="secondary" disabled={busy} onClick={() => { setEditingNote(browseNote); setBrowseNote(null) }}><Icon name="edit" />カードを編集</button>

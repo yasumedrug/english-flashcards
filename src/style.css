@@ -113,6 +113,11 @@ h1 { font-size: 30px; line-height: 1.3; margin: 0; font-weight: 700; letter-spac
 .detail { margin-top: 22px; }
 .detail b, .example b { font-size: 11px; color: var(--secondary); font-weight: 500; letter-spacing: .035em; }
 .detail p, .example p { font-size: 14px; line-height: 1.9; margin: 6px 0 0; color: var(--text); overflow-wrap: anywhere; }
+.collocations { list-style: none; margin: 6px 0 0; padding: 0; }
+.collocations li { display: grid; gap: 2px; padding: 8px 0; line-height: 1.5; overflow-wrap: anywhere; }
+.collocations li + li { border-top: 1px solid var(--line); }
+.collocations span { font-size: 14px; color: var(--text); }
+.collocations small { font-size: 12px; color: var(--secondary); }
 .example { margin-top: 24px; padding: 18px 0 0; background: transparent; border-top: 1px solid var(--line); }
 .example small { display: block; margin-top: 8px; font-size: 12px; color: var(--muted); line-height: 1.7; overflow-wrap: anywhere; }
 .speak { margin-top: 20px; background: var(--subtle); color: var(--text); border: 1px solid transparent; border-radius: var(--control-radius); padding: 10px 12px; font-size: 12px; font-weight: 500; min-height: 44px; display: inline-flex; gap: 8px; align-items: center; }
