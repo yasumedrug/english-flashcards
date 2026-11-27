@@ -41,6 +41,7 @@
   "expr_0668": {"ja": "全く〜ない", "en": "not ... at all", "usage": "素直に強い否定をする。", "items": [{"en": "not tired at all", "ja": "全然疲れていない"}, {"en": "not worried at all", "ja": "まったく心配していない"}]},
   "expr_0689": {"ja": "〜を有効活用する", "en": "put ... to good use", "usage": "持っている能力・経験・物を実際に役立てる。", "items": [{"en": "put my skills to good use", "ja": "自分の技能を有効に活用する"}, {"en": "put what I learned to good use", "ja": "学んだことを役立てる"}]},
   "expr_0704": {"ja": "微妙でややこしい・一筋縄ではいかない", "en": "tricky", "usage": "簡単そうでも落とし穴や微妙な点がある。", "items": [{"en": "a tricky question", "ja": "答えるのが難しい質問"}, {"en": "a tricky situation", "ja": "対応が難しい状況"}]},
+  "expr_0714": {"ja": "〜で起こる・展開する", "en": "take place in ...", "usage": "出来事や物語がその場所で起こる。", "items": [{"en": "take place in the city centre", "ja": "市の中心部で行われる"}, {"en": "take place in a conference room", "ja": "会議室で行われる"}, {"en": "take place in a fictional world", "ja": "架空の世界で展開する"}]},
   "expr_0731": {"ja": "地方・農村部", "en": "rural area", "usage": "都市部ではない地方・農村地域。", "items": [{"en": "live in a rural area", "ja": "農村部に住む"}, {"en": "grow up in a rural area", "ja": "農村部で育つ"}]},
   "expr_0815": {"ja": "必ず〜するようにしている", "en": "I make sure to ...", "usage": "忘れずに確実に行う。", "items": [{"en": "make sure to bring your ID", "ja": "必ず身分証を持ってくる"}, {"en": "make sure to lock the door", "ja": "必ず玄関の鍵をかける"}]},
   "expr_0900": {"ja": "〜について言えば", "en": "when it comes to ...", "usage": "話題をある領域へ移す。", "items": [{"en": "when it comes to cooking", "ja": "料理の話になると"}, {"en": "when it comes to choosing a school", "ja": "学校選びのこととなると"}]},
