@@ -5486,7 +5486,7 @@ export const illustrationSources: Record<string, { ja: string; en: string }> = {
     "en": "It felt so grown-up."
   },
   "expr_1413": {
-    "ja": "+正面から争って決着をつける",
+    "ja": "正面から争って決着をつける",
     "en": "fight it out"
   },
   "expr_1414": {

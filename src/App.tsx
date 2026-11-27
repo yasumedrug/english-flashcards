@@ -121,7 +121,9 @@ export default function App() {
       const nextPlan = await refresh(cardKey(candidate.note.card_id, candidate.direction))
       setRevealed(false)
       startRef.current = Date.now()
-      if (nextPlan.candidate && cardKey(nextPlan.candidate.note.card_id, nextPlan.candidate.direction) === cardKey(candidate.note.card_id, candidate.direction)) setMessage('今選べるカードはこの1枚です。')
+      if (nextPlan.candidate && cardKey(nextPlan.candidate.note.card_id, nextPlan.candidate.direction) === cardKey(candidate.note.card_id, candidate.direction)) {
+        setMessage(candidate.isNew ? '同じ優先度で選べる新規カードはこの1枚です。' : '同じ優先度で選べる復習カードはこの1枚です。')
+      }
     } catch (error) { setMessage(error instanceof Error ? error.message : 'シャッフルに失敗しました') }
     finally { setBusy(false) }
   }

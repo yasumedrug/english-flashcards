@@ -17824,7 +17824,7 @@
   },
   "expr_1413": {
     "context": {
-      "ja": "+正面から争って決着をつける",
+      "ja": "正面から争って決着をつける",
       "en": "fight it out",
       "usage": "勝敗が決まるまで競う。",
       "prompt": "Two rivals confront their disagreement directly until a winner emerges.",
@@ -17832,8 +17832,8 @@
       "register": "daily"
     },
     "imageSha256": "d2928a1dd8677a1181c365b20d3b0d40d64b7fed0b12921bbf46d93f41e7030d",
-    "reviewedAt": "2026-11-24T23:13:27.447031+00:00",
-    "method": "visual_image_context_review"
+    "reviewedAt": "2026-11-27T09:46:09.213340+00:00",
+    "method": "visual_context_review_after_translation_typo_fix"
   },
   "expr_1414": {
     "context": {

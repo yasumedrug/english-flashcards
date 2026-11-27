@@ -14,6 +14,12 @@
 - Only notes with both a matching illustration and matching scenario enter the learning queue. Existing `ja_to_en` card IDs/FSRS states continue as the situation→English track. Preserve every `en_to_ja` record and old direction preference in storage and backups; do not merge, reset or delete them.
 - When generating an illustration, also read this card's `scenarioSources` situation and make sure the image supports that situation as well as the source usage/example. Do not regenerate existing or held images merely because the question language changed. Keep automatic publication limited to the reviewed images and mapping; include no unrelated scenario/source changes in an image-only commit.
 
+# Learning priority on card updates
+
+- Before replacing the TSV, run `npm run review:card-update -- /path/to/incoming/cards.tsv`. Optionally pass the proposed `scenarioSources.json` as the second argument to compare changes to prompts, forms and registers. Review added, changed and removed IDs. For simple wording corrections keep the ID and priority. A genuinely new sense should have its own ID and review history.
+- Review added cards and material changes for everyday and IELTS Speaking usefulness, plus same-sense duplicates. The diff reports same-answer candidates, which still need a sense check. Save each decision in `src/learningPrioritySources.json` by card ID with its exact `ja`, `en` and `usage`. Update the snapshot after confirming that a wording correction retains the same meaning. Cards with missing or stale records use the provisional tier.
+- Keep the initial `top150` list stable unless a deliberate P1 substitution is made. New learning follows top 150, remaining P1, P2, provisional, P3 and P4. Reviews that are already due follow P1, P2, provisional, P3 and P4. Within each review tier, earlier due times come first unless shuffled. Priorities guide ordering only and do not change FSRS scheduling, suspension or learning history. Check image and scenario eligibility separately using `CONTEXT_REVIEW.md`.
+
 # Required context review (2026-11-15)
 
 - Read `CONTEXT_REVIEW.md` before every illustration generation, publication, TSV update or scenario edit. Compare the actual image with the displayed prompt, form and answer; matching IDs alone do not establish semantic alignment.

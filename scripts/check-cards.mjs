@@ -4,6 +4,7 @@ import { isSafeRecallHint, recallHints } from '../src/recallHints.ts'
 import { assertScenarios, scenarioFor } from '../src/scenarios.ts'
 import { illustrationPath } from '../src/illustrations.ts'
 import { assertIllustrationReview } from './illustration-context-review.mjs'
+import { assertLearningPriorities, hasMatchingPriority } from '../src/learningPriorities.ts'
 
 const source = await readFile(new URL('../cards.tsv', import.meta.url), 'utf8')
 const published = await readFile(new URL('../public/data/cards.tsv', import.meta.url), 'utf8')
@@ -12,6 +13,7 @@ if (source !== published) throw new Error('cards.tsv と public/data/cards.tsv �
 // Use the same parser/validation as the app's TSV update, not a separate rule.
 const notes = parseTsv(source)
 assertScenarios(notes)
+assertLearningPriorities()
 const reviews = JSON.parse(await readFile(new URL('../src/illustrationReviews.json', import.meta.url), 'utf8'))
 let reviewedImages = 0
 for (const note of notes) {
@@ -22,6 +24,8 @@ for (const note of notes) {
   reviewedImages++
 }
 const active = notes.filter(note => note.active !== '0')
+const unranked = active.filter(note => !hasMatchingPriority(note))
+if (unranked.length) console.log(`学習優先度は${unranked.length}件が未判定です。出題時はP2の後、P3の前に扱います。`)
 for (const note of active) {
   const hints = recallHints(note)
   if (!hints.length || hints.some(hint => !isSafeRecallHint(hint.text))) {

@@ -3,6 +3,7 @@ import { createEmptyCard, fsrs, type Card, type Rating } from 'ts-fsrs'
 import { assertRecallHints } from './recallHints.ts'
 import { illustrationPath } from './illustrations.ts'
 import { scenarioFor } from './scenarios.ts'
+import { learningRank, newLearningRank, topLearningOrder } from './learningPriorities.ts'
 
 export type Direction = 'ja_to_en' | 'en_to_ja'
 export type Mode = Direction | 'mixed'
@@ -200,10 +201,22 @@ export async function getTodayPlan(now = new Date(), avoidCardId?: string): Prom
   }
   const eligible = [...cardById.values()].filter(card => directions.includes(card.direction) && byId.has(card.noteId))
   const dueAt = (card: ReviewCard) => validDate(latestLog.get(card.cardId)?.nextDue) ?? validDate(card.fsrsCard.due) ?? new Date(0)
-  const dueCards = eligible.filter(card => dueAt(card) <= now).sort((a, b) => settings.shuffleSeed ? orderHash(settings.shuffleSeed, a.cardId) - orderHash(settings.shuffleSeed, b.cardId) : +dueAt(a) - +dueAt(b))
+  const dueCards = eligible.map(card => ({ card, due: dueAt(card) }))
+    .filter(item => item.due <= now)
+    .map(item => ({ ...item, rank: learningRank(byId.get(item.card.noteId)!) }))
+    .sort((a, b) => a.rank - b.rank || (settings.shuffleSeed
+      ? orderHash(settings.shuffleSeed, a.card.cardId) - orderHash(settings.shuffleSeed, b.card.cardId)
+      : +a.due - +b.due))
   const cardIds = new Set([...cardById.keys(), ...latestLog.keys()])
   const unseen: Candidate[] = active.flatMap(note => directions.filter(direction => !cardIds.has(cardKey(note.card_id, direction))).map(direction => ({ note, direction, isNew: true })))
-  unseen.sort((a, b) => (b.note.priority === 'high' ? 1 : 0) - (a.note.priority === 'high' ? 1 : 0) || (settings.shuffleSeed ? orderHash(settings.shuffleSeed, cardKey(a.note.card_id, a.direction)) - orderHash(settings.shuffleSeed, cardKey(b.note.card_id, b.direction)) : Number(a.note.source_no) - Number(b.note.source_no)))
+  unseen.sort((a, b) => {
+    const rank = newLearningRank(a.note) - newLearningRank(b.note)
+    if (rank) return rank
+    if (settings.shuffleSeed) {
+      return orderHash(settings.shuffleSeed, cardKey(a.note.card_id, a.direction)) - orderHash(settings.shuffleSeed, cardKey(b.note.card_id, b.direction))
+    }
+    return topLearningOrder(a.note.card_id) - topLearningOrder(b.note.card_id) || Number(a.note.source_no) - Number(b.note.source_no)
+  })
   const chooseDirection = <T extends ReviewCard | Candidate>(items: T[]): T | undefined => {
     const available = items.filter(item => !avoidCardId || ('cardId' in item ? item.cardId : cardKey(item.note.card_id, item.direction)) !== avoidCardId)
     const choices = available.length ? available : items
@@ -217,9 +230,15 @@ export async function getTodayPlan(now = new Date(), avoidCardId?: string): Prom
   const newAvailable = unseen.length
   let candidate: Candidate | null = null
   if (studied < settings.totalLimit) {
-    const review = chooseDirection(dueCards)
+    const review = chooseDirection(dueCards
+      .filter(item => !avoidCardId || item.rank === dueCards[0].rank)
+      .map(item => item.card))
     if (review) candidate = { note: byId.get(review.noteId)!, direction: review.direction, review, isNew: false }
-    else if (newStudied < settings.newLimit) candidate = chooseDirection(unseen) ?? null
+    else if (newStudied < settings.newLimit && unseen.length) {
+      const rank = newLearningRank(unseen[0].note)
+      // Skipping the current card during shuffle must stay within its priority tier.
+      candidate = chooseDirection(avoidCardId ? unseen.filter(item => newLearningRank(item.note) === rank) : unseen) ?? null
+    }
   }
   return { candidate, due, newAvailable, studied, newStudied, totalLimit: settings.totalLimit, newLimit: settings.newLimit, complete: !candidate }
 }

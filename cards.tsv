@@ -1212,7 +1212,7 @@ expr_1210	1210	口コミで	through word of mouth		人づてに情報が広ま�
 expr_1211	1211	細かい話は省きますね	I'll spare you the details.		相手が聞かなくてもよい細部を省くと伝える。	spare 人 something は面倒や不快なことを経験させずに済ませる。	It was a difficult meeting, but I'll spare you the details.		expression	会話のつなぎ・リアクション	normal	1	2026-10-24
 expr_1212	1212	急にどうしたのですか	What's with the sudden change?		突然の変化に驚き、その理由を尋ねる。	What's with ...? は不満やいぶかしむ響きが出ることもある。	What's with the sudden change? You seemed happy with the plan.		expression	疑問・確認	normal	1	2026-10-24
 expr_1213	1213	あなたがそうしたいなら	If that's the way you want it.		相手の希望に従うが、自分には留保があるときに使う。	不満や諦めがにじむことがある。気持ちよい同意なら Sure, if that's what you'd prefer.。	All right, if that's the way you want it.		expression	人間関係・交流	normal	1	2026-10-24
-expr_1214	1214	やっぱり・そうだと思った	I knew it.		予想や疑いが正しかったと分かった瞬間の反応。	アーカイブの It knew it はこの場面では誤植と考えられる。	You two were planning a surprise? I knew it!		expression	会話のつなぎ・リアクション	normal	1	2026-10-24
+expr_1214	1214	やっぱり・そうだと思った	I knew it.		予想や疑いが正しかったと分かった瞬間の反応。		You two were planning a surprise? I knew it!		expression	会話のつなぎ・リアクション	normal	1	2026-10-24
 expr_1215	1215	いい加減な・やっつけの	half-assed		仕事や取り組みが不十分だと強く批判する。	下品寄りの口語。改まった場面では poorly done / careless などを選ぶ。	It was a half-assed attempt to fix the problem.		expression	意見・評価	normal	1	2026-10-24
 expr_1216	1216	思い上がった相手に身の程をわからせる	put someone in their place		傲慢な言動を強くたしなめる。	威圧的・対立的に響く。単なる助言や訂正には強すぎる。	She put him in his place after his rude comment.		expression	人間関係・交流	normal	1	2026-10-24
 expr_1217	1217	なぜ〜かはっきりとは分からない	I'm not entirely sure why ...		理由に心当たりはあっても、確信はないと伝える。	why の後は主語＋動詞。what / how / whether でも応用できる。	I'm not entirely sure why my paper was rejected.		expression	議論・意見	high	1	2026-10-24
@@ -1411,7 +1411,7 @@ expr_1409	1409	季節の変化を感じる	I can feel the seasons changing.		気
 expr_1410	1410	葉が赤くなってきている	The leaves are turning red.		紅葉の変化の途中。	can see the leaves turning red も使える。	The leaves are turning red on the trees.		expression	時間・変化	high	1	2026-10-27
 expr_1411	1411	懐かしい記憶がよみがえる	It brings back memories.		景色などが昔を思い出させる。	具体的には memories of + 名詞/ing。	The smell brings back memories of school.		expression	感情・心情	high	1	2026-10-27
 expr_1412	1412	大人っぽく感じた	It felt so grown-up.		体験や行為を大人っぽく感じた。	自分の気分なら I felt so grown-up。	Drinking coffee felt so grown-up when I was a kid.		expression	感情・心情	high	1	2026-10-27
-expr_1413	1413	+正面から争って決着をつける	fight it out		勝敗が決まるまで競う。	議論をするだけより強い。	The two teams will fight it out in the final.		expression	議論・意見	high	1	2026-10-27
+expr_1413	1413	正面から争って決着をつける	fight it out		勝敗が決まるまで競う。	議論をするだけより強い。	The two teams will fight it out in the final.		expression	議論・意見	high	1	2026-10-27
 expr_1414	1414	〜しても仕方ない	There's no point in ...ing		行動の意義がないと述べる。	会話では No point in ...ing と省略可能。	There's no point in worrying about it now.		expression	感情・心情	high	1	2026-10-27
 expr_1415	1415	飲みに行く	get a drink		飲み物を飲みに行く誘い。	文脈次第で酒を飲みに行く意味。	Do you want to get a drink after work?		expression	日常生活・一般	high	1	2026-10-27
 expr_1416	1416	独特の作風がある	have a distinctive style		他とは区別できる個性がある。	distinct in style は比較して違いが明瞭。	The two artists have distinctive styles.		expression	趣味・娯楽	high	1	2026-10-27
