@@ -1,12 +1,13 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { createEmptyCard, Rating, type Card } from 'ts-fsrs'
-import { cardKey, createBackup, dateKey, db, defaultSettings, getEffectiveNotes, getTodayPlan, importTsv, loadSettings, rateCard, reconcileReviewCards, resetNoteEdits, restoreBackup, saveNoteEdits, scheduler, type EditableNoteContent, type Mode, type Note, type ReviewCard, type ReviewRating, type Settings, type TodayPlan } from './data'
+import { cardKey, createBackup, dateKey, db, defaultSettings, getEffectiveNotes, getTodayPlan, importTsv, loadSettings, rateCard, reconcileReviewCards, resetNoteEdits, restoreBackup, saveNoteEdits, scheduler, type EditableNoteContent, type Mode, type Note, type ReviewCard, type ReviewLog, type ReviewRating, type Settings, type TodayPlan } from './data'
 import EditNoteDialog from './EditNoteDialog'
 import Icon from './Icons'
 import { partOfSpeech } from './partOfSpeech'
 import { scenarioFor, registerLabels } from './scenarios'
 import CardIllustration from './CardIllustration'
 import Collocations from './Collocations'
+import StudyHistory from './StudyHistory'
 import { illustrationPath } from './illustrations'
 
 type Page = 'today' | 'study' | 'browse' | 'settings'
@@ -38,7 +39,8 @@ export default function App() {
   const [suspendedIds, setSuspendedIds] = useState<Set<string>>(new Set())
   const [editedIds, setEditedIds] = useState<Set<string>>(new Set())
   const [settings, setSettings] = useState<Settings>(defaultSettings)
-  const [stats, setStats] = useState({ total: 0, streak: 0 })
+  const [reviewLogs, setReviewLogs] = useState<ReviewLog[]>([])
+  const [streak, setStreak] = useState(0)
   const [revealed, setRevealed] = useState(false)
   const [busy, setBusy] = useState(false)
   const [message, setMessage] = useState('')
@@ -65,7 +67,8 @@ export default function App() {
     if (!days.has(dateKey(cursor))) cursor.setDate(cursor.getDate() - 1)
     let streak = 0
     while (days.has(dateKey(cursor))) { streak++; cursor.setDate(cursor.getDate() - 1) }
-    setStats({ total: logs.length, streak })
+    setReviewLogs(logs)
+    setStreak(streak)
     return nextPlan
   }
 
@@ -243,8 +246,9 @@ export default function App() {
       {page === 'today' && <section className="page">
         <p className="eyebrow">TODAY'S PRACTICE</p><h1>今日の学習</h1><p className="intro">少しずつ、確実に覚えていきましょう。</p>
         <div className="hero-card"><div className="hero-top"><div><span className="label">今日の進捗</span><strong>{plan?.studied ?? 0}<small> / {plan?.totalLimit ?? 40}</small></strong></div><span className="percent">{progress}%</span></div><div className="progress-track"><div style={{ width: `${progress}%` }} /></div><div className="hero-bottom"><span>復習待ち <b>{plan?.due ?? 0}</b></span><span>新規枠 <b>{Math.max(0, (plan?.newLimit ?? 8) - (plan?.newStudied ?? 0))}</b></span></div></div>
-        <div className="stat-grid"><div><span>今日の学習</span><strong>{plan?.studied ?? 0}</strong><small>件</small></div><div><span>連続学習</span><strong>{stats.streak}</strong><small>日</small></div><div><span>累計レビュー</span><strong>{stats.total}</strong><small>回</small></div></div>
+        <div className="stat-grid"><div><span>今日の学習</span><strong>{plan?.studied ?? 0}</strong><small>件</small></div><div><span>連続学習</span><strong>{streak}</strong><small>日</small></div><div><span>累計レビュー</span><strong>{reviewLogs.length}</strong><small>回</small></div></div>
         {plan?.complete ? <div className="done"><span className="done-icon"><Icon name="check" /></span><h2>今日の分は終了です</h2><p>お疲れさまでした。次の復習をお楽しみに。</p></div> : <button className="primary start" onClick={() => { setRevealed(false); startRef.current = Date.now(); setPage('study') }}>学習を始める <Icon name="forward" /></button>}
+        <StudyHistory logs={reviewLogs} notes={notes} />
         <p className="hint">イラスト付きカード {illustratedNotes.length}件が学習対象です。オフラインでも学習できます。</p>
         <p className="hint">全{activeNotes.length}件のカードと学習記録を保存しています。イラスト待ちのカードも、追加後は続きから復習できます。</p>
       </section>}
